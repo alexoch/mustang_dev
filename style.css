@@ -1,0 +1,28 @@
+/*
+Theme Name: Mustang Tape
+Author: alexoch
+Description: mustang tape
+Text Domain: mustang
+*/
+
+
+.nav-link {
+    font-size: 1.15em;
+}
+
+.shadow_header{
+    display: block;
+    height: 15px;
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.95);
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    background: white;
+}
+.header_blue{
+    background: #007bff61;
+}
+
+.ans {
+    display: none;
+}
