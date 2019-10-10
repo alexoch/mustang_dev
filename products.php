@@ -11,6 +11,7 @@
  * */
 get_header();
 ?>
+
 <main>
 	<div class="container-fluid product-range">
 		<div class="row">
