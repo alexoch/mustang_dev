@@ -30,7 +30,7 @@ if ( have_posts() ) :
 
 					<?php
 
-					query_posts('category_name=tag&order=DSC');
+					query_posts('tag=painting_tape&order=DSC');
 					if (have_posts()) :
 
 						while (have_posts()) {
