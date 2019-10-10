@@ -30,7 +30,7 @@ function mustang_scripts() {
 		wp_enqueue_style( 'style-name9', get_template_directory_uri() . '/scss/shares.css');
 	}
 
-	if( is_page_template( 'application.php')||is_page_template( 'application-industry.php')){
+	if( is_page_template( 'application.php')||is_page_template( 'tag.php')){
 		wp_enqueue_style( 'style-name6', get_template_directory_uri() . '/scss/use.css');
 	}
 //

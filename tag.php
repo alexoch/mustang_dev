@@ -20,9 +20,9 @@ get_header();
                                 <?php
                                 $menu_name = "application";
                                 $locations = get_nav_menu_locations();
-
+                                var_dump($locations);
                                 $menu_items = wp_get_nav_menu_items( $locations[ $menu_name ] );
-                                // создаем список
+
                                 $menu_list = '<ul id="menu-' . $menu_name . '">';
                                 foreach ( (array) $menu_items as $key => $menu_item ){
 	                                if(get_page_link()!=$menu_item->url ){
