@@ -22,24 +22,21 @@ get_header();
 				</h5>
 
 				<div class="submenu-nav">
-					<ul>
-						<style type="text/css">.active{text-decoration: underline;}</style>
-						<li><a href="http://mustang.sportquest.com.ua/application-industry/" class="active" >Строительство / Ремонт</a></li>
-						<li><a href="">Дом / Сад</a></li>
-						<li><a href="">Упаковка</a></li>
-						<li><a href="">Промышленность</a></li>
-						<li><a href="">Вентиляция / Отопление</a></li>
-						<li><a href="">Кондиционирование</a></li>
-						<li><a href="">Дизайн</a></li>
-						<li><a href="">Авто / Мото</a></li>
-						<li><a href="">Реклама / Издательское дело</a></li>
-						<li><a href="">Ремесленничество / Хобби</a></li>
-						<li><a href="">Изоляция / Герметизация</a></li>
-						<li><a href="">Выставки</a></li>
-						<li><a href="">Защита поверхностей</a></li>
-					</ul>
+					<?php
+					$menu_name = "application";
+					$locations = get_nav_menu_locations();
 
-					<form class="submenu-search">
+					$menu_items = wp_get_nav_menu_items( $locations[ $menu_name ] );
+					// создаем список
+					$menu_list = '<ul id="menu-' . $menu_name . '">';
+					foreach ( (array) $menu_items as $key => $menu_item ){
+							$menu_list .= '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+					}
+					$menu_list .= '</ul>';
+					echo $menu_list;
+					?>
+
+                    <form class="submenu-search">
 						<button id="subsearch">
 							<i data-feather="search"></i>
 						</button>

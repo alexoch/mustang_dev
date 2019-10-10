@@ -17,21 +17,23 @@ get_header();
                         </h5>
 
                         <div class="submenu-nav">
-                            <ul>
-                                <li class="use-active"><a href="">Строительство / Ремонт</a></li>
-                                <li><a href="">Дом / Сад</a></li>
-                                <li><a href="">Упаковка</a></li>
-                                <li><a href="">Промышленность</a></li>
-                                <li><a href="">Вентиляция / Отопление</a></li>
-                                <li><a href="">Кондиционирование</a></li>
-                                <li><a href="">Дизайн</a></li>
-                                <li><a href="">Авто / Мото</a></li>
-                                <li><a href="">Реклама / Издательское дело</a></li>
-                                <li><a href="">Ремесленничество / Хобби</a></li>
-                                <li><a href="">Изоляция / Герметизация</a></li>
-                                <li><a href="">Выставки</a></li>
-                                <li><a href="">Защита поверхностей</a></li>
-                            </ul>
+                                <?php
+                                $menu_name = "application";
+                                $locations = get_nav_menu_locations();
+
+                                $menu_items = wp_get_nav_menu_items( $locations[ $menu_name ] );
+                                // создаем список
+                                $menu_list = '<ul id="menu-' . $menu_name . '">';
+                                foreach ( (array) $menu_items as $key => $menu_item ){
+	                                if(get_page_link()!=$menu_item->url ){
+		                                $menu_list .= '<li><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                                    }else{
+		                                $menu_list .= '<li class="use-active"><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+                                    }
+                                }
+                                $menu_list .= '</ul>';
+                                echo $menu_list;
+                                ?>
 
                             <form class="submenu-search">
                                 <button id="subsearch">
@@ -70,9 +72,8 @@ get_header();
                                     самых сложных условиях.</p>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 use-product">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/prodducts/10.jpg">
-                                <a class="use-link"
-                                   href="http://mustang.sportquest.com.ua/2019/09/03/%d0%b0%d1%80%d0%bc%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d0%b0%d1%8f-%d0%ba%d0%bb%d0%b5%d0%b9%d0%ba%d0%b0%d1%8f-%d0%bb%d0%b5%d0%bd%d1%82%d0%b0/">
+                                <img src="<?php the_post_thumbnail_url(); ?>">
+                                <a class="use-link" href="<?php the_permalink()?>">
                                     НА СТРАНИЦУ ПРОДУКТА
                                 </a>
                             </div>
