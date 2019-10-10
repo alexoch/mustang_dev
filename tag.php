@@ -19,9 +19,7 @@ get_header();
                         <div class="submenu-nav">
                                 <?php
                                 $menu_name = "application";
-                                $locations = get_nav_menu_locations();
-                                var_dump($locations);
-                                $menu_items = wp_get_nav_menu_items( $locations[ $menu_name ] );
+                                $menu_items = wp_get_nav_menu_items( $menu_name );
 
                                 $menu_list = '<ul id="menu-' . $menu_name . '">';
                                 foreach ( (array) $menu_items as $key => $menu_item ){

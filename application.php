@@ -52,17 +52,8 @@ get_header();
 				<div class="row" style="padding: .5em 0;">
 					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">
 
-                        <?php
-                        $terms = apply_filters( 'taxonomy-images-get-terms', '' );
-                        if ( ! empty( $terms ) ) {
-	                        print '<ul>';
-	                        foreach ( (array) $terms as $term ) {
-		                        print '<li><a href="' . esc_url( get_term_link( $term, $term->taxonomy ) ) . '">' . wp_get_attachment_image( $term->image_id, 'detail' ) . '</a></li>';
-	                        }
-	                        print '</ul>';
-                        }
-                        ?>
-						<img src="<?php echo get_template_directory_uri() ;?>/img/used/1.jpg" alt="">
+
+						<img src="<?php the_field(‘term_image’, ‘tag_11’); ?>" alt="">
 					</div>
 					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">
 						<img src="<?php echo get_template_directory_uri() ;?>/img/used/2.jpg">
