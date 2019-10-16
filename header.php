@@ -31,7 +31,26 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
+	            <?php
+	            $menu_name = "Header-menu";
+	            $menu_items = wp_get_nav_menu_items($menu_name);
+
+	            $menu_list = '';
+	            foreach ((array)$menu_items as $key => $menu_item) {
+		            if (get_page_link() != $menu_item->url) {
+			            $menu_list .= '<li class="nav-item">';
+			            $menu_list .= '<div class="nav_item_l"></div>';
+                        $menu_list .= '<a class="nav-link" href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+			            $menu_list .= '<div class="nav_item_r"></div>';
+			            $menu_list .= '</li>';
+		            } else {
+			            $menu_list .= '<li class="nav-item active"><a href="' . $menu_item->url . '">' . $menu_item->title . '</a></li>';
+		            }
+	            }
+	            echo $menu_list;
+	            ?>
+
+                <!--li class="nav-item active">
                     <div class="nav_item_l"></div>
 					<a class="nav-link" href="<?php echo home_url(); ?>">Главная</a>
                     <div class="nav_item_r"></div>
@@ -60,7 +79,7 @@
                     <div class="nav_item_l"></div>
 					<a class="nav-link" href="<?php echo home_url(); ?>/contacts">КОНТАКТЫ</a>
                     <div class="nav_item_r"></div>
-				</li>
+				</li-->
 			</ul>
 			<form class="form-inline my-2 my-lg-0" style="display: none;">
 				<button class="btn btn-primary my-2 my-sm-0 btn-search" type="submit">
