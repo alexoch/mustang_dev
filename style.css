@@ -25,6 +25,7 @@ Text Domain: mustang
     background-size: cover;
     position: relative;
     margin-left: -9px;
+    top: 9px;
 }
 
 .nav_item_l{
@@ -34,13 +35,13 @@ Text Domain: mustang
     background-image: url(img/back_nav_l.png);
     display: inline-block;
     background-size: cover;
-
+    top: 9px;
     margin-right: -5px;
 }
 
 .nav-link{
     position: relative;
-    top:-13px;
+    top:-4px;
 }
 .navbar-brand img{
     width: 100%;
