@@ -63,7 +63,7 @@ while (have_posts()) {
 							$menu_list .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">';
 							$menu_list .= '<a href="' . $menu_item->url . '">';
 							$term = get_term_by('name',$menu_item->title , 'post_tag');
-                            $menu_list  .='<img  src="' . the_field('term_image', 'post_tag_' . $term->term_id) . '">';
+                            $menu_list  .='<img  src="' . get_field('term_image', 'post_tag_' . $term->term_id) . '">';
                             $menu_list.='<div>'.$menu_item->title.'</div></a>';
 							$menu_list .= '</div>';
 						}
