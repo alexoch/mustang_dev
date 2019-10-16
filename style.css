@@ -8,17 +8,32 @@ Text Domain: mustang
 
 .nav-link {
     font-size: 1.15em;
-    background: #fff;
+    /*background: #fff;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    */
+    padding: 20px;
+}
+
+.nav-link:before {
+    content: "";
+    position: absolute;
+    background: #ff8f00;
+    border-radius: 15px;
+    transform: skew(-5deg);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .shadow_header{
     display: block;
-    height: 15px;
-    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.95);
+    height: 143px;
     width: 100%;
-    position: relative;
-    z-index: 5;
+    top: 0px;
+    position: absolute;
+    background-image: url("img/menu.png");
     background: white;
 }
 .header_blue{
