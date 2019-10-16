@@ -58,7 +58,7 @@ get_header();
 					foreach ( (array) $menu_items as $key => $menu_item ){
 						$menu_list='<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">';
 
-                        $menu_list .= '<a href="' . $menu_item->url . '"><img src="' . the_field('term_image', 'tag_'.$menu_item->id) . '">';
+                        $menu_list .= '<a href="' . $menu_item->url . '"><img src="' . the_field('term_image', 'tag_'.$menu_item->id) . '"></a>';
 						$menu_list.='</div>';
 					}
 					echo $menu_list;
