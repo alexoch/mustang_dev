@@ -64,6 +64,7 @@ while (have_posts()) {
     border: 1px solid gray;
     display: block;
     border-radius: 13px;
+    margin:10px 0 ;
 ';
 						foreach ((array)$menu_items as $key => $menu_item) {
 							$menu_list .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center">';
