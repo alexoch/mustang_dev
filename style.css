@@ -8,6 +8,7 @@ Text Domain: mustang
 
 .nav-link,.navbar-brand {
     font-size: 1.35em;
+    background: #fff;
     /*background: #fff;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     */
@@ -15,12 +16,12 @@ Text Domain: mustang
 }
 
 .nav-link::before{
-    content: '&nbsp';
+    content: '';
     background-image: url("img/back_nav_l.png");
 }
 
 .nav-link::after{
-    content: '&nbsp';
+    content: '';
     background-image: url("img/back_nav_r.png");
 }
 
