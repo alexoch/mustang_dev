@@ -97,7 +97,7 @@ Text Domain: mustang
     background-image: url("img/menu.png");
 }
 
-.product-item{
+.product-item a{
     background: rgba(0,104,195,1);
     background: -moz-linear-gradient(left, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,104,195,1)), color-stop(100%, rgba(1,71,140,1)));
@@ -106,4 +106,18 @@ Text Domain: mustang
     background: -ms-linear-gradient(left, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
     background: linear-gradient(to right, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0068c3', endColorstr='#01478c', GradientType=1 );
+}
+.product-info{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.product-img {
+    display: inline-block;
+    max-width: 48%;
+    height: auto;
+}
+.product-title{
+    position: relative;
+    top: 25px;
 }
