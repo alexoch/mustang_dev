@@ -30,22 +30,34 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
+                    <div class="nav_item_l"></div>
 					<a class="nav-link" href="<?php echo home_url(); ?>">Главная</a>
-				</li>
+                    <div class="nav_item_r"></div>
+                </li>
 				<li class="nav-item">
-					<a class="nav-link" href="<?php echo home_url(); ?>/products">АССОРТИМЕНТ</a>
-				</li>
+                    <div class="nav_item_l"></div>
+                    <a class="nav-link" href="<?php echo home_url(); ?>/products">АССОРТИМЕНТ</a>
+                    <div class="nav_item_r"></div>
+                </li>
 				<li class="nav-item">
+                    <div class="nav_item_l"></div>
 					<a class="nav-link" href="<?php echo home_url(); ?>/application">ПРИМЕНЕНИЕ</a>
-				</li>
+                    <div class="nav_item_r"></div>
+                </li>
 				<li class="nav-item">
+                    <div class="nav_item_l"></div>
 					<a class="nav-link" href="<?php echo home_url(); ?>/about">ПРО КОМПАНИЮ</a>
-				</li>
+                    <div class="nav_item_r"></div>
+                </li>
 				<li class="nav-item">
+                    <div class="nav_item_l"></div>
 					<a class="nav-link" href="<?php echo home_url(); ?>/distributors">ДЛЯ ДИСТРИБЬЮТЕРОВ</a>
-				</li>
+                    <div class="nav_item_r"></div>
+                </li>
 				<li class="nav-item">
+                    <div class="nav_item_l"></div>
 					<a class="nav-link" href="<?php echo home_url(); ?>/contacts">КОНТАКТЫ</a>
+                    <div class="nav_item_r"></div>
 				</li>
 			</ul>
 			<form class="form-inline my-2 my-lg-0" style="display: none;">
