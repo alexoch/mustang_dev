@@ -22,8 +22,10 @@
 <header >
 	<nav class="navbar navbar-expand-xl navbar-light">
 		<a class="navbar-brand" href="<?php echo home_url(); ?>">
-			<img src="<?php echo get_template_directory_uri();?>/img/logo.png" alt="Mustang">
-		</a>
+            <div class="nav_item_l"></div>
+            <img src="<?php echo get_template_directory_uri();?>/img/logo.png" alt="Mustang">
+            <div class="nav_item_r"></div>
+        </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
