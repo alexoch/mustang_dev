@@ -6,16 +6,17 @@ Text Domain: mustang
 */
 
 
-.nav-link {
+.nav-link,.navbar-brand {
     font-size: 1.15em;
     /*background: #fff;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     */
     background-image: url("img/back_nav.png");
-    padding: 20px;
+
 }
 
 .shadow_header{
+    z-index: -1;
     display: block;
     height: 143px;
     width: 100%;
@@ -23,7 +24,6 @@ Text Domain: mustang
     position: absolute;
     background: white;
     background-image: url("img/menu.png");
-
 }
 .header_blue{
     background: #007bff61;
