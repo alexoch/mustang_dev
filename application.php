@@ -61,14 +61,14 @@ while (have_posts()) {
 						$menu_list = '';
 						foreach ((array)$menu_items as $key => $menu_item) {
 							$menu_list .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">';
-							$menu_list .= '<a href="' . $menu_item->url . '"><img alt="' . $menu_item->id . '" src="' . the_field('term_image', 'tag_' . $menu_item->id) . '"></a>';
+							$menu_list .= '<a href="' . $menu_item->url . '"><img alt="' . $menu_item->id . '" src="' . the_field('term_image', 'post_tag_' . $menu_item->id) . '"></a>';
 							$menu_list .= '</div>';
 						}
 						echo $menu_list;
 						?>
 
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">
-                            <img src="<?php the_field('term_image', 'tag_11' );  ?>">
+                            <img src="<?php echo get_field('term_image', 'post_tag_11' );  ?>">
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/used/3.jpg">
