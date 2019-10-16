@@ -11,20 +11,8 @@ Text Domain: mustang
     /*background: #fff;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     */
+    background-image: url("img/back_nav.png");
     padding: 20px;
-}
-
-.nav-link:before {
-    content: "";
-    position: absolute;
-    background: #ff8f00;
-    border-radius: 15px;
-    transform: skew(-5deg);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
 }
 
 .shadow_header{
@@ -33,8 +21,9 @@ Text Domain: mustang
     width: 100%;
     top: 0px;
     position: absolute;
-    background-image: url("img/menu.png");
     background: white;
+    background-image: url("img/menu.png");
+
 }
 .header_blue{
     background: #007bff61;

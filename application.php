@@ -57,16 +57,12 @@ get_header();
 					$menu_items = wp_get_nav_menu_items( $menu_name );
 					foreach ( (array) $menu_items as $key => $menu_item ){
 						$menu_list='<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">';
-
                         $menu_list .= '<a href="' . $menu_item->url . '"><img src="' . the_field('term_image', 'tag_'.$menu_item->id) . '"></a>';
 						$menu_list.='</div>';
 					}
 					echo $menu_list;
 					?>
 
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">
-						<img src="<?php the_field('term_image', 'tag_11'); ?>" alt="">
-					</div>
 					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">
 						<img src="<?php echo get_template_directory_uri() ;?>/img/used/2.jpg">
 					</div>
