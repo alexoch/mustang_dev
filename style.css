@@ -15,12 +15,12 @@ Text Domain: mustang
 
 }
 
-.nav-item_r{
+.nav_item_r{
     width: 15px;
     background-image: url("img/back_nav_l.png");
 }
 
-.nav-item_l{
+.nav_item_l{
     width: 15px;
     background-image: url("img/back_nav_r.png");
 }
