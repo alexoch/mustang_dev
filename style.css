@@ -56,6 +56,12 @@ Text Domain: mustang
     background-position-x: 100%;
     width: 20px;
 }
+.navbar-brand{
+    height: 120px;
+    width: 201px;
+    top: -39px;
+    position: relative;
+}
 
 .navbar-brand .nav_item_l{
     height: 109px;
