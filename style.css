@@ -7,7 +7,7 @@ Text Domain: mustang
 
 
 .nav-link,.navbar-brand {
-    font-size: 1.35em;
+    font-size: 1.25em;
     background: #fff;
     /*background: #fff;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -16,19 +16,26 @@ Text Domain: mustang
 }
 
 .nav_item_r{
-    height: 40px;
+    height: 36px;
     width: 15px;
-    background-image: url(img/back_nav_l.png);
+    background-image: url(img/back_nav_r.png);
     display: inline-block;
     background-position-y: 100%;
+    background-size: cover;
+    position: relative;
+    top: 13px;
+    margin-left: -9px;
 }
 
 .nav_item_l{
-    height: 40px;
+    height: 38px;
+    position: relative;
     width: 15px;
     background-image: url(img/back_nav_l.png);
     display: inline-block;
     background-size: cover;
+    top: 13px;
+    margin-right: -5px;
 }
 
 .navbar-brand img{
