@@ -96,8 +96,12 @@ Text Domain: mustang
 .header_bg{
     background-image: url("img/menu.png");
 }
-
+.product-item{
+    border: none;
+}
 .product-item a{
+    padding: 10px;
+    min-height: 220px;
     background: rgba(0,104,195,1);
     background: -moz-linear-gradient(left, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,104,195,1)), color-stop(100%, rgba(1,71,140,1)));
@@ -120,4 +124,5 @@ Text Domain: mustang
 .product-title{
     position: relative;
     top: 25px;
+    color: #fff;
 }
