@@ -7,25 +7,33 @@ Text Domain: mustang
 
 
 .nav-link,.navbar-brand {
-    font-size: 1.15em;
+    font-size: 1.35em;
     /*background: #fff;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     */
-    background-image: url("img/back_nav.png");
-    background-size: cover;
+
+}
+
+.nav-link::before{
+    background-image: url("img/back_nav_l.png");
+}
+
+.nav-link::after{
+    background-image: url("img/back_nav_r.png");
 }
 
 .navbar-brand img{
     width: 100%;
     display: block;
-    margin: 1em auto;
+    padding: 1.1em 0;
+    margin: 0 auto;
 }
 .shadow_header{
     z-index: -1;
     display: block;
-    height: 143px;
+    height: 139px;
     width: 100%;
-    top: 0px;
+    top: -1px;
     position: absolute;
     background: white;
     background-image: url("img/menu.png");
