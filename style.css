@@ -16,13 +16,19 @@ Text Domain: mustang
 }
 
 .nav_item_r{
+    height: 40px;
     width: 15px;
-    background-image: url("img/back_nav_l.png");
+    background-image: url(img/back_nav_l.png);
+    display: inline-block;
+    background-position-y: 100%;
 }
 
 .nav_item_l{
+    height: 40px;
     width: 15px;
-    background-image: url("img/back_nav_r.png");
+    background-image: url(img/back_nav_l.png);
+    display: inline-block;
+    background-size: cover;
 }
 
 .navbar-brand img{
