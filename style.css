@@ -41,10 +41,12 @@ Text Domain: mustang
 
 .navbar-brand img{
     width: 100%;
-    display: block;
+    display: inline-block;
+
     padding: 1.1em 0;
     margin: 0 auto;
     background: white;
+
 }
 
 .navbar-brand.nav_item_r{
