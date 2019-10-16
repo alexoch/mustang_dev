@@ -12,9 +12,14 @@ Text Domain: mustang
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     */
     background-image: url("img/back_nav.png");
-
+    background-size: cover;
 }
 
+.navbar-brand img{
+    width: 100%;
+    display: block;
+    margin: 1em auto;
+}
 .shadow_header{
     z-index: -1;
     display: block;
