@@ -62,7 +62,8 @@ while (have_posts()) {
 						foreach ((array)$menu_items as $key => $menu_item) {
 							$menu_list .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center">';
 							$menu_list .= '<a href="' . $menu_item->url . '">';
-                            $menu_list  .='<img alt="' . $menu_item->id . '" src="' . the_field('term_image', 'post_tag_' . $menu_item->id) . '">';
+							$term = get_term_by('name',$menu_item->title , 'post_tag');
+                            $menu_list  .='<img  src="' . the_field('term_image', 'post_tag_' . $term->term_id) . '">';
                             $menu_list.='<div>'.$menu_item->title.'</div></a>';
 							$menu_list .= '</div>';
 						}
