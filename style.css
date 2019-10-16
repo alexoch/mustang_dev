@@ -8,6 +8,8 @@ Text Domain: mustang
 
 .nav-link {
     font-size: 1.15em;
+    background: #fff;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
 .shadow_header{
@@ -25,4 +27,8 @@ Text Domain: mustang
 
 .ans {
     display: none;
+}
+
+.header_bg{
+    background-image: url("img/menu.png");
 }
