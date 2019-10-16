@@ -24,7 +24,6 @@ Text Domain: mustang
     background-position-y: 100%;
     background-size: cover;
     position: relative;
-    top: 13px;
     margin-left: -9px;
 }
 
@@ -35,10 +34,14 @@ Text Domain: mustang
     background-image: url(img/back_nav_l.png);
     display: inline-block;
     background-size: cover;
-    top: 13px;
+
     margin-right: -5px;
 }
 
+.nav-link{
+    position: relative;
+    top:-13px;
+}
 .navbar-brand img{
     width: 100%;
     display: inline-block;
@@ -50,22 +53,23 @@ Text Domain: mustang
 }
 
 .navbar-brand .nav_item_r{
-
-    height: 109px;
-    top: 48px;
+    height: 86px;
+    top: 38px;
     background-position-x: 100%;
     width: 20px;
 }
 .navbar-brand{
+    margin-right: 0;
     height: 120px;
     width: 201px;
-    top: -39px;
+    top: -21px;
     position: relative;
 }
 
 .navbar-brand .nav_item_l{
-    height: 109px;
-    top: 48px;
+    height: 83px;
+    top: 37px;
+    margin-right: -8px;
     background-position-x: 0;
     width: 20px;
 }
