@@ -97,6 +97,7 @@ Text Domain: mustang
     background-image: url("img/menu.png");
 }
 .product-item{
+    padding: 1em;
     border: none;
 }
 .product-item a{

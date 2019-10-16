@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,17 +77,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="384" />
+          <entry key="css" value="428" />
           <entry key="php" value="687" />
-          <entry key="txt" value="148" />
+          <entry key="txt" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="384" />
+          <entry key="CSS" value="428" />
           <entry key="HTML" value="4" />
           <entry key="PHP" value="683" />
-          <entry key="PLAIN_TEXT" value="148" />
+          <entry key="PLAIN_TEXT" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,7 +110,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -120,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
+            <state relative-caret-position="181">
+              <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -276,7 +275,7 @@
       <workItem from="1570688052427" duration="2465000" />
       <workItem from="1570704202435" duration="8269000" />
       <workItem from="1571132041836" duration="13000" />
-      <workItem from="1571225266395" duration="20425000" />
+      <workItem from="1571225266395" duration="20879000" />
     </task>
     <task id="LOCAL-00001" summary="checking if tag for product">
       <created>1570688226580</created>
@@ -537,11 +536,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571254268372</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fixing product page2">
+      <created>1571254785419</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1571254785419</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fixing product page3">
+      <created>1571255139583</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1571255139583</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98133000" />
+    <option name="totallyTimeSpent" value="98587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -608,8 +621,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="menu update3" />
-    <MESSAGE value="menu update4" />
     <MESSAGE value="menu update5" />
     <MESSAGE value="menu update6" />
     <MESSAGE value="menu update7" />
@@ -633,7 +644,9 @@
     <MESSAGE value="fixing items on page application5" />
     <MESSAGE value="fixing items on page application6" />
     <MESSAGE value="fixing product page1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing product page1" />
+    <MESSAGE value="fixing product page2" />
+    <MESSAGE value="fixing product page3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing product page3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -878,17 +891,17 @@
     <entry file="file://$PROJECT_DIR$/img/02 Ассортимент – 4 (3).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/products.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
         </state>
       </provider>
     </entry>
