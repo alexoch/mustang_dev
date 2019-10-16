@@ -77,17 +77,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="428" />
+          <entry key="css" value="431" />
           <entry key="php" value="687" />
-          <entry key="txt" value="151" />
+          <entry key="txt" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="428" />
+          <entry key="CSS" value="431" />
           <entry key="HTML" value="4" />
           <entry key="PHP" value="683" />
-          <entry key="PLAIN_TEXT" value="151" />
+          <entry key="PLAIN_TEXT" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -122,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+            <state relative-caret-position="414">
+              <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -275,7 +275,7 @@
       <workItem from="1570688052427" duration="2465000" />
       <workItem from="1570704202435" duration="8269000" />
       <workItem from="1571132041836" duration="13000" />
-      <workItem from="1571225266395" duration="20879000" />
+      <workItem from="1571225266395" duration="21118000" />
     </task>
     <task id="LOCAL-00001" summary="checking if tag for product">
       <created>1570688226580</created>
@@ -550,11 +550,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571255139583</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="fixing product page4">
+      <created>1571255238715</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1571255238715</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fixing product page5">
+      <created>1571255291450</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1571255291450</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98587000" />
+    <option name="totallyTimeSpent" value="98826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -621,8 +635,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="menu update5" />
-    <MESSAGE value="menu update6" />
     <MESSAGE value="menu update7" />
     <MESSAGE value="menu update8" />
     <MESSAGE value="menu update9" />
@@ -646,7 +658,9 @@
     <MESSAGE value="fixing product page1" />
     <MESSAGE value="fixing product page2" />
     <MESSAGE value="fixing product page3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing product page3" />
+    <MESSAGE value="fixing product page4" />
+    <MESSAGE value="fixing product page5" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing product page5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -900,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+        <state relative-caret-position="414">
+          <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
         </state>
       </provider>
     </entry>

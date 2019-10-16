@@ -116,6 +116,7 @@ Text Domain: mustang
     display: inline-block;
     width: 50%;
     text-align: left;
+    vertical-align: middle;
 }
 .product-img {
     display: inline-block;
