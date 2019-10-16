@@ -43,18 +43,25 @@ Text Domain: mustang
     width: 100%;
     display: inline-block;
 
-    padding: 1.1em 0;
+    padding: 0.6em 0;
     margin: 0 auto;
     background: white;
 
 }
 
-.navbar-brand.nav_item_r{
-    height: 50px;
+.navbar-brand .nav_item_r{
+
+    height: 109px;
+    top: 48px;
+    background-position-x: 100%;
+    width: 20px;
 }
 
-.navbar-brand.nav_item_l{
-    height: 50px;
+.navbar-brand .nav_item_l{
+    height: 109px;
+    top: 48px;
+    background-position-x: 0;
+    width: 20px;
 }
 
 .shadow_header{
