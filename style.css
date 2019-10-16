@@ -96,8 +96,8 @@ Text Domain: mustang
 .header_bg{
     background-image: url("img/menu.png");
 }
-.product-item{
-    padding: 1em;
+.product-item{padding: 1em;
+    min-height: 30vh;
     border: none;
 }
 .product-item a{
