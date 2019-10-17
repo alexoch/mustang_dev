@@ -26,19 +26,10 @@ get_header();
                 <h3 class="product__title product__title--article">
                     Преимущества
                 </h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/description product/per1.png" width="150"
-                     alt=""
-                     class="product__advantages--img">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/description product/per2.png" width="150"
-                     alt=""
-                     class="product__advantages--img">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/description product/per3.png" width="150"
-                     alt=""
-                     class="product__advantages--img">
+                <?php the_field("pros");?>
                 <ul class="text-left">
                     <li>Предлагаемая лента малярная имеет отлично подобранный клеевой состав, благодаря которому хорошо
                         прилипает к разным поверхностям, но легко и бесследно удаляется с них.
-
                     </li>
                     <li>
                         Эти качества скотч сохраняет в течение длительного времени и может эксплуатироваться в условиях
@@ -70,13 +61,9 @@ get_header();
                 <h3 class="product__title anc" style="" onclick="myFunction()">
                     Детальное описание <img src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/09/Arrow-Circle-Down-16.png" alt="" style="width: 15px;">
                 </h3>
-
-
                 <div class="col-12 text-left ans" id="ans">
 					<?php the_content(); ?>
-
                 </div>
-
                 <script>
                     function myFunction() {
                         document.getElementById("ans").style.display= "block";
@@ -96,35 +83,8 @@ get_header();
             </div>
             <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6" style="flex-direction: column;">
                 <p class="product__used--text ">
-                    Армированная лента не только прочна, имеет высокую клейкость, устойчива к влиянию влаги, но и
-                    обладает отличными диэлектрическими качествами, что обуславливает ее широкое применение в различных
-                    областях:
-
-
+                    <?php the_field("application");?>
                 </p>
-                <ul>
-                    <li>для герметизации сантехнического оборудования, труб, фитингов;
-
-                    </li>
-                    <li> для склеивания гидроизоляционных материалов;
-
-                    </li>
-                    <li> с целью герметизации различных швов, стыков, щелей;
-
-                    </li>
-                    <li> в качестве изоляционного материала для защиты кабельно-проводниковой продукции;
-
-                    </li>
-                    <li> при проведении мелких ремонтных работ;
-
-                    </li>
-                    <li> для упаковки тяжелой тары;
-
-                    </li>
-                    <li> в качестве средства контрольного оклеивания.
-                    </li>
-
-                </ul>
 
             </div>
         </div>
@@ -135,35 +95,9 @@ get_header();
                 </h3>
             </div>
             <div class="col-12 text-center">
-                <table class="table  table-striped">
-                    <tr>
-                        <td>Артикул</td>
-                        <td>Название</td>
-                        <td>Кл шт/ящ</td>
-                    </tr>
-                    <tr>
-                        <td>ATC100</td>
-                        <td>40мкм*45мкм*100</td>
-                        <td>72</td>
-                    </tr>
-                    <tr>
-                        <td>ATC200</td>
-                        <td>40мкм*45мкм*200</td>
-                        <td>72</td>
-                    </tr>
-                    <tr>
-                        <td>ATC300</td>
-                        <td>40мкм*45мкм*300</td>
-                        <td>36</td>
-                    </tr>
-                    <tr>
-                        <td>ATК100</td>
-                        <td>40мкм*45мкм*100 Радуга</td>
-                        <td>72</td>
-                    </tr>
-                </table>
+                <?php the_field("sizes");?>
             </div>
-            <div class="col-12">
+            <!--div class="col-12">
                 <ul class="product__colors" style="display: none;">
                     <li>
                         <div class="product__colors--color red"></div>
@@ -203,7 +137,7 @@ get_header();
                         <span>Райдуга</span>
                     </li>
                 </ul>
-            </div>
+            </div-->
         </div>
         <style type="text/css">
             .back{display: block;
@@ -227,10 +161,7 @@ get_header();
                 </h3>
             </div>
             <div class="col-12 text-center">
-                <iframe src="https://www.youtube.com/embed/4B2HtYH2dlQ" style="width: 65%; height: 65vh;"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <?php the_field("usage_example")?>
             </div>
         </div>
     </div>
