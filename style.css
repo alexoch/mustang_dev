@@ -126,3 +126,22 @@ Text Domain: mustang
 .product-title{
     color: #fff;
 }
+.back_usage_product{
+    display: block;
+    height: 58%;
+    position: absolute;
+    width: 100%;
+    background: url(/img/main_back4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 13%;
+    opacity: 0.3;
+}
+
+.ans {
+    display: none;
+}
+.product__present{
+    width: 400px;
+    margin: 90px auto;
+}

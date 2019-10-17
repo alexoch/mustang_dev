@@ -26,38 +26,15 @@ get_header();
                 <h3 class="product__title product__title--article">
                     Преимущества
                 </h3>
-                <?php the_field("pros");?>
-                <ul class="text-left">
-                    <li>Предлагаемая лента малярная имеет отлично подобранный клеевой состав, благодаря которому хорошо
-                        прилипает к разным поверхностям, но легко и бесследно удаляется с них.
-                    </li>
-                    <li>
-                        Эти качества скотч сохраняет в течение длительного времени и может эксплуатироваться в условиях
-                        повышенных температур.
+                <div class="text-left">
+	                <?php the_field("pros");?>
 
-                    </li>
-                    <li>
-                        Малярный скотч цена которого отличается демократичностью, демонстрирует повышенные прочностные
-                        показатели на уровне дорогостоящих аналогов.
-                    </li>
-                    <li>
-                        Возможно нанесение логотипа.
-                    </li>
-                </ul>
+                </div>
+
             </div>
         </div>
         <div class="row product__section prouct__description border-bt" style="">
             <div class="col-12 text-center">
-                <style>
-                    .ans {
-                        display: none;
-                    }
-
-                    .anc:hover ~ .ans {
-                        /*display: block;*/
-                    }
-
-                </style>
                 <h3 class="product__title anc" style="" onclick="myFunction()">
                     Детальное описание <img src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/09/Arrow-Circle-Down-16.png" alt="" style="width: 15px;">
                 </h3>
@@ -82,9 +59,9 @@ get_header();
                      class="product__used--img">
             </div>
             <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6" style="flex-direction: column;">
-                <p class="product__used--text ">
+                <div class="product__used--text ">
                     <?php the_field("application");?>
-                </p>
+                </div>
 
             </div>
         </div>
@@ -139,19 +116,7 @@ get_header();
                 </ul>
             </div-->
         </div>
-        <style type="text/css">
-            .back{display: block;
-                height: 80.2%;
-                position: absolute;
-                width: 100%;
-                background: url(<?php echo get_template_directory_uri();?>/img/main_back4.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position-x: 13%;
-                opacity: 0.3;
-            }
-        </style>
-        <div class="back"></div>
+        <div class="back_usage_product"></div>
 
         <div class="row product__section product__example" style="
                 ">
