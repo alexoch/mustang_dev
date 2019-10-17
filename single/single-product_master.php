@@ -14,6 +14,7 @@ if ( have_posts() ) :
 
 	while (have_posts()) {
 		the_post();
+		$master_id=get_the_ID();
 		?>
         <main>
             <div class="container-fluid product-range">
@@ -30,11 +31,15 @@ if ( have_posts() ) :
 
 					<?php
 
-					query_posts('tag=painting_tape&order=DSC');
+					query_posts('category=sub_product&order=DSC');
 					if (have_posts()) :
 
 						while (have_posts()) {
-							the_post(); ?>
+
+							the_post();
+
+							if (get_field("master")==$master_id){
+							?>
 
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
                                 <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
@@ -51,6 +56,7 @@ if ( have_posts() ) :
                                 </div>
                             </div>
 							<?php
+							};
 						};
 					endif;
 					wp_reset_query();
