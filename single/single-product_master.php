@@ -26,36 +26,25 @@ if ( have_posts() ) :
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 text-center">
-                    </div>
-
 					<?php
-
 					query_posts('category_name=product_sub&order=DSC');
 					if (have_posts()) :
-
 						while (have_posts()) {
-
 							the_post();
-//							var_dump(get_field("master"));
-//                            echo get_field("master")." ".$master_id;
-							if (get_field("master")[0]==$master_id){
+                            if (get_field("master")[0]==$master_id){
 							?>
 
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-                                <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
-                                     class="product-img">
-                                <div class="product-info">
-                                    <p class="product-title">
-										<?php the_title(); ?>
-                                    </p>
-                                    <a class="link d-inline-flex align-items-center font-size-auto"
-                                       href="<?php the_permalink() ?>">
-                                        ПОДРОБНЕЕ
-                                        <i data-feather="arrow-right"></i>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                                    <a href="<?php the_permalink() ?>">
+                                        <div class="product-info">
+                                            <p class="product-title">
+					                            <?php the_title(); ?>
+                                            </p>
+                                        </div>
+                                        <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
+                                             class="product-img">
                                     </a>
                                 </div>
-                            </div>
 							<?php
 							};
 						};
