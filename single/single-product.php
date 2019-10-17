@@ -55,7 +55,7 @@ get_header();
                 </h3>
             </div>
             <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/description product/descript.png" alt=""
+                <img src="<?php the_field("application_pic"); ?>" alt=""
                      class="product__used--img">
             </div>
             <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6" style="flex-direction: column;">
