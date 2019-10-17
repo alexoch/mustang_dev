@@ -33,7 +33,6 @@ if ( have_posts() ) :
 							the_post();
                             if (get_field("master")[0]==$master_id){
 							?>
-
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
                                     <a href="<?php the_permalink() ?>">
                                         <div class="product-info">
@@ -53,61 +52,9 @@ if ( have_posts() ) :
 					?>
                 </div>
                 <div class="row product__section product__used border-bt">
-                    <div class="col-12 text-center">
-                        <h3 class="product__title product__title--article">
-                            Применение
-                        </h3>
-                    </div>
-                    <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/description product/descript.png"
-                             alt="" class="product__used--img">
-                    </div>
-                    <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6" style="flex-direction: column;">
-                        <p class="product__used--text ">
-                            Армированная лента не только прочна, имеет высокую клейкость, устойчива к влиянию влаги, но
-                            и обладает отличными диэлектрическими качествами, что обуславливает ее широкое применение в
-                            различных областях:
 
-
-                        </p>
-                        <ul>
-                            <li>для герметизации сантехнического оборудования, труб, фитингов;
-
-                            </li>
-                            <li> для склеивания гидроизоляционных материалов;
-
-                            </li>
-                            <li> с целью герметизации различных швов, стыков, щелей;
-
-                            </li>
-                            <li> в качестве изоляционного материала для защиты кабельно-проводниковой продукции;
-
-                            </li>
-                            <li> при проведении мелких ремонтных работ;
-
-                            </li>
-                            <li> для упаковки тяжелой тары;
-
-                            </li>
-                            <li> в качестве средства контрольного оклеивания.
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
-
-                <div class="row product__section product__example">
-                    <div class="col-12 text-center">
-                        <h3 class="product__title product__title--articles">
-                            Пример использования
-                        </h3>
-                    </div>
-                    <div class="col-12 text-center">
-                        <iframe src="https://www.youtube.com/embed/4B2HtYH2dlQ" style="width: 65%; height: 65vh;"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                    <div class="col-12 text-justify">
+                        <?php the_content();?>
                     </div>
                 </div>
             </div>
