@@ -31,7 +31,7 @@ if ( have_posts() ) :
 
 					<?php
 
-					query_posts('category=product_sub&order=DSC');
+					query_posts('category_name=product_sub&order=DSC');
 					if (have_posts()) :
 
 						while (have_posts()) {
