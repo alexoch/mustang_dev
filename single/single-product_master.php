@@ -37,9 +37,9 @@ if ( have_posts() ) :
 						while (have_posts()) {
 
 							the_post();
-							var_dump(get_field("master"));
-                            echo get_field("master")->id." ".$master_id;
-							//if (get_field("master")==$master_id){
+//							var_dump(get_field("master"));
+//                            echo get_field("master")." ".$master_id;
+							if (get_field("master")[0]==$master_id){
 							?>
 
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
@@ -57,7 +57,7 @@ if ( have_posts() ) :
                                 </div>
                             </div>
 							<?php
-							//};
+							};
 						};
 					endif;
 					wp_reset_query();
