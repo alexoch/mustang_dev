@@ -37,7 +37,8 @@ if ( have_posts() ) :
 						while (have_posts()) {
 
 							the_post();
-                            echo get_field("master")." ".$master_id;
+							var_dump(get_field("master"));
+                            echo get_field("master")->id." ".$master_id;
 							//if (get_field("master")==$master_id){
 							?>
 
