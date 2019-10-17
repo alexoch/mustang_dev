@@ -38,7 +38,7 @@ if ( have_posts() ) :
 
 							the_post();
 
-							if (get_field("master")==$master_id){
+							//if (get_field("master")==$master_id){
 							?>
 
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
@@ -56,7 +56,7 @@ if ( have_posts() ) :
                                 </div>
                             </div>
 							<?php
-							};
+							//};
 						};
 					endif;
 					wp_reset_query();
