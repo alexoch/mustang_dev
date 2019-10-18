@@ -192,7 +192,7 @@ body {
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
+    right: -13px;
     background-color: white;
     border: 4px solid #000000;
     top: 15px;
@@ -240,7 +240,7 @@ body {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-    left: -16px;
+    left: -13px;
 }
 
 /* The actual content */
@@ -259,14 +259,14 @@ body {
     }
 
     /* Full-width containers */
-    .container {
+    .containe {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
 
     /* Make sure that all arrows are pointing leftwards */
-    .container::before {
+    .containe::before {
         left: 60px;
         border: medium solid white;
         border-width: 10px 10px 10px 0;
