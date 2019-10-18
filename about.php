@@ -72,38 +72,50 @@ while (have_posts()) {
                 <div class="timeline">
                     <div class="containe left">
                         <div class="content">
+                            <h2>2019</h2>
+                            <p>Полный ребрендинг и запуск новой упаковки продукции ТМ Mustang. Запуск полностью автоматической упаковочной линии для клейких лент.</p>
+                        </div>
+                    </div>
+                    <div class="containe right">
+                        <div class="content">
+                            <h2>2018</h2>
+                            <p>Запуск производства и упаковки изоляционной ленты ПВХ.</p>
+                        </div>
+                    </div>
+                    <div class="containe left">
+                        <div class="content">
                             <h2>2017</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            <p>Расширение производственных мощностей по производству клейких лент. Запуск собственного производства картонной гильзы. Запуск флексографического оборудования.</p>
                         </div>
                     </div>
                     <div class="containe right">
                         <div class="content">
                             <h2>2016</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            <p>Запуск собственных производственных мощностей в Украине</p>
                         </div>
                     </div>
                     <div class="containe left">
                         <div class="content">
                             <h2>2015</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            <p>Полный ребрендинг и запуск новой упаковки продукции ТМ Mustang </p>
                         </div>
                     </div>
                     <div class="containe right">
                         <div class="content">
-                            <h2>2012</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            <h2>2013</h2>
+                            <p>Начало экспорта продукции ТМ Mustang в страны СНГ</p>
                         </div>
                     </div>
                     <div class="containe left">
                         <div class="content">
-                            <h2>2011</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            <h2>1998-2005</h2>
+                            <p>Расширение ассортимента продукции ТМ Mustang. Построение системы дистрибуции ТМ Mustang в Украине</p>
                         </div>
                     </div>
                     <div class="containe right">
                         <div class="content">
-                            <h2>2007</h2>
-                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                            <h2>1997 </h2>
+                            <p>Основание ТМ Mustang. Запуск линейки продукции ТМ Mustang.</p>
                         </div>
                     </div>
                 </div>
