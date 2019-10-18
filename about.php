@@ -23,7 +23,7 @@ while (have_posts()) {
                         display: block;
                         height: 705px;
                         position: absolute;
-                        top: 160px;
+                        top: 137px;
                         width: 100%;
                         background: url(<?php the_post_thumbnail_url(  );?>);
                         background-repeat: no-repeat;
@@ -69,7 +69,75 @@ while (have_posts()) {
             </div>
 
             <div class="row about-graph border-bt border-tp">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/about/histogram.jpg">
+
+                <div class="timeline">
+                    <div class="year">
+                        <div class="inner">
+                            <span>2016</span>
+                        </div>
+                    </div>
+
+                    <ul class="days">
+                        <li class="day">
+                            <div class="events">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius perferendis vitae, facere accusantium magni, explicabo mollitia quidem odio autem, iste optio? Consequuntur ratione dolorum velit maiores quam odit odio suscipit.</p>
+                                <div class="date">18 October (Monday)</div>
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div class="events">
+                                <p>Lorem dolor sit amet, consectetur adipisicing elit. Eius perferendis vitae, facere accusantium magni, explicabo mollitia quidem odio autem, iste optio? Consequuntur ratione dolorum velit maiores quam odit odio suscipit.</p>
+                                <div class="date">18 October (Monday)</div>
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div class="events">
+                                <div class="day__img">
+                                    <img src="http://placehold.it/400x300" alt="" />
+                                    <p class="caption">
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                                <div class="date">18 October (Monday)</div>
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div class="events">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius perferendis vitae, facere accusantium magni, explicabo mollitia quidem odio autem, iste optio? Consequuntur ratione dolorum velit maiores quam odit odio suscipit.</p>
+                                <div class="date">18 October (Monday)</div>
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div class="events">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius perferendis vitae, facere accusantium magni, explicabo mollitia quidem odio autem, iste optio? Consequuntur ratione dolorum velit maiores quam odit odio suscipit.</p>
+                                <div class="date">18 October (Monday)</div>
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div class="events">
+                                <div class="day__img">
+                                    <img src="http://placehold.it/400x300" alt="" />
+                                    <p class="caption">
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                                <div class="date">18 October (Monday)</div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="year year--end">
+                        <div class="inner">
+                            <span>2017</span>
+                        </div>
+                    </div>
+                </div>
+                <!--img src="<?php echo get_template_directory_uri(); ?>/img/about/histogram.jpg"-->
             </div>
         </div>
 
