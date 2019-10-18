@@ -219,9 +219,9 @@ body {
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid #9e9e9e5e;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent #9e9e9e5e;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -233,9 +233,9 @@ body {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid #9e9e9e5e;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #9e9e9e5e transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -280,6 +280,6 @@ body {
 
     /* Make all right containers behave like the left ones */
     .right {
-        left: 0%;
+        left: 0;
     }
 }
