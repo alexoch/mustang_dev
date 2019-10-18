@@ -153,10 +153,6 @@ Text Domain: mustang
     box-sizing: inherit;
 }
 
-img {
-    max-width: 100%;
-}
-
 .timeline {
     text-align: center;
 }
@@ -173,7 +169,7 @@ img {
 .timeline .year:after {
     content: "";
     display: block;
-    width: 80%;
+    width: 60%;
     margin: auto;
     height: 1px;
     background: green;
@@ -181,7 +177,7 @@ img {
 .timeline .year--end:before {
     content: "";
     display: block;
-    width: 80%;
+    width: 60%;
     margin: auto;
     height: 1px;
     background: green;
@@ -195,7 +191,7 @@ img {
     padding: 0;
 }
 .timeline .days .day {
-    width: 100%;
+    width: 90%;
     float: left;
 }
 .timeline .days .day .events {
@@ -204,7 +200,7 @@ img {
     border-right: 1px solid green;
     padding: 30px;
     text-align: right;
-    width: 50%;
+    width: 45%;
 }
 .timeline .days .day .events:after {
     content: "";
@@ -218,7 +214,7 @@ img {
 .timeline .days .day .events .date {
     position: absolute;
     top: 50%;
-    left: 100%;
+    left: 90%;
     transform: translateY(-50%);
     padding: 30px;
     text-align: left;
@@ -257,7 +253,7 @@ img {
 }
 .timeline .days .day:nth-child(odd) .events .date {
     left: auto;
-    right: 100%;
+    right: 90%;
     text-align: right;
 }
 .timeline .days .day:nth-child(odd) .events .day__img {
