@@ -70,18 +70,42 @@ while (have_posts()) {
 
             <div class="row about-graph border-bt border-tp">
                 <div class="timeline">
-                    <div class="containe left">
-                        <div class="content">
-                            <h2>2019</h2>
-                            <p>Полный ребрендинг и запуск новой упаковки продукции ТМ Mustang. Запуск полностью автоматической упаковочной линии для клейких лент.</p>
-                        </div>
-                    </div>
+
                     <div class="containe right">
                         <div class="content">
-                            <h2>2018</h2>
-                            <p>Запуск производства и упаковки изоляционной ленты ПВХ.</p>
+                            <h2>1997 </h2>
+                            <p>Основание ТМ Mustang. Запуск линейки продукции ТМ Mustang.</p>
                         </div>
                     </div>
+
+                    <div class="containe left">
+                        <div class="content">
+                            <h2>1998-2005</h2>
+                            <p>Расширение ассортимента продукции ТМ Mustang. Построение системы дистрибуции ТМ Mustang в Украине</p>
+                        </div>
+                    </div>
+
+                    <div class="containe right">
+                        <div class="content">
+                            <h2>2013</h2>
+                            <p>Начало экспорта продукции ТМ Mustang в страны СНГ</p>
+                        </div>
+                    </div>
+
+                    <div class="containe left">
+                        <div class="content">
+                            <h2>2015</h2>
+                            <p>Полный ребрендинг и запуск новой упаковки продукции ТМ Mustang </p>
+                        </div>
+                    </div>
+
+                    <div class="containe right">
+                        <div class="content">
+                            <h2>2016</h2>
+                            <p>Запуск собственных производственных мощностей в Украине</p>
+                        </div>
+                    </div>
+
                     <div class="containe left">
                         <div class="content">
                             <h2>2017</h2>
@@ -90,32 +114,15 @@ while (have_posts()) {
                     </div>
                     <div class="containe right">
                         <div class="content">
-                            <h2>2016</h2>
-                            <p>Запуск собственных производственных мощностей в Украине</p>
+                            <h2>2018</h2>
+                            <p>Запуск производства и упаковки изоляционной ленты ПВХ.</p>
                         </div>
                     </div>
+
                     <div class="containe left">
                         <div class="content">
-                            <h2>2015</h2>
-                            <p>Полный ребрендинг и запуск новой упаковки продукции ТМ Mustang </p>
-                        </div>
-                    </div>
-                    <div class="containe right">
-                        <div class="content">
-                            <h2>2013</h2>
-                            <p>Начало экспорта продукции ТМ Mustang в страны СНГ</p>
-                        </div>
-                    </div>
-                    <div class="containe left">
-                        <div class="content">
-                            <h2>1998-2005</h2>
-                            <p>Расширение ассортимента продукции ТМ Mustang. Построение системы дистрибуции ТМ Mustang в Украине</p>
-                        </div>
-                    </div>
-                    <div class="containe right">
-                        <div class="content">
-                            <h2>1997 </h2>
-                            <p>Основание ТМ Mustang. Запуск линейки продукции ТМ Mustang.</p>
+                            <h2>2019</h2>
+                            <p>Полный ребрендинг и запуск новой упаковки продукции ТМ Mustang. Запуск полностью автоматической упаковочной линии для клейких лент.</p>
                         </div>
                     </div>
                 </div>
