@@ -75,6 +75,7 @@ get_header();
         }
 
         .svg-text {
+            font-size: 9px;
             font-weight: bold;
             fill: #000e21;
         }
