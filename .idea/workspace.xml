@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,27 +68,28 @@
     <session id="274235734">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="475" />
-          <entry key="php" value="1224" />
-          <entry key="txt" value="324" />
+          <entry key="php" value="1296" />
+          <entry key="txt" value="335" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="475" />
           <entry key="HTML" value="4" />
-          <entry key="PHP" value="1220" />
-          <entry key="PLAIN_TEXT" value="324" />
+          <entry key="PHP" value="1292" />
+          <entry key="PLAIN_TEXT" value="335" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,7 +97,7 @@
           <entry key="css" value="3" />
           <entry key="htaccess" value="1" />
           <entry key="html" value="2" />
-          <entry key="php" value="25" />
+          <entry key="php" value="27" />
           <entry key="png" value="2" />
         </counts>
       </usages-collector>
@@ -104,7 +106,7 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="2" />
-          <entry key="PHP" value="25" />
+          <entry key="PHP" value="27" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
@@ -121,11 +123,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="80">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contacts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="111" column="4" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+              <folding>
+                <element signature="e#1542#1920#0#HTML" expanded="true" />
+                <element signature="e#1589#1768#0#HTML" expanded="true" />
+                <element signature="e#1782#1908#0#HTML" expanded="true" />
+                <element signature="e#136513#136538#0#HTML" expanded="true" />
+                <element signature="e#136865#136891#0#HTML" expanded="true" />
+                <element signature="e#137219#137242#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,7 +192,6 @@
         <option value="$PROJECT_DIR$/sales.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/products_malyar.php" />
-        <option value="$PROJECT_DIR$/contacts.php" />
         <option value="$PROJECT_DIR$/category-product_sub.php" />
         <option value="$PROJECT_DIR$/scss/product.scss" />
         <option value="$PROJECT_DIR$/single-product_master.php" />
@@ -191,6 +209,8 @@
         <option value="$PROJECT_DIR$/products.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/map.php" />
+        <option value="$PROJECT_DIR$/contacts.php" />
       </list>
     </option>
   </component>
@@ -203,7 +223,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1366" />
@@ -288,14 +308,10 @@
       <workItem from="1571132041836" duration="13000" />
       <workItem from="1571225266395" duration="22036000" />
       <workItem from="1571257524016" duration="1045000" />
-      <workItem from="1571259466783" duration="19624000" />
-    </task>
-    <task id="LOCAL-00029" summary="fixing items on page application">
-      <created>1571245534928</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1571245534928</updated>
+      <workItem from="1571259466783" duration="20290000" />
+      <workItem from="1571477814683" duration="7000" />
+      <workItem from="1571650325498" duration="280000" />
+      <workItem from="1571749224756" duration="761000" />
     </task>
     <task id="LOCAL-00030" summary="fixing items on page application2">
       <created>1571245791723</created>
@@ -633,18 +649,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571407672145</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="update about and header2">
+      <created>1571407799963</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1571407799964</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120413000" />
+    <option name="totallyTimeSpent" value="122127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22844176" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2397882" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -704,7 +727,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="single product updates3" />
     <MESSAGE value="product master update" />
     <MESSAGE value="product master update2" />
     <MESSAGE value="product master update3" />
@@ -729,7 +751,8 @@
     <MESSAGE value="update about5" />
     <MESSAGE value="update about6" />
     <MESSAGE value="update about and header" />
-    <option name="LAST_COMMIT_MESSAGE" value="update about and header" />
+    <MESSAGE value="update about and header2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update about and header2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -865,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/category-product.php" />
     <entry file="file://$PROJECT_DIR$/single-product_sub.php" />
     <entry file="file://$PROJECT_DIR$/scss/product.scss">
@@ -922,13 +938,7 @@
     <entry file="file://$PROJECT_DIR$/img/02 Ассортимент – 4 (3).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="65" selection-start-column="65" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess" />
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -987,8 +997,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="80">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="111" column="4" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+          <folding>
+            <element signature="e#1542#1920#0#HTML" expanded="true" />
+            <element signature="e#1589#1768#0#HTML" expanded="true" />
+            <element signature="e#1782#1908#0#HTML" expanded="true" />
+            <element signature="e#136513#136538#0#HTML" expanded="true" />
+            <element signature="e#136865#136891#0#HTML" expanded="true" />
+            <element signature="e#137219#137242#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
