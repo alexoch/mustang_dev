@@ -6,7 +6,7 @@ feather.replace()
 /*
 @big slider for index page
 */
-if($('.main-slider')){
+if($('.main-slider').is("div")){
     var slider = new Siema({
         selector: '.main-slider',
         duration: 200,
