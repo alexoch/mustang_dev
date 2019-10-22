@@ -50,4 +50,15 @@ function clickDot(i, context) {
 	dotList[i].classList.add('dot-active');
 }
 
+var id;
 
+$(function() {
+    $('.land').hover(function(event) {
+        id = "."+event.currentTarget.classList[1];
+        $('.description').find(id).addClass('border');
+        $(id).addClass('active');
+    }, function(e) {
+        $(id).removeClass('active');
+        $('.description').find(id).removeClass('border');
+    });
+});

@@ -12,7 +12,6 @@
 get_header();
 
 ?>
-    <link rel="stylesheet" href="./style.css">
     <style>
         .border {
             background: #000 !important;
@@ -82,18 +81,7 @@ get_header();
     </style>
 
     <script >
-        var id;
 
-        $(function() {
-            $('.land').hover(function(event) {
-                id = "."+event.currentTarget.classList[1];
-                $('.description').find(id).addClass('border');
-                $(id).addClass('active');
-            }, function(e) {
-                $(id).removeClass('active');
-                $('.description').find(id).removeClass('border');
-            });
-        });
     </script>
     <main>
 
