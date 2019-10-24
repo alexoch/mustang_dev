@@ -14,7 +14,7 @@ if (have_posts()) :
 
 	while (have_posts()) {
 		the_post();
-		$master_id = get_the_ID();
+		define("MASTER_ID",get_the_ID());
 		?>
         <main>
             <div class="container-fluid product-range">
@@ -32,7 +32,7 @@ if (have_posts()) :
 						setup_postdata($post);
 						var_dump(get_field("master")[0]);
 						var_dump($master_id);
-						if (get_field("master")[0] == $master_id) {
+						if (get_field("master")[0] == MASTER_ID) {
 							?>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
                                 <a href="<?php the_permalink() ?>">
