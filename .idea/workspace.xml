@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/single/single-product_master.php" beforeDir="false" afterPath="$PROJECT_DIR$/single/single-product_master.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +82,8 @@
         <counts>
           <entry key="css" value="475" />
           <entry key="js" value="26" />
-          <entry key="php" value="1321" />
-          <entry key="txt" value="362" />
+          <entry key="php" value="1341" />
+          <entry key="txt" value="391" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -92,8 +91,8 @@
           <entry key="CSS" value="475" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="26" />
-          <entry key="PHP" value="1317" />
-          <entry key="PLAIN_TEXT" value="362" />
+          <entry key="PHP" value="1337" />
+          <entry key="PLAIN_TEXT" value="391" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -132,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="288">
+              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -298,21 +297,7 @@
       <workItem from="1571477814683" duration="7000" />
       <workItem from="1571650325498" duration="280000" />
       <workItem from="1571749224756" duration="3290000" />
-      <workItem from="1571909978352" duration="1560000" />
-    </task>
-    <task id="LOCAL-00035" summary="fixing items on page application6">
-      <created>1571252665235</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1571252665235</updated>
-    </task>
-    <task id="LOCAL-00036" summary="fixing items on page application6">
-      <created>1571252749474</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1571252749474</updated>
+      <workItem from="1571909978352" duration="1930000" />
     </task>
     <task id="LOCAL-00037" summary="fixing product page1">
       <created>1571254268372</created>
@@ -643,11 +628,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571752222867</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="fixing master product">
+      <created>1571911567523</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1571911567524</updated>
+    </task>
+    <task id="LOCAL-00085" summary="fixing master product2">
+      <created>1571911872357</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1571911872357</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126216000" />
+    <option name="totallyTimeSpent" value="126586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -737,8 +736,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="product master update6" />
-    <MESSAGE value="product master update7" />
     <MESSAGE value="product master update8" />
     <MESSAGE value="product master update9" />
     <MESSAGE value="product master update 10" />
@@ -762,7 +759,9 @@
     <MESSAGE value="updated map on contacts2" />
     <MESSAGE value="updated map on contacts3" />
     <MESSAGE value="updated map on contacts4" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated map on contacts4" />
+    <MESSAGE value="fixing master product" />
+    <MESSAGE value="fixing master product2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing master product2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -1026,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        <state relative-caret-position="288">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
         </state>
       </provider>
     </entry>

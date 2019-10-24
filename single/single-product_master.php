@@ -30,7 +30,7 @@ if (have_posts()) :
 					$posts = get_posts('category_name=product_sub&order=DSC');
 					foreach ($posts as $post) {
 						setup_postdata($post);
-						var_dump(get_field("master"));
+						var_dump(get_field("master")[0]);
 						var_dump($master_id);
 						if (get_field("master")[0] == $master_id) {
 							?>
