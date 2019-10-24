@@ -6,6 +6,8 @@ Text Domain: mustang
 */
 
 
+
+
 .nav-link{
     font-size: 1.35em;
     background: #fff;
@@ -16,6 +18,9 @@ Text Domain: mustang
 
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+}
 .nav_item_r{
     height: 40px;
     width: 15px;
