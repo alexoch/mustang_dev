@@ -27,7 +27,7 @@ if (have_posts()) :
                 </div>
                 <div class="row ">
 					<?php
-					$posts = get_posts('category_name=product_sub&order=DSC');
+					$posts = get_posts('category_name=product_sub&order=DSC&posts_per_page=-1');
 					foreach ($posts as $post) {
 						setup_postdata($post);
 						var_dump(get_field("master")[0]);
