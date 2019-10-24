@@ -20,7 +20,12 @@ Text Domain: mustang
 
 .navbar-light .navbar-nav .nav-link{
     color:black;
+    font-weight: bold;
 }
+.active a.nav-link{
+    color: #007bff;
+}
+
 .nav_item_r{
     height: 40px;
     width: 15px;
