@@ -10,11 +10,11 @@
 */
 
 get_header();
-if ( have_posts() ) :
+if (have_posts()) :
 
 	while (have_posts()) {
 		the_post();
-		$master_id=get_the_ID();
+		$master_id = get_the_ID();
 		?>
         <main>
             <div class="container-fluid product-range">
@@ -28,24 +28,26 @@ if ( have_posts() ) :
                 <div class="row ">
 					<?php
 					$posts = get_posts('category_name=product_sub&order=DSC');
-					foreach( $posts as $post ){
-					setup_postdata($post);
-                            if (get_field("master")[0]==$master_id){
+					foreach ($posts as $post) {
+						setup_postdata($post);
+						var_dump(get_field("master"));
+						var_dump($master_id);
+						if (get_field("master")[0] == $master_id) {
 							?>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
-                                    <a href="<?php the_permalink() ?>">
-                                        <div class="product-info">
-                                            <p class="product-title">
-					                            <?php the_title(); ?>
-                                            </p>
-                                        </div>
-                                        <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
-                                             class="product-img">
-                                    </a>
-                                </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                                <a href="<?php the_permalink() ?>">
+                                    <div class="product-info">
+                                        <p class="product-title">
+											<?php the_title(); ?>
+                                        </p>
+                                    </div>
+                                    <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
+                                         class="product-img">
+                                </a>
+                            </div>
 							<?php
-							};
 						};
+					};
 
 					wp_reset_postdata();
 					?>
@@ -53,7 +55,7 @@ if ( have_posts() ) :
                 <div class="row product__section product__used border-bt">
 
                     <div class="col-12 text-justify">
-                        <?php the_content();?>
+						<?php the_content(); ?>
                     </div>
                 </div>
             </div>
@@ -61,7 +63,7 @@ if ( have_posts() ) :
         </main>
 		<?php
 	}
-	endif;
+endif;
 get_footer();
 
 ?>
