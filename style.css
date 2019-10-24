@@ -22,7 +22,7 @@ Text Domain: mustang
     color:black;
     font-weight: bold;
 }
-.active a.nav-link{
+.active>.nav-link{
     color: #007bff;
 }
 
