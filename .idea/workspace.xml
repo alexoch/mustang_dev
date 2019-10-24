@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single/single-product_master.php" beforeDir="false" afterPath="$PROJECT_DIR$/single/single-product_master.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +81,8 @@
         <counts>
           <entry key="css" value="475" />
           <entry key="js" value="26" />
-          <entry key="php" value="1373" />
-          <entry key="txt" value="392" />
+          <entry key="php" value="1379" />
+          <entry key="txt" value="394" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -91,8 +90,8 @@
           <entry key="CSS" value="475" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="26" />
-          <entry key="PHP" value="1369" />
-          <entry key="PLAIN_TEXT" value="392" />
+          <entry key="PHP" value="1375" />
+          <entry key="PLAIN_TEXT" value="394" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,7 +100,7 @@
           <entry key="htaccess" value="1" />
           <entry key="html" value="2" />
           <entry key="js" value="1" />
-          <entry key="php" value="29" />
+          <entry key="php" value="30" />
           <entry key="png" value="2" />
         </counts>
       </usages-collector>
@@ -111,7 +110,7 @@
           <entry key="HTML" value="2" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="29" />
+          <entry key="PHP" value="30" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
@@ -119,6 +118,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="432">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -297,21 +305,7 @@
       <workItem from="1571477814683" duration="7000" />
       <workItem from="1571650325498" duration="280000" />
       <workItem from="1571749224756" duration="3290000" />
-      <workItem from="1571909978352" duration="2312000" />
-    </task>
-    <task id="LOCAL-00039" summary="fixing product page3">
-      <created>1571255139583</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1571255139583</updated>
-    </task>
-    <task id="LOCAL-00040" summary="fixing product page4">
-      <created>1571255238715</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1571255238715</updated>
+      <workItem from="1571909978352" duration="2434000" />
     </task>
     <task id="LOCAL-00041" summary="fixing product page5">
       <created>1571255291450</created>
@@ -642,11 +636,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571912120547</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="fixing master product6">
+      <created>1571912308810</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1571912308810</updated>
+    </task>
+    <task id="LOCAL-00089" summary="fixing master product7">
+      <created>1571912386919</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1571912386919</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126968000" />
+    <option name="totallyTimeSpent" value="127090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -736,8 +744,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="product master update9" />
-    <MESSAGE value="product master update 10" />
     <MESSAGE value="product_sub update" />
     <MESSAGE value="new history" />
     <MESSAGE value="new history2" />
@@ -761,7 +767,9 @@
     <MESSAGE value="fixing master product" />
     <MESSAGE value="fixing master product2" />
     <MESSAGE value="fixing master product3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing master product3" />
+    <MESSAGE value="fixing master product6" />
+    <MESSAGE value="fixing master product7" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing master product7" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -1009,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1446">
@@ -1023,10 +1024,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="432">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -30,8 +30,7 @@ if (have_posts()) :
 					$posts = get_posts('category_name=product_sub&order=DSC&posts_per_page=-1');
 					foreach ($posts as $post) {
 						setup_postdata($post);
-						var_dump(get_field("master")[0]);
-						var_dump(MASTER_ID);
+
 						if (get_field("master")[0] == MASTER_ID) {
 							?>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
