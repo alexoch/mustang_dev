@@ -27,10 +27,9 @@ if ( have_posts() ) :
                 </div>
                 <div class="row ">
 					<?php
-					query_posts('category_name=product_sub&order=DSC');
-					if (have_posts()) :
-						while (have_posts()) {
-							the_post();
+					$posts = get_posts('category_name=product_sub&order=DSC');
+					foreach( $posts as $post ){
+					setup_postdata($post);
                             if (get_field("master")[0]==$master_id){
 							?>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
@@ -47,8 +46,8 @@ if ( have_posts() ) :
 							<?php
 							};
 						};
-					endif;
-					wp_reset_query();
+
+					wp_reset_postdata();
 					?>
                 </div>
                 <div class="row product__section product__used border-bt">
