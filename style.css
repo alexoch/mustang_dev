@@ -22,8 +22,8 @@ Text Domain: mustang
     color:black;
     font-weight: bold;
 }
-.active>.nav-link{
-    color: #007bff;
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #007bff!important;
 }
 
 .nav_item_r{
