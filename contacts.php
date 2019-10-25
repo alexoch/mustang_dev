@@ -226,37 +226,47 @@ get_header();
                 </div>
 
                 <div class="description">
-                    <div class="red" style="background: green">
-                        Красным обведенные области:
-                        Киселевская Ирина
-                        Региональный специалист по продажам
-                        (095) 278-57-57
+                    <div>
+                        Руководитель отела продаж
+                        Сергиенко Дмитрий
+                        (067) 447-71-93
+                        sergienko@ukrpack-holding.com.ua
 
-                        distribution-east@ukrpack-holding.com.ua
+                        Руководитель отдела маркетинга
+                        Воронин Александр
+                        (099) 341-38-57
+                        voronin@ukrpack-holding.com.ua
+
+                    </div>
+                    <div class="red" style="background: green">
+                        Центральный регион
+                        Региональный специалист по продажам
+                        Исмаилов Артем
+                        (050) 372-06-76
+                        Distribution-central@ukrpack-holding.com.ua
                     </div>
                     <div class="blue" style="background: yellow">
-                        Красным обведенные области:
-                        Киселевская Ирина
+                        Восточный регион
                         Региональный специалист по продажам
+                        Киселевкая Ирина
                         (095) 278-57-57
-
                         distribution-east@ukrpack-holding.com.ua
                     </div>
                     <div class="braun" style="background: red">
-                        Красным обведенные области:
-                        Киселевская Ирина
+                        Южный регион
                         Региональный специалист по продажам
-                        (095) 278-57-57
+                        Попсуй Евгений
+                        (067)447-13-27
+                        distribution-south@ukrpack-holding.com.ua
 
-                        distribution-east@ukrpack-holding.com.ua
                     </div>
                     <div class="orange">
-                        Красным обведенные области:
-                        Киселевская Ирина
+                        Западный регион
                         Региональный специалист по продажам
-                        (095) 278-57-57
+                        Степанчук Инна
+                        (095) 295-57-57
+                        distribution@ukrpack-holding.com.ua
 
-                        distribution-east@ukrpack-holding.com.ua
                     </div>
                 </div>
 

@@ -33,8 +33,10 @@ while (have_posts()) {
                     }
                 </style>
                 <div class="back"></div>
-                <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-4">
-                    <div style="background-color: white;">
+                <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10">
+                    <div style="    background-color: #007bffdb!important;
+    padding: 50px;
+    color: white;">
                         <h3 class="about-title font-weight-bold mt-3 mb-4">
                             Почему мы?
                         </h3>
