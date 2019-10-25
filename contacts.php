@@ -64,8 +64,6 @@ get_header();
         }
 
         .description {
-            border: 3px solid green;
-            float: right;
         }
 
 
