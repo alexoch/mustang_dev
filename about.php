@@ -21,7 +21,7 @@ while (have_posts()) {
                 <style type="text/css">
                     .back {
                         display: block;
-                        height: 700px;
+                        height: 710px;
                         position: absolute;
                         top: 137px;
                         width: 100%;
