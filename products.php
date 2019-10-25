@@ -24,7 +24,6 @@ if ( have_posts() ) :
 						'category_name' => 'product,product_master',
 						'posts_per_page' =>-1,
                         'order'=>"ASC"
-
 					];
 					query_posts($args);
 					if (have_posts()) :
