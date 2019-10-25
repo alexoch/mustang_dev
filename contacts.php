@@ -227,7 +227,7 @@ get_header();
 
                 <div class="description row">
 	                <?php
-	                $posts = get_posts('category_name=manager_info&order=DSC&posts_per_page=-1');
+	                $posts = get_posts('category_name=managers_info&order=DSC&posts_per_page=-1');
 	                foreach ($posts as $post) {
 		                setup_postdata($post);
 			                ?>

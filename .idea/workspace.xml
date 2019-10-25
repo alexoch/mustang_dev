@@ -83,8 +83,8 @@
         <counts>
           <entry key="css" value="530" />
           <entry key="js" value="26" />
-          <entry key="php" value="1526" />
-          <entry key="txt" value="433" />
+          <entry key="php" value="1728" />
+          <entry key="txt" value="435" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -92,8 +92,8 @@
           <entry key="CSS" value="530" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="26" />
-          <entry key="PHP" value="1522" />
-          <entry key="PLAIN_TEXT" value="433" />
+          <entry key="PHP" value="1724" />
+          <entry key="PLAIN_TEXT" value="435" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,7 +102,7 @@
           <entry key="htaccess" value="1" />
           <entry key="html" value="2" />
           <entry key="js" value="1" />
-          <entry key="php" value="33" />
+          <entry key="php" value="35" />
           <entry key="png" value="2" />
         </counts>
       </usages-collector>
@@ -112,7 +112,7 @@
           <entry key="HTML" value="2" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="33" />
+          <entry key="PHP" value="35" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
@@ -120,14 +120,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="36" column="61" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="227" column="99" selection-start-line="227" selection-start-column="99" selection-end-line="227" selection-end-column="99" />
+            <state relative-caret-position="64">
+              <caret line="229" column="62" selection-start-line="229" selection-start-column="62" selection-end-line="229" selection-end-column="62" />
               <folding>
                 <element signature="e#138725#138750#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="51" column="22" selection-start-line="28" selection-start-column="20" selection-end-line="51" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -179,12 +197,12 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/single/single-product.php" />
         <option value="$PROJECT_DIR$/single/single-product_sub.php" />
-        <option value="$PROJECT_DIR$/products.php" />
         <option value="$PROJECT_DIR$/map.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/single/single-product_master.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/about.php" />
+        <option value="$PROJECT_DIR$/products.php" />
         <option value="$PROJECT_DIR$/contacts.php" />
       </list>
     </option>
@@ -293,21 +311,7 @@
       <workItem from="1571650325498" duration="280000" />
       <workItem from="1571749224756" duration="3290000" />
       <workItem from="1571909978352" duration="6785000" />
-      <workItem from="1572004117500" duration="5617000" />
-    </task>
-    <task id="LOCAL-00053" summary="product master update">
-      <created>1571313043497</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1571313043498</updated>
-    </task>
-    <task id="LOCAL-00054" summary="product master update2">
-      <created>1571313113144</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1571313113144</updated>
+      <workItem from="1572004117500" duration="8729000" />
     </task>
     <task id="LOCAL-00055" summary="product master update3">
       <created>1571313202389</created>
@@ -638,18 +642,32 @@
       <option name="project" value="LOCAL" />
       <updated>1572011623099</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="new contacts3">
+      <created>1572012005470</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1572012005471</updated>
+    </task>
+    <task id="LOCAL-00103" summary="new contacts4">
+      <created>1572015051404</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1572015051404</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137058000" />
+    <option name="totallyTimeSpent" value="140170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24357034" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -709,8 +727,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="update about6" />
-    <MESSAGE value="update about and header" />
     <MESSAGE value="update about and header2" />
     <MESSAGE value="added map on contacts" />
     <MESSAGE value="updated map on contacts" />
@@ -734,7 +750,9 @@
     <MESSAGE value="new about5" />
     <MESSAGE value="new contacts" />
     <MESSAGE value="new contacts2" />
-    <option name="LAST_COMMIT_MESSAGE" value="new contacts2" />
+    <MESSAGE value="new contacts3" />
+    <MESSAGE value="new contacts4" />
+    <option name="LAST_COMMIT_MESSAGE" value="new contacts4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -957,13 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -983,15 +994,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="320">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="51" column="22" selection-start-line="28" selection-start-column="20" selection-end-line="51" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="227" column="99" selection-start-line="227" selection-start-column="99" selection-end-line="227" selection-end-column="99" />
+        <state relative-caret-position="64">
+          <caret line="229" column="62" selection-start-line="229" selection-start-column="62" selection-end-line="229" selection-end-column="62" />
           <folding>
             <element signature="e#138725#138750#0#HTML" expanded="true" />
           </folding>
