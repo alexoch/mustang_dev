@@ -225,8 +225,8 @@ get_header();
                     </svg>
                 </div>
 
-                <div class="description">
-                    <div>
+                <div class="description col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-5 offset-xl-1 col-xl-5 d-flex justify-content-around flex-column">
+                    <div class="col-4">
                         Руководитель отела продаж
                         Сергиенко Дмитрий
                         (067) 447-71-93
@@ -238,21 +238,21 @@ get_header();
                         voronin@ukrpack-holding.com.ua
 
                     </div>
-                    <div class="braun" style="background: green">
+                    <div class="braun col-4" style="background: green">
                         Центральный регион
                         Региональный специалист по продажам
                         Исмаилов Артем
                         (050) 372-06-76
                         Distribution-central@ukrpack-holding.com.ua
                     </div>
-                    <div class="red" style="background: yellow">
+                    <div class="red col-4" style="background: yellow">
                         Восточный регион
                         Региональный специалист по продажам
                         Киселевкая Ирина
                         (095) 278-57-57
                         distribution-east@ukrpack-holding.com.ua
                     </div>
-                    <div class="blue" style="background: red">
+                    <div class="blue col-4" style="background: red">
                         Южный регион
                         Региональный специалист по продажам
                         Попсуй Евгений
@@ -260,7 +260,7 @@ get_header();
                         distribution-south@ukrpack-holding.com.ua
 
                     </div>
-                    <div class="orange">
+                    <div class="orange col-4">
                         Западный регион
                         Региональный специалист по продажам
                         Степанчук Инна
