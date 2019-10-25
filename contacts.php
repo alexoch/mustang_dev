@@ -223,7 +223,7 @@ get_header();
                     </svg>
                 </div>
 
-                <div class="description row">
+
 	                <?php
 	                $posts = get_posts('category_name=managers_info&order=DSC&posts_per_page=-1');
 	                foreach ($posts as $post) {
@@ -280,7 +280,7 @@ get_header();
                         distribution@ukrpack-holding.com.ua
 
                     </div>
-                </div>
+
             </div>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-5 offset-xl-1 col-xl-5 d-flex justify-content-around flex-column">

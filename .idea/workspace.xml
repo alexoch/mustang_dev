@@ -84,7 +84,7 @@
           <entry key="css" value="530" />
           <entry key="js" value="26" />
           <entry key="php" value="1728" />
-          <entry key="txt" value="435" />
+          <entry key="txt" value="436" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -93,7 +93,7 @@
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="26" />
           <entry key="PHP" value="1724" />
-          <entry key="PLAIN_TEXT" value="435" />
+          <entry key="PLAIN_TEXT" value="436" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -132,9 +132,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="229" column="62" selection-start-line="229" selection-start-column="62" selection-end-line="229" selection-end-column="62" />
+            <state relative-caret-position="380">
+              <caret line="282" column="13" selection-start-line="282" selection-start-column="13" selection-end-line="282" selection-end-column="13" />
               <folding>
+                <element signature="e#1544#138644#0#HTML" />
                 <element signature="e#138725#138750#0#HTML" expanded="true" />
               </folding>
             </state>
@@ -165,6 +166,7 @@
       <find>1.25</find>
       <find>body</find>
       <find>clickDot</find>
+      <find>description</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -311,21 +313,7 @@
       <workItem from="1571650325498" duration="280000" />
       <workItem from="1571749224756" duration="3290000" />
       <workItem from="1571909978352" duration="6785000" />
-      <workItem from="1572004117500" duration="8729000" />
-    </task>
-    <task id="LOCAL-00055" summary="product master update3">
-      <created>1571313202389</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1571313202389</updated>
-    </task>
-    <task id="LOCAL-00056" summary="product master update4">
-      <created>1571313254439</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1571313254440</updated>
+      <workItem from="1572004117500" duration="8964000" />
     </task>
     <task id="LOCAL-00057" summary="product master update5">
       <created>1571313359182</created>
@@ -656,11 +644,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572015051404</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="new contacts5">
+      <created>1572015113252</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1572015113252</updated>
+    </task>
+    <task id="LOCAL-00105" summary="new contacts5">
+      <created>1572015195952</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1572015195952</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140170000" />
+    <option name="totallyTimeSpent" value="140405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -727,7 +729,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="update about and header2" />
     <MESSAGE value="added map on contacts" />
     <MESSAGE value="updated map on contacts" />
     <MESSAGE value="updated map on contacts2" />
@@ -752,7 +753,8 @@
     <MESSAGE value="new contacts2" />
     <MESSAGE value="new contacts3" />
     <MESSAGE value="new contacts4" />
-    <option name="LAST_COMMIT_MESSAGE" value="new contacts4" />
+    <MESSAGE value="new contacts5" />
+    <option name="LAST_COMMIT_MESSAGE" value="new contacts5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -1008,9 +1010,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="229" column="62" selection-start-line="229" selection-start-column="62" selection-end-line="229" selection-end-column="62" />
+        <state relative-caret-position="380">
+          <caret line="282" column="13" selection-start-line="282" selection-start-column="13" selection-end-line="282" selection-end-column="13" />
           <folding>
+            <element signature="e#1544#138644#0#HTML" />
             <element signature="e#138725#138750#0#HTML" expanded="true" />
           </folding>
         </state>
