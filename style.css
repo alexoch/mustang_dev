@@ -324,4 +324,8 @@ body {
 }
 .manager_info_text{
     width: 200px;
+    position: relative;
+    display: inline-block;
+    top: 43px;
+    padding-left: 25px;
 }
