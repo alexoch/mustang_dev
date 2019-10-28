@@ -232,7 +232,7 @@ get_header();
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-6 <?php the_field("class");?>">
 
 
-                                <img src="<?php the_post_thumbnail_url(); ?>" alt="">
+                                <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
                                 <div class="manager_info">
                                     <div class="manager_title">
 						                <?php the_title(); ?>
@@ -250,36 +250,6 @@ get_header();
 	                wp_reset_postdata();
 	                ?>
 
-                    <div class="braun col-12 col-sm-12 col-md-6 col-lg-4 col-xl-6 " style="background: green">
-                        Центральный регион
-                        Региональный специалист по продажам
-                        Исмаилов Артем
-                        (050) 372-06-76
-                        Distribution-central@ukrpack-holding.com.ua
-                    </div>
-                    <div class="red col-12 col-sm-12 col-md-6 col-lg-4 col-xl-6 " style="background: yellow">
-                        Восточный регион
-                        Региональный специалист по продажам
-                        Киселевкая Ирина
-                        (095) 278-57-57
-                        distribution-east@ukrpack-holding.com.ua
-                    </div>
-                    <div class="blue col-12 col-sm-12 col-md-6 col-lg-4 col-xl-6 " style="background: red">
-                        Южный регион
-                        Региональный специалист по продажам
-                        Попсуй Евгений
-                        (067)447-13-27
-                        distribution-south@ukrpack-holding.com.ua
-
-                    </div>
-                    <div class="orange col-12 col-sm-12 col-md-6 col-lg-4 col-xl-6 ">
-                        Западный регион
-                        Региональный специалист по продажам
-                        Степанчук Инна
-                        (095) 295-57-57
-                        distribution@ukrpack-holding.com.ua
-
-                    </div>
 
             </div>
             <div class="row">
