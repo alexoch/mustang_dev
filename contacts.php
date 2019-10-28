@@ -235,7 +235,7 @@ get_header();
 
                         <div class="manager_border <?php the_field("class"); ?>">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
-                            <div class="manager_info">
+                            <div class="manager_info_text">
                                 <div class="manager_title">
 									<?php the_title(); ?>
                                 </div>

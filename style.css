@@ -322,3 +322,6 @@ body {
 .manager_border .active{
     background-color: #1d61ea;
 }
+.manager_info_text{
+    width: 200px;
+}
