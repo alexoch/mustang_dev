@@ -83,8 +83,8 @@
         <counts>
           <entry key="css" value="772" />
           <entry key="js" value="26" />
-          <entry key="php" value="1902" />
-          <entry key="txt" value="451" />
+          <entry key="php" value="1909" />
+          <entry key="txt" value="454" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -92,8 +92,8 @@
           <entry key="CSS" value="772" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="26" />
-          <entry key="PHP" value="1898" />
-          <entry key="PLAIN_TEXT" value="451" />
+          <entry key="PHP" value="1905" />
+          <entry key="PLAIN_TEXT" value="454" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="222">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -302,21 +302,7 @@
       <workItem from="1571749224756" duration="3290000" />
       <workItem from="1571909978352" duration="6785000" />
       <workItem from="1572004117500" duration="9506000" />
-      <workItem from="1572254355783" duration="7019000" />
-    </task>
-    <task id="LOCAL-00070" summary="update products order2">
-      <created>1571404996954</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1571404996954</updated>
-    </task>
-    <task id="LOCAL-00071" summary="update about">
-      <created>1571405482312</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1571405482312</updated>
+      <workItem from="1572254355783" duration="7165000" />
     </task>
     <task id="LOCAL-00072" summary="update about2">
       <created>1571406187032</created>
@@ -647,11 +633,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572261528344</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="new contacts20">
+      <created>1572261953549</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1572261953549</updated>
+    </task>
+    <task id="LOCAL-00120" summary="new contacts21">
+      <created>1572262025253</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1572262025253</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147966000" />
+    <option name="totallyTimeSpent" value="148112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -718,8 +718,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixing header color3" />
-    <MESSAGE value="fixing header color4" />
     <MESSAGE value="new about" />
     <MESSAGE value="new about2" />
     <MESSAGE value="new about3" />
@@ -743,7 +741,9 @@
     <MESSAGE value="new contacts17" />
     <MESSAGE value="new contacts18" />
     <MESSAGE value="new contacts19" />
-    <option name="LAST_COMMIT_MESSAGE" value="new contacts19" />
+    <MESSAGE value="new contacts20" />
+    <MESSAGE value="new contacts21" />
+    <option name="LAST_COMMIT_MESSAGE" value="new contacts21" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -996,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="222">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
