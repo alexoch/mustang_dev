@@ -46,11 +46,11 @@ get_header();
         }
 
         .braun path {
-            fill: #22b2ea;
+            fill: #ddeaee;
         }
 
         .blue path {
-            fill: #b44346;
+            fill: #ddeaee;
         }
 
         .orange path {
