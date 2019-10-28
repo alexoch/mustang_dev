@@ -302,10 +302,14 @@ body {
     width: 300px;
 }
 .manager_pic{
+
     max-width: 200px;
 }
 
-.manager_pic.blue,.manager_pic.red,.manager_pic.braun,.manager_pic.blue{
+.manager_border.braun .manager_pic,
+.manager_border.red .manager_pic,
+.manager_border.braun .manager_pic,
+.manager_border.braun .manager_pic{
     position: relative;
     top: -25px;
 }
@@ -319,9 +323,10 @@ body {
 }
 .manager_name{
     font-weight: bold;
+    display: block;
 }
 .manager_border{
-    max-height: 270px;
+    max-height: 300px;
     background-color: #22b2ea;
     border:1px dashed gray;
 }
@@ -333,5 +338,5 @@ body {
     position: relative;
     display: inline-block;
     top: 43px;
-    left:25px;
+    left:5px;
 }
