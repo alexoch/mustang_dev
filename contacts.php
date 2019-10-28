@@ -231,7 +231,7 @@ get_header();
 				foreach ($posts as $post) {
 					setup_postdata($post);
 					?>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-6  manager_info">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info">
 
                         <div class="manager_border <?php the_field("class"); ?>">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">

@@ -309,6 +309,7 @@ body {
     font-style: italic;
 }
 .manager_info a{
+    color: black;
     display: block;
 }
 .manager_name{
