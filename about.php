@@ -37,9 +37,9 @@ while (have_posts()) {
                     <div style="    background-color: #007bffdb!important;
                         padding: 50px;
                         color: white;">
-                        <h3 class="about-title font-weight-bold mt-3 mb-4">
+                        <!--h3 class="about-title font-weight-bold mt-3 mb-4">
                             Почему мы?
-                        </h3>
+                        </h3-->
                         <p class="text-justify">
                             Торговая Марка MUSTANG берет свое начало с 1997 года и была создана с целью предоставления
                             Потребителям продуктов, обеспечивающих впечатляющие результаты их применения. Торговая

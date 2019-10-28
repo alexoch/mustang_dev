@@ -294,3 +294,12 @@ body {
         left: 0;
     }
 }
+
+.manager_pic{
+    max-width: 200px;
+}
+
+.manager_info{
+    display: inline-block;
+    width: 300px;
+}
