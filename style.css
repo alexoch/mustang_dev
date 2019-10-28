@@ -308,10 +308,10 @@ body {
 
 .manager_border.braun .manager_pic,
 .manager_border.red .manager_pic,
-.manager_border.braun .manager_pic,
-.manager_border.braun .manager_pic{
+.manager_border.blue .manager_pic,
+.manager_border.orange .manager_pic{
     position: relative;
-    top: -25px;
+    top: -7px;
 }
 
 .manager_subt{
