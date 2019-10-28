@@ -19,6 +19,7 @@ get_header();
             font-size: 1.2em;
             font-weight: bold;
         }
+
         #map {
             width: 100%;
             height: auto;
@@ -26,16 +27,18 @@ get_header();
             overflow: hidden;
             position: relative;
         }
+
         svg {
             transition: all .5s;
         }
-        path{
+
+        path {
             fill: #009dd2;
             stroke: #008fb5;
             transition: .5s all;
         }
 
-        .land:hover path{
+        .land:hover path {
             fill: #002338;
         }
 
@@ -66,7 +69,6 @@ get_header();
         .description {
         }
 
-
         h1 {
             font-size: .75rem;
             line-height: .75rem;
@@ -79,7 +81,7 @@ get_header();
         }
     </style>
 
-    <script >
+    <script>
 
     </script>
     <main>
@@ -224,32 +226,33 @@ get_header();
                 </div>
 
 
-	                <?php
-	                $posts = get_posts('category_name=managers_info&order=ASC&posts_per_page=-1');
-	                foreach ($posts as $post) {
-		                setup_postdata($post);
-			                ?>
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-6 <?php the_field("class");?> manager_info">
+				<?php
+				$posts = get_posts('category_name=managers_info&order=ASC&posts_per_page=-1');
+				foreach ($posts as $post) {
+					setup_postdata($post);
+					?>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-6  manager_info">
 
+                        <div class="manager_border <?php the_field("class"); ?>">
+                            <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
+                            <div class="manager_info">
+                                <div class="manager_title">
+									<?php the_title(); ?>
+                                </div>
+                                <div class="manager_dsc">
+                                    <span class="manager_subt"><?php the_content(); ?></span>
+                                    <span class="manager_name"><?php the_field("name"); ?></span>
+                                    <a href="tel:<?php the_field("phone"); ?>"><?php the_field("phone"); ?></a>
+                                    <a href="mail:<?php the_field("email"); ?>"><?php the_field("email"); ?></a>
 
-                                <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
-                                <div class="manager_info">
-                                    <div class="manager_title">
-						                <?php the_title(); ?>
-                                    </div>
-                                    <div class="manager_dsc">
-                                        <span class="manager_subt"><?php the_content();?></span>
-                                        <span class="manager_name"><?php the_field("name"); ?></span>
-                                        <a href="tel:<?php the_field("phone"); ?>"><?php the_field("phone"); ?></a>
-                                        <a href="mail:<?php the_field("email"); ?>"><?php the_field("email"); ?></a>
-
-                                    </div>
                                 </div>
                             </div>
-			                <?php
-	                };
-	                wp_reset_postdata();
-	                ?>
+                        </div>
+                    </div>
+					<?php
+				};
+				wp_reset_postdata();
+				?>
 
 
             </div>

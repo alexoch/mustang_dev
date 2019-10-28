@@ -314,3 +314,10 @@ body {
 .manager_name{
     font-weight: bold;
 }
+.manager_border{
+    background-color: #22b2ea;
+    border:1px dashed gray;
+}
+.manager_border .active{
+    background-color: #1d61ea;
+}
