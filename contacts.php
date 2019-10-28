@@ -240,11 +240,10 @@ get_header();
 									<?php the_title(); ?>
                                 </div>
                                 <div class="manager_dsc">
-                                    <span class="manager_subt"><?php the_content(); ?></span>
+                                    <span class="manager_subt"><?php the_field("manager_subt"); ?></span>
                                     <span class="manager_name"><?php the_field("name"); ?></span>
                                     <a href="tel:<?php the_field("phone"); ?>"><?php the_field("phone"); ?></a>
                                     <a href="mail:<?php the_field("email"); ?>"><?php the_field("email"); ?></a>
-
                                 </div>
                             </div>
                         </div>
