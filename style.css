@@ -305,6 +305,11 @@ body {
     max-width: 200px;
 }
 
+.manager_pic.blue,.manager_pic.red,.manager_pic.braun,.manager_pic.blue{
+    position: relative;
+    top: -25px;
+}
+
 .manager_subt{
     font-style: italic;
 }
@@ -316,16 +321,17 @@ body {
     font-weight: bold;
 }
 .manager_border{
+    max-height: 270px;
     background-color: #22b2ea;
     border:1px dashed gray;
 }
-.manager_border .active{
+.manager_border.active{
     background-color: #1d61ea;
 }
 .manager_info_text{
-    width: 200px;
+    width: 220px;
     position: relative;
     display: inline-block;
     top: 43px;
-    padding-left: 25px;
+    left:25px;
 }
