@@ -225,11 +225,11 @@ get_header();
 
 
 	                <?php
-	                $posts = get_posts('category_name=managers_info&order=DSC&posts_per_page=-1');
+	                $posts = get_posts('category_name=managers_info&order=ASC&posts_per_page=-1');
 	                foreach ($posts as $post) {
 		                setup_postdata($post);
 			                ?>
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-6 <?php the_field("class");?>">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-6 <?php the_field("class");?> manager_info">
 
 
                                 <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
@@ -238,7 +238,8 @@ get_header();
 						                <?php the_title(); ?>
                                     </div>
                                     <div class="manager_dsc">
-                                        <span><?php the_field("name"); ?></span>
+                                        <span class="manager_subt"><?php the_content();?></span>
+                                        <span class="manager_name"><?php the_field("name"); ?></span>
                                         <a href="tel:<?php the_field("phone"); ?>"><?php the_field("phone"); ?></a>
                                         <a href="mail:<?php the_field("email"); ?>"><?php the_field("email"); ?></a>
 

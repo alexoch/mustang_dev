@@ -295,11 +295,22 @@ body {
     }
 }
 
+
+.manager_info{
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+}
 .manager_pic{
     max-width: 200px;
 }
 
-.manager_info{
-    display: inline-block;
-    width: 300px;
+.manager_subt{
+    font-style: italic;
+}
+.manager_info a{
+    display: block;
+}
+.manager_name{
+    font-weight: bold;
 }
