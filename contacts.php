@@ -43,21 +43,10 @@ get_header();
             fill: #002338;
         }
 
-        .red path {
-            fill: #e7e2f8;
+        .red path ,.braun path ,.blue path,.orange path {
+            fill: #009fffa6;
         }
 
-        .braun path {
-            fill: #ddeaee;
-        }
-
-        .blue path {
-            fill: #ddeaee;
-        }
-
-        .orange path {
-            fill: #ddeaee;
-        }
 
         .active path {
             fill: #002338;
