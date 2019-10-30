@@ -66,7 +66,24 @@ if ($('.contacts_slider').is("div")){
         rtl: false,
         onChange: checkDots
     });
+    Siema.prototype.addPagination = function() {
+        var btn_wrapper = document.createElement('div');
+        btn_wrapper.classList.add("dots");
+        for (let i = 0; i < this.innerElements.length; i++) {
+            var btn = document.createElement('button');
+            if(!i) {
+                btn.classList.add('dot-active');
+            }
+            btn.classList.add('dot');
+            btn.addEventListener('click', () => clickDot(i, this));
+            btn_wrapper.appendChild(btn);
+        }
+        this.selector.appendChild(btn_wrapper);
     }
+
+    slider.addPagination();
+
+}
 var id;
 
 $(function() {
