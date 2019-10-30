@@ -22,7 +22,7 @@ Text Domain: mustang
     color: black;
     font-weight: bold;
     padding: 12px 20px;
-    border: 1px solid #036ab0;
+    border: 3px solid #036ab0;
     border-radius: 20px 0px;
 }
 .navbar-light .navbar-nav .active>.nav-link{
@@ -63,7 +63,6 @@ Text Domain: mustang
     padding: 1em 17px;
     margin: 0 auto;
     background: white;
-    border: 1px solid #036ab0;
     border-radius: 20px 0px;
 
 }
@@ -358,4 +357,11 @@ body {
 .contacts-info{
     top: 14%;
     position: relative;
+}
+
+.about-slider .slide-text {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 1em 0;
 }

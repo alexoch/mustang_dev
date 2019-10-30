@@ -176,20 +176,17 @@ while (have_posts()) {
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 contacts_slider">
+
                         <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/IFFIP.PNG" class="slide">
 
                         </div>
                         <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/Interbuild.png" class="slide">
 
                         </div>
                         <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide">
-
-                        </div>
-                        <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/Intertool.png" class="slide">
 
                         </div>
 
