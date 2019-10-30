@@ -34,7 +34,7 @@ get_header();
         }
 
         path {
-            fill:#ddeaee;
+            fill:#009fffa6;
             stroke: #008fb5;
             transition: .5s all;
         }
