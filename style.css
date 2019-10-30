@@ -340,3 +340,8 @@ body {
     top: 43px;
     left:5px;
 }
+
+
+.contacts-map {
+    min-height: 59vh;
+}

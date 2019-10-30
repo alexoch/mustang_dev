@@ -23,9 +23,10 @@ get_header();
         #map {
             width: 70%;
             height: auto;
-            display: inline-block;
+            display: block;
             overflow: hidden;
             position: relative;
+            margin:0 auto;
         }
 
         svg {
