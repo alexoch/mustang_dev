@@ -68,7 +68,7 @@
     <session id="274235734">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="2" />
@@ -76,15 +76,17 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="772" />
           <entry key="js" value="26" />
-          <entry key="php" value="1909" />
-          <entry key="txt" value="454" />
+          <entry key="php" value="1914" />
+          <entry key="txt" value="455" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -92,8 +94,8 @@
           <entry key="CSS" value="772" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="26" />
-          <entry key="PHP" value="1905" />
-          <entry key="PLAIN_TEXT" value="454" />
+          <entry key="PHP" value="1910" />
+          <entry key="PLAIN_TEXT" value="455" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="279">
+              <caret line="277" column="87" selection-start-line="277" selection-start-column="87" selection-end-line="277" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -132,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="327" column="16" lean-forward="true" selection-start-line="327" selection-start-column="16" selection-end-line="327" selection-end-column="16" />
+            <state relative-caret-position="5232">
+              <caret line="327" column="16" selection-start-line="327" selection-start-column="16" selection-end-line="327" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -220,7 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,6 +243,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,14 +304,9 @@
       <workItem from="1571749224756" duration="3290000" />
       <workItem from="1571909978352" duration="6785000" />
       <workItem from="1572004117500" duration="9506000" />
-      <workItem from="1572254355783" duration="7165000" />
-    </task>
-    <task id="LOCAL-00072" summary="update about2">
-      <created>1571406187032</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1571406187033</updated>
+      <workItem from="1572254355783" duration="7781000" />
+      <workItem from="1572290190217" duration="21000" />
+      <workItem from="1572421052998" duration="447000" />
     </task>
     <task id="LOCAL-00073" summary="update about3">
       <created>1571406426246</created>
@@ -647,18 +644,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572262025253</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="new contacts22">
+      <created>1572262096523</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1572262096523</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148112000" />
+    <option name="totallyTimeSpent" value="149196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2473525" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2549168" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -718,7 +722,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="new about" />
     <MESSAGE value="new about2" />
     <MESSAGE value="new about3" />
     <MESSAGE value="new about4" />
@@ -743,7 +746,8 @@
     <MESSAGE value="new contacts19" />
     <MESSAGE value="new contacts20" />
     <MESSAGE value="new contacts21" />
-    <option name="LAST_COMMIT_MESSAGE" value="new contacts21" />
+    <MESSAGE value="new contacts22" />
+    <option name="LAST_COMMIT_MESSAGE" value="new contacts22" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -987,17 +991,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="327" column="16" lean-forward="true" selection-start-line="327" selection-start-column="16" selection-end-line="327" selection-end-column="16" />
+        <state relative-caret-position="279">
+          <caret line="277" column="87" selection-start-line="277" selection-start-column="87" selection-end-line="277" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.php">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="5232">
+          <caret line="327" column="16" selection-start-line="327" selection-start-column="16" selection-end-line="327" selection-end-column="16" />
         </state>
       </provider>
     </entry>
