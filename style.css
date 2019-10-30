@@ -354,3 +354,8 @@ body {
 .slide img{
     width: 100%;
 }
+
+.contacts-info{
+    top: 14%;
+    position: relative;
+}
