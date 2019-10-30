@@ -52,7 +52,11 @@ if($('.main-slider').is("div")){
 }
 
 
-
+if ($('.contacts_slider').is("div")){
+    var slider = new Siema({
+        selector: '.contacts_slider',
+    });
+    }
 var id;
 
 $(function() {
