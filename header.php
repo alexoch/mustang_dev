@@ -39,15 +39,11 @@
 	            foreach ((array)$menu_items as $key => $menu_item) {
 		            if (get_page_link() != $menu_item->url) {
 			            $menu_list .= '<li class="nav-item">';
-			            $menu_list .= '<div class="nav_item_l"></div>';
-                        $menu_list .= '<a class="nav-link" href="' . $menu_item->url . '">' . $menu_item->title . '</a>';
-			            $menu_list .= '<div class="nav_item_r"></div>';
+			            $menu_list .= '<a class="nav-link" href="' . $menu_item->url . '">' . $menu_item->title . '</a>';
 			            $menu_list .= '</li>';
 		            } else {
 		                $menu_list .= '<li class="nav-item active">';
-			            $menu_list .= '<div class="nav_item_l"></div>';
 			            $menu_list .= '<a class="nav-link" href="' . $menu_item->url . '">' . $menu_item->title . '</a>';
-			            $menu_list .= '<div class="nav_item_r"></div>';
 			            $menu_list .= '</li>';
 		            }
 	            }
