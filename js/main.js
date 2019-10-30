@@ -82,6 +82,19 @@ if ($('.contacts_slider').is("div")){
     }
 
     slider.addPagination();
+    function clickDot(i, context) {
+        context.goTo(i);
+        let dotList = document.getElementsByClassName('dot');
+        for( var j = 0; j < dotList.length; j++) {
+            dotList[j].classList.remove('dot-active');
+        }
+        dotList[i].classList.add('dot-active');
+    }
+    function checkDots() {
+        clickDot(this.currentSlide, this)
+    }
+
+
 
 }
 var id;
