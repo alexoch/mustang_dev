@@ -19,20 +19,22 @@ while (have_posts()) {
         <div class="container-fluid about border-tp">
             <div class="row about-text">
                 <style type="text/css">
+                    .about-text{
+                        background: url(<?php the_post_thumbnail_url(  );?>);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position-x: 13%;
+
+                    }
                     .back {
                         display: block;
                         height: 710px;
                         position: absolute;
                         top: 137px;
                         width: 100%;
-                        background: url(<?php the_post_thumbnail_url(  );?>);
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                        background-position-x: 13%;
-                        opacity: 1;
+                         opacity: 1;
                     }
                 </style>
-                <div class="back"></div>
                 <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10">
                     <div style="    background-color: #007bffdb!important;
                         padding: 50px;
