@@ -176,10 +176,10 @@ while (have_posts()) {
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-end justify-content-end p-0 main-slider ">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide">
                     </div>
                 </div>
             </div>
