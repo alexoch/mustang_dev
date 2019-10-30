@@ -167,7 +167,7 @@ while (have_posts()) {
         <div class="about-slider border-tp">
             <div class="slide container-fluid">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center" style="padding: 0;">
                         <div class="slide-content">
                             <h5 class="slide-title font-weight-bold mb-5">
                                 Открытость для потребителя
