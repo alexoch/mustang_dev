@@ -55,6 +55,16 @@ if($('.main-slider').is("div")){
 if ($('.contacts_slider').is("div")){
     var slider = new Siema({
         selector: '.contacts_slider',
+        duration: 200,
+        easing: 'ease-out',
+        perPage: 1,
+        startIndex: 0,
+        draggable: true,
+        multipleDrag: true,
+        threshold: 20,
+        loop: false,
+        rtl: false,
+        onChange: checkDots
     });
     }
 var id;

@@ -53,37 +53,6 @@
 	            }
 	            echo $menu_list;
 	            ?>
-
-                <!--li class="nav-item active">
-                    <div class="nav_item_l"></div>
-					<a class="nav-link" href="<?php echo home_url(); ?>">Главная</a>
-                    <div class="nav_item_r"></div>
-                </li>
-				<li class="nav-item">
-                    <div class="nav_item_l"></div>
-                    <a class="nav-link" href="<?php echo home_url(); ?>/products">АССОРТИМЕНТ</a>
-                    <div class="nav_item_r"></div>
-                </li>
-				<li class="nav-item">
-                    <div class="nav_item_l"></div>
-					<a class="nav-link" href="<?php echo home_url(); ?>/application">ПРИМЕНЕНИЕ</a>
-                    <div class="nav_item_r"></div>
-                </li>
-				<li class="nav-item">
-                    <div class="nav_item_l"></div>
-					<a class="nav-link" href="<?php echo home_url(); ?>/about">ПРО КОМПАНИЮ</a>
-                    <div class="nav_item_r"></div>
-                </li>
-				<li class="nav-item">
-                    <div class="nav_item_l"></div>
-					<a class="nav-link" href="<?php echo home_url(); ?>/distributors">ДЛЯ ДИСТРИБЬЮТЕРОВ</a>
-                    <div class="nav_item_r"></div>
-                </li>
-				<li class="nav-item">
-                    <div class="nav_item_l"></div>
-					<a class="nav-link" href="<?php echo home_url(); ?>/contacts">КОНТАКТЫ</a>
-                    <div class="nav_item_r"></div>
-				</li-->
 			</ul>
 			<form class="form-inline my-2 my-lg-0" style="display: none;">
 				<button class="btn btn-primary my-2 my-sm-0 btn-search" type="submit">
