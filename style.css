@@ -19,8 +19,9 @@ Text Domain: mustang
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color:black;
+    color: black;
     font-weight: bold;
+    padding: 12px 20px;
     border: 1px solid #036ab0;
     border-radius: 20px 0px;
 }
@@ -59,7 +60,7 @@ Text Domain: mustang
     width: 100%;
     display: inline-block;
 
-    padding: 0.6em 0;
+    padding: 1em 17px;
     margin: 0 auto;
     background: white;
     border: 1px solid #036ab0;
@@ -76,11 +77,10 @@ Text Domain: mustang
 }
 .navbar-brand{
     margin-right: 0;
-    height: 120px;
-    width: 201px;
-    top: -21px;
+    height: 122px;
+    width: 235px;
+    top: 10px;
     position: relative;
-
 }
 
 .navbar-brand .nav_item_l{
