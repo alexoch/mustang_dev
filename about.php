@@ -164,7 +164,7 @@ while (have_posts()) {
             </div>
         </div>
 
-        <div class="main-slider about-slider border-tp">
+        <div class="about-slider border-tp">
             <div class="slide container-fluid">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center">
@@ -181,92 +181,11 @@ while (have_posts()) {
                                 с клиентами и конечными потребителями нашей продукции.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-end justify-content-end p-0">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-end justify-content-end p-0 main-slider ">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide-img">
-                    </div>
-                </div>
-            </div>
-            <div class="slide container-fluid">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center">
-                        <div class="slide-content">
-                            <h3 class="slide-title">
-                                Открытость для потребителя
-                            </h3>
-                            <p class="slide-text">TM MUSTANG – публичный и открытый для потребителя бренд. Наше
-                                приоритетное направление в развитии является достижение высокого уровня лояльности к TM
-                                MUSTANG.</p>
-                            <p class="slide-text">Мы всегда рады ответить на любой Ваш вопрос в рамках программы MUSTANG
-                                ASSISTANCE TM. </p>
-                            <p class="slide-text">Данная программа призвана создать комфортные условия для коммуникаций
-                                с клиентами и конечными потребителями нашей продукции.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-end justify-content-end p-0">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide-img">
-                    </div>
-                </div>
-            </div>
-            <div class="slide container-fluid">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center">
-                        <div class="slide-content">
-                            <h3 class="slide-title">
-                                Открытость для потребителя
-                            </h3>
-                            <p class="slide-text">TM MUSTANG – публичный и открытый для потребителя бренд. Наше
-                                приоритетное направление в развитии является достижение высокого уровня лояльности к TM
-                                MUSTANG.</p>
-                            <p class="slide-text">Мы всегда рады ответить на любой Ваш вопрос в рамках программы MUSTANG
-                                ASSISTANCE TM. </p>
-                            <p class="slide-text">Данная программа призвана создать комфортные условия для коммуникаций
-                                с клиентами и конечными потребителями нашей продукции.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-end justify-content-end p-0">
-                        <img src="img/about/expo.jpg" class="slide-img">
-                    </div>
-                </div>
-            </div>
-            <div class="slide container-fluid">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center">
-                        <div class="slide-content">
-                            <h3 class="slide-title">
-                                Открытость для потребителя
-                            </h3>
-                            <p class="slide-text">TM MUSTANG – публичный и открытый для потребителя бренд. Наше
-                                приоритетное направление в развитии является достижение высокого уровня лояльности к TM
-                                MUSTANG.</p>
-                            <p class="slide-text">Мы всегда рады ответить на любой Ваш вопрос в рамках программы MUSTANG
-                                ASSISTANCE TM. </p>
-                            <p class="slide-text">Данная программа призвана создать комфортные условия для коммуникаций
-                                с клиентами и конечными потребителями нашей продукции.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-end justify-content-end p-0">
-                        <img src="img/about/expo.jpg" class="slide-img">
-                    </div>
-                </div>
-            </div>
-            <div class="slide container-fluid">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center">
-                        <div class="slide-content">
-                            <h3 class="slide-title">
-                                Открытость для потребителя
-                            </h3>
-                            <p class="slide-text">TM MUSTANG – публичный и открытый для потребителя бренд. Наше
-                                приоритетное направление в развитии является достижение высокого уровня лояльности к TM
-                                MUSTANG.</p>
-                            <p class="slide-text">Мы всегда рады ответить на любой Ваш вопрос в рамках программы MUSTANG
-                                ASSISTANCE TM. </p>
-                            <p class="slide-text">Данная программа призвана создать комфортные условия для коммуникаций
-                                с клиентами и конечными потребителями нашей продукции.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-end justify-content-end p-0">
-                        <img src="img/about/expo.jpg" class="slide-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/expo.jpg" class="slide-img">
                     </div>
                 </div>
             </div>
