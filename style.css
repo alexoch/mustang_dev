@@ -346,3 +346,6 @@ body {
     min-height: 59vh;
 }
 
+.slide img{
+    width: 100%;
+}
