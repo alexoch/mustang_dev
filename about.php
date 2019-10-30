@@ -167,7 +167,7 @@ while (have_posts()) {
         <div class="about-slider border-tp">
             <div class="slide container-fluid">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center" style="padding: 0;">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-4 d-flex align-items-center" >
                         <div class="slide-content">
                             <h5 class="slide-title font-weight-bold mb-5">
                                 Открытость для потребителя
@@ -175,7 +175,7 @@ while (have_posts()) {
                             <p class="slide-text">TM MUSTANG ярким образом принимает участие в специализированных выставках, воспринимая подобные мероприятия как возможность для обменом информацией с Партнерами как в Украине так и за ее границами! Открытый диалог с Партнерами позволяет успешно реализовывать задачи по развитию наших продуктов и услуг повышая их ценности для Покупателей! Наши посетители имеют возможность протестировать качество продукции прямо на выставочных стендах, как во время индивидуальных встреч так и во время презентационных сессий, что помогает получить лучшее представление о TM MUSTANG. Наши выставочные стенды отображают креативность и индивидуальность TM MUSTANG, несут понимание того, что одной из наших главных задач – быть полезным для каждого, сохраняя добрые и приятные эмоции от использования наших продуктов! </p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 contacts_slider">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 contacts_slider" style="padding: 0;">
 
                         <div>
                             <img src="<?php echo get_template_directory_uri(); ?>/img/about/IFFIP.PNG" class="slide">
