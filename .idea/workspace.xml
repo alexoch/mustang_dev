@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +85,8 @@
         <counts>
           <entry key="css" value="816" />
           <entry key="js" value="60" />
-          <entry key="php" value="2007" />
-          <entry key="txt" value="497" />
+          <entry key="php" value="2026" />
+          <entry key="txt" value="499" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -93,8 +94,8 @@
           <entry key="CSS" value="816" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="60" />
-          <entry key="PHP" value="2003" />
-          <entry key="PLAIN_TEXT" value="497" />
+          <entry key="PHP" value="2022" />
+          <entry key="PLAIN_TEXT" value="499" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -124,8 +125,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="222">
+              <caret line="125" column="106" selection-start-line="125" selection-start-column="106" selection-end-line="125" selection-end-column="106" />
+              <folding>
+                <element signature="e#48521#48539#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -342,21 +346,7 @@
       <workItem from="1572004117500" duration="9506000" />
       <workItem from="1572254355783" duration="7781000" />
       <workItem from="1572290190217" duration="21000" />
-      <workItem from="1572421052998" duration="8390000" />
-    </task>
-    <task id="LOCAL-00087" summary="fixing master product3">
-      <created>1571912120547</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1571912120547</updated>
-    </task>
-    <task id="LOCAL-00088" summary="fixing master product6">
-      <created>1571912308810</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1571912308810</updated>
+      <workItem from="1572421052998" duration="8748000" />
     </task>
     <task id="LOCAL-00089" summary="fixing master product7">
       <created>1571912386919</created>
@@ -687,11 +677,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572441635833</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="edit menu5">
+      <created>1572441809045</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1572441809045</updated>
+    </task>
+    <task id="LOCAL-00137" summary="edit menu6">
+      <created>1572441900550</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1572441900550</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157139000" />
+    <option name="totallyTimeSpent" value="157497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -758,8 +762,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="new contacts12" />
-    <MESSAGE value="new contacts13" />
     <MESSAGE value="new contacts14" />
     <MESSAGE value="new contacts15" />
     <MESSAGE value="new contacts16" />
@@ -783,7 +785,9 @@
     <MESSAGE value="edit menu2" />
     <MESSAGE value="edit menu3" />
     <MESSAGE value="edit menu4" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit menu4" />
+    <MESSAGE value="edit menu5" />
+    <MESSAGE value="edit menu6" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit menu6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -1040,8 +1044,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="222">
+          <caret line="125" column="106" selection-start-line="125" selection-start-column="106" selection-end-line="125" selection-end-column="106" />
+          <folding>
+            <element signature="e#48521#48539#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
