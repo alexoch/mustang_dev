@@ -38,7 +38,7 @@ get_header();
 					while (have_posts()) {
 						the_post(); ?>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-                            <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt="" class="product-img">
+                            <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt="" class="ad-product-img">
                             <div class="product-info">
                                 <p class="product-title">
                                     <?php the_title();?>
