@@ -402,3 +402,8 @@ body {
 .timeline .content p{
     margin-bottom: 0;
 }
+
+.distributors-img-hover{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
