@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,19 +83,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="998" />
+          <entry key="css" value="1018" />
           <entry key="js" value="63" />
-          <entry key="php" value="2367" />
-          <entry key="txt" value="679" />
+          <entry key="php" value="2373" />
+          <entry key="txt" value="682" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="998" />
+          <entry key="CSS" value="1018" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="63" />
-          <entry key="PHP" value="2363" />
-          <entry key="PLAIN_TEXT" value="679" />
+          <entry key="PHP" value="2369" />
+          <entry key="PLAIN_TEXT" value="682" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -137,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/distributors.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
-              <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+              <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -145,8 +146,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="430" column="26" selection-start-line="430" selection-start-column="26" selection-end-line="430" selection-end-column="26" />
+            <state relative-caret-position="293">
+              <caret line="412" column="25" selection-start-line="412" selection-start-column="25" selection-end-line="412" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -341,28 +342,7 @@
       <workItem from="1572254355783" duration="7781000" />
       <workItem from="1572290190217" duration="21000" />
       <workItem from="1572421052998" duration="11824000" />
-      <workItem from="1572509653465" duration="14602000" />
-    </task>
-    <task id="LOCAL-00124" summary="new contacts25">
-      <created>1572422027666</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1572422027666</updated>
-    </task>
-    <task id="LOCAL-00125" summary="edit about slider">
-      <created>1572422877181</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1572422877181</updated>
-    </task>
-    <task id="LOCAL-00126" summary="edit about slider2">
-      <created>1572422960256</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1572422960256</updated>
+      <workItem from="1572509653465" duration="14956000" />
     </task>
     <task id="LOCAL-00127" summary="edit about slider3">
       <created>1572423091228</created>
@@ -686,11 +666,32 @@
       <option name="project" value="LOCAL" />
       <updated>1572551449875</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="trading equipmen12">
+      <created>1572551692114</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1572551692114</updated>
+    </task>
+    <task id="LOCAL-00174" summary="trading equipmen13">
+      <created>1572551865211</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1572551865211</updated>
+    </task>
+    <task id="LOCAL-00175" summary="trading equipmen14">
+      <created>1572551985117</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1572551985117</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175175000" />
+    <option name="totallyTimeSpent" value="175529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -780,9 +781,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="edit about added new pics4" />
-    <MESSAGE value="edit about added new pics5" />
-    <MESSAGE value="trading equipment2" />
     <MESSAGE value="trading equipment3" />
     <MESSAGE value="trading equipment4" />
     <MESSAGE value="trading equipment5" />
@@ -805,7 +803,10 @@
     <MESSAGE value="trading equipmen9" />
     <MESSAGE value="trading equipmen10" />
     <MESSAGE value="trading equipmen11" />
-    <option name="LAST_COMMIT_MESSAGE" value="trading equipmen11" />
+    <MESSAGE value="trading equipmen12" />
+    <MESSAGE value="trading equipmen13" />
+    <MESSAGE value="trading equipmen14" />
+    <option name="LAST_COMMIT_MESSAGE" value="trading equipmen14" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -1069,14 +1070,14 @@
     <entry file="file://$PROJECT_DIR$/distributors.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
-          <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+          <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="430" column="26" selection-start-line="430" selection-start-column="26" selection-end-line="430" selection-end-column="26" />
+        <state relative-caret-position="293">
+          <caret line="412" column="25" selection-start-line="412" selection-start-column="25" selection-end-line="412" selection-end-column="25" />
         </state>
       </provider>
     </entry>
