@@ -380,6 +380,7 @@ body {
 .trade_product-img{
     position: relative;
     width: 300px;
+    margin: 0 auto;
     height: 400px;
 }
 
