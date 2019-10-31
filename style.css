@@ -365,3 +365,14 @@ body {
     line-height: 1.5;
     margin: 1em 0;
 }
+
+.trade_product{
+    text-align: center;
+    color: black;
+    border: 1px solid #4f97c8;
+    border-radius: 30px;
+}
+
+.trade_product-title{
+    color: #000;
+}
