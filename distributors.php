@@ -24,7 +24,7 @@ get_header();
 					Каталог <br> скачать pdf
 				</h6>
 			</a>
-			<a class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 distributors-item d-flex justify-content-around align-items-center flex-column text-center" href="http://mustang.sportquest.com.ua/souvenirs/">
+			<a class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 distributors-item-1 d-flex justify-content-around align-items-center flex-column text-center" href="http://mustang.sportquest.com.ua/souvenirs/">
 				<img src="http://mustang.sportquest.com.ua/wp-content/themes/mustang/img/distributors/tshirt.png" alt="" class="distributors-img">
 				<img src="http://mustang.sportquest.com.ua/wp-content/themes/mustang/img/distributors/tshirt.png" class="distributors-img-hover" />
 				<h6 class="distributors-title">
