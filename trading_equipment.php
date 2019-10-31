@@ -69,6 +69,18 @@ get_header();
         </div>
 </main>
 
+
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript">
+    /*
+	@init feather icons
+	*/
+    feather.replace();
+</script>
+
 <?php
 get_footer();
 
