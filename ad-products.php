@@ -27,134 +27,29 @@ get_header();
 
 		<div class="container-fluid product-range">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/3240431718.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #1
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/36647.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #2
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/BF0033.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #3
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/Notebook-PNG-Clipart.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #4
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/3240431718.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #1
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/36647.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #2
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/BF0033.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #3
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/Notebook-PNG-Clipart.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #4
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/3240431718.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #1
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/36647.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #2
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/BF0033.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #3
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/Notebook-PNG-Clipart.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #4
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/3240431718.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #1
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/36647.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #2
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/BF0033.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #3
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
-					<img src="img/ad-products/Notebook-PNG-Clipart.jpg" height="335" width="299" alt="" class="product-img">
-					<div class="product-info">
-						<p class="product-title">
-							Рекламно-сувенирная <br> продукция #4
-						</p>
-					</div>
-				</div>
+				<?php
+				$args = [
+					'category_name' => 'souvenirs',
+					'posts_per_page' =>-1,
+					'order'=>"ASC"
+				];
+				query_posts($args);
+				if (have_posts()) :
+					while (have_posts()) {
+						the_post(); ?>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 product-item text-center">
+                            <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt="" class="product-img">
+                            <div class="product-info">
+                                <p class="product-title">
+                                    <?php the_title();?>
+                                </p>
+                            </div>
+                        </div>
+						<?php
+					};
+				endif;
+				wp_reset_query();
+				?>
 			</div>
 		</div>
 	</main>
