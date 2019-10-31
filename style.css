@@ -408,20 +408,20 @@ body {
     filter: invert(1);
 }
 
-.distributors-item1:hover{
+.distributors-item-1:hover{
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/catalog.png);
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 
-.distributors-item2:hover{
+.distributors-item-2:hover{
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/futbolka-mustang.jpg);
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
-.distributors-item3:hover{
+.distributors-item-3:hover{
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/dsc_0196-1.jpg);
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
-.distributors-item4:hover{
+.distributors-item-4:hover{
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/otpusk_skotch_mustang.jpg);
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
