@@ -31,8 +31,8 @@ get_header();
                     <img src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/dsc_0221-1.jpg" height="335"
                          width="299" alt="" >
                 </div>
-                <div class="product-info">
-                    <p class="product-title">
+                <div class="trade_product-info">
+                    <p class="trade_product-title">
                         Стеллаж #1
                     </p>
                 </div>
