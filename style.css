@@ -379,6 +379,8 @@ body {
 
 .trade_product-img{
     position: relative;
+    width: 300px;
+    height: 400px;
 }
 
 .trade_product-img img{
