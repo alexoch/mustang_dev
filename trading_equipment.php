@@ -36,7 +36,7 @@ get_header();
                 </div>
             </a>
             <a data-fancybox="gallery" href="http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/dsc_0102-1.jpg"
-               class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center trade_product">
+               class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center ">
                 <div class="trade_product">
 
                     <div class="trade_product-img">
@@ -52,7 +52,7 @@ get_header();
                 </div>
             </a>
             <a data-fancybox="gallery" href="http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/dsc_0123-1.jpg"
-               class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center trade_product">
+               class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center ">
                 <div class="trade_product">
 
                     <div class="trade_product-img">
@@ -68,7 +68,7 @@ get_header();
                 </div>
             </a>
             <a data-fancybox="gallery" href="http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/dsc_0221-1.jpg"
-               class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center trade_product">
+               class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center ">
                 <div class="trade_product">
 
                     <div class="trade_product-img">
