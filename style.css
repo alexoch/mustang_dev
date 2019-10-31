@@ -432,3 +432,6 @@ body {
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
     background-size:cover;
 }
+
+.distributors-item {
+    border: 1px solid rgba(0, 0, 0, 0.94);}
