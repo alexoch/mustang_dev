@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="souvenirs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -83,19 +83,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="887" />
+          <entry key="css" value="889" />
           <entry key="js" value="63" />
-          <entry key="php" value="2208" />
-          <entry key="txt" value="609" />
+          <entry key="php" value="2259" />
+          <entry key="txt" value="620" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="887" />
+          <entry key="CSS" value="889" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="63" />
-          <entry key="PHP" value="2204" />
-          <entry key="PLAIN_TEXT" value="609" />
+          <entry key="PHP" value="2255" />
+          <entry key="PLAIN_TEXT" value="620" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,7 +104,7 @@
           <entry key="htaccess" value="1" />
           <entry key="html" value="4" />
           <entry key="js" value="2" />
-          <entry key="php" value="46" />
+          <entry key="php" value="49" />
           <entry key="png" value="2" />
         </counts>
       </usages-collector>
@@ -114,7 +114,7 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="46" />
+          <entry key="PHP" value="49" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
@@ -137,8 +137,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="383" column="13" selection-start-line="383" selection-start-column="13" selection-end-line="383" selection-end-column="13" />
+            <state relative-caret-position="613">
+              <caret line="395" column="1" selection-start-line="395" selection-start-column="1" selection-end-line="395" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad-products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <folding>
+                <element signature="e#89#126#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="117" selection-start-line="12" selection-start-column="117" selection-end-line="12" selection-end-column="117" />
             </state>
           </provider>
         </entry>
@@ -198,11 +228,11 @@
         <option value="$PROJECT_DIR$/contacts.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/ad-products.php" />
         <option value="$PROJECT_DIR$/distributors.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/trading_equipment.php" />
+        <option value="$PROJECT_DIR$/ad-products.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
@@ -327,21 +357,7 @@
       <workItem from="1572254355783" duration="7781000" />
       <workItem from="1572290190217" duration="21000" />
       <workItem from="1572421052998" duration="11824000" />
-      <workItem from="1572509653465" duration="6089000" />
-    </task>
-    <task id="LOCAL-00108" summary="new contacts8">
-      <created>1572256841919</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1572256841919</updated>
-    </task>
-    <task id="LOCAL-00109" summary="new contacts9">
-      <created>1572258145114</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1572258145114</updated>
+      <workItem from="1572509653465" duration="8788000" />
     </task>
     <task id="LOCAL-00110" summary="new contacts10">
       <created>1572258531051</created>
@@ -672,16 +688,53 @@
       <option name="project" value="LOCAL" />
       <updated>1572517104518</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="trading equipment9">
+      <created>1572517209582</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1572517209582</updated>
+    </task>
+    <task id="LOCAL-00158" summary="souvenirs">
+      <created>1572519404226</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1572519404226</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166662000" />
+    <option name="totallyTimeSpent" value="169361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.25869894" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3275862" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3275862" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32902297" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32902297" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Remote Host" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25869894" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -703,7 +756,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -743,7 +796,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="edit about slider7" />
     <MESSAGE value="edit menu" />
     <MESSAGE value="edit menu2" />
     <MESSAGE value="edit menu3" />
@@ -759,7 +811,6 @@
     <MESSAGE value="edit about added new pics3" />
     <MESSAGE value="edit about added new pics4" />
     <MESSAGE value="edit about added new pics5" />
-    <MESSAGE value="souvenirs" />
     <MESSAGE value="trading equipment" />
     <MESSAGE value="trading equipment2" />
     <MESSAGE value="trading equipment3" />
@@ -768,7 +819,9 @@
     <MESSAGE value="trading equipment6" />
     <MESSAGE value="trading equipment7" />
     <MESSAGE value="trading equipment8" />
-    <option name="LAST_COMMIT_MESSAGE" value="trading equipment8" />
+    <MESSAGE value="trading equipment9" />
+    <MESSAGE value="souvenirs" />
+    <option name="LAST_COMMIT_MESSAGE" value="souvenirs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
@@ -942,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="36" column="61" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -991,16 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="e#89#131#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distributors.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -1012,13 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -1039,10 +1068,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="117" selection-start-line="12" selection-start-column="117" selection-end-line="12" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#89#126#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="383" column="13" selection-start-line="383" selection-start-column="13" selection-end-line="383" selection-end-column="13" />
+        <state relative-caret-position="613">
+          <caret line="395" column="1" selection-start-line="395" selection-start-column="1" selection-end-line="395" selection-end-column="1" />
         </state>
       </provider>
     </entry>
