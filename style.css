@@ -394,3 +394,10 @@ body {
 .about-graph {
     padding: 1em 2%;
 }
+
+.timeline .content{
+    padding: 20px;
+}
+.timeline .content p{
+    margin-bottom: 0;
+}
