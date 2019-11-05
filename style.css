@@ -496,3 +496,21 @@ body {
     top: 50%;
     transform: translate(0%, -56%);
 }
+
+@media screen  and (max-width:660px) {
+    .navbar-light .navbar-brand{
+        max-width: 67%;
+    }
+    .navbar-light .navbar-toggler{
+        background: #fff;
+    }
+    .footer-link{
+        margin: 10px 0;
+    }
+    .icon-info p{
+        display: inline;
+    }
+    .icon-social{
+        margin: .75em 1.55em;
+    }
+}
