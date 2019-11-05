@@ -468,7 +468,7 @@ body {
 }
 
 .ad-product {
-    border: 1px dashed #005097;
+    border: 3px solid #005097;
     padding: 5px;
     min-height: 305px;
     margin: 5px;
