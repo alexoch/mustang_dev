@@ -1,0 +1,64 @@
+.border {
+    background: #000 !important;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#map {
+    width: 70%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin:0 auto;
+}
+
+svg {
+    transition: all .5s;
+}
+
+path {
+    fill:#009fffa6;
+    stroke: #008fb5;
+    transition: .5s all;
+}
+
+.land:hover path {
+    fill: #002338;
+}
+
+.orange path{
+    fill: #CDDC39;
+}
+
+.blue path{
+    fill: #009fffa6;
+}
+.red path{
+    fill: #ffc107;
+}
+
+.braun path {
+    fill: #FFEB3B;
+}
+
+.active path {
+    fill: #002338;
+}
+
+.active .svg-text {
+    fill: #fff;
+}
+
+
+h1 {
+    font-size: .75rem;
+    line-height: .75rem;
+}
+
+.svg-text {
+    font-size: 9px;
+    font-weight: bold;
+    fill: #000e21;
+}

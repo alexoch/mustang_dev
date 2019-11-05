@@ -26,17 +26,9 @@ while (have_posts()) {
                         background-position-x: 13%;
 
                     }
-                    .back {
-                        display: block;
-                        height: 710px;
-                        position: absolute;
-                        top: 137px;
-                        width: 100%;
-                         opacity: 1;
-                    }
                 </style>
                 <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10">
-                    <div style="    background-color: #007bffdb!important;
+                    <div style="    background-color: #0068c3c2!important;
                         padding: 50px;
                         color: white;">
                         <!--h3 class="about-title font-weight-bold mt-3 mb-4">

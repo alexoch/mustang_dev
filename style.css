@@ -5,10 +5,7 @@ Description: mustang tape
 Text Domain: mustang
 */
 
-
-
-
-.nav-link{
+.nav-link {
     font-size: 1.35em;
     background: #fff;
     display: inline-block;
@@ -18,18 +15,19 @@ Text Domain: mustang
 
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: black;
     font-weight: bold;
     padding: 12px 20px;
     border: 3px solid #036ab0;
     border-radius: 20px 0px;
 }
-.navbar-light .navbar-nav .active>.nav-link{
-    color: #007bff!important;
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #007bff !important;
 }
 
-.nav_item_r{
+.nav_item_r {
     height: 40px;
     width: 15px;
     background-image: url(img/back_nav_r1.png);
@@ -41,7 +39,7 @@ Text Domain: mustang
     top: 10px;
 }
 
-.nav_item_l{
+.nav_item_l {
     height: 40px;
     position: relative;
     width: 14px;
@@ -52,11 +50,12 @@ Text Domain: mustang
     margin-right: 0px;
 }
 
-.nav-link{
+.nav-link {
     position: relative;
-    top:-4px;
+    top: -4px;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 100%;
     display: inline-block;
 
@@ -67,14 +66,15 @@ Text Domain: mustang
 
 }
 
-.navbar-brand .nav_item_r{
+.navbar-brand .nav_item_r {
     height: 86px;
     top: 39px;
     background-position-x: 100%;
     width: 20px;
     margin-left: -6px;
 }
-.navbar-brand{
+
+.navbar-brand {
     margin-right: 0;
     height: 122px;
     width: 235px;
@@ -82,7 +82,7 @@ Text Domain: mustang
     position: relative;
 }
 
-.navbar-brand .nav_item_l{
+.navbar-brand .nav_item_l {
     height: 88px;
     top: 38px;
     margin-right: -8px;
@@ -90,7 +90,7 @@ Text Domain: mustang
     width: 20px;
 }
 
-.shadow_header{
+.shadow_header {
     z-index: -1;
     display: block;
     height: 137px;
@@ -100,7 +100,8 @@ Text Domain: mustang
     background: white;
     background-image: url("img/menu.png");
 }
-.header_blue{
+
+.header_blue {
     background: #007bff61;
 }
 
@@ -108,41 +109,48 @@ Text Domain: mustang
     display: none;
 }
 
-.header_bg{
+.header_bg {
     background-image: url("img/menu.png");
 }
-.product-item{padding: 1em;
+
+.product-item {
+    padding: 1em;
     min-height: 30vh;
     border: none;
 }
-.product-item a{
+
+.product-item a {
     padding: 10px;
     min-height: 180px;
     min-width: 30.6vw;
-    background: rgba(0,104,195,1);
-    background: -moz-linear-gradient(left, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,104,195,1)), color-stop(100%, rgba(1,71,140,1)));
-    background: -webkit-linear-gradient(left, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
-    background: -o-linear-gradient(left, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
-    background: -ms-linear-gradient(left, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
-    background: linear-gradient(to right, rgba(0,104,195,1) 0%, rgba(1,71,140,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0068c3', endColorstr='#01478c', GradientType=1 );
+    background: rgba(0, 104, 195, 1);
+    background: -moz-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 104, 195, 1)), color-stop(100%, rgba(1, 71, 140, 1)));
+    background: -webkit-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
+    background: -o-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
+    background: linear-gradient(to right, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0068c3', endColorstr='#01478c', GradientType=1);
 }
-.product-info{
+
+.product-info {
     display: inline-block;
     width: 50%;
     text-align: left;
     vertical-align: middle;
 }
+
 .product-img {
     display: inline-block;
     max-width: 48%;
     min-height: 160px;
 }
-.product-title{
+
+.product-title {
     color: #fff;
 }
-.back_usage_product{
+
+.back_usage_product {
     display: block;
     height: 58%;
     position: absolute;
@@ -157,13 +165,11 @@ Text Domain: mustang
 .ans {
     display: none;
 }
-.product__present{
+
+.product__present {
     width: 400px;
     margin: 50px auto 0;
 }
-
-
-
 
 * {
     box-sizing: border-box;
@@ -235,9 +241,9 @@ body {
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid #9e9e9e5e;
+    border: medium solid rgba(0, 104, 195, 1);
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #9e9e9e5e;
+    border-color: transparent transparent transparent rgba(0, 104, 195, 1);
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -249,9 +255,9 @@ body {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid #9e9e9e5e;
+    border: medium solid rgba(0, 104, 195, 1);
     border-width: 10px 10px 10px 0;
-    border-color: transparent #9e9e9e5e transparent transparent;
+    border-color: transparent rgba(0, 104, 195, 1) transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -300,13 +306,13 @@ body {
     }
 }
 
-
-.manager_info{
+.manager_info {
     padding: 10px;
     display: inline-block;
     width: 300px;
 }
-.manager_pic{
+
+.manager_pic {
 
     max-width: 198px;
 }
@@ -314,48 +320,52 @@ body {
 .manager_border.braun .manager_pic,
 .manager_border.red .manager_pic,
 .manager_border.blue .manager_pic,
-.manager_border.orange .manager_pic{
+.manager_border.orange .manager_pic {
     position: relative;
     top: -7px;
 }
 
-.manager_subt{
+.manager_subt {
     font-style: italic;
 }
-.manager_info a{
+
+.manager_info a {
     color: black;
     display: block;
 }
-.manager_name{
+
+.manager_name {
     font-weight: bold;
     display: block;
 }
-.manager_border{
+
+.manager_border {
     max-height: 300px;
     background-color: #22b2ea;
-    border:1px dashed gray;
+    border: 1px dashed gray;
 }
-.manager_border.active{
+
+.manager_border.active {
     background-color: #1d61ea;
 }
-.manager_info_text{
+
+.manager_info_text {
     width: 220px;
     position: relative;
     display: inline-block;
     top: 43px;
-    left:5px;
+    left: 5px;
 }
-
 
 .contacts-map {
     min-height: 59vh;
 }
 
-.slide img{
+.slide img {
     width: 100%;
 }
 
-.contacts-info{
+.contacts-info {
     top: 14%;
     position: relative;
 }
@@ -367,7 +377,7 @@ body {
     margin: 1em 0;
 }
 
-.trade_product{
+.trade_product {
     text-align: center;
     color: black;
     border: 3px solid #4f97c8;
@@ -375,18 +385,18 @@ body {
 
 }
 
-.trade_product-title{
+.trade_product-title {
     color: #000;
 }
 
-.trade_product-img{
+.trade_product-img {
     position: relative;
     width: 300px;
     margin: 0 auto;
     height: 690px;
 }
 
-.trade_product-img img{
+.trade_product-img img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -397,47 +407,84 @@ body {
     padding: 1em 2%;
 }
 
-.timeline .content{
+.timeline .content {
     padding: 20px;
+    background-color: rgba(0, 104, 195, 1);
+    position: relative;
+    color: white;
 }
-.timeline .content p{
+
+.timeline .content p {
     margin-bottom: 0;
 }
 
-.distributors-img-hover{
+.distributors-img-hover {
     -webkit-filter: invert(1);
     filter: invert(1);
 
 }
 
-.distributors-item:hover{
-    background: #007bff;}
-.distributors-item-1:hover{
-    background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/catalog.png);
-    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
-    background-size:cover;
+.distributors-item:hover {
+    background: #005097;
 }
 
-.distributors-item-2:hover{
+.distributors-item-1:hover {
+    background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/catalog.png);
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+    background-size: cover;
+}
+
+.distributors-item-2:hover {
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/futbolka-mustang.jpg);
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
-    background-size:cover;
+    background-size: cover;
 }
-.distributors-item-3:hover{
+
+.distributors-item-3:hover {
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/dsc_0196-1.jpg);
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
-    background-size:cover;
+    background-size: cover;
 }
-.distributors-item-4:hover{
+
+.distributors-item-4:hover {
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/otpusk_skotch_mustang.jpg);
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
-    background-size:cover;
+    background-size: cover;
 }
 
 .distributors-item {
-    border: 1px solid rgba(0, 0, 0, 0.94);}
+    border: 1px solid rgba(0, 0, 0, 0.94);
+}
 
-.ad-product-img{
-    max-width: 70%;
 
+.slide-title {
+    position: relative;
+    top: 27px;
+}
+
+.footer-link svg path,.footer-link svg circle{
+    fill: none;
+    stroke: black;
+}
+
+
+.ad-product{
+    border: 1px dashed #005097 ;
+    padding: 5px;
+}
+
+
+.ad-product-img {
+    max-width: 50%;
+    display: inline-block;
+}
+.ad-product-info{
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+    vertical-align: middle;
+    color: black;
+}
+.ad-product-title{
+    color: black;
 }

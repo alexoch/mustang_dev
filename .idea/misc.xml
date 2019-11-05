@@ -3,4 +3,7 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="ProjectResources">
+    <resource url="http://amcharts.com/ammap" location="$PROJECT_DIR$" />
+  </component>
 </project>
