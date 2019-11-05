@@ -16,13 +16,13 @@ get_header();
 		the_post();
 		?>
         <div class="row product__section border-bt">
-            <div class="col-6 text-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  text-center">
                 <h1 class="product__title">
 					<?php the_title(); ?>
                 </h1>
                 <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="product__present">
             </div>
-            <div class="col-6 text-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6   text-center">
                 <h3 class="product__title product__title--article">
                     Преимущества
                 </h3>
@@ -65,13 +65,13 @@ get_header();
 
             </div>
         </div>
-        <div class="row product__section product__sizes border-bt">
+        <div class="row product__section product__sizes border-bt ">
             <div class="col-12 text-center">
                 <h3 class="product__title product__title--article">
                     Номенклатура
                 </h3>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-12 text-center overflow-auto">
 				<?php the_field("sizes");?>
             </div>
             <!--div class="col-12">

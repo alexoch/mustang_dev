@@ -466,6 +466,9 @@ body {
     fill: none;
     stroke: black;
 }
+.icon-social svg path{
+    stroke: white;
+}
 
 .ad-product {
     border: 3px solid #005097;
@@ -515,7 +518,8 @@ body {
     }
     .slide-content .link{
         margin: 0 auto;
-        display: block;
+        display: block!important;
+        text-align: center;
     }
     .back{
         height: 97.2%;
@@ -555,6 +559,7 @@ body {
         max-width: 150px;
         margin: 0 auto;
         display: block;
+        top: 0;
     }
     .manager_info_text {
         width: 90%;
@@ -562,5 +567,27 @@ body {
         display: block;
         text-align: center;
         margin: 0 auto;
+    }
+    .navbar-nav{
+        margin-top: 20px;
+    }
+    .slide-price{
+        display: none;
+    }
+
+
+    .trade_product {
+        text-align: center;
+        color: black;
+        border: 3px solid #4f97c8;
+        border-radius: 30px;
+        margin: 10px 0;}
+    .trade_product-img{
+        height: initial;
+    }
+    .trade_product-img img {
+        display: block;
+        margin: 0 auto;
+        width: 77%;
     }
 }

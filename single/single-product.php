@@ -65,13 +65,13 @@ get_header();
 
             </div>
         </div>
-        <div class="row product__section product__sizes border-bt">
+        <div class="row product__section product__sizes border-bt ">
             <div class="col-12 text-center">
                 <h3 class="product__title product__title--article">
                     Номенклатура
                 </h3>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-12 text-center overflow-auto">
                 <?php the_field("sizes");?>
             </div>
             <!--div class="col-12">
