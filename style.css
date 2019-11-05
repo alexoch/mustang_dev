@@ -462,7 +462,7 @@ body {
     top: 27px;
 }
 
-.footer-link svg path,.footer-link svg circle{
+.footer-link svg path,.footer-link svg circle ,.icon-social svg path{
     fill: none;
     stroke: black;
 }
@@ -497,7 +497,7 @@ body {
     transform: translate(0%, -56%);
 }
 
-@media screen  and (max-width:660px) {
+@media screen and (max-width: 600px) {
     .navbar-light .navbar-brand{
         max-width: 67%;
     }
