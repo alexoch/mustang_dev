@@ -567,6 +567,7 @@ body {
         display: block;
         text-align: center;
         margin: 0 auto;
+        top: 0;
     }
     .navbar-nav{
         margin-top: 20px;
@@ -589,5 +590,13 @@ body {
         display: block;
         margin: 0 auto;
         width: 77%;
+        position: initial;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .nav-item {
+        margin: 2px 0;
     }
 }
