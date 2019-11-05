@@ -484,16 +484,14 @@ body {
     color: black;
 }
 
-.ad-product-pic{
-    min-height: 180px;
+.ad-product-pic{    min-height: 250px;
     max-width: 65%;
     display: block;
     margin: 0 auto;
-
 }
 
-.ad-product-img {
-    position: absolute;
+.ad-product-img {position: absolute;
+    width: 50%;
     top: 50%;
-    transform: translate(0%, -50%);
+    transform: translate(0%, -56%);
 }
