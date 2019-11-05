@@ -475,18 +475,25 @@ body {
 }
 
 
-.ad-product-img {
-    max-width: 45%;
-    display: block;
-    margin: 0 auto;
-}
 .ad-product-info{
-    display: inline-block;
-    width: 32%;
-    text-align: left;
-    vertical-align: middle;
+    display: block;
     color: black;
+    text-align: center;
 }
 .ad-product-title{
     color: black;
+}
+
+.ad-product-pic{
+    min-height: 180px;
+    max-width: 65%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.ad-product-img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
