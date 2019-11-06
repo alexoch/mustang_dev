@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/needed.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
     <session id="274235734">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
@@ -88,7 +88,7 @@
           <entry key="css" value="1360" />
           <entry key="js" value="63" />
           <entry key="php" value="2428" />
-          <entry key="txt" value="795" />
+          <entry key="txt" value="1318" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -97,7 +97,7 @@
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="63" />
           <entry key="PHP" value="2424" />
-          <entry key="PLAIN_TEXT" value="795" />
+          <entry key="PLAIN_TEXT" value="1318" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,6 +108,7 @@
           <entry key="js" value="2" />
           <entry key="php" value="63" />
           <entry key="png" value="2" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -117,23 +118,14 @@
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="2" />
           <entry key="PHP" value="63" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -196,6 +188,7 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/needed.txt" />
       </list>
     </option>
   </component>
@@ -310,14 +303,7 @@
       <workItem from="1572421052998" duration="11824000" />
       <workItem from="1572509653465" duration="18563000" />
       <workItem from="1572863039750" duration="1267000" />
-      <workItem from="1572944134493" duration="15562000" />
-    </task>
-    <task id="LOCAL-00145" summary="edit about added new pics4">
-      <created>1572445879152</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1572445879152</updated>
+      <workItem from="1572944134493" duration="20033000" />
     </task>
     <task id="LOCAL-00146" summary="edit about added new pics5">
       <created>1572445927781</created>
@@ -655,15 +641,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572966348166</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="header update">
+      <created>1572966378929</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1572966378929</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195965000" />
+    <option name="totallyTimeSpent" value="200436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26626325" />
@@ -749,7 +741,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="trading equipmen6" />
     <MESSAGE value="trading equipmen7" />
     <MESSAGE value="trading equipmen8" />
     <MESSAGE value="trading equipmen9" />
@@ -774,11 +765,11 @@
     <MESSAGE value="footer css3" />
     <MESSAGE value="mobile update" />
     <MESSAGE value="mobile update2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile update2" />
+    <MESSAGE value="header update" />
+    <option name="LAST_COMMIT_MESSAGE" value="header update" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../museum/prod/functions.php" />
     <entry file="file://$PROJECT_DIR$/../../pastka/cuttent_pastka_theme/functions.php" />
     <entry file="file://$PROJECT_DIR$/../../museum/prod/header.php" />
     <entry file="file://$PROJECT_DIR$/range.html">
@@ -1053,7 +1044,14 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/needed.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
