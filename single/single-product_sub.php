@@ -20,6 +20,7 @@ get_header();
                 <h1 class="product__title">
 					<?php the_title(); ?>
                 </h1>
+
                 <?php the_field("galereya");?>
                 <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="product__present">
             </div>
