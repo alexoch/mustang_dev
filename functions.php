@@ -126,7 +126,7 @@ function my_single_template($single)
 		else if (file_exists(SINGLE_PATH . '/single-' . $cat->term_id . '.php'))
 			return SINGLE_PATH . '/single-' . $cat->term_id . '.php';
 
-		else return 'single.php';
+		else return SINGLE_PATH .'/single.php';
 
 	endforeach;
 }
