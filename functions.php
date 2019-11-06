@@ -166,7 +166,7 @@ function my_gallery_output( $output, $attr ){
 
 		$out .= '
 		<dt>
-			<img src="'. kama_thumb_src('w=185&h=120&src='. $src ) .'" alt="'. $title .'" />'.
+			<img src="'. $src .'" alt="'. $title .'" />'.
 			( $caption ? "<span class='caption'>$caption</span>" : '' ) .
 			'</dt>';
 	}
