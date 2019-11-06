@@ -96,9 +96,9 @@ if ($('.contacts_slider').is("div")){
 
 }
 
-if ($('.gallery').is("div")){
+if ($('.gallery_photos').is("div")){
     var slider = new Siema({
-        selector: '.gallery',
+        selector: '.gallery_photos',
         duration: 200,
         easing: 'ease-out',
         perPage: 1,

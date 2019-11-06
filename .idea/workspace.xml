@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +88,7 @@
           <entry key="css" value="1360" />
           <entry key="js" value="66" />
           <entry key="php" value="2482" />
-          <entry key="txt" value="1336" />
+          <entry key="txt" value="1337" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -98,7 +97,7 @@
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="66" />
           <entry key="PHP" value="2478" />
-          <entry key="PLAIN_TEXT" value="1336" />
+          <entry key="PLAIN_TEXT" value="1337" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -161,7 +160,7 @@
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
-              <caret line="168" column="92" selection-start-line="168" selection-start-column="92" selection-end-line="168" selection-end-column="92" />
+              <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
               <folding>
                 <element signature="n#end_lvl#0;n#Primary_Walker_Nav_Menu#0;n#!!top" expanded="true" />
                 <element signature="n#end_el#0;n#Primary_Walker_Nav_Menu#0;n#!!top" expanded="true" />
@@ -376,14 +375,7 @@
       <workItem from="1572509653465" duration="18563000" />
       <workItem from="1572863039750" duration="1267000" />
       <workItem from="1572944134493" duration="20033000" />
-      <workItem from="1573059905038" duration="1841000" />
-    </task>
-    <task id="LOCAL-00152" summary="trading equipment4">
-      <created>1572514509261</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1572514509262</updated>
+      <workItem from="1573059905038" duration="1945000" />
     </task>
     <task id="LOCAL-00153" summary="trading equipment5">
       <created>1572516460982</created>
@@ -721,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573062347401</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="single update7">
+      <created>1573062499172</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1573062499172</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202277000" />
+    <option name="totallyTimeSpent" value="202381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -792,7 +791,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="trading equipmen13" />
     <MESSAGE value="trading equipmen14" />
     <MESSAGE value="trading equipmen15" />
     <MESSAGE value="trading equipmen16" />
@@ -817,7 +815,8 @@
     <MESSAGE value="single update4" />
     <MESSAGE value="single update5" />
     <MESSAGE value="single update6" />
-    <option name="LAST_COMMIT_MESSAGE" value="single update6" />
+    <MESSAGE value="single update7" />
+    <option name="LAST_COMMIT_MESSAGE" value="single update7" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1101,7 +1100,7 @@
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
-          <caret line="168" column="92" selection-start-line="168" selection-start-column="92" selection-end-line="168" selection-end-column="92" />
+          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
           <folding>
             <element signature="n#end_lvl#0;n#Primary_Walker_Nav_Menu#0;n#!!top" expanded="true" />
             <element signature="n#end_el#0;n#Primary_Walker_Nav_Menu#0;n#!!top" expanded="true" />
