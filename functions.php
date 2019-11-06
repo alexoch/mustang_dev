@@ -1,4 +1,5 @@
 <?php
+add_filter('use_default_gallery_style', '__return_false');
 
 
 function mustang_scripts()
@@ -13,7 +14,6 @@ function mustang_scripts()
 	if (is_page_template('products.php') || is_page_template('trading_equipment.php') || is_page_template('ad-products.php')) {
 		wp_enqueue_style('style-name5', get_template_directory_uri() . '/scss/product.css');
 
-		add_filter('use_default_gallery_style', '__return_false');
 
 	}
 
