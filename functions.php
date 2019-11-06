@@ -1,5 +1,4 @@
 <?php
-add_filter('use_default_gallery_style', '__return_false');
 
 
 function mustang_scripts()
@@ -134,3 +133,45 @@ function my_single_template($single)
 	endforeach;
 }
 
+
+/*
+ * Изменение вывода галереи через шоткод
+ * Смотреть функцию gallery_shortcode в http://wp-kama.ru/filecode/wp-includes/media.php
+ * $output = apply_filters( 'post_gallery', '', $attr );
+ */
+add_filter('post_gallery', 'my_gallery_output', 10, 2);
+function my_gallery_output( $output, $attr ){
+	$ids_arr = explode(',', $attr['ids']);
+	$ids_arr = array_map('trim', $ids_arr );
+
+	$pictures = get_posts( array(
+		'posts_per_page' => -1,
+		'post__in'       => $ids_arr,
+		'post_type'      => 'attachment',
+		'orderby'        => 'post__in',
+	) );
+
+	if( ! $pictures ) return 'Запрос вернул пустой результат.';
+
+	// Вывод
+	$out = '<dl class="gallery_photos">';
+
+	// Выводим каждую картинку из галереи
+	foreach( $pictures as $pic ){
+		$src = $pic->guid;
+		$t = esc_attr( $pic->post_title );
+		$title = ( $t && false === strpos($src, $t)  ) ? $t : '';
+
+		$caption = ( $pic->post_excerpt != '' ? $pic->post_excerpt : $title );
+
+		$out .= '
+		<dt>
+			<img src="'. kama_thumb_src('w=185&h=120&src='. $src ) .'" alt="'. $title .'" />'.
+			( $caption ? "<span class='caption'>$caption</span>" : '' ) .
+			'</dt>';
+	}
+
+	$out .= '</dl>';
+
+	return $out;
+}
