@@ -469,9 +469,8 @@ body {
 .icon-social svg path{
     stroke: white;
 }
-
 .ad-product {
-    border: 3px solid #005097;
+    background: #005097;
     padding: 5px;
     min-height: 305px;
     margin: 5px;
@@ -481,23 +480,24 @@ body {
 
 .ad-product-info{
     display: block;
-    color: black;
     text-align: center;
+    position: relative;
+    top: 10px;
 }
 .ad-product-title{
     color: black;
 }
 
-.ad-product-pic{    min-height: 250px;
-    max-width: 65%;
+.ad-product-pic{    min-height: 255px;
     display: block;
-    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
 }
 
 .ad-product-img {position: absolute;
     width: 50%;
-    top: 50%;
-    transform: translate(0%, -56%);
+    top: 45%;
+    transform: translate(34%, -56%);
 }
 
 @media screen and (max-width: 600px) {
