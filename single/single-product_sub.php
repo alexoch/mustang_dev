@@ -21,8 +21,15 @@ get_header();
 					<?php the_title(); ?>
                 </h1>
 
-                <?php the_field("galereya");?>
-                <!--img src="<?php the_post_thumbnail_url(); ?>" alt="" class="product__present"-->
+                <?php
+                    if(!empty(get_field("galereya"))){
+	                    the_field("galereya");
+                    }else{
+                        echo "<img src=\"".the_post_thumbnail_url()."\" alt=\"\" class=\"product__present\">";
+                    }
+
+                ?>
+
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6   text-center">
                 <h3 class="product__title product__title--article">
