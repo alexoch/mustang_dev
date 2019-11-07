@@ -25,7 +25,7 @@ get_header();
                     if(!empty(get_field("galereya"))){
 	                    the_field("galereya");
                     }else{
-                        echo "<img src=\"".the_post_thumbnail_url()."\" alt=\"\" class=\"product__present\">";
+                        echo "<img src=\"".get_the_post_thumbnail_url()."\" alt=\"\" class=\"product__present\">";
                     }
 
                 ?>
