@@ -114,14 +114,14 @@ Text Domain: mustang
 }
 
 .product-item {
-    padding: 1em;
-    min-height: 30vh;
+    padding: 0.5em;
+    min-height: 24vh;
     border: none;
 }
 
 .product-item a {
-    padding: 10px;
-    min-height: 180px;
+    padding: 10px 0px 10px 10px;
+    min-height: 150px;
     min-width: 30.6vw;
     background: rgba(0, 104, 195, 1);
     background: -moz-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
@@ -133,17 +133,14 @@ Text Domain: mustang
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0068c3', endColorstr='#01478c', GradientType=1);
 }
 
-.product-info {
-    display: inline-block;
-    width: 50%;
+.product-info {display: inline-block;
+    width: 51%;
     text-align: left;
     vertical-align: middle;
 }
 
-.product-img {
-    display: inline-block;
-    max-width: 48%;
-    min-height: 160px;
+.product-img {    display: inline-block;
+    max-width: 47%;
 }
 
 .product-title {
