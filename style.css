@@ -399,7 +399,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
- img .small{
+.trade_product-img .smallimg{
     width: 71%;
 }
 

@@ -26,7 +26,7 @@ get_header();
                     <div class="trade_product-img">
                         <img src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/dsc_0196-1.jpg"
                              height="335"
-                             width="299" alt="" class="small">
+                             width="299" alt="" class="smallimg">
                     </div>
                     <div class="trade_product-info">
                         <p class="trade_product-title">
