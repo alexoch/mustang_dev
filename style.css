@@ -399,7 +399,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.trade_product-img:nth-child(1) img{
+.product-range .row:nth-child(1) img{
     width: 71%;
 }
 
