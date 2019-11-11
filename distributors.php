@@ -17,7 +17,7 @@ get_header();
 <main>
 	<div class="container-fluid distributors">
 		<div class="row">
-			<a class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 distributors-item d-flex justify-content-around align-items-center flex-column text-center" href="">
+			<a class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 distributors-item d-flex justify-content-around align-items-center flex-column text-center" href="http://mustang.sportquest.com.ua/wp-content/uploads/2019/11/catalog-mustang.pdf">
 				<img src="http://mustang.sportquest.com.ua/wp-content/themes/mustang/img/distributors/pdf.png" alt="" class="distributors-img">
 				<img src="http://mustang.sportquest.com.ua/wp-content/themes/mustang/img/distributors/pdf.png" class="distributors-img-hover" />
 				<h6 class="distributors-title">
