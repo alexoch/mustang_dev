@@ -601,3 +601,8 @@ body {
         margin: 2px 0;
     }
 }
+
+.contacts_slider .dot{
+    background: red;
+    border: red;
+}
