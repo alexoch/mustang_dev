@@ -603,6 +603,10 @@ body {
 }
 
 .contacts_slider .dot{
-    background: red;
+
     border: red;
+}
+
+.contacts_slider  .dot-active{
+    background: red;
 }
