@@ -45,7 +45,7 @@ get_header();
         <div class="row product__section prouct__description border-bt" style="">
             <div class="col-12 text-center">
                 <h3 class="product__title anc" style="" onclick="myFunction()">
-                    Детальное описание <img src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/09/Arrow-Circle-Down-16.png" alt="" style="width: 15px;">
+                    Детальное описание <img src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/11/58f8bcf70ed2bdaf7c128307.png" alt="" style="width: 15px;">
                 </h3>
                 <div class="col-12 text-left ans" id="ans">
 					<?php the_content(); ?>
