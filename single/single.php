@@ -26,7 +26,6 @@ get_header();
 				}else{
 					echo "<img src=\"".get_the_post_thumbnail_url()."\" alt=\"\" class=\"product__present\">";
 				}
-
 				?>
 
             </div>
@@ -36,9 +35,7 @@ get_header();
                 </h3>
                 <div class="text-left">
 					<?php the_field("pros");?>
-
                 </div>
-
             </div>
         </div>
         <div class="row product__section prouct__description border-bt" style="">
