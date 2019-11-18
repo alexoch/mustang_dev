@@ -632,3 +632,7 @@ body {
 .odd th{
     padding: 10px;
 }
+.odd th:nth-child(2) img{
+    position: relative;
+    top:20px;
+}
