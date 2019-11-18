@@ -5,8 +5,6 @@
  * Date: 24/07/2019
  * Time: 13:43
  */
-
-
 get_header();
 ?>
 <main>
@@ -21,10 +19,10 @@ get_header();
 					<?php the_title(); ?>
                 </h1>
 				<?php
-				if(!empty(get_field("galereya"))){
+				if (!empty(get_field("galereya"))) {
 					the_field("galereya");
-				}else{
-					echo "<img src=\"".get_the_post_thumbnail_url()."\" alt=\"\" class=\"product__present\">";
+				} else {
+					echo "<img src=\"" . get_the_post_thumbnail_url() . "\" alt=\"\" class=\"product__present\">";
 				}
 				?>
 
@@ -34,14 +32,16 @@ get_header();
                     Преимущества
                 </h3>
                 <div class="text-left">
-					<?php the_field("pros");?>
+					<?php the_field("pros"); ?>
                 </div>
             </div>
         </div>
-        <div class="row product__section prouct__description border-bt" style="">
+        <div class="row product__section product__description border-bt" style="">
             <div class="col-12 text-center">
                 <h3 class="product__title anc" style="" onclick="myFunction()">
-                    Детальное описание <img src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/11/58f8bcf70ed2bdaf7c128307.png" alt="" style="    width: 22px;
+                    Детальное описание <img
+                            src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/11/58f8bcf70ed2bdaf7c128307.png"
+                            alt="" style="    width: 22px;
     position: relative;
     left: -4px;">
                 </h3>
@@ -50,7 +50,7 @@ get_header();
                 </div>
                 <script>
                     function myFunction() {
-                        document.getElementById("ans").style.display= "block";
+                        document.getElementById("ans").style.display = "block";
                     }
                 </script>
             </div>
@@ -67,7 +67,7 @@ get_header();
             </div>
             <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6" style="flex-direction: column;">
                 <div class="product__used--text ">
-					<?php the_field("application");?>
+					<?php the_field("application"); ?>
                 </div>
 
             </div>
@@ -79,49 +79,8 @@ get_header();
                 </h3>
             </div>
             <div class="col-12 text-center overflow-auto">
-				<?php the_field("sizes");?>
+				<?php the_field("sizes"); ?>
             </div>
-            <!--div class="col-12">
-                <ul class="product__colors" style="display: none;">
-                    <li>
-                        <div class="product__colors--color red"></div>
-                        <span>Червоний</span>
-                    </li>
-                    <li>
-                        <div class="product__colors--color blue"></div>
-                        <span>Синій</span>
-                    </li>
-                    <li>
-                        <div class="product__colors--color yellow"></div>
-                        <span>Жовтий</span>
-                    </li>
-                    <li>
-                        <div class="product__colors--color orange"></div>
-                        <span>Помаранчевий</span>
-                    </li>
-                    <li>
-                        <div class="product__colors--color brown"></div>
-                        <span>Коричневий</span>
-                    </li>
-                    <li>
-                        <div class="product__colors--color black"></div>
-                        <span>Чорний</span>
-                    </li>
-                    <li>
-                        <div class="product__colors--color green"></div>
-                        <span>Зелений</span>
-                    </li>
-                    <li>
-                        <div class="product__colors--color multi">
-                            <div class="red"></div>
-                            <div class="yellow"></div>
-                            <div class="blue"></div>
-                            <div class="green"></div>
-                        </div>
-                        <span>Райдуга</span>
-                    </li>
-                </ul>
-            </div-->
         </div>
         <div class="back_usage_product"></div>
 
@@ -133,7 +92,7 @@ get_header();
                 </h3>
             </div>
             <div class="col-12 text-center">
-				<?php the_field("usage_example")?>
+				<?php the_field("usage_example") ?>
             </div>
         </div>
     </div>
@@ -141,8 +100,6 @@ get_header();
 	?>
 
 </main>
-
 <?php
 get_footer();
-
 ?>
