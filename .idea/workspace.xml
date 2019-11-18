@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,19 +88,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1481" />
+          <entry key="css" value="1524" />
           <entry key="js" value="67" />
           <entry key="php" value="2577" />
-          <entry key="txt" value="1471" />
+          <entry key="txt" value="1474" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1481" />
+          <entry key="CSS" value="1524" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="67" />
           <entry key="PHP" value="2573" />
-          <entry key="PLAIN_TEXT" value="1471" />
+          <entry key="PLAIN_TEXT" value="1474" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="613">
-              <caret line="621" column="21" selection-start-line="621" selection-start-column="21" selection-end-line="621" selection-end-column="21" />
+              <caret line="632" column="17" selection-start-line="632" selection-start-column="17" selection-end-line="632" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -339,28 +340,7 @@
       <workItem from="1573487343779" duration="2780000" />
       <workItem from="1573564182066" duration="1682000" />
       <workItem from="1573833445047" duration="1809000" />
-      <workItem from="1574074398178" duration="4436000" />
-    </task>
-    <task id="LOCAL-00176" summary="trading equipmen15">
-      <created>1572552054376</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1572552054376</updated>
-    </task>
-    <task id="LOCAL-00177" summary="trading equipmen16">
-      <created>1572552278820</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1572552278820</updated>
-    </task>
-    <task id="LOCAL-00178" summary="trading equipmen16">
-      <created>1572554609638</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1572554609638</updated>
+      <workItem from="1574074398178" duration="4911000" />
     </task>
     <task id="LOCAL-00179" summary="trading equipmen17">
       <created>1572555864779</created>
@@ -684,11 +664,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574078481954</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="fixing product pages3">
+      <created>1574080037695</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1574080037695</updated>
+    </task>
+    <task id="LOCAL-00226" summary="fixing product pages4">
+      <created>1574080112486</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1574080112486</updated>
+    </task>
+    <task id="LOCAL-00227" summary="fixing product pages5">
+      <created>1574080232224</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1574080232224</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217291000" />
+    <option name="totallyTimeSpent" value="217766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -756,9 +757,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="single update3" />
-    <MESSAGE value="single update4" />
-    <MESSAGE value="single update5" />
     <MESSAGE value="single update6" />
     <MESSAGE value="single update7" />
     <MESSAGE value="single update9" />
@@ -781,7 +779,10 @@
     <MESSAGE value="fixes about3" />
     <MESSAGE value="fixing product pages" />
     <MESSAGE value="fixing product pages2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing product pages2" />
+    <MESSAGE value="fixing product pages3" />
+    <MESSAGE value="fixing product pages4" />
+    <MESSAGE value="fixing product pages5" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing product pages5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1051,7 +1052,7 @@
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
-          <caret line="621" column="21" selection-start-line="621" selection-start-column="21" selection-end-line="621" selection-end-column="21" />
+          <caret line="632" column="17" selection-start-line="632" selection-start-column="17" selection-end-line="632" selection-end-column="17" />
         </state>
       </provider>
     </entry>

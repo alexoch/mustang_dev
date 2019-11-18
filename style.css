@@ -626,3 +626,9 @@ body {
     width: 125px;
     margin: 0 auto;
 }
+.table__h-ico img{
+    max-height: 90px;
+}
+.odd th{
+    padding: 10px;
+}
