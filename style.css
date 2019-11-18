@@ -613,9 +613,9 @@ body {
 
 .product__main table tr{
     background: rgb(2,36,198);
-    background: -moz-radial-gradient(circle, rgba(2,36,198,1) 0%, rgba(255,255,255,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(2,36,198,1) 0%, rgba(255,255,255,1) 100%);
-    background: radial-gradient(circle, rgba(2,36,198,1) 0%, rgba(255,255,255,1) 100%);
+    background: -moz-radial-gradient(circle, rgba(2,36,198,0.7) 0%, rgba(255,255,255,0.7) 100%);
+    background: -webkit-radial-gradient(circle, rgba(2,36,198,0.7) 0%, rgba(255,255,255,0.7) 100%);
+    background: radial-gradient(circle, rgba(2,36,198,0.7) 0%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0224c6",endColorstr="#ffffff",GradientType=1);
 }
 .product__main table tr.white{
