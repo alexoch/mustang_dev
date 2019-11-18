@@ -621,3 +621,8 @@ body {
 .product__main table tr.white{
     background: white;
 }
+.table__h-ico{
+    display: block;
+    width: 125px;
+    margin: 0 auto;
+}
