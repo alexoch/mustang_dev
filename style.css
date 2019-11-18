@@ -636,3 +636,8 @@ body {
     position: relative;
     top:20px;
 }
+
+.product__colors p{
+    margin-bottom: 0;
+    margin-left: 5px;
+}
