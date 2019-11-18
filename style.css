@@ -642,7 +642,7 @@ body {
     margin-left: 5px;
 }
 
-.product__colors--color .white{
+.product__colors--color.white{
     background-color: #fff;
     border: 1px solid black;
 }
