@@ -449,6 +449,9 @@ body {
 
 .distributors-item {
     border: 1px solid rgba(0, 0, 0, 0.94);
+    min-height: 64vh;
+    padding: 10px;
+
 }
 
 
