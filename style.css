@@ -650,6 +650,6 @@ body {
 .distributors-title{
     display: none;
 }
-.distributors-img{
-     margin-top: 0;
+.distributors-img,.distributors-img-hover {
+ margin-top: 0;
 }
