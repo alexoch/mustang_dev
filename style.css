@@ -618,6 +618,9 @@ body {
     background: radial-gradient(circle, rgba(2,36,198,0.7) 0%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0224c6",endColorstr="#ffffff",GradientType=1);
 }
+.product__main td{
+    border: 1px solid white;
+}
 .product__main table tr.white{
     background: white;
 }
