@@ -29,7 +29,7 @@ if ( $the_query->have_posts() ) {?>
             </div>
         </div>
     </div>
-
+<div class="container shares">
   <?php
         while ( $the_query->have_posts() ) {
            $the_query->the_post();
@@ -40,7 +40,7 @@ if ( $the_query->have_posts() ) {?>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <h4 class="shares-title font-weight-bold">
-                             <?php the_title();?>
+                             <a href="<?php the_permalink();?>"><?php the_title();?></a>
                         </h4>
                     </div>
                     <div class="col-12">
@@ -49,7 +49,7 @@ if ( $the_query->have_posts() ) {?>
                 </div>
 
                 <div class="row shares-br m-auto"></div>
-
+</div>
                  <?php
         }
     }else{
