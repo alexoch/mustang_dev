@@ -49,9 +49,10 @@ if ( $the_query->have_posts() ) {?>
                 </div>
 
                 <div class="row shares-br m-auto"></div>
-</div>
+
                  <?php
         }
+        echo "</div>";
     }else{
 ?>
       <div class="container-fluid border-tp">
