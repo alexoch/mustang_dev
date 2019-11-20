@@ -29,7 +29,8 @@
 					</div>
 				</a>
 			</div>
-			<form class="col-12 col-sm-12 col-md-12 col-lg-12 offset-xl-2 col-xl-2 form-inline my-2 my-lg-0" >
+			<form method="GET" action="<?php echo home_url(); ?>/search" class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-2 form-inline my-2 my-lg-0" >
+				<input type="text" name="s">
 				<button class="btn btn-primary my-2 my-sm-0 btn-search" type="submit">
 					<i data-feather="search"></i>
 				</button>

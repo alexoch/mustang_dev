@@ -1,4 +1,18 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: soche
+ * Date: 06/09/2019
+ * Time: 18:41
+ */
+
+/**
+ * Template Name: Search page
+ *
+ * */
+
+get_header();
+?>
 <?php
 $s=$_GET["s"];
 $args = array(
