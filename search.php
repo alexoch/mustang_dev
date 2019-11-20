@@ -20,6 +20,7 @@ $args = array(
             );
 $the_query = new WP_Query( $args );
 if ( $the_query->have_posts() ) {?>
+  
     <div class="container-fluid border-tp">
         <div class="row">
             <div class="container col-12 mt-4 mb-4">
