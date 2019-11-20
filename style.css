@@ -658,6 +658,9 @@ body {
 height: 50%;
 }
 
-.black,.white,.red,.blue,.multi{
+.black,.white,.red,.blue{
     display:inline-block;
+}
+.product__colors--color.multi{
+    margin: 0 auto;
 }
