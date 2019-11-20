@@ -653,3 +653,7 @@ body {
 .distributors-img,.distributors-img-hover {
  margin-top: 0;
 }
+.product-range-img{
+    width: 100%;
+height: 50%;
+}
