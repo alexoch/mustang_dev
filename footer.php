@@ -29,7 +29,12 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12 offset-xl-2 col-xl-3 align-items-center text-center text-xl-right d-flex">
+			<form class="col-12 col-sm-12 col-md-12 col-lg-12 offset-xl-2 col-xl-2 form-inline my-2 my-lg-0" >
+				<button class="btn btn-primary my-2 my-sm-0 btn-search" type="submit">
+					<i data-feather="search"></i>
+				</button>
+			</form>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-2 align-items-center text-center text-xl-right d-flex">
 				<a href="#" class="icon icon-social">
 					<i data-feather="facebook"></i>
 				</a>
