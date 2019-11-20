@@ -11,7 +11,7 @@
 <footer class="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 align-items-center d-flex">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 align-items-center d-flex">
 				<a class="footer-link" href="tel:+380445852108">
 					<i data-feather="smartphone"></i>
 					<div class="icon icon-info">
@@ -29,13 +29,13 @@
 					</div>
 				</a>
 			</div>
-			<form method="GET" action="<?php echo home_url(); ?>/search" class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-2 form-inline my-2 my-lg-0" >
+			<form method="GET" action="<?php echo home_url(); ?>/search" class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-3 form-inline my-2 my-lg-0" >
 				<input type="text" name="s">
 				<button class="btn btn-primary my-2 my-sm-0 btn-search" type="submit">
 					<i data-feather="search"></i>
 				</button>
 			</form>
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-2 align-items-center text-center text-xl-right d-flex">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-3 align-items-center text-center text-xl-right d-flex">
 				<a href="#" class="icon icon-social">
 					<i data-feather="facebook"></i>
 				</a>
