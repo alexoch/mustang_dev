@@ -49,11 +49,7 @@
 	            echo $menu_list;
 	            ?>
 			</ul>
-			<form class="form-inline my-2 my-lg-0" style="display: none;">
-				<button class="btn btn-primary my-2 my-sm-0 btn-search" type="submit">
-					<i data-feather="search"></i>
-				</button>
-			</form>
+			
 		</div>
 	</nav>
 </header>

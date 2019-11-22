@@ -29,7 +29,7 @@ function mustang_scripts()
 		wp_enqueue_style('style-name7', get_template_directory_uri() . '/scss/distributors.css');
 	}
 
-	if (is_page_template('sales.php')) {
+	if (is_page_template('sales.php')||is_page_template('search.php')) {
 		wp_enqueue_style('style-name9', get_template_directory_uri() . '/scss/shares.css');
 	}
 
