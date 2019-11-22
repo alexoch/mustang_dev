@@ -621,6 +621,7 @@ body {
 }
 .product__main table tr.white{
     background: white;
+    display: table-row;
 }
 .table__h-ico{
     display: block;
