@@ -611,13 +611,13 @@ body {
 
 .product__main table tr{
     background: rgb(2,36,198);
-    background: -moz-radial-gradient(circle, rgba(2,36,198,0.6) 0%, rgba(255,255,255,0.7) 100%);
-    background: -webkit-radial-gradient(circle, rgba(2,36,198,0.6) 0%, rgba(255,255,255,0.7) 100%);
-    background: radial-gradient(circle, rgba(2,36,198,0.6) 0%, rgba(255,255,255,1) 100%);
+    background: -moz-radial-gradient(circle, rgba(0, 92, 162,0.6) 0%, rgba(255,255,255,0.7) 100%);
+    background: -webkit-radial-gradient(circle, rgba(0, 92, 162,0.6) 0%, rgba(255,255,255,0.7) 100%);
+    background: radial-gradient(circle, rgba(0, 92, 162,0.6) 0%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0224c6",endColorstr="#ffffff",GradientType=1);
 }
 .product__main td{
-    border: 1px solid white;
+    border: 6px solid white;
 }
 .product__main table tr.white{
     background: white;
@@ -632,7 +632,8 @@ body {
     max-height: 90px;
 }
 .odd th{
-    padding: 10px;
+ padding: 10px;
+    border: 6px solid white;
 }
 .odd th:nth-child(2) img{
     position: relative;
