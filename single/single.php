@@ -14,7 +14,7 @@ get_header();
 		the_post();
 		?>
         <div class="row product__section border-bt">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 text-center">
                 <h1 class="product__title">
 					<?php the_title(); ?>
                 </h1>
@@ -27,7 +27,7 @@ get_header();
 				?>
 
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  text-center">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7  text-center">
                 <h3 class="product__title product__title--article">
                     Преимущества
                 </h3>
@@ -55,17 +55,16 @@ get_header();
                 </script>
             </div>
         </div>
-        <div class="row product__section product__used border-bt" style="background-color:     #f2f2f2;">
-            <div class="col-12 text-center">
-                <h3 class="product__title product__title--article">
-                    Применение
-                </h3>
-            </div>
-            <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6">
+        <div class="row product__used border-bt" style="background-color:     #f2f2f2;">
+
+            <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6 ">
                 <img src="<?php the_field("application_pic"); ?>" alt=""
                      class="product__used--img">
             </div>
             <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6" style="flex-direction: column;">
+                <h3 class="product__title product__title--article">
+                    Применение
+                </h3>
                 <div class="product__used--text ">
 					<?php the_field("application"); ?>
                 </div>
@@ -88,7 +87,7 @@ get_header();
                 ">
             <div class="col-12 text-center">
                 <h3 class="product__title product__title--articles">
-                    Пример использования
+                    Загрузить документы
                 </h3>
             </div>
             <div class="col-12 text-center">

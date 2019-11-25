@@ -551,8 +551,8 @@ body {
     }
     .distributors-title {
         margin-bottom: 15%;}
-    .manager_border {
-        max-height: unset;
+    .manager_border {max-height: unset;
+        width: 100%;
     }
     .manager_pic {
         max-width: 150px;
@@ -610,11 +610,11 @@ body {
 }
 
 .product__main table tr{
-    background: rgb(2,36,198);
-    background: -moz-radial-gradient(circle, rgba(0, 92, 162,0.6) 0%, rgba(255,255,255,0.7) 100%);
-    background: -webkit-radial-gradient(circle, rgba(0, 92, 162,0.6) 0%, rgba(255,255,255,0.7) 100%);
-    background: radial-gradient(circle, rgba(0, 92, 162,0.6) 0%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0224c6",endColorstr="#ffffff",GradientType=1);
+    background: rgba(9, 59, 130,1);
+    background: -moz-radial-gradient(circle, rgba(9, 59, 130,1) 0%, rgba(255,255,255,0.7) 100%);
+    background: -webkit-radial-gradient(circle, rgba(9, 59, 130,1) 0%, rgba(255,255,255,0.7) 100%);
+    background: radial-gradient(circle, rgba(9, 59, 130,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#093b82",endColorstr="#ffffff",GradientType=1);
 }
 .product__main td{
     border: 6px solid white;
@@ -676,4 +676,14 @@ height: 50%;
     padding-left: 0;
     text-align: center;
     width: 376px;
+}
+
+.gallery_photos .caption{
+    display: none;
+}
+
+.product__used--img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
