@@ -95,12 +95,12 @@ get_header();
             }   else{
                 ?>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
-                    <a href="<?php the_permalink() ?>">
+                    <a href="<?php the_permalink() ?>" style="color: white;">
                         Скачать документ
                     </a>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
-                    <a href="<?php the_permalink() ?>">
+                    <a href="<?php the_permalink() ?>" style="color: white;">
                         Скачать документ
                     </a>
                 </div>

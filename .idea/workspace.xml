@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/single/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,8 +91,8 @@
           <entry key="css" value="1698" />
           <entry key="html" value="61" />
           <entry key="js" value="67" />
-          <entry key="php" value="2761" />
-          <entry key="txt" value="1513" />
+          <entry key="php" value="2815" />
+          <entry key="txt" value="1516" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -101,8 +100,8 @@
           <entry key="CSS" value="1698" />
           <entry key="HTML" value="65" />
           <entry key="JavaScript" value="67" />
-          <entry key="PHP" value="2757" />
-          <entry key="PLAIN_TEXT" value="1513" />
+          <entry key="PHP" value="2811" />
+          <entry key="PLAIN_TEXT" value="1516" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -134,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="102" column="75" lean-forward="true" selection-start-line="102" selection-start-column="75" selection-end-line="102" selection-end-column="75" />
+            <state relative-caret-position="116">
+              <caret line="96" column="60" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -381,28 +380,7 @@
       <workItem from="1574420751394" duration="8012000" />
       <workItem from="1574507231059" duration="33000" />
       <workItem from="1574681620014" duration="17000" />
-      <workItem from="1574686309748" duration="5640000" />
-    </task>
-    <task id="LOCAL-00197" summary="single update3">
-      <created>1573060697158</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1573060697159</updated>
-    </task>
-    <task id="LOCAL-00198" summary="single update4">
-      <created>1573060895198</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1573060895198</updated>
-    </task>
-    <task id="LOCAL-00199" summary="single update5">
-      <created>1573062284745</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1573062284745</updated>
+      <workItem from="1574686309748" duration="5929000" />
     </task>
     <task id="LOCAL-00200" summary="single update6">
       <created>1573062347401</created>
@@ -726,11 +704,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574692406269</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="fixes product 26">
+      <created>1574695860790</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1574695860791</updated>
+    </task>
+    <task id="LOCAL-00247" summary="fixes product 27">
+      <created>1574695926503</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1574695926503</updated>
+    </task>
+    <task id="LOCAL-00248" summary="fixes product 28">
+      <created>1574696034508</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1574696034508</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241305000" />
+    <option name="totallyTimeSpent" value="241594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -798,9 +797,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes about" />
-    <MESSAGE value="fixes about2" />
-    <MESSAGE value="fixes about3" />
     <MESSAGE value="fixing product pages" />
     <MESSAGE value="fixing product pages2" />
     <MESSAGE value="fixing product pages3" />
@@ -823,7 +819,10 @@
     <MESSAGE value="fixes product2" />
     <MESSAGE value="fixes product3" />
     <MESSAGE value="fixes product 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes product 25" />
+    <MESSAGE value="fixes product 26" />
+    <MESSAGE value="fixes product 27" />
+    <MESSAGE value="fixes product 28" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes product 28" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../pastka/cuttent_pastka_theme/functions.php" />
@@ -1087,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/single/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="102" column="75" lean-forward="true" selection-start-line="102" selection-start-column="75" selection-end-line="102" selection-end-column="75" />
+        <state relative-caret-position="116">
+          <caret line="96" column="60" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
         </state>
       </provider>
     </entry>
