@@ -81,7 +81,6 @@ get_header();
 				<?php the_field("sizes"); ?>
             </div>
         </div>
-        <div class="back_usage_product"></div>
 
         <div class="row product__section product__example" style="
                 ">
