@@ -85,29 +85,32 @@ get_header();
 
         <div class="row product__section product__example" style="
                 ">
-            <div class="col-12 text-center">
-                <h3 class="product__title product__title--articles">
-                    Скачать документы
-                </h3>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="product__title product__title--articles">
+                        Скачать документы
+                    </h3>
+                </div>
             </div>
-            <div class="col-12 text-center">
-                <?php if(!empty(get_field("usage_example"))) {
-	                the_field("usage_example");
-                }   else{
-                    ?>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
-                        <a href="<?php the_permalink() ?>">
-                            Скачать документ
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
-                        <a href="<?php the_permalink() ?>">
-                            Скачать документ
-                        </a>
-                    </div>
-                <?php
-                }
-                 ?>
+            <div class="row">
+                    <?php if(!empty(get_field("usage_example"))) {
+                        the_field("usage_example");
+                    }   else{
+                        ?>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                            <a href="<?php the_permalink() ?>">
+                                Скачать документ
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                            <a href="<?php the_permalink() ?>">
+                                Скачать документ
+                            </a>
+                        </div>
+                    <?php
+                    }
+                     ?>
+
 
             </div>
         </div>
