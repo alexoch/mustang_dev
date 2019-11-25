@@ -87,7 +87,7 @@ get_header();
                 ">
             <div class="col-12 text-center">
                 <h3 class="product__title product__title--articles">
-                    Загрузить документы
+                    Скачать документы
                 </h3>
             </div>
             <div class="col-12 text-center">
@@ -97,12 +97,12 @@ get_header();
                     ?>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
                         <a href="<?php the_permalink() ?>">
-                            Завантажити документ
+                            Скачать документ
                         </a>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
                         <a href="<?php the_permalink() ?>">
-                            Завантажити документ
+                            Скачать документ
                         </a>
                     </div>
                 <?php
