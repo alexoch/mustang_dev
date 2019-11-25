@@ -91,7 +91,24 @@ get_header();
                 </h3>
             </div>
             <div class="col-12 text-center">
-				<?php the_field("usage_example") ?>
+                <?php if(!empty(get_field("usage_example"))) {
+	                the_field("usage_example");
+                }   else{
+                    ?>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                        <a href="<?php the_permalink() ?>">
+                            Завантажити документ
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                        <a href="<?php the_permalink() ?>">
+                            Завантажити документ
+                        </a>
+                    </div>
+                <?php
+                }
+                 ?>
+
             </div>
         </div>
     </div>
