@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/style.css">
 </head>
 <body>
-<header >
+<header class="shadow_header">
 	<nav class="navbar navbar-expand-xl navbar-light">
 		<a class="navbar-brand" href="<?php echo home_url(); ?>">
             <img src="<?php echo get_template_directory_uri();?>/img/logo.png" alt="Mustang" >

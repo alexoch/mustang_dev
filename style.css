@@ -91,12 +91,7 @@ Text Domain: mustang
 }
 
 .shadow_header {
-    z-index: -1;
-    display: block;
     height: 137px;
-    width: 100%;
-    top: -1px;
-    position: absolute;
     background: white;
     background-image: url("img/menu.png");
 }
@@ -701,4 +696,7 @@ height: 50%;
 .product__used--text ul{
     padding-left: 18px;
 
+}
+.product__main {
+    font-size: 18px;
 }
