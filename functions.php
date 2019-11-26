@@ -29,7 +29,7 @@ function mustang_scripts()
 		wp_enqueue_style('style-name7', get_template_directory_uri() . '/scss/distributors.css');
 	}
 
-	if (is_page_template('sales.php')||is_page_template('search.php')) {
+	if (is_page_template('sales.php') || is_page_template('search.php')) {
 		wp_enqueue_style('style-name9', get_template_directory_uri() . '/scss/shares.css');
 	}
 
@@ -43,7 +43,7 @@ function mustang_scripts()
 add_action('wp_enqueue_scripts', 'mustang_scripts');
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
-add_theme_support( 'title-tag' );
+add_theme_support('title-tag');
 
 add_filter('nav_menu_css_class', 'change_menu_item_css_classes', 10, 4);
 
@@ -128,7 +128,7 @@ function my_single_template($single)
 		else if (file_exists(SINGLE_PATH . '/single-' . $cat->term_id . '.php'))
 			return SINGLE_PATH . '/single-' . $cat->term_id . '.php';
 
-		else return SINGLE_PATH .'/single.php';
+		else return SINGLE_PATH . '/single.php';
 
 	endforeach;
 }
@@ -140,36 +140,39 @@ function my_single_template($single)
  * $output = apply_filters( 'post_gallery', '', $attr );
  */
 add_filter('post_gallery', 'my_gallery_output', 10, 2);
-function my_gallery_output( $output, $attr ){
+function my_gallery_output($output, $attr)
+{
 	$ids_arr = explode(',', $attr['ids']);
-	$ids_arr = array_map('trim', $ids_arr );
+	$ids_arr = array_map('trim', $ids_arr);
 
-	$pictures = get_posts( array(
+	$pictures = get_posts([
 		'posts_per_page' => -1,
 		'post__in'       => $ids_arr,
 		'post_type'      => 'attachment',
 		'orderby'        => 'post__in',
-	) );
+	]);
 
-	if( ! $pictures ) return 'Запрос вернул пустой результат.';
+	if (!$pictures) return 'Запрос вернул пустой результат.';
 
 	// Вывод
 	$out = '<dl class="gallery_photos">';
 
 	// Выводим каждую картинку из галереи
-	foreach( $pictures as $pic ){
+	foreach ($pictures as $pic) {
 		$src = $pic->guid;
-		$t = esc_attr( $pic->post_title );
-		$title = ( $t && false === strpos($src, $t)  ) ? $t : '';
-
-		$caption = ( $pic->post_excerpt != '' ? $pic->post_excerpt : $title );
-
+		$t = esc_attr($pic->post_title);
+		$title = ($t && false === strpos($src, $t)) ? $t : '';
 		$out .= '
 		<dt>
-			<img src="'. $src .'" alt="'. $title .'" />'.
-			( $caption ? "<span class='caption'>$caption</span>" : '' ) .
+			<img src="' . $src . '" alt="' . $title . '" />' .
 			'</dt>';
 	}
+	$video_url='';
+	$out.='<dt>
+		<video>
+			<source src="'.$video_url.'">	
+		</video>
+	</dt>';
 
 	$out .= '</dl>';
 
