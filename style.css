@@ -723,7 +723,7 @@ body {
     margin-left: 15px;
 }
 
-.product__used.product__title--article {
+.product__used .product__title--article {
     margin-top: 1em;
 }
 
