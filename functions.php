@@ -167,9 +167,13 @@ function my_gallery_output($output, $attr)
 			<img src="' . $src . '" alt="' . $title . '" />' .
 			'</dt>';
 	}
-	foreach ($ids_arr as $k=>$v){
-		$video_url=get_field("usage_example",$v);
-		$out.='<dt>'.$v.'</dt>';
+	if(is_array($ids_arr)){
+		foreach ($ids_arr as $k=>$v){
+			$video_url=get_field("usage_example",$v);
+			$out.='<dt>'.$v.'</dt>';
+		}
+	}else{
+		$out.='<dt>'.$ids_arr.'</dt>';
 	}
 
 	$out .= '</dl>';
