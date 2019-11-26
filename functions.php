@@ -167,8 +167,12 @@ function my_gallery_output($output, $attr)
 			<img src="' . $src . '" alt="' . $title . '" />' .
 			'</dt>';
 	}
-			$video_url=get_field("usage_example",get_post_ancestors($ids_arr[0])[0]);
-			$out.='<dt>'.$video_url.'</dt>';
+
+	$video_url=get_field("usage_example",get_post_ancestors($ids_arr[0])[0]);
+	if(!empty($video_url)){
+		$out.='<dt>'.$video_url.'</dt>';
+	}
+
 	$out .= '</dl>';
 	;
 
