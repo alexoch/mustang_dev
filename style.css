@@ -704,9 +704,11 @@ height: 50%;
     bottom: 10px;
 }
 
-.product_docs li{
-    display: block;
+.product_docs li{    display: inline-block;
+    width: 35%;
+    min-width: 26%;
+    margin: 0 20px;
 }
-.product_docs{
-
+.product_docs li a{
+color: white;
 }
