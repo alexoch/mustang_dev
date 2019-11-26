@@ -685,7 +685,7 @@ height: 50%;
 .product__used--img{
     width: 80%;
     display: block;
-    margin-left: 5%;
+    margin-left: 15px;
 }
 .product__title--article {
     font-size: 1.5em;
