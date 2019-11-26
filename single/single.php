@@ -89,8 +89,12 @@ get_header();
                     Скачать документы
                 </h3>
             </div>
-            <?php if(!empty(get_field("usage_example"))) {
-                the_field("usage_example");
+            <?php if(!empty(get_field("documents"))) {
+                ?>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 offset-2 text-center product_docs">
+                <?php the_field("documents");?>
+            </div>
+                <?
             }   else{
                 ?>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 offset-2 product-item text-center">

@@ -114,7 +114,7 @@ Text Domain: mustang
     border: none;
 }
 
-.product-item a {
+.product-item a ,.product_docs li{
     padding: 10px 0px 10px 10px;
     min-height: 150px;
     min-width: 100%;
@@ -702,4 +702,11 @@ height: 50%;
 }
 .gallery_photos .dots{
     bottom: 10px;
+}
+
+.product_docs li{
+    display: block;
+}
+.product_docs{
+
 }
