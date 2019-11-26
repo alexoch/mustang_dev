@@ -700,3 +700,6 @@ height: 50%;
 .product__main {
     font-size: 18px;
 }
+.gallery_photos .dots{
+    bottom: -20px;
+}
