@@ -610,11 +610,11 @@ body {
 }
 
 .product__main table tr{
-    background: rgba(9, 59, 130,1);
-    background: -moz-radial-gradient(circle, rgba(9, 59, 130,1) 0%, rgba(255,255,255,0.7) 100%);
-    background: -webkit-radial-gradient(circle, rgba(9, 59, 130,1) 0%, rgba(255,255,255,0.7) 100%);
-    background: radial-gradient(circle, rgba(9, 59, 130,1) 0%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#093b82",endColorstr="#ffffff",GradientType=1);
+    background: rgba(1, 72, 141,1);
+    background: -moz-radial-gradient(circle, rgba(1, 72, 141,1) 0%, rgba(255,255,255,0.7) 100%);
+    background: -webkit-radial-gradient(circle, rgba(1, 72, 141,1) 0%, rgba(255,255,255,0.7) 100%);
+    background: radial-gradient(circle, rgba(1, 72, 141,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01488d",endColorstr="#ffffff",GradientType=1);
 }
 .product__main td{
     border: 6px solid white;
@@ -691,4 +691,14 @@ height: 50%;
     font-size: 1.5em;
     margin-bottom: 1em;
     margin-top: 1em;
+}
+
+.product__used--text{
+    text-align: justify;
+    max-width: 600px;
+}
+
+.product__used--text ul{
+    padding-left: 18px;
+
 }
