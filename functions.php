@@ -177,6 +177,7 @@ function my_gallery_output($output, $attr)
 	}
 
 	$out .= '</dl>';
+	var_dump($attr);
 
 	return $out;
 }
