@@ -53,5 +53,3 @@
 		</div>
 	</nav>
 </header>
-<div class="shadow_header"></div>
-
