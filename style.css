@@ -723,9 +723,7 @@ body {
     margin-left: 15px;
 }
 
-.product__title--article {
-    font-size: 1.5em;
-    margin-bottom: 1em;
+.product__used.product__title--article {
     margin-top: 1em;
 }
 
