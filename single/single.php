@@ -45,7 +45,7 @@ get_header();
     position: relative;
     left: -4px;">
                 </h3>
-                <div class="col-12 text-left ans" id="ans">
+                <div class="col-12 text-justify ans" id="ans">
 					<?php the_content(); ?>
                 </div>
                 <script>
