@@ -177,7 +177,7 @@ function my_gallery_output($output, $attr)
 	}
 
 	$out .= '</dl>';
-	var_dump($attr);
+	var_dump(get_post_ancestors($ids_arr[0]));
 
 	return $out;
 }

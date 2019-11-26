@@ -91,8 +91,8 @@
           <entry key="css" value="1721" />
           <entry key="html" value="61" />
           <entry key="js" value="67" />
-          <entry key="php" value="2985" />
-          <entry key="txt" value="1534" />
+          <entry key="php" value="3014" />
+          <entry key="txt" value="1536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -100,8 +100,8 @@
           <entry key="CSS" value="1721" />
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="67" />
-          <entry key="PHP" value="2970" />
-          <entry key="PLAIN_TEXT" value="1534" />
+          <entry key="PHP" value="2999" />
+          <entry key="PLAIN_TEXT" value="1536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -160,8 +160,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="164" column="16" lean-forward="true" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
+            <state relative-caret-position="256">
+              <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
             </state>
           </provider>
         </entry>
@@ -399,21 +399,7 @@
       <workItem from="1574507231059" duration="33000" />
       <workItem from="1574681620014" duration="17000" />
       <workItem from="1574686309748" duration="6268000" />
-      <workItem from="1574757288036" duration="7110000" />
-    </task>
-    <task id="LOCAL-00213" summary="fixes distributors4">
-      <created>1573490304762</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1573490304762</updated>
-    </task>
-    <task id="LOCAL-00214" summary="fixes distributors6">
-      <created>1573490378884</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1573490378884</updated>
+      <workItem from="1574757288036" duration="7877000" />
     </task>
     <task id="LOCAL-00215" summary="fixes distributors7">
       <created>1573490435589</created>
@@ -744,11 +730,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574764925459</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="fixes product 42">
+      <created>1574765726151</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1574765726152</updated>
+    </task>
+    <task id="LOCAL-00263" summary="fixes product 43">
+      <created>1574766044438</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1574766044439</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249043000" />
+    <option name="totallyTimeSpent" value="249810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -816,8 +816,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixing product pages14" />
-    <MESSAGE value="fixing product pages15" />
     <MESSAGE value="fixing product pages16" />
     <MESSAGE value="fixing product pages17" />
     <MESSAGE value="Merge branch 'master' of https://github.com/alexoch/mustang_dev&#10;&#10;# Conflicts:&#10;#&#9;style.css" />
@@ -841,7 +839,9 @@
     <MESSAGE value="fixes product 39" />
     <MESSAGE value="fixes product 40" />
     <MESSAGE value="fixes product 41" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes product 41" />
+    <MESSAGE value="fixes product 42" />
+    <MESSAGE value="fixes product 43" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes product 43" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../pastka/cuttent_pastka_theme/functions.php" />
@@ -1105,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="164" column="16" lean-forward="true" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
+        <state relative-caret-position="256">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
         </state>
       </provider>
     </entry>
