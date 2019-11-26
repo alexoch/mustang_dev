@@ -169,7 +169,7 @@ function my_gallery_output($output, $attr)
 	}
 	foreach ($ids_arr as $k=>$v){
 		$video_url=get_field("usage_example",$v);
-		$out.='<dt>'.$video_url.'</dt>';
+		$out.='<dt>'.$v.'</dt>';
 	}
 
 	$out .= '</dl>';
