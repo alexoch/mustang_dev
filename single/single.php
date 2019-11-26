@@ -27,7 +27,7 @@ get_header();
 				?>
 
             </div>
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7  text-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 offset-1  text-center">
                 <h3 class="product__title product__title--article">
                     Преимущества
                 </h3>
