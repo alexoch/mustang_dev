@@ -92,17 +92,17 @@
           <entry key="css" value="1721" />
           <entry key="html" value="61" />
           <entry key="js" value="67" />
-          <entry key="php" value="2859" />
-          <entry key="txt" value="1529" />
+          <entry key="php" value="2981" />
+          <entry key="txt" value="1531" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1721" />
-          <entry key="HTML" value="65" />
+          <entry key="HTML" value="76" />
           <entry key="JavaScript" value="67" />
-          <entry key="PHP" value="2855" />
-          <entry key="PLAIN_TEXT" value="1529" />
+          <entry key="PHP" value="2966" />
+          <entry key="PLAIN_TEXT" value="1531" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -161,8 +161,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
+            <state relative-caret-position="453">
+              <caret line="169" column="31" selection-start-line="169" selection-start-column="31" selection-end-line="169" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -280,7 +280,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="1" />
     <option name="width" value="1366" />
     <option name="height" value="767" />
@@ -400,21 +400,7 @@
       <workItem from="1574507231059" duration="33000" />
       <workItem from="1574681620014" duration="17000" />
       <workItem from="1574686309748" duration="6268000" />
-      <workItem from="1574757288036" duration="5041000" />
-    </task>
-    <task id="LOCAL-00209" summary="single sub and product update2">
-      <created>1573138891970</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1573138891970</updated>
-    </task>
-    <task id="LOCAL-00210" summary="fixes distributors">
-      <created>1573489815357</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1573489815358</updated>
+      <workItem from="1574757288036" duration="6064000" />
     </task>
     <task id="LOCAL-00211" summary="fixes distributors">
       <created>1573490113948</created>
@@ -745,14 +731,28 @@
       <option name="project" value="LOCAL" />
       <updated>1574762891821</updated>
     </task>
-    <option name="localTasksCounter" value="258" />
+    <task id="LOCAL-00258" summary="fixes product 38">
+      <created>1574763792240</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1574763792240</updated>
+    </task>
+    <task id="LOCAL-00259" summary="fixes product 39">
+      <created>1574764443603</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1574764443603</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246974000" />
+    <option name="totallyTimeSpent" value="247997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -817,8 +817,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixing product pages10" />
-    <MESSAGE value="fixing product pages11" />
     <MESSAGE value="fixing product pages12" />
     <MESSAGE value="fixing product pages13" />
     <MESSAGE value="fixing product pages14" />
@@ -842,7 +840,9 @@
     <MESSAGE value="fixes product 35" />
     <MESSAGE value="fixes product 36" />
     <MESSAGE value="fixes product 37" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes product 37" />
+    <MESSAGE value="fixes product 38" />
+    <MESSAGE value="fixes product 39" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes product 39" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../pastka/cuttent_pastka_theme/functions.php" />
@@ -1106,8 +1106,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
+        <state relative-caret-position="453">
+          <caret line="169" column="31" selection-start-line="169" selection-start-column="31" selection-end-line="169" selection-end-column="31" />
         </state>
       </provider>
     </entry>
