@@ -696,6 +696,8 @@ body {
 .product-range-img {
     width: 100%;
     height: 50%;
+    position: relative;
+    top: -16px;
 }
 
 .black, .white, .red, .blue {
