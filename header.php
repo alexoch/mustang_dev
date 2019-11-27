@@ -53,6 +53,7 @@
 		</div>
 	</nav>
 </header>
+<?php if (!is_home()){?>
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <?php
@@ -69,3 +70,5 @@
 
     </ol>
 </nav>
+
+<?php } ?>

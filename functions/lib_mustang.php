@@ -18,8 +18,6 @@ function mustang_scripts()
 	}
 	if (is_page_template('products.php') || is_page_template('trading_equipment.php') || is_page_template('ad-products.php')) {
 		wp_enqueue_style('style-name5', get_template_directory_uri() . '/scss/product.css');
-
-
 	}
 
 	if (is_page_template('about.php')) {
@@ -157,10 +155,14 @@ function get_breadcrumbs($q_obj ){
 	$res=[
 		"Главная" => get_home_url()
 	];
+
 	if(is_page($q_obj )){
 		$res [$q_obj->post_title]="";
 	}
 	if(is_single($q_obj )){
+		if(is_page_template('trading_equipment.php') || is_page_template('ad-products.php')|| is_page_template('sales.php')){
+
+		}
 		$res [$q_obj->post_title]="";
 	}
 	return $res;
