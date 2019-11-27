@@ -157,13 +157,16 @@ function get_breadcrumbs($q_obj ){
 	];
 
 	if(is_page($q_obj )){
-		$res [$q_obj->post_title]="";
-	}
-	if(is_single($q_obj )){
 		if(is_page_template('trading_equipment.php') || is_page_template('ad-products.php')|| is_page_template('sales.php')){
-
+			$res ["Дистрибуторам"]=get_home_url().'/distributors';
 		}
-		$res [$q_obj->post_title]="";
 	}
+	if(is_single($q_obj)){
+		$res ["Продукция"]=get_home_url().'/products';
+		if(!empty(get_field("master"))){
+			$res [get_field("master")[1]]=get_field("master")[2];
+		}
+	}
+	$res [$q_obj->post_title]="";
 	return $res;
 }
