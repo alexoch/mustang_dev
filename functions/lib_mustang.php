@@ -165,7 +165,7 @@ function get_breadcrumbs($q_obj ){
 		$res ["Продукция"]=get_home_url().'/products';
 		if(!empty(get_field("master"))){
 			$master=get_post(get_field("master")[0]);
-			$res [$master->post_name]=$master->guid;
+			$res [$master->title]=$master->guid;
 		}
 	}
 	$res [$q_obj->post_title]="";
