@@ -500,8 +500,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .navbar{
+        z-index: 99;
+    }
     .navbar-light .navbar-brand {
         max-width: 67%;
+
     }
 
     .navbar-light .navbar-toggler {
