@@ -53,3 +53,18 @@
 		</div>
 	</nav>
 </header>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="<?php home_url();?>">Главная</a></li>
+        <?php
+            if (is_page()){
+                array_push($res, get_the_title());
+            }
+            if(is_single()){
+
+            }
+        ?>
+        <li class="breadcrumb-item"><a href="<?php echo get_home_url().'/products';?>">Продукция</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><?php the_title();?></li>
+    </ol>
+</nav>

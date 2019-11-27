@@ -7,13 +7,6 @@
  */
 get_header();
 ?>
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="<?php home_url();?>">Главная</a></li>
-        <li class="breadcrumb-item"><a href="<?php echo get_home_url().'/products';?>">Продукция</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><?php the_title();?></li>
-    </ol>
-</nav>
 <main>
     <div class="container-fluid product__main border-bt">
 		<?php

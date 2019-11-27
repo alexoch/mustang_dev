@@ -95,7 +95,7 @@ get_header();
 					</div>
 					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 use-product">
 						<img src="<?php  echo get_template_directory_uri(); ?>/img/prodducts/1717.jpg">
-						<a class="use-link" href="products.html">
+						<a class="use-link" href="#">
 							НА СТРАНИЦУ ПРОДУКТА
 						</a>
 					</div>
@@ -120,7 +120,7 @@ get_header();
 					</div>
 					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 use-product">
 						<img src="<?php  echo get_template_directory_uri(); ?>/img/prodducts/DSC_0151_b.jpg">
-						<a class="use-link" href="products.html">
+						<a class="use-link" href="">
 							НА СТРАНИЦУ ПРОДУКТА
 						</a>
 					</div>
@@ -148,7 +148,7 @@ get_header();
 					</div>
 					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 use-product">
 						<img src="<?php  echo get_template_directory_uri(); ?>/img/prodducts/DSC_0120_b.jpg">
-						<a class="use-link" href="products.html">
+						<a class="use-link" href="">
 							НА СТРАНИЦУ ПРОДУКТА
 						</a>
 					</div>
