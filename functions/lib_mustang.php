@@ -153,3 +153,15 @@ function my_gallery_output($output, $attr)
 
 	return $out;
 }
+function get_breadcrumbs($q_obj ){
+	$res=[
+		"Главная" => get_home_url()
+	];
+	if(is_page($q_obj )){
+		$res [$q_obj->post_title]="";
+	}
+	if(is_single($q_obj )){
+		$res [$q_obj->post_title]="";
+	}
+	return $res;
+}

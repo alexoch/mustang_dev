@@ -55,16 +55,17 @@
 </header>
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="<?php home_url();?>">Главная</a></li>
         <?php
-            if (is_page()){
-                array_push($res, get_the_title());
+        $q_obj = get_queried_object();
+        $b_c=get_breadcrumbs($q_obj );
+        foreach ($b_c as $k=>$v){
+            if($v!=""){
+	            echo '<li class="breadcrumb-item active" aria-current="page"><a href="'.$v.'">'.$k.'</a></li>';
+            }else{
+                echo '<li class="breadcrumb-item active" aria-current="page">'.$k.'</li>';
             }
-            if(is_single()){
-
-            }
+        }
         ?>
-        <li class="breadcrumb-item"><a href="<?php echo get_home_url().'/products';?>">Продукция</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><?php the_title();?></li>
+
     </ol>
 </nav>
