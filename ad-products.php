@@ -15,7 +15,7 @@ get_header();
 
 
 <main>
-    <div class="container-fluid border-tp">
+    <div class="container-fluid border-tp" style="display: none;">
         <div class="row">
             <div class="container col-12 mt-4 mb-4">
                 <h5 class="font-weight-bold mb-0 text-uppercase">

@@ -31,7 +31,7 @@ get_header();
                 <h3 class="product__title product__title--article">
                     Преимущества
                 </h3>
-                <div class="text-left product__used--text">
+                <div class=" product__used--text">
 					<?php the_field("pros"); ?>
                 </div>
             </div>

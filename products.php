@@ -10,20 +10,20 @@
  *
  * */
 get_header();
-if ( have_posts() ) :
+if (have_posts()) :
 	while (have_posts()) {
 		the_post();
 		?>
 
         <main>
             <div class="container-fluid product-range">
-    <div class="row"><img src="<?php the_post_thumbnail_url();  ?>" alt="" class="product-range-img"></div>
+                <div class="row"><img src="<?php the_post_thumbnail_url(); ?>" alt="" class="product-range-img"></div>
                 <div class="row">
 					<?php
 					$args = [
-						'category_name' => 'product,product_master',
-						'posts_per_page' =>-1,
-                        'order'=>"ASC"
+						'category_name'  => 'product,product_master',
+						'posts_per_page' => -1,
+						'order'          => "ASC"
 					];
 					query_posts($args);
 					if (have_posts()) :
@@ -32,18 +32,13 @@ if ( have_posts() ) :
 
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
                                 <a href="<?php the_permalink() ?>">
-                                <div class="product-info">
-                                    <p class="product-title">
-										<?php the_title(); ?>
-                                    </p>
-                                    <!--a class="link d-inline-flex align-items-center font-size-auto"
-                                       href="<?php the_permalink() ?>">
-                                        ПОДРОБНЕЕ
-                                        <i data-feather="arrow-right"></i>
-                                    </a-->
-                                </div>
-                                <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
-                                     class="product-img">
+                                    <div class="product-info">
+                                        <p class="product-title">
+											<?php the_title(); ?>
+                                        </p>
+                                    </div>
+                                    <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
+                                         class="product-img">
                                 </a>
                             </div>
 							<?php
@@ -57,5 +52,5 @@ if ( have_posts() ) :
         </main>
 		<?php
 	};endif;
-	get_footer();
+get_footer();
 ?>

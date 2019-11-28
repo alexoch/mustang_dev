@@ -14,7 +14,7 @@ get_header();
 ?>
 
     <main>
-        <div class="container-fluid contacts border-tp">
+        <div class="container-fluid contacts ">
             <div class="row">
 
                 <div id="map">

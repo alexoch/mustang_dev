@@ -629,7 +629,6 @@ body {
 }
 
 .contacts_slider .dot {
-
     border: red 1px solid;
 }
 
@@ -638,11 +637,11 @@ body {
 }
 
 .product__main table tr {
-    background: rgba(1, 72, 141, 1);
-    background: -moz-radial-gradient(circle, rgba(1, 72, 141, 1) 0%, rgba(255, 255, 255, 0.7) 100%);
-    background: -webkit-radial-gradient(circle, rgba(1, 72, 141, 1) 0%, rgba(255, 255, 255, 0.7) 100%);
-    background: radial-gradient(circle, rgba(1, 72, 141, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01488d", endColorstr="#ffffff", GradientType=1);
+    background: rgba(0, 104, 195, 1);
+    background: -moz-radial-gradient(circle, rgba(0, 104, 195, 1) 0%, rgba(255, 255, 255, 0.7) 100%);
+    background: -webkit-radial-gradient(circle, rgba(0, 104, 195, 1) 0%, rgba(255, 255, 255, 0.7) 100%);
+    background: radial-gradient(circle, rgba(0, 104, 195, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0068c3", endColorstr="#ffffff", GradientType=1);
 }
 
 .product__main td {

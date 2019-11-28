@@ -16,7 +16,7 @@ while (have_posts()) {
 	the_post();
 	?>
     <main>
-        <div class="container-fluid about border-tp">
+        <div class="container-fluid about ">
             <div class="row about-text">
                 <style type="text/css">
                     .about-text{

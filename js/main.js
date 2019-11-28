@@ -48,7 +48,7 @@ if($('.main-slider').is("div")){
         }
         dotList[i].classList.add('dot-active');
     }
-
+    setInterval(() => mySiema.next(), 10000)
 }
 
 
@@ -106,10 +106,11 @@ if ($('.gallery_photos').is("dl")){
         draggable: true,
         multipleDrag: true,
         threshold: 20,
-        loop: false,
+        loop: true,
         rtl: false,
         onChange: checkDots
     });
+
     Siema.prototype.addPagination = function() {
         var btn_wrapper = document.createElement('div');
         btn_wrapper.classList.add("dots");
@@ -137,7 +138,7 @@ if ($('.gallery_photos').is("dl")){
     function checkDots() {
         clickDot(this.currentSlide, this)
     }
-
+    setInterval(() => mySiema.next(), 5000)
 }
 
 

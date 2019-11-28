@@ -18,7 +18,7 @@ if (have_posts()) :
 		?>
         <main>
             <div class="container-fluid product-range">
-                <div class="row product__section product__used ">
+                <div class="row product__section product__used " style="display: none;">
                     <div class="col-12 text-center">
                         <h3 class="product__title product__title--article">
 							<?php the_title(); ?>
