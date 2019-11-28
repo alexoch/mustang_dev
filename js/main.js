@@ -48,7 +48,7 @@ if($('.main-slider').is("div")){
         }
         dotList[i].classList.add('dot-active');
     }
-    setInterval(() => mySiema.next(), 10000)
+    setInterval(() => slider.next(), 10000)
 }
 
 
@@ -138,7 +138,7 @@ if ($('.gallery_photos').is("dl")){
     function checkDots() {
         clickDot(this.currentSlide, this)
     }
-    setInterval(() => mySiema.next(), 5000)
+    setInterval(() => slider.next(), 5000)
 }
 
 
