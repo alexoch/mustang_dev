@@ -494,9 +494,9 @@ body {
 
 .ad-product-img {
     position: absolute;
-    width: 50%;
-    top: 46%;
-    transform: translate(34%, -56%);
+    width: 150px;
+    top: 50%;
+    transform: translate(45%, -61%);
 }
 
 @media screen and (max-width: 600px) {
@@ -715,7 +715,7 @@ body {
     margin: 0 auto;
     padding-left: 0;
     text-align: center;
-    width: 376px;
+    width: 540px;
 }
 
 .gallery_photos .caption {

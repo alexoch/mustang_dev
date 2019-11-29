@@ -28,7 +28,7 @@ get_header();
 
     <div class="container shares">
 		<?php
-		query_posts('category_name=product&order=DSC');
+		query_posts('category_name=sales&order=DSC');
 		if (have_posts()) :
 
 			while (have_posts()) {
