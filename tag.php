@@ -49,7 +49,7 @@ get_header();
                             while ( have_posts() ) :
                                 the_post();
                             ?>
-                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 product-item text-center">
                                         <a href="<?php the_permalink() ?>">
                                             <div class="product-info">
                                                 <p class="product-title">
