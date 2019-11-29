@@ -706,6 +706,8 @@ body {
 
 .product__colors--color.multi {
     margin: 0 auto;
+    position: relative;
+    top: -7px;
 }
 
 .product__colors {
@@ -774,3 +776,5 @@ body {
     text-align: center;
     width: auto;
 }
+.product__colors--color {
+    display: inline-block;}

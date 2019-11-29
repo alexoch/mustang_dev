@@ -89,7 +89,7 @@ get_header();
                     Скачать документы
                 </h3>
             </div>
-            <div class="row offset-2 text-center product_docs">
+            <div class="row col-12 offset-2 text-center product_docs">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 product-item text-center">
                     <a href="<?php the_permalink() ?>" style="color: white;">
                         <div>ПАСПОРТ ПРОДУКТА</div>
