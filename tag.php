@@ -41,28 +41,30 @@ get_header();
                             </form>
                         </div>
                     </div>
-                    <div class="container-fluid product-range">
-                    <div class="row">
-                    <?php
-	                /* Start the Loop */
-	                while ( have_posts() ) :
-		                the_post();
-	                ?>
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
-                                <a href="<?php the_permalink() ?>">
-                                    <div class="product-info">
-                                        <p class="product-title">
-					                        <?php the_title(); ?>
-                                        </p>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9 ">
+                        <div class="container-fluid product-range">
+                            <div class="row">
+                            <?php
+                            /* Start the Loop */
+                            while ( have_posts() ) :
+                                the_post();
+                            ?>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                                        <a href="<?php the_permalink() ?>">
+                                            <div class="product-info">
+                                                <p class="product-title">
+                                                    <?php the_title(); ?>
+                                                </p>
+                                            </div>
+                                            <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
+                                                 class="product-img">
+                                        </a>
                                     </div>
-                                    <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
-                                         class="product-img">
-                                </a>
+
+
+                            <?php endwhile;?>
                             </div>
-
-
-                    <?php endwhile;?>
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
