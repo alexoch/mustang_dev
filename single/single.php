@@ -89,18 +89,18 @@ get_header();
                     Скачать документы
                 </h3>
             </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 offset-2 text-center product_docs">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 offset-2 product-item text-center">
+            <div class="row offset-2 text-center product_docs">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 product-item text-center">
                     <a href="<?php the_permalink() ?>" style="color: white;">
                         <div>ПАСПОРТ ПРОДУКТА</div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" style="width: 50px;">
                         <div>скачать</div>
                     </a>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 product-item text-center">
                     <a href="<?php the_permalink() ?>" style="color: white;">
                         <div>ПАСПОРТ БЕЗОПАСНОСТИ</div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" style="width: 50px;">
                         <div>скачать</div>
                     </a>
                 </div>

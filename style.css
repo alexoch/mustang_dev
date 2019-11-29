@@ -761,3 +761,16 @@ body {
 .product_docs li a {
     color: white;
 }
+
+.product__colors li {
+    display: inline-block;}
+.product__colors {
+    list-style: none;
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+    width: auto;
+}
