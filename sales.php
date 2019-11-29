@@ -35,9 +35,7 @@ get_header();
 				the_post(); ?>
 
                 <div class="row shares-item mt-4 mb-3 ml-auto mr-auto">
-                    <div class="col-12 text-center">
-                        <img src="<?php the_post_thumbnail_url();?>" alt="" class="shares-img" style="width: 33%;"/>
-                    </div>
+
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <h4 class="shares-title font-weight-bold">
 	                        <?php the_title();?>
@@ -47,6 +45,9 @@ get_header();
                         <p class="shares-date">
 	                        <?php the_date();?>
                         </p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <img src="<?php the_post_thumbnail_url();?>" alt="" class="shares-img" style="width: 33%;"/>
                     </div>
                     <div class="col-12">
                         <p class="shares-text"><?php the_content();?></p>

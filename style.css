@@ -337,6 +337,7 @@ body {
     max-height: 300px;
     background-color: #22b2ea;
     border: 1px dashed gray;
+    width: 300px;
 }
 
 .manager_border.active {
