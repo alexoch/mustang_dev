@@ -41,44 +41,26 @@ get_header();
                             </form>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9 use-description">
-	                <?php
+                    <div class="row">
+
+                    <?php
 	                /* Start the Loop */
 	                while ( have_posts() ) :
 		                the_post();
 	                ?>
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 use-info">
-                                <h3 class="use-info-title">
-                                    <?php the_title();?>
-                                </h3>
-
-                                <p class="use-info-text">Склеивание:</p>
-                                <ul class="use-info-list">
-                                    <li>Пластиков;</li>
-                                    <li>Металлов;</li>
-                                    <li>Стекла;</li>
-                                    <li>Керамики;</li>
-                                    <li>Дерева;</li>
-                                    <li>Акрилового стекла и картона;</li>
-                                    <li>Склеивание разнородных материалов, металл + стекло;</li>
-                                    <li>Склеивание прозрачных конструкций.</li>
-                                </ul>
-
-                                <p class="use-info-text">Это совершенно новый класс индустриальных двусторонних клейких
-                                    лент. Теперь возможно обеспечивать надежное и долговременное крепление материалов в
-                                    самых сложных условиях.</p>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 use-product">
-                                <img src="<?php the_post_thumbnail_url(); ?>">
-                                <a class="use-link" href="<?php the_permalink()?>">
-                                    НА СТРАНИЦУ ПРОДУКТА
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                                <a href="<?php the_permalink() ?>">
+                                    <div class="product-info">
+                                        <p class="product-title">
+					                        <?php the_title(); ?>
+                                        </p>
+                                    </div>
+                                    <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
+                                         class="product-img">
                                 </a>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 p-0 use-wallpeper text-right">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/used/use 1.jpg">
-                            </div>
-                        </div>
+
+
                     <?php endwhile;?>
                     </div>
                 </div>
