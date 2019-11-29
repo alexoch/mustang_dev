@@ -41,8 +41,8 @@ get_header();
                             </form>
                         </div>
                     </div>
+                    <div class="container-fluid product-range">
                     <div class="row">
-
                     <?php
 	                /* Start the Loop */
 	                while ( have_posts() ) :
@@ -62,6 +62,7 @@ get_header();
 
 
                     <?php endwhile;?>
+                    </div>
                     </div>
                 </div>
             </div>
