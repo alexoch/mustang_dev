@@ -89,15 +89,15 @@ get_header();
                     Скачать документы
                 </h3>
             </div>
-            <div class="row col-12 offset-2 text-center product_docs">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 product-item text-center">
+            <div class="row col-8 offset-2 text-center product_docs">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 product-item text-center">
                     <a href="<?php the_permalink() ?>" style="color: white;">
                         <div>ПАСПОРТ ПРОДУКТА</div>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" style="width: 50px;margin: 10px 0;">
                         <div>скачать</div>
                     </a>
                 </div>
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 product-item text-center offset-1">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 product-item text-center offset-2">
                     <a href="<?php the_permalink() ?>" style="color: white;">
                         <div>ПАСПОРТ БЕЗОПАСНОСТИ</div>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" style="width: 50px;margin: 10px 0;">
