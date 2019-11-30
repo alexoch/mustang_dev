@@ -174,7 +174,9 @@ function get_breadcrumbs($q_obj ){
 	if(is_tag()){
 		$res ["Продукция"]=get_home_url().'/products';
 		$res [$q_obj->name]="";
+	}else{
+		$res [$q_obj->post_title]="";
 	}
-	$res [$q_obj->post_title]="";
+
 	return $res;
 }
