@@ -46,13 +46,9 @@ while (have_posts()) {
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9 use-description">
-                    <div class="row " >
-                        <h3>Как использовать продукцию ТМ Mustang</h3>
-
-                    </div>
-                    <div class="row use-video">
-                        <iframe width="560"
-                                height="315"
+                    <div class="row use-video ">
+                        <iframe width="660"
+                                height="415"
                                 src="https://www.youtube.com/embed/Bxm5SN4kpRo"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -68,7 +64,7 @@ while (have_posts()) {
 							$tag_list  .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center ">';
 							$tag_list  .= '<a  href="' . $tag_item->url . '" class="use-list-item">';
 							$term = get_term_by('name',$tag_item->title , 'post_tag');
-							$tag_list .='<img  src="' . get_field('term_image', 'post_tag_' . $term->term_id) . '">';
+							$tag_list .='<span><img  src="' . get_field('term_image', 'post_tag_' . $term->term_id) . '"></span>';
 							$tag_list .='<div>'.$tag_item->title.'</div></a>';
 							$tag_list  .= '</div>';
 						}

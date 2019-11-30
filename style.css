@@ -165,7 +165,6 @@ Text Domain: mustang
     box-sizing: border-box;
 }
 
-
 .timeline {
     position: relative;
     max-width: 1200px;
@@ -772,6 +771,10 @@ Text Domain: mustang
     display: inline-block;
 }
 
+.use {
+    border: none;
+}
+
 .use-list-item {
     color: white;
     display: block;
@@ -780,8 +783,14 @@ Text Domain: mustang
     background: #0068c3;
 }
 
+.use-list-item span {
+    background: white;
+}
+
 .use-list-item img {
     width: 150px;
-    background: white;
+}
 
+.use-description > .row{
+    border: none;
 }
