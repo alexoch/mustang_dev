@@ -305,7 +305,7 @@ Text Domain: mustang
 .manager_border.blue .manager_pic,
 .manager_border.orange .manager_pic {
     position: relative;
-    top: -7px;
+    top: -9px;
 }
 
 .manager_subt {
@@ -326,7 +326,7 @@ Text Domain: mustang
     max-height: 300px;
     background-color: #0068c3;
     border: 1px dashed gray;
-    width: 300px;
+    width: 100%;
 }
 
 .manager_border.active {
@@ -334,7 +334,7 @@ Text Domain: mustang
 }
 
 .manager_info_text {
-    width: 220px;
+    width: 245px;
     position: relative;
     display: inline-block;
     top: 43px;
