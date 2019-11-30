@@ -785,6 +785,10 @@ Text Domain: mustang
     padding-top: 5px;
 }
 
+.use-list-item:hover{
+    color: white;
+}
+
 .use-list-item span {
     background: white;
     display: block;
