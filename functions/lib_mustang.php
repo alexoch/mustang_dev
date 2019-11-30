@@ -174,7 +174,9 @@ function get_breadcrumbs($q_obj ){
 	if(is_tag()){
 		$res ["Продукция"]=get_home_url().'/products';
 		$res [$q_obj->name]="";
-	}else{
+	}elseif( is_page_template('search.php')){
+		   $res ['Поисковые результаты для : '.get_query_var('s')]='';
+	 }else{
 		$res [$q_obj->post_title]="";
 	}
 
