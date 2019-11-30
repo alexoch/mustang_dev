@@ -23,18 +23,7 @@ get_header();
 ?>
 
 <main>
-	<style type="text/css">
-		.back{display: block;
-			height: 80.2%;
-			position: absolute;
-			width: 100%;
-			background: url(<?php echo get_template_directory_uri();?>/img/main_back4.jpg);
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position-x: 13%;
-			opacity: 0.3;
-		}
-	</style>
+
 	<div class="back"></div>
 	<div class="main-slider" >
 <?php
@@ -43,7 +32,18 @@ query_posts('category_name=main-slider&order=DSC');
 if ( have_posts() ) :
 
 	while (have_posts()) { the_post();    ?>
-
+        <style type="text/css">
+            .back{display: block;
+                height: 80.2%;
+                position: absolute;
+                width: 100%;
+                background: url(<?php echo  the_field("application_pic")?>);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: 13%;
+                opacity: 0.3;
+            }
+        </style>
         <div class="slide container-fluid">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-2 col-xl-4 d-flex align-items-center">
