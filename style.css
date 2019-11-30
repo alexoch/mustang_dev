@@ -794,3 +794,7 @@ Text Domain: mustang
 .use-description > .row{
     border: none;
 }
+.use-video iframe{
+    display: block;
+    margin: 0 auto;
+}
