@@ -64,16 +64,15 @@ while (have_posts()) {
 						$menu_name = "application";
 						$tag_items = wp_get_nav_menu_items($menu_name);
 						$tag_list = '';
-
 						foreach ((array)$tag_items as $key => $tag_item) {
 							$tag_list  .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 text-center ">';
 							$tag_list  .= '<a  href="' . $tag_item->url . '" class="use-list-item">';
 							$term = get_term_by('name',$tag_item->title , 'post_tag');
-							$tag_list   .='<img  src="' . get_field('term_image', 'post_tag_' . $term->term_id) . '">';
+							$tag_list .='<img  src="' . get_field('term_image', 'post_tag_' . $term->term_id) . '">';
 							$tag_list .='<div>'.$tag_item->title.'</div></a>';
 							$tag_list  .= '</div>';
 						}
-						echo $menu_list;
+						echo $tag_list;
 						?>
                     </div>
                 </div>
