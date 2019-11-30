@@ -126,14 +126,14 @@ Text Domain: mustang
 
 .product-info {
     display: inline-block;
-    width: 51%;
+    width: 55%;
     text-align: left;
     vertical-align: middle;
 }
 
 .product-img {
     display: inline-block;
-    max-width: 47%;
+    max-width: 43%;
 }
 
 .product-title {
