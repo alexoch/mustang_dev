@@ -9,22 +9,18 @@ Text Domain: mustang
     font-size: 1.35em;
     background: #fff;
     display: inline-block;
-    /*background: #fff;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    */
-
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-weight: bold;
     padding: 12px 20px;
-    border: 3px solid #036ab0;
+    border: 3px solid #0068c3;
     border-radius: 20px 0px;
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-    color: #007bff !important;
+    color: #0068c3 !important;
 }
 
 .nav_item_r {
@@ -47,7 +43,7 @@ Text Domain: mustang
     display: inline-block;
     background-size: cover;
     top: 10px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .nav-link {
@@ -62,7 +58,7 @@ Text Domain: mustang
     padding: 1em 17px;
     margin: 0 auto;
     background: white;
-    border-radius: 20px 0px;
+    border-radius: 20px 0;
 
 }
 
@@ -97,7 +93,7 @@ Text Domain: mustang
 }
 
 .header_blue {
-    background: #007bff61;
+    background: #0068c3;
 }
 
 .ans {
@@ -169,13 +165,7 @@ Text Domain: mustang
     box-sizing: border-box;
 }
 
-/* Set a background color */
-body {
-    /*background-color: #474e5d;*/
-    font-family: Helvetica, sans-serif;
-}
 
-/* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
     max-width: 1200px;
@@ -187,7 +177,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #005ca2;
+    background-color: #0068c3;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -235,9 +225,9 @@ body {
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid rgba(0, 104, 195, 1);
+    border: medium solid #0068c3;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent rgba(0, 104, 195, 1);
+    border-color: transparent transparent transparent #0068c3;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -249,9 +239,9 @@ body {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid rgba(0, 104, 195, 1);
+    border: medium solid #0068c3;
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgba(0, 104, 195, 1) transparent transparent;
+    border-color: transparent #0068c3 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -335,13 +325,13 @@ body {
 
 .manager_border {
     max-height: 300px;
-    background-color: #22b2ea;
+    background-color: #0068c3;
     border: 1px dashed gray;
     width: 300px;
 }
 
 .manager_border.active {
-    background-color: #1d61ea;
+    background-color: #0068c3;
 }
 
 .manager_info_text {
@@ -375,9 +365,7 @@ body {
 .trade_product {
     text-align: center;
     color: black;
-    /*border: 3px solid #4f97c8;*/
     border-radius: 30px;
-
 }
 
 .trade_product-title {
@@ -408,7 +396,7 @@ body {
 
 .timeline .content {
     padding: 20px;
-    background-color: rgba(0, 104, 195, 1);
+    background-color: #0068c3;
     position: relative;
     color: white;
 }
@@ -467,7 +455,7 @@ body {
 }
 
 .ad-product {
-    background: #005097;
+    background: #0068c3;
     padding: 5px;
     min-height: 305px;
     margin: 5px;
@@ -501,9 +489,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .navbar{
+    .navbar {
         z-index: 99;
     }
+
     .navbar-light .navbar-brand {
         max-width: 67%;
 
@@ -605,7 +594,7 @@ body {
     .trade_product {
         text-align: center;
         color: black;
-        border: 3px solid #4f97c8;
+        border: 3px solid #0068c3;
         border-radius: 30px;
         margin: 10px 0;
     }
@@ -765,7 +754,9 @@ body {
 }
 
 .product__colors li {
-    display: inline-block;}
+    display: inline-block;
+}
+
 .product__colors {
     list-style: none;
     display: block;
@@ -776,5 +767,21 @@ body {
     text-align: center;
     width: auto;
 }
+
 .product__colors--color {
-    display: inline-block;}
+    display: inline-block;
+}
+
+.use-list-item {
+    color: white;
+    display: block;
+    border-radius: 13px;
+    margin: 10px 0;
+    background: #0068c3;
+}
+
+.use-list-item img {
+    width: 150px;
+    background: white;
+
+}
