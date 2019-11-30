@@ -779,12 +779,20 @@ Text Domain: mustang
     color: white;
     display: block;
     border-radius: 13px;
+    min-height: 234px;
     margin: 10px 0;
     background: #0068c3;
+    padding-top: 5px;
 }
 
 .use-list-item span {
     background: white;
+    display: block;
+    min-width: 200px;
+    min-height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 14px;
 }
 
 .use-list-item img {

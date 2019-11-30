@@ -91,20 +91,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1932" />
+          <entry key="css" value="1968" />
           <entry key="html" value="61" />
           <entry key="js" value="89" />
-          <entry key="php" value="4343" />
-          <entry key="txt" value="1597" />
+          <entry key="php" value="4346" />
+          <entry key="txt" value="1599" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1932" />
+          <entry key="CSS" value="1968" />
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="89" />
-          <entry key="PHP" value="4328" />
-          <entry key="PLAIN_TEXT" value="1597" />
+          <entry key="PHP" value="4331" />
+          <entry key="PLAIN_TEXT" value="1599" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -138,8 +138,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+            <state relative-caret-position="199">
+              <caret line="63" column="99" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="99" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
               </folding>
@@ -150,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="794" column="16" selection-start-line="794" selection-start-column="16" selection-end-line="794" selection-end-column="16" />
+            <state relative-caret-position="348">
+              <caret line="794" column="24" selection-start-line="794" selection-start-column="24" selection-end-line="794" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -374,21 +374,7 @@
       <workItem from="1574772409697" duration="12751000" />
       <workItem from="1574933831640" duration="10431000" />
       <workItem from="1575031471132" duration="7688000" />
-      <workItem from="1575115305635" duration="5396000" />
-    </task>
-    <task id="LOCAL-00250" summary="fixes product 30">
-      <created>1574696197522</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1574696197522</updated>
-    </task>
-    <task id="LOCAL-00251" summary="fixes product 31">
-      <created>1574696258376</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1574696258376</updated>
+      <workItem from="1575115305635" duration="6190000" />
     </task>
     <task id="LOCAL-00252" summary="fixes product 32">
       <created>1574758565540</created>
@@ -719,11 +705,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575119067198</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <task id="LOCAL-00299" summary="fixes product application3">
+      <created>1575121137032</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1575121137032</updated>
+    </task>
+    <task id="LOCAL-00300" summary="fixes product application4">
+      <created>1575121216236</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1575121216236</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288488000" />
+    <option name="totallyTimeSpent" value="289282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -791,8 +791,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes product 54" />
-    <MESSAGE value="fixes product 55" />
     <MESSAGE value="fixes product 56" />
     <MESSAGE value="fixes product 57" />
     <MESSAGE value="fixes product 58" />
@@ -816,7 +814,9 @@
     <MESSAGE value="fixes product 76" />
     <MESSAGE value="fixes product application" />
     <MESSAGE value="fixes product application2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes product application2" />
+    <MESSAGE value="fixes product application3" />
+    <MESSAGE value="fixes product application4" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes product application4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/index.php" />
@@ -1013,15 +1013,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="794" column="16" selection-start-line="794" selection-start-column="16" selection-end-line="794" selection-end-column="16" />
+        <state relative-caret-position="348">
+          <caret line="794" column="24" selection-start-line="794" selection-start-column="24" selection-end-line="794" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        <state relative-caret-position="199">
+          <caret line="63" column="99" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="99" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
           </folding>
