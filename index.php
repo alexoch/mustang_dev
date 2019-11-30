@@ -24,7 +24,7 @@ get_header();
 
 <main>
 
-	<div class="back"></div>
+
 	<div class="main-slider" >
 <?php
 
@@ -44,6 +44,7 @@ if ( have_posts() ) :
                 opacity: 0.3;
             }
         </style>
+        <div class="back"></div>
         <div class="slide container-fluid">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-2 col-xl-4 d-flex align-items-center">
