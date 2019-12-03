@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="" />
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +92,8 @@
           <entry key="css" value="2089" />
           <entry key="html" value="61" />
           <entry key="js" value="89" />
-          <entry key="php" value="4617" />
-          <entry key="txt" value="1636" />
+          <entry key="php" value="4624" />
+          <entry key="txt" value="1638" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -99,8 +101,8 @@
           <entry key="CSS" value="2089" />
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="89" />
-          <entry key="PHP" value="4602" />
-          <entry key="PLAIN_TEXT" value="1636" />
+          <entry key="PHP" value="4609" />
+          <entry key="PLAIN_TEXT" value="1638" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -174,12 +176,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ad-products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="41" column="118" selection-start-line="41" selection-start-column="118" selection-end-line="41" selection-end-column="118" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -427,21 +425,7 @@
       <workItem from="1575031471132" duration="7688000" />
       <workItem from="1575115305635" duration="10086000" />
       <workItem from="1575191208004" duration="51000" />
-      <workItem from="1575362566040" duration="8528000" />
-    </task>
-    <task id="LOCAL-00286" summary="fixes product 66">
-      <created>1575032531552</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1575032531552</updated>
-    </task>
-    <task id="LOCAL-00287" summary="fixes product 67">
-      <created>1575035372733</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1575035372734</updated>
+      <workItem from="1575362566040" duration="10290000" />
     </task>
     <task id="LOCAL-00288" summary="fixes product 68">
       <created>1575035587227</created>
@@ -772,11 +756,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575371114138</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <task id="LOCAL-00335" summary="fixes product application42">
+      <created>1575371225000</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1575371225001</updated>
+    </task>
+    <task id="LOCAL-00336" summary="fixes product application43">
+      <created>1575372650283</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1575372650284</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301757000" />
+    <option name="totallyTimeSpent" value="303519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -844,8 +842,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes product application14" />
-    <MESSAGE value="fixes product application15" />
     <MESSAGE value="fixes product application16" />
     <MESSAGE value="fixes product application17" />
     <MESSAGE value="fixes product application18" />
@@ -869,7 +865,9 @@
     <MESSAGE value="fixes product application38" />
     <MESSAGE value="fixes product application39" />
     <MESSAGE value="fixes product application40" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes product application40" />
+    <MESSAGE value="fixes product application42" />
+    <MESSAGE value="fixes product application43" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes product application43" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/excursions.php" />
@@ -1069,12 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ad-products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="41" column="118" selection-start-line="41" selection-start-column="118" selection-end-line="41" selection-end-column="118" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
         </state>
       </provider>
     </entry>
