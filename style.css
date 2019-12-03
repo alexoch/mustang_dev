@@ -816,3 +816,7 @@ Text Domain: mustang
 .submenu-search input::placeholder{
     color: black;
 }
+
+.submenu-search input{
+    width: 190px;
+}
