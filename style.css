@@ -776,32 +776,13 @@ Text Domain: mustang
 }
 
 .use-list-item {
-    color: white;
     display: block;
-    border-radius: 13px;
-    min-height: 208px;
-    margin: 10px 0;
-    background: #0068c3;
-    padding-top: 5px;
-}
+    margin: 10px 0;}
 
 .use-list-item:hover{
     color: white;
 }
 
-.use-list-item span {
-    background: white;
-    display: block;
-    min-width: 250px;
-    min-height: 150px;
-    width: 250px;
-    margin: auto;
-    border-radius: 14px;
-}
-
-.use-list-item img {
-    width: 150px;
-}
 
 .use-description > .row{
     border: none;

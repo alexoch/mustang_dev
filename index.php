@@ -45,6 +45,7 @@ if ( have_posts() ) :
 	while (have_posts()) { the_post();    ?>
 
         <div class="slide container-fluid">
+
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-2 col-xl-4 d-flex align-items-center">
 					<div class="slide-content">
