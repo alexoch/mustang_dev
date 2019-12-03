@@ -798,13 +798,16 @@ Text Domain: mustang
 }
 
 .submenu-nav ul li{
-    padding: .25em 0;
+    padding: 0.35em 10px;
+    background: #014188;
+    border-radius: 10px 0px 10px 0px;
+    margin: 10px 0;
 }
 
 .submenu-nav ul a {
     font-size: 1.1em;
     font-weight: 500;
-    color: #1258a4;
+    color: white;
 }
 
 .submenu-search > * {
@@ -817,4 +820,8 @@ Text Domain: mustang
 
 .submenu-search input,footer .search_i{
     width: 190px;
+}
+
+.submenu-search {
+    /* margin-top: 0; */
 }

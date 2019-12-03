@@ -94,6 +94,7 @@ if ($('.contacts_slider').is("div")){
         clickDot(this.currentSlide, this)
     }
 
+    setInterval(() => slider.next(), 5000)
 }
 
 if ($('.gallery_photos').is("dl")){
