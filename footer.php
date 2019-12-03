@@ -30,7 +30,7 @@
 				</a>
 			</div>
 			<form method="GET" action="<?php echo home_url(); ?>/search" class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-3 form-inline my-2 my-lg-0" >
-				<input type="text" name="s">
+				<input type="text" name="s" class="search_i">
 				<button class="btn btn-primary my-2 my-sm-0 btn-search" type="submit">
 					<i data-feather="search"></i>
 				</button>

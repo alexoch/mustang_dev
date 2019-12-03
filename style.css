@@ -817,6 +817,6 @@ Text Domain: mustang
     color: black;
 }
 
-.submenu-search input{
+.submenu-search input,footer .search_i{
     width: 190px;
 }
