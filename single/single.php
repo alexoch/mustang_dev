@@ -90,15 +90,31 @@ get_header();
                 </h3>
             </div>
             <div class="row col-8 offset-2 text-center product_docs">
+                <?php
+                $file = get_field('pasport');
+                if( $file ):
+                // vars
+                    $url1 = $file['url'];
+                    $title = $file['title'];
+
+                endif;
+                $file = get_field('pasport_bezopasnosti');
+                if( $file ):
+	                // vars
+	                $url2 = $file['url'];
+	                $title = $file['title'];
+
+                endif;?>
+
                 <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 product-item text-center">
-                    <a href="<?php the_field("pasport"); ?>" style="color: white;">
+                    <a href="<?php echo $url1;?>" style="color: white;">
                         <div>ПАСПОРТ ПРОДУКТА</div>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" style="width: 50px;margin: 10px 0;">
                         <div>скачать</div>
                     </a>
                 </div>
                 <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 product-item text-center offset-2">
-                    <a href="<?php the_field("pasport_bezopasnosti"); ?>" style="color: white;">
+                    <a href="<?php echo $url2;?>" style="color: white;">
                         <div>ПАСПОРТ БЕЗОПАСНОСТИ</div>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" style="width: 50px;margin: 10px 0;">
                         <div>скачать</div>
