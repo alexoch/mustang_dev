@@ -9,7 +9,7 @@ feather.replace()
 if($('.main-slider').is("div")){
     var slider = new Siema({
         selector: '.main-slider',
-        duration: 200,
+        duration: 500,
         easing: 'ease-out',
         perPage: 1,
         startIndex: 0,
@@ -55,7 +55,7 @@ if($('.main-slider').is("div")){
 if ($('.contacts_slider').is("div")){
     var slider = new Siema({
         selector: '.contacts_slider',
-        duration: 200,
+        duration: 500,
         easing: 'ease-out',
         perPage: 1,
         startIndex: 0,
@@ -99,7 +99,7 @@ if ($('.contacts_slider').is("div")){
 if ($('.gallery_photos').is("dl")){
     var slider = new Siema({
         selector: '.gallery_photos',
-        duration: 200,
+        duration: 500,
         easing: 'ease-out',
         perPage: 1,
         startIndex: 0,
