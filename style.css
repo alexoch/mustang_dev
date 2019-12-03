@@ -794,8 +794,7 @@ Text Domain: mustang
 
 .submenu-nav {
     background: #e9ecef;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     margin: 0 .75em;
     padding: .5em 10px;
 }
@@ -807,7 +806,7 @@ Text Domain: mustang
 .submenu-nav ul a {
     font-size: 1.1em;
     font-weight: 500;
-         color: #007bff;
+    color: #1258a4;
 }
 
 .submenu-search > * {

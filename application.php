@@ -64,7 +64,8 @@ while (have_posts()) {
 							$tag_list  .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center ">';
 							$tag_list  .= '<a  href="' . $tag_item->url . '" class="use-list-item">';
 							$term = get_term_by('name',$tag_item->title , 'post_tag');
-							$tag_list .='<img  src="' . get_field('term_image', 'post_tag_' . $term->term_id) . '">';
+
+							$tag_list .='<img  src="' . get_field('term_image', $tag_item->ID) . '" alt="">';
 							$tag_list .='</a>';
 							$tag_list  .= '</div>';
 						}
