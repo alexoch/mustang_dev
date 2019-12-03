@@ -39,7 +39,7 @@ get_header();
 					the_post(); ?>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                         <div class="ad-product">
-                            <div class="ad-product-pic" style="background-image:url("<?php the_post_thumbnail_url()?>"); background-size:cover;">
+                            <div class="ad-product-pic" style="background-image:url('<?php the_post_thumbnail_url();?>'); background-size:cover;">
                                 <img src="<?php the_post_thumbnail_url(); ?>" height="335" width="299" alt=""
                                       class="ad-product-img" style="display: none;">
                             </div>
