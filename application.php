@@ -63,7 +63,7 @@ while (have_posts()) {
 						foreach ((array)$tag_items as $key => $tag_item) {
 							$tag_list  .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center ">';
 							$tag_list  .= '<a  href="' . $tag_item->url . '" class="use-list-item">';
-							$term = get_term_by("id",$tag_item->ID);
+							$term = get_term_by("name",$tag_item->name);
 							var_dump($term);
 							$tag_list .='<img  src="' . get_field('term_image', 'nav_menu_item_' . $tag_item->ID) . '" alt="">';
 							$tag_list .='</a>';
