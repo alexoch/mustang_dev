@@ -815,3 +815,11 @@ Text Domain: mustang
     font-weight: 500;
     color: white;
 }
+
+.submenu-search > * {
+    color: white;
+}
+
+.submenu-search > * ::placeholder{
+    color: white;
+}
