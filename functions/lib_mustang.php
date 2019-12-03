@@ -172,7 +172,7 @@ function get_breadcrumbs($q_obj ){
 		}
 	}
 	if(is_tag()){
-		$res ["Продукция"]=get_home_url().'/products';
+		$res ["Применение"]=get_home_url().'/application/';
 		$res [$q_obj->name]="";
 	}elseif( is_page_template('search.php')){
 		   $res ['Поисковые результаты для : '.get_query_var('s')]='';

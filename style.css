@@ -793,13 +793,7 @@ Text Domain: mustang
 }
 
 .submenu-nav {
-    background: -moz-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 104, 195, 1)), color-stop(100%, rgba(1, 71, 140, 1)));
-    background: -webkit-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
-    background: -o-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
-    background: linear-gradient(to right, rgba(0, 104, 195, 1) 0%, rgba(1, 71, 140, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0068c3', endColorstr='#01478c', GradientType=1);
+    background: #e9ecef;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin: 0 .75em;
@@ -813,13 +807,13 @@ Text Domain: mustang
 .submenu-nav ul a {
     font-size: 1.1em;
     font-weight: 500;
-    color: white;
+         color: #007bff;
 }
 
 .submenu-search > * {
-    color: white;
+    color: black;
 }
 
 .submenu-search input::placeholder{
-    color: white;
+    color: black;
 }
