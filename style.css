@@ -820,6 +820,6 @@ Text Domain: mustang
     color: white;
 }
 
-.submenu-search > * ::placeholder{
+.submenu-search input::placeholder{
     color: white;
 }
