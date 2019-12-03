@@ -37,11 +37,11 @@ while (have_posts()) {
 						echo $menu_list;
 						?>
 
-                        <form class="submenu-search">
+                        <form class="submenu-search" method="GET" action="<?php echo home_url(); ?>/search">
                             <button id="subsearch">
                                 <i data-feather="search"></i>
                             </button>
-                            <input type="text" id="subsearch" name="subsearch" placeholder="поиск по применению"/>
+                            <input type="text" id="subsearch" name="s" placeholder="поиск по применению"/>
                         </form>
                     </div>
                 </div>
