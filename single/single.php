@@ -27,7 +27,7 @@ get_header();
 				?>
 
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 offset-1  text-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-md-offset-1  text-center">
                 <h3 class="product__title product__title--article">
                     Преимущества
                 </h3>
@@ -89,7 +89,7 @@ get_header();
                     Скачать документы
                 </h3>
             </div>
-            <div class="row col-8 offset-2 text-center product_docs">
+            <div class="row col-8 col-md-offset-2 text-center product_docs">
                 <?php
                 $file = get_field('pasport');
                 if( $file ):

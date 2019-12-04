@@ -516,6 +516,8 @@ Text Domain: mustang
         margin: 0 auto;
         display: block !important;
         text-align: center;
+        padding: 0.25em 0.4em;
+        width: 80%;
     }
 
     .back {
@@ -534,8 +536,8 @@ Text Domain: mustang
 
     .product-img {
         display: inline-block;
-        max-width: 48%;
-        min-height: 125px;
+        max-width: 100%;
+        /* min-height: 125px; */
     }
 
     .product-item a {
@@ -613,6 +615,35 @@ Text Domain: mustang
 
     .nav-item {
         margin: 2px 0;
+    }
+    .slide img {
+        max-width: 100%;
+    }
+
+    .slide-text {
+        font-size: 1.5em;
+        line-height: 1em;
+        padding: 1em 0;
+    }
+
+    .back {
+        display: block;
+        height: 85.2%;}
+    .product-info {
+        display: inline-block;
+        width: 90%;
+
+    }
+
+    .product__used--text{
+        padding-left: 10px;
+    }
+    .product__used .product__title--article{
+        padding-left: 10px;
+    }
+
+    .use-description{
+        margin-top: 20px;
     }
 }
 
