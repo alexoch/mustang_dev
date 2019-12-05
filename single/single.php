@@ -89,7 +89,7 @@ get_header();
                     Скачать документы
                 </h3>
             </div>
-            <div class="row col-8 col-xl-offset-2 text-center product_docs">
+            <div class="row col-12 col-xl-8 col-xl-offset-2 text-center product_docs">
                 <?php
                 $file = get_field('pasport');
                 if( $file ):
