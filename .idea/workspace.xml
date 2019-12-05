@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="fixes single3">
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single/single.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +94,8 @@
           <entry key="css" value="2138" />
           <entry key="html" value="61" />
           <entry key="js" value="96" />
-          <entry key="php" value="4702" />
-          <entry key="txt" value="1650" />
+          <entry key="php" value="4716" />
+          <entry key="txt" value="1652" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -104,8 +103,8 @@
           <entry key="CSS" value="2138" />
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="96" />
-          <entry key="PHP" value="4687" />
-          <entry key="PLAIN_TEXT" value="1650" />
+          <entry key="PHP" value="4701" />
+          <entry key="PLAIN_TEXT" value="1652" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -148,8 +147,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+            <state relative-caret-position="208">
+              <caret line="91" column="35" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -189,6 +188,7 @@
       <find>background</find>
       <find>product-</find>
       <find>grad</find>
+      <find>offs</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -397,21 +397,7 @@
       <workItem from="1575374255049" duration="1169000" />
       <workItem from="1575377108852" duration="1735000" />
       <workItem from="1575459627813" duration="2182000" />
-      <workItem from="1575534483591" duration="1246000" />
-    </task>
-    <task id="LOCAL-00295" summary="fixes product 75">
-      <created>1575043733150</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1575043733150</updated>
-    </task>
-    <task id="LOCAL-00296" summary="fixes product 76">
-      <created>1575043851965</created>
-      <option name="number" value="00296" />
-      <option name="presentableId" value="LOCAL-00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1575043851965</updated>
+      <workItem from="1575534483591" duration="2645000" />
     </task>
     <task id="LOCAL-00297" summary="fixes product application">
       <created>1575117419242</created>
@@ -742,11 +728,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575471994169</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="fixes single4">
+      <created>1575535947317</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1575535947318</updated>
+    </task>
+    <task id="LOCAL-00345" summary="fixes single5">
+      <created>1575537388549</created>
+      <option name="number" value="00345" />
+      <option name="presentableId" value="LOCAL-00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1575537388549</updated>
+    </task>
+    <option name="localTasksCounter" value="346" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310414000" />
+    <option name="totallyTimeSpent" value="311813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -814,8 +814,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes product application23" />
-    <MESSAGE value="fixes product application24" />
     <MESSAGE value="fixes product application25" />
     <MESSAGE value="fixes product application26" />
     <MESSAGE value="fixes product application27" />
@@ -839,7 +837,9 @@
     <MESSAGE value="fixes single" />
     <MESSAGE value="fixes single2" />
     <MESSAGE value="fixes single3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes single3" />
+    <MESSAGE value="fixes single4" />
+    <MESSAGE value="fixes single5" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes single5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/excursions.php" />
@@ -1035,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/single/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+        <state relative-caret-position="208">
+          <caret line="91" column="35" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
         </state>
       </provider>
     </entry>
