@@ -856,3 +856,8 @@ Text Domain: mustang
 .submenu-search {
     /* margin-top: 0; */
 }
+.product__colors--color.transparent {
+background-size: 100%;
+border: none;
+background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/12/table-2.png);
+}
