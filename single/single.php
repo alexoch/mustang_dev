@@ -105,7 +105,7 @@ get_header();
 
 			endif; ?>
 
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 product-item text-center col-xl-offset-2">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 product-item text-center offset-xl-2">
                 <a href="<?php echo $url1; ?>" style="color: white;">
                     <div>ПАСПОРТ ПРОДУКТА</div>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
@@ -113,7 +113,7 @@ get_header();
                     <div>скачать</div>
                 </a>
             </div>
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 product-item text-center col-xl-offset-1 ">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 product-item text-center offset-xl-1 ">
                 <a href="<?php echo $url2; ?>" style="color: white;">
                     <div>ПАСПОРТ БЕЗОПАСНОСТИ</div>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
