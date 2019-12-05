@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="fixes single3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/single/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="5" />
           <entry key="project.open.time.16" value="7" />
-          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="5" />
@@ -88,7 +87,7 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -96,8 +95,8 @@
           <entry key="css" value="2138" />
           <entry key="html" value="61" />
           <entry key="js" value="96" />
-          <entry key="php" value="4700" />
-          <entry key="txt" value="1649" />
+          <entry key="php" value="4702" />
+          <entry key="txt" value="1650" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -105,8 +104,8 @@
           <entry key="CSS" value="2138" />
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="96" />
-          <entry key="PHP" value="4685" />
-          <entry key="PLAIN_TEXT" value="1649" />
+          <entry key="PHP" value="4687" />
+          <entry key="PLAIN_TEXT" value="1650" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -136,21 +135,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
-              <caret line="645" column="8" selection-start-line="645" selection-start-column="8" selection-end-line="645" selection-end-column="8" />
+              <caret line="645" column="25" selection-start-line="645" selection-start-column="25" selection-end-line="645" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single/single.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="202">
-              <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -239,8 +238,8 @@
         <option value="$PROJECT_DIR$/ad-products.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/application.php" />
-        <option value="$PROJECT_DIR$/single/single.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/single/single.php" />
       </list>
     </option>
   </component>
@@ -397,14 +396,8 @@
       <workItem from="1575362566040" duration="10853000" />
       <workItem from="1575374255049" duration="1169000" />
       <workItem from="1575377108852" duration="1735000" />
-      <workItem from="1575459627813" duration="1265000" />
-    </task>
-    <task id="LOCAL-00294" summary="fixes product 74">
-      <created>1575043662044</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1575043662044</updated>
+      <workItem from="1575459627813" duration="2182000" />
+      <workItem from="1575534483591" duration="1246000" />
     </task>
     <task id="LOCAL-00295" summary="fixes product 75">
       <created>1575043733150</created>
@@ -742,18 +735,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575378388206</updated>
     </task>
-    <option name="localTasksCounter" value="343" />
+    <task id="LOCAL-00343" summary="fixes single3">
+      <created>1575471994168</created>
+      <option name="number" value="00343" />
+      <option name="presentableId" value="LOCAL-00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1575471994169</updated>
+    </task>
+    <option name="localTasksCounter" value="344" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308251000" />
+    <option name="totallyTimeSpent" value="310414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -814,7 +814,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes product application22" />
     <MESSAGE value="fixes product application23" />
     <MESSAGE value="fixes product application24" />
     <MESSAGE value="fixes product application25" />
@@ -839,7 +838,8 @@
     <MESSAGE value="fixes product application47" />
     <MESSAGE value="fixes single" />
     <MESSAGE value="fixes single2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes single2" />
+    <MESSAGE value="fixes single3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes single3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/excursions.php" />
@@ -1026,17 +1026,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="645" column="8" selection-start-line="645" selection-start-column="8" selection-end-line="645" selection-end-column="8" />
+          <caret line="645" column="25" selection-start-line="645" selection-start-column="25" selection-end-line="645" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -27,7 +27,7 @@ get_header();
 				?>
 
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-md-offset-1  text-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xl-offset-1  text-center">
                 <h3 class="product__title product__title--article">
                     Преимущества
                 </h3>
@@ -89,7 +89,7 @@ get_header();
                     Скачать документы
                 </h3>
             </div>
-            <div class="row col-8 col-md-offset-2 text-center product_docs">
+            <div class="row col-8 col-xl-offset-2 text-center product_docs">
                 <?php
                 $file = get_field('pasport');
                 if( $file ):
@@ -113,7 +113,7 @@ get_header();
                         <div>скачать</div>
                     </a>
                 </div>
-                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 product-item text-center offset-2">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 product-item text-center col-xl-offset-2">
                     <a href="<?php echo $url2;?>" style="color: white;">
                         <div>ПАСПОРТ БЕЗОПАСНОСТИ</div>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" style="width: 50px;margin: 10px 0;">
