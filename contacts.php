@@ -157,11 +157,18 @@ http://amcharts.com/ammap ">
                 </div>
 
 				<?php
+                $i=0;
 				$posts = get_posts('category_name=managers_info&order=ASC&posts_per_page=-1');
 				foreach ($posts as $post) {
 					setup_postdata($post);
+					if ($i==0){
+					    $offset="offset-xl-2";
+                    }else{
+						$offset='';
+                    }
+                    $i++;
 					?>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info <?php echo $offset;?> ">
                         <div class="manager_border <?php the_field("class"); ?>">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
                             <div class="manager_info_text">
