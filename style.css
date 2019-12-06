@@ -616,6 +616,7 @@ Text Domain: mustang
     .nav-item {
         margin: 2px 0;
     }
+
     .slide img {
         max-width: 100%;
     }
@@ -628,21 +629,24 @@ Text Domain: mustang
 
     .back {
         display: block;
-        height: 85.2%;}
+        height: 85.2%;
+    }
+
     .product-info {
         display: inline-block;
         width: 90%;
 
     }
 
-    .product__used--text{
-        padding-left: 10px;
-    }
-    .product__used .product__title--article{
+    .product__used--text {
         padding-left: 10px;
     }
 
-    .use-description{
+    .product__used .product__title--article {
+        padding-left: 10px;
+    }
+
+    .use-description {
         margin-top: 20px;
     }
 }
@@ -807,17 +811,18 @@ Text Domain: mustang
 
 .use-list-item {
     display: block;
-    margin: 10px 0;}
+    margin: 10px 0;
+}
 
-.use-list-item:hover{
+.use-list-item:hover {
     color: white;
 }
 
-
-.use-description > .row{
+.use-description > .row {
     border: none;
 }
-.use-video iframe{
+
+.use-video iframe {
     display: block;
     margin: 0 auto;
 }
@@ -828,7 +833,7 @@ Text Domain: mustang
     padding: .5em 10px;
 }
 
-.submenu-nav ul li{
+.submenu-nav ul li {
     padding: 0.35em 10px;
     background: #014188;
     border-radius: 10px 0px 10px 0px;
@@ -845,19 +850,20 @@ Text Domain: mustang
     color: black;
 }
 
-.submenu-search input::placeholder{
+.submenu-search input::placeholder {
     color: black;
 }
 
-.submenu-search input,footer .search_i{
+.submenu-search input, footer .search_i {
     width: 190px;
 }
 
 .submenu-search {
     /* margin-top: 0; */
 }
+
 .product__colors--color.transparent {
-background-size: 100%;
-border: none;
-background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/12/table-2.png);
+    background-size: 100%;
+    border: none;
+    background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/12/table-2.png);
 }

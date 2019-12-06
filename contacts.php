@@ -156,23 +156,21 @@ http://amcharts.com/ammap ">
                     </svg>
                 </div>
 
-
 				<?php
 				$posts = get_posts('category_name=managers_info&order=ASC&posts_per_page=-1');
 				foreach ($posts as $post) {
 					setup_postdata($post);
 					?>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info">
-
                         <div class="manager_border <?php the_field("class"); ?>">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
                             <div class="manager_info_text">
                                 <div class="manager_title">
-									<?php the_title(); ?>
+                                    <span class="manager_name"><?php the_field("name"); ?></span>
                                 </div>
                                 <div class="manager_dsc">
+									<?php the_title(); ?>
                                     <span class="manager_subt"><?php the_field("manager_subt"); ?></span>
-                                    <span class="manager_name"><?php the_field("name"); ?></span>
                                     <a href="tel:<?php the_field("phone"); ?>"><?php the_field("phone"); ?></a>
                                     <a href="mail:<?php the_field("email"); ?>"><?php the_field("email"); ?></a>
                                 </div>
