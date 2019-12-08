@@ -292,7 +292,7 @@ Text Domain: mustang
 .manager_info {
     padding: 10px;
     display: inline-block;
-    width: 300px;
+
 }
 
 .manager_pic {
@@ -866,4 +866,24 @@ Text Domain: mustang
     background-size: 100%;
     border: none;
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/12/table-2.png);
+}
+
+
+
+.hover_map_central.active{
+    position: absolute;
+    left: -250px
+}
+
+.hover_map_east.active{
+    position: absolute;
+
+}
+.hover_map_south.active{
+    position: absolute;
+    left: 450px;
+}
+.hover_map_west.active{
+    position: absolute;
+    left: 550px;
 }
