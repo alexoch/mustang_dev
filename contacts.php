@@ -168,8 +168,8 @@ http://amcharts.com/ammap ">
                     }
                     $i++;
 					?>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info <?php echo $offset;?> ">
-                        <div class="manager_border <?php the_field("class"); ?>">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info <?php echo $offset.' ';the_field("class"); ?>">
+                        <div class="manager_border ">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
                             <div class="manager_info_text">
                                 <div class="manager_title">
