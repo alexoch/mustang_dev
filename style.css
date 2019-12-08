@@ -334,11 +334,12 @@ Text Domain: mustang
 }
 
 .manager_info_text {
-    width: 245px;
+    width: 220px;
     position: relative;
     display: inline-block;
     top: 43px;
     left: 5px;
+    font-size: 15px;
 }
 
 .contacts-map {
