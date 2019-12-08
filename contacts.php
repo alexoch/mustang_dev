@@ -166,6 +166,7 @@ http://amcharts.com/ammap ">
                     }else{
 						$offset='';
                     }
+					$offset="offset-xl-2";
                     $i++;
 					?>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info <?php echo $offset;?> ">
