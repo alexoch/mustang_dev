@@ -874,6 +874,7 @@ Text Domain: mustang
 .hover_map_central.active{
     position: absolute;
     left: 0;
+    margin-left: 0;
 }
 
 .hover_map_east.active{
@@ -886,7 +887,7 @@ Text Domain: mustang
 }
 .hover_map_west.active{
     position: absolute;
-    left: 0;
+    right: 0;
 }
 
 /*.hover_map_east img,.hover_map_west img,.hover_map_south img{*/
