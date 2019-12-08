@@ -889,7 +889,7 @@ Text Domain: mustang
     left: 550px;
 }
 
-.hover_map_east img,.hover_map_west img,.hover_map_south img{
-    position: relative;
-    top: -9px;
-}
+/*.hover_map_east img,.hover_map_west img,.hover_map_south img{*/
+    /*position: relative;*/
+    /*top: -9px;*/
+/*}*/
