@@ -890,6 +890,9 @@ Text Domain: mustang
     right: 0;
 }
 
+.manager_title,.manager_dsc{
+    color:black;
+}
 /*.hover_map_east img,.hover_map_west img,.hover_map_south img{*/
     /*position: relative;*/
     /*top: -9px;*/
