@@ -380,15 +380,9 @@ Text Domain: mustang
 }
 
 .trade_product-img img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 10px 0;
 }
 
-.trade_product-img .smallimg {
-    width: 71%;
-}
 
 .about-graph {
     padding: 1em 2%;
