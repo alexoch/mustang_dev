@@ -896,6 +896,6 @@ Text Domain: mustang
     fill: #CDDC39;
 }
 .hover_map_central.land.active path {
-    fill: aquamarine;
+    fill: red;
 }
 
