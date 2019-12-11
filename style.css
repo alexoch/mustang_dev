@@ -886,16 +886,16 @@ Text Domain: mustang
 .manager_title,.manager_dsc{
     color:black;
 }
-.hover_map_east.land:hover path {
-    stroke: #f58220;
+.hover_map_east.land.active path {
+    fill: #f58220;
 }
-.hover_map_west.land:hover path {
-    stroke: green;
+.hover_map_west.land.active path {
+    fill: green;
 }
-.hover_map_south.land:hover path {
-    stroke: #CDDC39;
+.hover_map_south.land.active path {
+    fill: #CDDC39;
 }
-.hover_map_central.land:hover path {
-    stroke: aquamarine;
+.hover_map_central.land.active path {
+    fill: aquamarine;
 }
 
