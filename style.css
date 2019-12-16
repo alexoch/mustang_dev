@@ -374,7 +374,6 @@ Text Domain: mustang
 
 .trade_product-img {
     position: relative;
-    width: 315px;
     margin: 0 auto;
 }
 
@@ -425,7 +424,6 @@ Text Domain: mustang
 
 .distributors-item {
     border: 1px solid rgba(0, 0, 0, 0.94);
-    min-height: 64vh;
     padding: 10px;
 
 }
@@ -887,12 +885,12 @@ Text Domain: mustang
     fill: #f58220;
 }
 .hover_map_west path, .hover_map_west.land.active path{
-    fill: green;
+    fill: #fff200;
 }
 .hover_map_south path,.hover_map_south.land.active path {
-    fill: #CDDC39;
+    fill: #00a651;
 }
 .hover_map_central path,.hover_map_central.land.active path {
-    fill: #ff756d;
+    fill: #ed1c24;
 }
 
