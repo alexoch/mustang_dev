@@ -31,7 +31,7 @@ get_header();
                     <div class="trade_product">
                         <div class="trade_product-img">
                             <img src="<?php the_post_thumbnail_url();?>"
-                                  alt="" width="315">
+                                  alt="" >
                         </div>
                         <!--div class="trade_product-info">
 							<p class="trade_product-title">
