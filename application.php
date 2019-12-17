@@ -47,8 +47,8 @@ while (have_posts()) {
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9 use-description">
                     <div class="row use-video ">
-                        <iframe width="660"
-                                height="415"
+                        <iframe width="860"
+                                height="500"
                                 src="https://www.youtube.com/embed/Bxm5SN4kpRo"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

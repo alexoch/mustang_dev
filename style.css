@@ -425,7 +425,7 @@ Text Domain: mustang
 .distributors-item {
     border: 1px solid rgba(0, 0, 0, 0.94);
     padding: 10px;
-
+    min-height: initial;
 }
 
 .slide-title {
@@ -740,6 +740,9 @@ Text Domain: mustang
     width: 80%;
     display: block;
     margin-left: 15px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .product__used .product__title--article {
