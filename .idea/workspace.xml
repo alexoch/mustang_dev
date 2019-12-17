@@ -98,7 +98,7 @@
           <entry key="html" value="61" />
           <entry key="js" value="96" />
           <entry key="php" value="4911" />
-          <entry key="txt" value="1715" />
+          <entry key="txt" value="1719" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -107,7 +107,7 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="96" />
           <entry key="PHP" value="4896" />
-          <entry key="PLAIN_TEXT" value="1715" />
+          <entry key="PLAIN_TEXT" value="1719" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="896" column="17" selection-start-line="896" selection-start-column="17" selection-end-line="896" selection-end-column="17" />
+            <state relative-caret-position="439">
+              <caret line="893" column="17" selection-start-line="893" selection-start-column="17" selection-end-line="893" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -431,28 +431,7 @@
       <workItem from="1576516967705" duration="636000" />
       <workItem from="1576522254854" duration="1532000" />
       <workItem from="1576580105252" duration="58000" />
-      <workItem from="1576581311131" duration="3001000" />
-    </task>
-    <task id="LOCAL-00331" summary="fixes product application35">
-      <created>1575370498951</created>
-      <option name="number" value="00331" />
-      <option name="presentableId" value="LOCAL-00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1575370498951</updated>
-    </task>
-    <task id="LOCAL-00332" summary="fixes product application38">
-      <created>1575370991735</created>
-      <option name="number" value="00332" />
-      <option name="presentableId" value="LOCAL-00332" />
-      <option name="project" value="LOCAL" />
-      <updated>1575370991735</updated>
-    </task>
-    <task id="LOCAL-00333" summary="fixes product application39">
-      <created>1575371063080</created>
-      <option name="number" value="00333" />
-      <option name="presentableId" value="LOCAL-00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1575371063080</updated>
+      <workItem from="1576581311131" duration="3960000" />
     </task>
     <task id="LOCAL-00334" summary="fixes product application40">
       <created>1575371114138</created>
@@ -776,11 +755,32 @@
       <option name="project" value="LOCAL" />
       <updated>1576584345667</updated>
     </task>
-    <option name="localTasksCounter" value="380" />
+    <task id="LOCAL-00380" summary="fixes trading equipment19">
+      <created>1576584510687</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1576584510688</updated>
+    </task>
+    <task id="LOCAL-00381" summary="fixes trading equipment20">
+      <created>1576584599082</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1576584599082</updated>
+    </task>
+    <task id="LOCAL-00382" summary="fixes trading equipment21">
+      <created>1576586677262</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1576586677262</updated>
+    </task>
+    <option name="localTasksCounter" value="383" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336392000" />
+    <option name="totallyTimeSpent" value="337351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -848,9 +848,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes contacts3" />
-    <MESSAGE value="fixes contacts4" />
-    <MESSAGE value="fixes contacts5" />
     <MESSAGE value="fixes contacts6" />
     <MESSAGE value="fixes contacts7" />
     <MESSAGE value="fixes contacts8" />
@@ -873,7 +870,10 @@
     <MESSAGE value="fixes trading equipment16" />
     <MESSAGE value="fixes trading equipment17" />
     <MESSAGE value="fixes trading equipment18" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes trading equipment18" />
+    <MESSAGE value="fixes trading equipment19" />
+    <MESSAGE value="fixes trading equipment20" />
+    <MESSAGE value="fixes trading equipment21" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes trading equipment21" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/excursions.php" />
@@ -1073,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="896" column="17" selection-start-line="896" selection-start-column="17" selection-end-line="896" selection-end-column="17" />
+        <state relative-caret-position="439">
+          <caret line="893" column="17" selection-start-line="893" selection-start-column="17" selection-end-line="893" selection-end-column="17" />
         </state>
       </provider>
     </entry>

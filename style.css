@@ -891,9 +891,9 @@ Text Domain: mustang
     fill: #ed8240;
 }
 .hover_map_south path,.hover_map_south.land.active path {
-    fill: #9c9d25;
+    fill: #d0b333;
 }
 .hover_map_central path,.hover_map_central.land.active path {
-    fill: #d0b333;
+    fill: #109ac8;
 }
 
