@@ -28,7 +28,7 @@ get_header();
 			height: 80.2%;
 			position: absolute;
 			width: 100%;
-			background: url(<?php echo get_template_directory_uri();?>/img/main_back4.jpg);
+			background: url(<?php echo get_template_directory_uri();?>/img/main_photo-3.png);
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position-x: 13%;
@@ -44,7 +44,7 @@ if ( have_posts() ) :
 
 	while (have_posts()) { the_post();    ?>
 
-        <div class="slide container-fluid">
+        <div class="slide container-fluid" style="visibility: hidden;">
 
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-2 col-xl-4 d-flex align-items-center">
