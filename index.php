@@ -24,7 +24,7 @@ get_header();
 
 <main>
 	<style type="text/css">
-		.back{display: block;
+		.back1{display: block;
 			height: 80.2%;
 			position: absolute;
 			width: 100%;
@@ -35,8 +35,10 @@ get_header();
 			opacity: 0.3;
 		}
 	</style>
-	<div class="back"></div>
-	<div class="main-slider" >
+	<div class="back">
+        <img src="<?php echo get_template_directory_uri();?>/img/main_photo-3.png"  style="width: 100%;" alt="">
+    </div>
+	<div class="main-slider" style="display: none;">
 <?php
 
 query_posts('category_name=main-slider&order=DSC');
