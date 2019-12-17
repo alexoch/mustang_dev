@@ -885,15 +885,15 @@ Text Domain: mustang
     color:black;
 }
 .hover_map_east path, .hover_map_east.land.active path{
-    fill: #d88c34;
-}
-.hover_map_west path, .hover_map_west.land.active path{
     fill: #ed8240;
 }
-.hover_map_south path,.hover_map_south.land.active path {
+.hover_map_west path, .hover_map_west.land.active path{
     fill: #d0b333;
 }
-.hover_map_central path,.hover_map_central.land.active path {
+.hover_map_south path,.hover_map_south.land.active path {
     fill: #59c1ff;
+}
+.hover_map_central path,.hover_map_central.land.active path {
+    fill: #d88c34;
 }
 
