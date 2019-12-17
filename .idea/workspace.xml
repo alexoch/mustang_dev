@@ -94,20 +94,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2479" />
+          <entry key="css" value="2483" />
           <entry key="html" value="61" />
           <entry key="js" value="96" />
           <entry key="php" value="4911" />
-          <entry key="txt" value="1720" />
+          <entry key="txt" value="1722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2479" />
+          <entry key="CSS" value="2483" />
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="96" />
           <entry key="PHP" value="4896" />
-          <entry key="PLAIN_TEXT" value="1720" />
+          <entry key="PLAIN_TEXT" value="1722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="896" column="17" selection-start-line="896" selection-start-column="17" selection-end-line="896" selection-end-column="17" />
+            <state relative-caret-position="407">
+              <caret line="890" column="17" selection-start-line="890" selection-start-column="17" selection-end-line="890" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -431,21 +431,7 @@
       <workItem from="1576516967705" duration="636000" />
       <workItem from="1576522254854" duration="1532000" />
       <workItem from="1576580105252" duration="58000" />
-      <workItem from="1576581311131" duration="4204000" />
-    </task>
-    <task id="LOCAL-00336" summary="fixes product application43">
-      <created>1575372650283</created>
-      <option name="number" value="00336" />
-      <option name="presentableId" value="LOCAL-00336" />
-      <option name="project" value="LOCAL" />
-      <updated>1575372650284</updated>
-    </task>
-    <task id="LOCAL-00337" summary="fixes product application44">
-      <created>1575373196725</created>
-      <option name="number" value="00337" />
-      <option name="presentableId" value="LOCAL-00337" />
-      <option name="project" value="LOCAL" />
-      <updated>1575373196725</updated>
+      <workItem from="1576581311131" duration="4862000" />
     </task>
     <task id="LOCAL-00338" summary="fixes product application45">
       <created>1575374336661</created>
@@ -776,11 +762,25 @@
       <option name="project" value="LOCAL" />
       <updated>1576586830296</updated>
     </task>
-    <option name="localTasksCounter" value="385" />
+    <task id="LOCAL-00385" summary="fixes trading equipment23">
+      <created>1576586965615</created>
+      <option name="number" value="00385" />
+      <option name="presentableId" value="LOCAL-00385" />
+      <option name="project" value="LOCAL" />
+      <updated>1576586965615</updated>
+    </task>
+    <task id="LOCAL-00386" summary="fixes trading equipment24">
+      <created>1576587033749</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1576587033749</updated>
+    </task>
+    <option name="localTasksCounter" value="387" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337595000" />
+    <option name="totallyTimeSpent" value="338253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -848,8 +848,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes contacts7" />
-    <MESSAGE value="fixes contacts8" />
     <MESSAGE value="fixes contacts9" />
     <MESSAGE value="fixes contacts10" />
     <MESSAGE value="fixes trading equipment" />
@@ -873,7 +871,9 @@
     <MESSAGE value="fixes trading equipment20" />
     <MESSAGE value="fixes trading equipment21" />
     <MESSAGE value="fixes trading equipment22" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes trading equipment22" />
+    <MESSAGE value="fixes trading equipment23" />
+    <MESSAGE value="fixes trading equipment24" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes trading equipment24" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/excursions.php" />
@@ -1073,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="896" column="17" selection-start-line="896" selection-start-column="17" selection-end-line="896" selection-end-column="17" />
+        <state relative-caret-position="407">
+          <caret line="890" column="17" selection-start-line="890" selection-start-column="17" selection-end-line="890" selection-end-column="17" />
         </state>
       </provider>
     </entry>

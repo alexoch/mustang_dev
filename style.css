@@ -885,7 +885,7 @@ Text Domain: mustang
     color:black;
 }
 .hover_map_east path, .hover_map_east.land.active path{
-    fill: #FF9800;
+    fill: #f8b34e;
 }
 .hover_map_west path, .hover_map_west.land.active path{
     fill: #cec804;
