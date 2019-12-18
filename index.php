@@ -84,20 +84,36 @@ get_header();
         .modal {
             position: absolute;
             display: block;
-            top: 40%;
+            top: 30%;
             left: 50%;
-            margin-left: -100px;
-            width: 200px;
-            height: 100px;
+            margin-left: -250px;
+            width: 500px;
+            height: 300px;
             background: white;
             -webkit-border-radius: 15px;
             -moz-border-radius: 15px;
             border-radius: 15px;
         }
+        .modal_logo{
+            width: 300px;
+            display: block;
+            margin: 20px auto;
+        }
+        .modal_inf{
+            display: block;
+            text-align: center;
+            width: 28%;
+            border: 1px solid;
+            border-radius: 15px;
+            margin: 0 auto;
+            background: #8080802e;
+            padding: 10px;
+        }
+
     </style>
     <div class="modal" >
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Mustang">
-        <div>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Mustang" class="modal_logo">
+        <div class="modal_inf">
             <img src="<?php echo get_template_directory_uri(); ?>/img/main/ru.png" alt="">
             <span>Русский язык</span>
         </div>
