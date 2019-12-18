@@ -32,6 +32,7 @@ function doSomething() {
 }
 $(".modal").click(function () {
     $(".modal").hide();
+    $(".back1").hide();
 });
 
 doSomething();

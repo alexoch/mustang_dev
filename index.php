@@ -26,16 +26,16 @@ get_header();
         <style type="text/css">
             .back1 {
                 display: block;
-                height: 80.2%;
+                height: 100vh;
                 position: absolute;
                 width: 100%;
-                background: url(<?php echo get_template_directory_uri();?>/img/main_photo-3.png);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position-x: 13%;
+                background: black;
                 opacity: 0.3;
             }
         </style>
+        <div class="back1">
+
+        </div>
         <div class="back">
             <img src="<?php echo get_template_directory_uri(); ?>/img/main_photo-4.png" style="width: 100%;" alt="">
         </div>
@@ -82,6 +82,7 @@ get_header();
     </main>
     <style>
         .modal {
+            z-index: 10;
             position: absolute;
             display: block;
             top: 30%;
