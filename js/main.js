@@ -30,6 +30,9 @@ function doSomething() {
         default: $('.main-slider').display();
     }
 }
+$(".modal").click(function () {
+    $(".modal").hide();
+});
 
 doSomething();
 
