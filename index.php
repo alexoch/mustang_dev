@@ -22,62 +22,87 @@ get_header();
 
 ?>
 
-<main>
-	<style type="text/css">
-		.back1{display: block;
-			height: 80.2%;
-			position: absolute;
-			width: 100%;
-			background: url(<?php echo get_template_directory_uri();?>/img/main_photo-3.png);
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position-x: 13%;
-			opacity: 0.3;
-		}
-	</style>
-	<div class="back">
-        <img src="<?php echo get_template_directory_uri();?>/img/main_photo-4.png"  style="width: 100%;" alt="">
+    <main>
+        <style type="text/css">
+            .back1 {
+                display: block;
+                height: 80.2%;
+                position: absolute;
+                width: 100%;
+                background: url(<?php echo get_template_directory_uri();?>/img/main_photo-3.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: 13%;
+                opacity: 0.3;
+            }
+        </style>
+        <div class="back">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/main_photo -4.png" style="width: 100%;" alt="">
+        </div>
+        <div class="main-slider" style="display: none;">
+			<?php
+
+			query_posts('category_name=main-slider&order=DSC');
+			if (have_posts()) :
+
+				while (have_posts()) {
+					the_post(); ?>
+
+                    <div class="slide container-fluid" style="">
+
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-2 col-xl-4 d-flex align-items-center">
+                                <div class="slide-content">
+                                    <h1 class="slide-title">
+										<?php the_title(); ?>
+                                    </h1>
+                                    <p class="slide-text">
+										<?php echo get_the_excerpt(); ?>
+                                    </p>
+                                    <p class="slide-price" style="visibility: hidden;">
+                                        241.20<sup>грн/12 шт. в уп.</sup>
+                                    </p>
+                                    <a class="link d-inline-flex align-items-center" href="<?php the_permalink(); ?>">
+                                        ПОДРОБНЕЕ
+                                        <i data-feather="arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex align-items-end justify-content-end p-0">
+                                <img src="<?php the_post_thumbnail_url(); ?>" class="slide-img">
+                            </div>
+                        </div>
+                    </div>
+					<?php
+				};
+			endif;
+			wp_reset_query();
+			?>
+        </div>
+    </main>
+    <style>
+        .modal {
+            position: absolute;
+            display: block;
+            top: 40%;
+            left: 50%;
+            margin-left: -100px;
+            width: 200px;
+            height: 100px;
+            background: white;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+        }
+    </style>
+    <div class="modal" >
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Mustang">
+        <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/main/ru.png" alt="">
+            <span>Русский язык</span>
+        </div>
+
     </div>
-	<div class="main-slider" style="display: none;">
-<?php
-
-query_posts('category_name=main-slider&order=DSC');
-if ( have_posts() ) :
-
-	while (have_posts()) { the_post();    ?>
-
-        <div class="slide container-fluid" style="">
-
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-2 col-xl-4 d-flex align-items-center">
-					<div class="slide-content">
-						<h1 class="slide-title">
-                            <?php the_title();?>
-						</h1>
-						<p class="slide-text">
-							<?php echo get_the_excerpt();?>
-						</p>
-						<p class="slide-price" style="visibility: hidden;">
-							241.20<sup>грн/12 шт. в уп.</sup>
-						</p>
-						<a class="link d-inline-flex align-items-center" href="<?php the_permalink();?>">
-							ПОДРОБНЕЕ
-							<i data-feather="arrow-right"></i>
-						</a>
-					</div>
-				</div>
-				<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex align-items-end justify-content-end p-0">
-					<img src="<?php the_post_thumbnail_url(); ?>" class="slide-img">
-				</div>
-			</div>
-		</div>
-		<?php
-	};
-endif;
-wp_reset_query();
-?>
-	</div>
-</main>
 
 <?php
 
