@@ -31,6 +31,7 @@ get_header();
                 width: 100%;
                 background: black;
                 opacity: 0.3;
+                top: 0;
             }
         </style>
         <div class="back1">

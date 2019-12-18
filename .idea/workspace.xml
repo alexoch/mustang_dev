@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,18 +94,18 @@
         <counts>
           <entry key="css" value="2483" />
           <entry key="html" value="61" />
-          <entry key="js" value="115" />
-          <entry key="php" value="5204" />
-          <entry key="txt" value="1736" />
+          <entry key="js" value="146" />
+          <entry key="php" value="5208" />
+          <entry key="txt" value="1738" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2483" />
           <entry key="HTML" value="76" />
-          <entry key="JavaScript" value="115" />
-          <entry key="PHP" value="5189" />
-          <entry key="PLAIN_TEXT" value="1736" />
+          <entry key="JavaScript" value="146" />
+          <entry key="PHP" value="5193" />
+          <entry key="PLAIN_TEXT" value="1738" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -142,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+            <state relative-caret-position="1456">
+              <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -160,10 +157,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="384">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
+                <element signature="n#!!block;n#getCookie#0" expanded="true" />
                 <element signature="n#!!block;n#doSomething#0" expanded="true" />
+                <element signature="e#808#816#0" expanded="true" />
                 <element signature="e#4167#4473#0" expanded="true" />
                 <element signature="e#4206#4353#0" expanded="true" />
               </folding>
@@ -261,8 +260,8 @@
         <option value="$PROJECT_DIR$/trading_equipment.php" />
         <option value="$PROJECT_DIR$/application.php" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -430,21 +429,7 @@
       <workItem from="1576590058441" duration="689000" />
       <workItem from="1576591366821" duration="1721000" />
       <workItem from="1576594145412" duration="602000" />
-      <workItem from="1576666338951" duration="5653000" />
-    </task>
-    <task id="LOCAL-00345" summary="fixes single5">
-      <created>1575537388549</created>
-      <option name="number" value="00345" />
-      <option name="presentableId" value="LOCAL-00345" />
-      <option name="project" value="LOCAL" />
-      <updated>1575537388549</updated>
-    </task>
-    <task id="LOCAL-00346" summary="fixes single6">
-      <created>1575539044545</created>
-      <option name="number" value="00346" />
-      <option name="presentableId" value="LOCAL-00346" />
-      <option name="project" value="LOCAL" />
-      <updated>1575539044545</updated>
+      <workItem from="1576666338951" duration="5959000" />
     </task>
     <task id="LOCAL-00347" summary="fixes single7">
       <created>1575539158222</created>
@@ -775,11 +760,25 @@
       <option name="project" value="LOCAL" />
       <updated>1576671427396</updated>
     </task>
-    <option name="localTasksCounter" value="394" />
+    <task id="LOCAL-00394" summary="new main6">
+      <created>1576672672225</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1576672672225</updated>
+    </task>
+    <task id="LOCAL-00395" summary="new main7">
+      <created>1576672804404</created>
+      <option name="number" value="00395" />
+      <option name="presentableId" value="LOCAL-00395" />
+      <option name="project" value="LOCAL" />
+      <updated>1576672804404</updated>
+    </task>
+    <option name="localTasksCounter" value="396" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347699000" />
+    <option name="totallyTimeSpent" value="348005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -847,8 +846,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes trading equipment6" />
-    <MESSAGE value="fixes trading equipment7" />
     <MESSAGE value="fixes trading equipment8" />
     <MESSAGE value="fixes trading equipment9" />
     <MESSAGE value="fixes trading equipment10" />
@@ -872,7 +869,9 @@
     <MESSAGE value="new main3" />
     <MESSAGE value="new main4" />
     <MESSAGE value="new main5" />
-    <option name="LAST_COMMIT_MESSAGE" value="new main5" />
+    <MESSAGE value="new main6" />
+    <MESSAGE value="new main7" />
+    <option name="LAST_COMMIT_MESSAGE" value="new main7" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/excursions.php" />
@@ -1065,10 +1064,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="384">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
+            <element signature="n#!!block;n#getCookie#0" expanded="true" />
             <element signature="n#!!block;n#doSomething#0" expanded="true" />
+            <element signature="e#808#816#0" expanded="true" />
             <element signature="e#4167#4473#0" expanded="true" />
             <element signature="e#4206#4353#0" expanded="true" />
           </folding>
@@ -1077,8 +1078,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+        <state relative-caret-position="1456">
+          <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
         </state>
       </provider>
     </entry>
