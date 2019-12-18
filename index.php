@@ -37,7 +37,7 @@ get_header();
             }
         </style>
         <div class="back">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/main_photo -4.png" style="width: 100%;" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/main_photo-4.png" style="width: 100%;" alt="">
         </div>
         <div class="main-slider" style="display: none;">
 			<?php
