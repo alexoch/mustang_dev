@@ -33,12 +33,29 @@ get_header();
                 opacity: 0.3;
                 top: 0;
             }
+            .desktop{
+                display:block;
+            }
+
+            .mobile{
+                display:none;
+            }
+
+            @media (max-width: 640px) and (min-width: 320px){
+                .desktop{
+                    display:none;
+                }
+
+                .mobile{
+                    display:block;
+                }
+            }
         </style>
         <div class="back1">
-
         </div>
         <div class="back">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/main_photo-4.png" style="width: 100%;" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/main_photo-4.png" style="width: 100%;" alt="" class="desktop">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/main/main_mobile.png" style="width: 100%;" alt="" class="mobile">
         </div>
         <div class="main-slider" style="display: none;">
 			<?php
@@ -116,6 +133,7 @@ get_header();
     <div class="modal" >
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Mustang" class="modal_logo">
         <div class="modal_inf">
+
             <img src="<?php echo get_template_directory_uri(); ?>/img/main/ru.png" alt="">
             <span>Русский язык</span>
         </div>
