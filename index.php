@@ -27,33 +27,7 @@ get_header();
                  class="mobile">
         </div>
     </main>
-    <div class="back1">
-    </div>
-    <div class="modal container">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
-             alt="Mustang" class="modal_logo row">
-        <style>
-            .translations {
-                margin: 0;
-            }
-        </style>
-        <div class="translations row">
-			<?php
-			$translations = pll_the_languages(['raw' => 1]);
-			foreach ($translations as $tr) {
-				$img_url = get_template_directory_uri() . "/img/main/" . $tr["slug"] . ".png";
-				?>
-                <div class="modal_lang col-xl-4 offset-4 ">
-                    <div class="modal_inf <?php echo $tr["slug"]; ?>">
-                        <img src="<?php echo $img_url; ?>" alt="">
-                        <span><?php echo $tr["name"] ?></span>
-                    </div>
-                </div>
-             	<?php
-			}
-			?>
-        </div>
-    </div>
+
 <?php
 get_footer();
 ?>
