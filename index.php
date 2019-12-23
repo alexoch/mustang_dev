@@ -34,8 +34,8 @@ get_header();
                 foreach ($translations as $tr){
                     $img_url=get_template_directory_uri()."/img/main/".$tr["slug"].".png";
                     ?>
-                        <div class="modal_inf <?php echo $img_url;?>">
-                            <img src="<?php echo $tr["flag"];?>" alt="">
+                        <div class="modal_inf <?php echo $tr["slug"];?>">
+                            <img src="<?php echo $img_url;?>" alt="">
                             <span><?php echo $tr["name"]?></span>
                         </div>
                     <?php
