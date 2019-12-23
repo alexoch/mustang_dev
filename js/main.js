@@ -24,18 +24,20 @@ function getCookie(name) {
     return decodeURI(dc.substring(begin + prefix.length, end));
 }
 
-function doSomething() {
+function showModal() {
     var myCookie = getCookie("lang");
+    //if clicked set cookie send to version
     switch (myCookie) {
-        default: $('.main-slider').show();
+        case "eng":window.location.replace("http://www.w3schools.com");break;
+        case null : $('.modal , .back1').show();
     }
 }
-$(".modal").click(function () {
+$(".modal-inf").click(function () {
     $(".modal").hide();
     $(".back1").hide();
 });
 
-doSomething();
+showModal();
 
 /*
 @big slider for index page
