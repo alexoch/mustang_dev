@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +98,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="281" />
           <entry key="md" value="98" />
-          <entry key="php" value="5641" />
-          <entry key="txt" value="1789" />
+          <entry key="php" value="5682" />
+          <entry key="txt" value="1790" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -109,8 +108,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="281" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="5626" />
-          <entry key="PLAIN_TEXT" value="1789" />
+          <entry key="PHP" value="5667" />
+          <entry key="PLAIN_TEXT" value="1790" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -146,8 +145,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="293">
+              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -462,14 +461,7 @@
       <workItem from="1576666338951" duration="6382000" />
       <workItem from="1576677331746" duration="34000" />
       <workItem from="1576763504042" duration="841000" />
-      <workItem from="1577092363024" duration="7510000" />
-    </task>
-    <task id="LOCAL-00362" summary="fixes trading equipment2">
-      <created>1575964661008</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1575964661008</updated>
+      <workItem from="1577092363024" duration="7822000" />
     </task>
     <task id="LOCAL-00363" summary="fixes trading equipment3">
       <created>1575964719210</created>
@@ -807,11 +799,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577104464047</updated>
     </task>
-    <option name="localTasksCounter" value="411" />
+    <task id="LOCAL-00411" summary="update modal7">
+      <created>1577105121041</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1577105121041</updated>
+    </task>
+    <option name="localTasksCounter" value="412" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356813000" />
+    <option name="totallyTimeSpent" value="357125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -879,7 +878,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes trading equipment23" />
     <MESSAGE value="fixes trading equipment24" />
     <MESSAGE value="fixes trading equipment25" />
     <MESSAGE value="fixes trading equipment26" />
@@ -904,7 +902,8 @@
     <MESSAGE value="update modal4" />
     <MESSAGE value="update modal5" />
     <MESSAGE value="update modal6" />
-    <option name="LAST_COMMIT_MESSAGE" value="update modal6" />
+    <MESSAGE value="update modal7" />
+    <option name="LAST_COMMIT_MESSAGE" value="update modal7" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/excursions.php" />
@@ -1111,8 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="293">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
