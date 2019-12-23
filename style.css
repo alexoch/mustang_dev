@@ -930,6 +930,11 @@ Text Domain: mustang
     -moz-border-radius: 15px;
     border-radius: 15px;
 }
+.modal_logo{
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
 
 
 @media (max-width: 640px) and (min-width: 320px) {
@@ -944,12 +949,14 @@ Text Domain: mustang
     .modal {
         margin-left: 0;
         width: 100%;
+        left: 0;
     }
-}
-.modal_logo{
-    width: 300px;
-    display: block;
-    margin: 20px auto;
+    .modal_logo{
+        width: 120px;
+        display: block;
+        margin: 20px auto;
+    }
+
 }
 .modal_inf{
     display: block;
