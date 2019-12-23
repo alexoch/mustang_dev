@@ -26,9 +26,9 @@ function getCookie(name) {
 
 function showModal() {
     var myCookie = getCookie("lang");
-    if(myCookie!=null){
-        $(".modal").hide();
-        $(".back1").hide();
+    if(myCookie==null){
+        $(".modal").show();
+        $(".back1").show();
     }
 }
 $(".modal_inf").click(function () {
