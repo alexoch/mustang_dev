@@ -28,7 +28,9 @@ get_header();
     <div class="back1">
     </div>
     <div class="modal" >
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Mustang" class="modal_logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
+             alt="Mustang" class="modal_logo">
+        <div class="translations">
             <?php
                 $translations = pll_the_languages(array('raw'=>1));
                 foreach ($translations as $tr){
@@ -41,6 +43,7 @@ get_header();
                     <?php
                 }
             ?>
+        </div>
     </div>
 <?php
 get_footer();
