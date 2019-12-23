@@ -26,15 +26,15 @@ function getCookie(name) {
 
 function showModal() {
     var myCookie = getCookie("lang");
-    //if clicked set cookie send to version
-    switch (myCookie) {
-        case "eng":window.location.replace("http://www.w3schools.com");break;
-        case null : $('.modal , .back1').show();
+    if(myCookie!=null){
+        $(".modal").hide();
+        $(".back1").hide();
     }
 }
-$(".modal-inf").click(function () {
+$(".modal_inf").click(function () {
     $(".modal").hide();
     $(".back1").hide();
+    document.cookie = "lang=ru";
 });
 
 showModal();
