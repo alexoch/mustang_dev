@@ -109,12 +109,14 @@ get_header();
                 <div class="row">
                     <div class=" col-12 col-sm-12  col-xl-11 product-item ">
 
-                    <a href="<?php echo $url1; ?>" style="color: white;">
-                    <div>ПАСПОРТ ПРОДУКТА</div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
-                         alt="" style="width: 50px;margin: 10px 0;">
-                    <div>скачать</div>
-                </a>
+                        <a href="<?php echo $url1; ?>" style="color: white;">
+                            <div>ПАСПОРТ ПРОДУКТА</div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
+                                 alt="" style="width: 50px;margin: 10px 0;">
+                            <div>скачать</div>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 text-center  ">
                 <div class="row">
