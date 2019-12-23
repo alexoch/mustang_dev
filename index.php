@@ -32,16 +32,15 @@ get_header();
             <?php
                 $translations = pll_the_languages(array('raw'=>1));
                 foreach ($translations as $tr){
+                    $img_url=get_template_directory_uri()."/img/main/".$tr["slug"].".png";break;
                     ?>
-                        <div class="modal_inf <?php echo $tr["slug"]?>">
+                        <div class="modal_inf <?php echo $img_url;?>">
                             <img src="<?php echo $tr["flag"];?>" alt="">
                             <span><?php echo $tr["name"]?></span>
                         </div>
                     <?php
                 }
             ?>
-
-
     </div>
 <?php
 get_footer();
