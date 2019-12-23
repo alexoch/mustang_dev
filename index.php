@@ -27,9 +27,9 @@ get_header();
     </main>
     <div class="back1">
     </div>
-    <div class="modal" >
+    <div class="modal container" >
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
-             alt="Mustang" class="modal_logo">
+             alt="Mustang" class="modal_logo row">
         <style>
             .translations{
                 margin:0;
