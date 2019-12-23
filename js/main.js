@@ -35,7 +35,7 @@ function showModal() {
 $(".modal_inf").click(function () {
     $(".modal").hide();
     $(".back1").hide();
-    document.cookie = "lang=ru;";
+    document.cookie = "lang=ru;path=/;";
 });
 
 showModal();
