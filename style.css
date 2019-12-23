@@ -932,7 +932,7 @@ Text Domain: mustang
     left: 50%;
     margin-left: -250px;
     width: 500px;
-    height: 300px;
+    height: 330px;
     background: white;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -946,12 +946,9 @@ Text Domain: mustang
 .modal_inf{
     display: block;
     text-align: center;
-
     border: 1px solid;
     border-radius: 15px;
-
     background: #8080802e;
     padding: 10px;
-    margin: 10px 0;
 }
 
