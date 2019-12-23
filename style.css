@@ -926,6 +926,7 @@ Text Domain: mustang
 }
 
 .modal {
+    cursor: pointer;
     z-index: 10;
     position: fixed;
     display: none;

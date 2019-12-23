@@ -26,6 +26,7 @@ function getCookie(name) {
 
 function showModal() {
     var myCookie = getCookie("lang");
+    console.log(myCookie+document.cookie);
     if(myCookie==null){
         $(".modal").show();
         $(".back1").show();
@@ -34,7 +35,7 @@ function showModal() {
 $(".modal_inf").click(function () {
     $(".modal").hide();
     $(".back1").hide();
-    document.cookie = "lang=ru";
+    document.cookie = "lang=ru;";
 });
 
 showModal();
