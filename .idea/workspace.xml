@@ -4,6 +4,7 @@
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
           <entry key="project.open.time.17" value="5" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.2" value="8" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
@@ -90,25 +91,25 @@
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="64" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="2483" />
           <entry key="html" value="61" />
-          <entry key="js" value="163" />
-          <entry key="php" value="5286" />
-          <entry key="txt" value="1740" />
+          <entry key="js" value="167" />
+          <entry key="php" value="5291" />
+          <entry key="txt" value="1742" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2483" />
           <entry key="HTML" value="76" />
-          <entry key="JavaScript" value="163" />
-          <entry key="PHP" value="5271" />
-          <entry key="PLAIN_TEXT" value="1740" />
+          <entry key="JavaScript" value="167" />
+          <entry key="PHP" value="5276" />
+          <entry key="PLAIN_TEXT" value="1742" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -139,15 +140,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-              <folding>
-                <element signature="e#1004#1024#0#HTML" expanded="true" />
-                <element signature="e#1121#1141#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -161,14 +158,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state relative-caret-position="432">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="n#!!block;n#getCookie#0" expanded="true" />
-                <element signature="n#!!block;n#doSomething#0" expanded="true" />
+                <element signature="e#808#859#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,8 +261,8 @@
         <option value="$PROJECT_DIR$/trading_equipment.php" />
         <option value="$PROJECT_DIR$/application.php" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -291,6 +288,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,7 +316,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,14 +432,8 @@
       <workItem from="1576594145412" duration="602000" />
       <workItem from="1576666338951" duration="6382000" />
       <workItem from="1576677331746" duration="34000" />
-      <workItem from="1576763504042" duration="312000" />
-    </task>
-    <task id="LOCAL-00349" summary="fixes single9">
-      <created>1575541405380</created>
-      <option name="number" value="00349" />
-      <option name="presentableId" value="LOCAL-00349" />
-      <option name="project" value="LOCAL" />
-      <updated>1575541405381</updated>
+      <workItem from="1576763504042" duration="841000" />
+      <workItem from="1577092363024" duration="273000" />
     </task>
     <task id="LOCAL-00350" summary="fixes contacts">
       <created>1575618857850</created>
@@ -780,17 +771,25 @@
       <option name="project" value="LOCAL" />
       <updated>1576673133427</updated>
     </task>
-    <option name="localTasksCounter" value="398" />
+    <task id="LOCAL-00398" summary="new main10">
+      <created>1576763844859</created>
+      <option name="number" value="00398" />
+      <option name="presentableId" value="LOCAL-00398" />
+      <option name="project" value="LOCAL" />
+      <updated>1576763844861</updated>
+    </task>
+    <option name="localTasksCounter" value="399" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348774000" />
+    <option name="totallyTimeSpent" value="349576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.38199696" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3880484" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32718894" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -851,7 +850,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="fixes trading equipment10" />
     <MESSAGE value="fixes trading equipment11" />
     <MESSAGE value="fixes trading equipment12" />
     <MESSAGE value="fixes trading equipment14" />
@@ -876,7 +874,8 @@
     <MESSAGE value="new main7" />
     <MESSAGE value="new main8" />
     <MESSAGE value="new main9" />
-    <option name="LAST_COMMIT_MESSAGE" value="new main9" />
+    <MESSAGE value="new main10" />
+    <option name="LAST_COMMIT_MESSAGE" value="new main10" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../museum/prod/excursions.php" />
@@ -1062,12 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-          <folding>
-            <element signature="e#1004#1024#0#HTML" expanded="true" />
-            <element signature="e#1121#1141#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
@@ -1080,11 +1075,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="432">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="n#!!block;n#getCookie#0" expanded="true" />
-            <element signature="n#!!block;n#doSomething#0" expanded="true" />
+            <element signature="e#808#859#0" expanded="true" />
           </folding>
         </state>
       </provider>

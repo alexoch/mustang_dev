@@ -27,7 +27,7 @@ function getCookie(name) {
 function doSomething() {
     var myCookie = getCookie("lang");
     switch (myCookie) {
-        default: $('.main-slider').display();
+        default: $('.main-slider').show();
     }
 }
 $(".modal").click(function () {

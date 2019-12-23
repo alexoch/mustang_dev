@@ -133,7 +133,6 @@ get_header();
     <div class="modal" >
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Mustang" class="modal_logo">
         <div class="modal_inf">
-
             <img src="<?php echo get_template_directory_uri(); ?>/img/main/ru.png" alt="">
             <span>Русский язык</span>
         </div>
