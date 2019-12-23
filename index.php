@@ -57,7 +57,7 @@ get_header();
             <img src="<?php echo get_template_directory_uri(); ?>/img/main_photo-4.png" style="width: 100%;" alt="" class="desktop">
             <img src="<?php echo get_template_directory_uri(); ?>/img/main/main_mobile.png" style="width: 100%;" alt="" class="mobile">
         </div>
-        <div class="main-slider" style="display: none;">
+        <!--div class="main-slider" style="display: none;">
 			<?php
 
 			query_posts('category_name=main-slider&order=DSC');
@@ -96,7 +96,7 @@ get_header();
 			endif;
 			wp_reset_query();
 			?>
-        </div>
+        </div-->
     </main>
     <style>
         .modal {
