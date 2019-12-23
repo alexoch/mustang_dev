@@ -949,8 +949,9 @@ Text Domain: mustang
     width: 28%;
     border: 1px solid;
     border-radius: 15px;
-    margin: 0 auto;
+
     background: #8080802e;
     padding: 10px;
+    margin: 10px 0;
 }
 
