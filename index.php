@@ -30,16 +30,33 @@ get_header();
     <div class="modal" >
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
              alt="Mustang" class="modal_logo">
-        <div class="translations">
+        <style>
+            .translations{
+                margin:0;
+            }
+        </style>
+        <div class="translations row">
             <?php
                 $translations = pll_the_languages(array('raw'=>1));
                 foreach ($translations as $tr){
                     $img_url=get_template_directory_uri()."/img/main/".$tr["slug"].".png";
                     ?>
-                        <div class="modal_inf <?php echo $tr["slug"];?>">
+                        <div class="modal_inf col-xl-4 <?php echo $tr["slug"];?>">
                             <img src="<?php echo $img_url;?>" alt="">
                             <span><?php echo $tr["name"]?></span>
                         </div>
+                    <div class="modal_inf col-xl-4 <?php echo $tr["slug"];?>">
+                        <img src="<?php echo $img_url;?>" alt="">
+                        <span><?php echo $tr["name"]?></span>
+                    </div>
+                    <div class="modal_inf col-xl-4 <?php echo $tr["slug"];?>">
+                        <img src="<?php echo $img_url;?>" alt="">
+                        <span><?php echo $tr["name"]?></span>
+                    </div>
+                    <div class="modal_inf col-xl-4 <?php echo $tr["slug"];?>">
+                        <img src="<?php echo $img_url;?>" alt="">
+                        <span><?php echo $tr["name"]?></span>
+                    </div>
                     <?php
                 }
             ?>
