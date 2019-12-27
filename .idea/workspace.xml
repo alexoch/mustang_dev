@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/contacts.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +98,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="337" />
           <entry key="md" value="98" />
-          <entry key="php" value="5801" />
-          <entry key="txt" value="1811" />
+          <entry key="php" value="5838" />
+          <entry key="txt" value="1813" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -109,8 +108,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="337" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="5786" />
-          <entry key="PLAIN_TEXT" value="1811" />
+          <entry key="PHP" value="5823" />
+          <entry key="PLAIN_TEXT" value="1813" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -155,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="144">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -173,10 +172,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="214" column="55" lean-forward="true" selection-start-line="214" selection-start-column="55" selection-end-line="214" selection-end-column="55" />
+            <state relative-caret-position="16">
+              <caret line="198" column="29" lean-forward="true" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
               <folding>
-                <element signature="e#141019#141586#0#HTML" expanded="true" />
+                <element signature="e#141190#141209#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -487,21 +486,7 @@
       <workItem from="1576677331746" duration="34000" />
       <workItem from="1576763504042" duration="841000" />
       <workItem from="1577092363024" duration="12329000" />
-      <workItem from="1577445385982" duration="1593000" />
-    </task>
-    <task id="LOCAL-00379" summary="fixes trading equipment18">
-      <created>1576584345667</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1576584345667</updated>
-    </task>
-    <task id="LOCAL-00380" summary="fixes trading equipment19">
-      <created>1576584510687</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1576584510688</updated>
+      <workItem from="1577445385982" duration="1920000" />
     </task>
     <task id="LOCAL-00381" summary="fixes trading equipment20">
       <created>1576584599082</created>
@@ -832,11 +817,25 @@
       <option name="project" value="LOCAL" />
       <updated>1577446647751</updated>
     </task>
-    <option name="localTasksCounter" value="428" />
+    <task id="LOCAL-00428" summary="update modal26">
+      <created>1577446995122</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
+      <option name="project" value="LOCAL" />
+      <updated>1577446995122</updated>
+    </task>
+    <task id="LOCAL-00429" summary="update modal27">
+      <created>1577447185042</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1577447185042</updated>
+    </task>
+    <option name="localTasksCounter" value="430" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363225000" />
+    <option name="totallyTimeSpent" value="363552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -904,8 +903,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="update single2" />
-    <MESSAGE value="update single3" />
     <MESSAGE value="update single4" />
     <MESSAGE value="update modal2" />
     <MESSAGE value="update modal3" />
@@ -929,7 +926,9 @@
     <MESSAGE value="update modal23" />
     <MESSAGE value="update modal24" />
     <MESSAGE value="update modal25" />
-    <option name="LAST_COMMIT_MESSAGE" value="update modal25" />
+    <MESSAGE value="update modal26" />
+    <MESSAGE value="update modal27" />
+    <option name="LAST_COMMIT_MESSAGE" value="update modal27" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1085,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1133,12 +1125,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="214" column="55" lean-forward="true" selection-start-line="214" selection-start-column="55" selection-end-line="214" selection-end-column="55" />
+        <state relative-caret-position="16">
+          <caret line="198" column="29" lean-forward="true" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
           <folding>
-            <element signature="e#141019#141586#0#HTML" expanded="true" />
+            <element signature="e#141190#141209#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
