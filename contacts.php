@@ -173,10 +173,10 @@ http://amcharts.com/ammap ">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
                             <div class="manager_info_text">
                                 <div class="manager_title">
-                                    <span class="manager_name"><?php the_field("name"); ?></span>
+                                    <span class="manager_name"><?php the_title(); ?></span>
                                 </div>
                                 <div class="manager_dsc">
-									<?php the_title(); ?>
+	                                <?php the_field("name"); ?>
                                     <span class="manager_subt"><?php the_field("manager_subt"); ?></span>
                                     <a href="tel:<?php the_field("phone"); ?>"><?php the_field("phone"); ?></a>
                                     <a href="mail:<?php the_field("email"); ?>"><?php the_field("email"); ?></a>
@@ -221,6 +221,10 @@ http://amcharts.com/ammap ">
 		@init feather icons
 		*/
         feather.replace();
+        $(".contacts-map").click(function (){
+            window.location.href = "https://www.google.com/maps?ll=50.394723,30.61187&z=17&t=m&hl=uk&gl=UA&mapclient=embed&q=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0,+26%D0%B6+%D0%9A%D0%B8%D1%97%D0%B2+02000";
+            //https://www.google.com/maps?ll=50.394723,30.61187&z=17&t=m&hl=uk&gl=UA&mapclient=embed&q=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0,+26%D0%B6+%D0%9A%D0%B8%D1%97%D0%B2+02000
+        });
     </script>
 
 <?php
