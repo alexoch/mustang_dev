@@ -212,7 +212,11 @@ http://amcharts.com/ammap ">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 contacts-map p-0">
                     <!--iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1271.7633830978245!2d30.6126551!3d50.3940198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5b7cca09c3d%3A0xc6c61b68b27dfb0e!2z0JTQvdGW0L_RgNC-0LLRgdGM0LrQsCDQvdCw0LHQtdGA0LXQttC90LAsIDI20LYsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1560326909764!5m2!1suk!2sua"
                             frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe-->
-                    <img src="img/contacts.png" alt="">
+                    <a href="https://www.google.com/maps?ll=50.394723,30.61187&z=17&t=m&hl=uk&gl=UA&mapclient=embed&q=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0,+26%D0%B6+%D0%9A%D0%B8%D1%97%D0%B2+02000">
+                        <img src="<?php echo get_template_directory_uri();?>/img/contacts.png" alt="">
+                    </a>
+
+
                 </div>
             </div>
         </div>
@@ -222,10 +226,7 @@ http://amcharts.com/ammap ">
 		@init feather icons
 		*/
         feather.replace();
-        $(".contacts-map").click(function (){
-            window.location.href = "https://www.google.com/maps?ll=50.394723,30.61187&z=17&t=m&hl=uk&gl=UA&mapclient=embed&q=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0,+26%D0%B6+%D0%9A%D0%B8%D1%97%D0%B2+02000";
-            //https://www.google.com/maps?ll=50.394723,30.61187&z=17&t=m&hl=uk&gl=UA&mapclient=embed&q=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0,+26%D0%B6+%D0%9A%D0%B8%D1%97%D0%B2+02000
-        });
+
     </script>
 
 <?php
