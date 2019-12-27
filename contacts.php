@@ -210,8 +210,9 @@ http://amcharts.com/ammap ">
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 contacts-map p-0">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1271.7633830978245!2d30.6126551!3d50.3940198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5b7cca09c3d%3A0xc6c61b68b27dfb0e!2z0JTQvdGW0L_RgNC-0LLRgdGM0LrQsCDQvdCw0LHQtdGA0LXQttC90LAsIDI20LYsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1560326909764!5m2!1suk!2sua"
-                            frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe>
+                    <!--iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1271.7633830978245!2d30.6126551!3d50.3940198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5b7cca09c3d%3A0xc6c61b68b27dfb0e!2z0JTQvdGW0L_RgNC-0LLRgdGM0LrQsCDQvdCw0LHQtdGA0LXQttC90LAsIDI20LYsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1560326909764!5m2!1suk!2sua"
+                            frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe-->
+                    <img src="img/contacts.png" alt="">
                 </div>
             </div>
         </div>
