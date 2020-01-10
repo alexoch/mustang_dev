@@ -33,8 +33,8 @@ while (have_posts()) {
                         color: white;">
                         <!--h3 class="about-title font-weight-bold mt-3 mb-4">
                             Почему мы?
-                        </h3-->
-                        <p class="text-justify">
+
+                            <p class="text-justify">
                             Торговая Марка MUSTANG берет свое начало с 1997 года и была создана с целью предоставления
                             Потребителям продуктов, обеспечивающих впечатляющие результаты их применения. Торговая
                             Марка MUSTANG на протяжении всего периода своего существования постоянно расширяет свой
@@ -72,6 +72,8 @@ while (have_posts()) {
                         <b>Наш девиз: «Надежный бренд – надежный бизнес!»</b>
 
                         </p>
+                        </h3-->
+	                    <?php the_field("main_text");?>
                     </div>
                 </div>
                 <!--                <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-5 offset-xl-2 col-xl-4">-->
@@ -164,12 +166,16 @@ while (have_posts()) {
                             <h5 class="slide-title font-weight-bold mb-5">
                                 Открытость для потребителя
                             </h5>
-                            <p class="slide-text">TM MUSTANG ярким образом принимает участие в специализированных выставках, воспринимая подобные мероприятия как возможность для обменом информацией с Партнерами как в Украине так и за ее границами! Открытый диалог с Партнерами позволяет успешно реализовывать задачи по развитию наших продуктов и услуг повышая их ценности для Покупателей! Наши посетители имеют возможность протестировать качество продукции прямо на выставочных стендах, как во время индивидуальных встреч так и во время презентационных сессий, что помогает получить лучшее представление о TM MUSTANG. Наши выставочные стенды отображают креативность и индивидуальность TM MUSTANG, несут понимание того, что одной из наших главных задач – быть полезным для каждого, сохраняя добрые и приятные эмоции от использования наших продуктов! </p>
+                            <p class="slide-text"><?php the_field("sub_text");?></p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 contacts_slider" style="padding: 0;">
-
-                        <div>
+                        <?php
+                        if (!empty(get_field("galereya"))) {
+                        the_field("gallery");
+                        }
+                        ?>
+                        <!--div>
                             <img src="<?php echo get_template_directory_uri(); ?>/img/about/Interbuild.png" class="slide">
 
                         </div>
@@ -180,7 +186,7 @@ while (have_posts()) {
                         <div>
                             <img src="<?php echo get_template_directory_uri(); ?>/img/about/IFFIP.PNG" class="slide">
 
-                        </div>
+                        </div-->
 
                     </div>
                 </div>

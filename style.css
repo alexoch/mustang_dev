@@ -342,8 +342,9 @@ Text Domain: mustang
     font-size: 15px;
 }
 
-.contacts-map {
+.contacts-map ,.contacts {
 
+    min-height: auto;
 }
 
 .slide img {
@@ -965,5 +966,9 @@ Text Domain: mustang
     border-radius: 15px;
     background: #8080802e;
     padding: 10px;
+}
+
+.product__title .anc{
+    cursor: pointer;
 }
 
