@@ -164,7 +164,8 @@ if ($('.gallery_photos').is("dl")){
             btn_wrapper.appendChild(btn);
         }
         this.selector.appendChild(btn_wrapper);
-    }
+        console.log("pagination added");
+    };
 
     slider.addPagination();
     function clickDot(i, context) {
