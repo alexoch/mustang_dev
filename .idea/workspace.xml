@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag.php" afterDir="false" />
-    </list>
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +98,7 @@
           <entry key="js" value="337" />
           <entry key="md" value="98" />
           <entry key="php" value="5912" />
-          <entry key="txt" value="1815" />
+          <entry key="txt" value="1820" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -113,7 +108,7 @@
           <entry key="JavaScript" value="337" />
           <entry key="Markdown" value="98" />
           <entry key="PHP" value="5897" />
-          <entry key="PLAIN_TEXT" value="1815" />
+          <entry key="PLAIN_TEXT" value="1820" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -164,7 +159,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -233,7 +228,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single/single.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -498,14 +493,7 @@
       <workItem from="1577445385982" duration="2728000" />
       <workItem from="1578581739075" duration="2684000" />
       <workItem from="1578598282758" duration="19000" />
-      <workItem from="1578643958368" duration="1058000" />
-    </task>
-    <task id="LOCAL-00383" summary="fixes trading equipment22">
-      <created>1576586780911</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1576586780911</updated>
+      <workItem from="1578643958368" duration="1561000" />
     </task>
     <task id="LOCAL-00384" summary="fixes trading equipment22">
       <created>1576586830296</created>
@@ -843,11 +831,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577447502936</updated>
     </task>
-    <option name="localTasksCounter" value="432" />
+    <task id="LOCAL-00432" summary="update about">
+      <created>1578645031777</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1578645031777</updated>
+    </task>
+    <option name="localTasksCounter" value="433" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368121000" />
+    <option name="totallyTimeSpent" value="368624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -915,7 +910,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="update modal3" />
     <MESSAGE value="update modal4" />
     <MESSAGE value="update modal5" />
     <MESSAGE value="update modal6" />
@@ -940,7 +934,8 @@
     <MESSAGE value="update modal27" />
     <MESSAGE value="update modal28" />
     <MESSAGE value="update modal29" />
-    <option name="LAST_COMMIT_MESSAGE" value="update modal29" />
+    <MESSAGE value="update about" />
+    <option name="LAST_COMMIT_MESSAGE" value="update about" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1137,17 +1132,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="17" selection-start-line="21" selection-start-column="16" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="17" selection-start-line="21" selection-start-column="16" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>

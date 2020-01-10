@@ -171,7 +171,7 @@ while (have_posts()) {
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 " style="padding: 0;">
                         <?php
-                        if (!empty(get_field("galereya"))) {
+                        if (!empty(get_field("gallery"))) {
                         the_field("gallery");
                         }
                         ?>
