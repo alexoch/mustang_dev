@@ -169,7 +169,7 @@ while (have_posts()) {
                             <p class="slide-text"><?php the_field("sub_text");?></p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 contacts_slider" style="padding: 0;">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 offset-xl-1 col-xl-6 " style="padding: 0;">
                         <?php
                         if (!empty(get_field("galereya"))) {
                         the_field("gallery");
