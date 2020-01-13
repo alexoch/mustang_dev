@@ -958,6 +958,7 @@ Text Domain: mustang
     padding: 12px;
     color: black;
     border-radius: 10px 0;
+    z-index: 1;
 }
 
 @media (max-width: 640px) and (min-width: 320px) {
