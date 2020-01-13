@@ -953,6 +953,7 @@ Text Domain: mustang
 .new_page{
     position: fixed;
     right: 0px;
+    top: 150px;
     background: red;
     padding: 12px;
     color: black;
