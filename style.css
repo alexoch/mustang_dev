@@ -972,3 +972,11 @@ Text Domain: mustang
     cursor: pointer;
 }
 
+.new_page{
+    position: fixed;
+    right: 0px;
+    background: red;
+    padding: 12px;
+    color: black;
+    border-radius: 10px 0;
+}
