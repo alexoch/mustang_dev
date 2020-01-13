@@ -7,7 +7,6 @@
  */
 /**
  * Template Name: Latest
- *
  * */
 get_header();
 if (have_posts()) :
@@ -21,7 +20,7 @@ if (have_posts()) :
 				<div class="row">
 					<?php
 					$args = [
-						'tag' => 'новинки',
+						'tag' => 'latest',
 						'posts_per_page' => -1,
 						'order'          => "ASC"
 					];
