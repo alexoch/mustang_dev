@@ -31,6 +31,11 @@ if (have_posts()) :
 							the_post(); ?>
 
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 product-item text-center">
+                                <?php if(has_tag("latest")):?>
+                                <span class="new_prod">
+                                    new
+                                </span>
+                                <?php endif;?>
                                 <a href="<?php the_permalink() ?>">
                                     <div class="product-info">
                                         <p class="product-title">
