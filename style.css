@@ -951,7 +951,7 @@ Text Domain: mustang
 }
 
 .new_page{
-    position: fixed;
+    position: absolute;
     right: 0px;
     top: 190px;
     background: red;
