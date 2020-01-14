@@ -952,8 +952,8 @@ Text Domain: mustang
 
 .new_page{
     position: absolute;
-    right: 0px;
-    top: 190px;
+    right: 0;
+    top: 137px;
     background: red;
     padding: 12px;
     color: black;
@@ -962,13 +962,16 @@ Text Domain: mustang
 }
 .new_prod{
     padding: 5px;
-    background: red;
+    color: red;
+    font-weight: bold;
     z-index: 1;
     position: absolute;
-    left: 0;
-    margin-left: 8px;
+    left: 15px;
 }
 
+.new_page:hover{
+    color: black;
+}
 
 @media (max-width: 640px) and (min-width: 320px) {
     .desktop {
@@ -996,5 +999,9 @@ Text Domain: mustang
     }
 
     .new_page{top:240px;}
-
+    .new_prod{
+        color: red;
+        right: 15px;
+        left: auto;
+    }
 }
