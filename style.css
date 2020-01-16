@@ -23,28 +23,28 @@ Text Domain: mustang
     color: #0068c3 !important;
 }
 
-.nav_item_r {
-    height: 40px;
-    width: 15px;
-    background-image: url(img/back_nav_r1.png);
-    display: inline-block;
-    background-position-y: 100%;
-    background-size: cover;
-    position: relative;
-    margin-left: -3px;
-    top: 10px;
-}
+/*.nav_item_r {*/
+    /*height: 40px;*/
+    /*width: 15px;*/
+    /*background-image: url(img/back_nav_r1.png);*/
+    /*display: inline-block;*/
+    /*background-position-y: 100%;*/
+    /*background-size: cover;*/
+    /*position: relative;*/
+    /*margin-left: -3px;*/
+    /*top: 10px;*/
+/*}*/
 
-.nav_item_l {
-    height: 40px;
-    position: relative;
-    width: 14px;
-    background-image: url(img/back_nav_l1.png);
-    display: inline-block;
-    background-size: cover;
-    top: 10px;
-    margin-right: 0;
-}
+/*.nav_item_l {*/
+    /*height: 40px;*/
+    /*position: relative;*/
+    /*width: 14px;*/
+    /*background-image: url(img/back_nav_l1.png);*/
+    /*display: inline-block;*/
+    /*background-size: cover;*/
+    /*top: 10px;*/
+    /*margin-right: 0;*/
+/*}*/
 
 .nav-link {
     position: relative;
