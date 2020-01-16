@@ -48,14 +48,17 @@
 	            }
 	            echo $menu_list;
 	            ?>
+                <li class="nav-item active">
+                    <a  href="<?php echo home_url(); ?>/latest"><img src="<?php echo get_template_directory_uri();?>/img/main/new-01.png" alt=""></a>
+                </li>
 			</ul>
 			
 		</div>
 	</nav>
 </header>
-<a href="<?php echo home_url(); ?>/latest" class="new_page">
+<!--a href="<?php echo home_url(); ?>/latest" class="new_page">
   Новинки
-</a>
+</a-->
 <?php if (!is_home()){?>
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
