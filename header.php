@@ -50,9 +50,7 @@
 	            ?>
                 <li class="nav-item active">
                     <a  href="<?php echo home_url(); ?>/latest" >
-                        <img src="<?php echo get_template_directory_uri();?>/img/main/new-01.png" alt="" style="width: 91px;
-    position: relative;
-    top: -10px;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/main/new-01.png" alt="" class="new_page_menu">
                     </a>
                 </li>
 			</ul>

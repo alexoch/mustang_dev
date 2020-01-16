@@ -974,6 +974,12 @@ Text Domain: mustang
     color: black;
 }
 
+.new_page_menu{
+    width: 91px;
+    position: relative;
+    top: -10px;
+}
+
 @media (max-width: 640px) and (min-width: 320px) {
     .desktop {
         display: none;
@@ -1004,5 +1010,11 @@ Text Domain: mustang
         color: red;
         right: 15px;
         left: auto;
+    }
+
+    .new_page_menu{
+        width: 110px;
+        margin: 0 auto;
+        display: block;
     }
 }
