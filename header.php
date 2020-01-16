@@ -49,9 +49,11 @@
 	            echo $menu_list;
 	            ?>
                 <li class="nav-item active">
-                    <a  href="<?php echo home_url(); ?>/latest" style="width: 91px;
+                    <a  href="<?php echo home_url(); ?>/latest" >
+                        <img src="<?php echo get_template_directory_uri();?>/img/main/new-01.png" alt="" style="width: 91px;
     position: relative;
-    top: -10px;"><img src="<?php echo get_template_directory_uri();?>/img/main/new-01.png" alt=""></a>
+    top: -10px;">
+                    </a>
                 </li>
 			</ul>
 			
