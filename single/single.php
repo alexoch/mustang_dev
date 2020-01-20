@@ -164,10 +164,10 @@ get_header();
     function showHint(){
         console.log($('.hint').css('display')+' '+$('.hint:first-child').css('display')+' '+$('.hint:last-child').css('display'));
 
-        if(!$('.hint').css('display') == 'none' ){
+        if(!$('.hints').css('display') == 'none' ){
             $('.hints').show();
             $('.hint:first-child').show();
-        }else if($('.hints:first-child').css('display') == 'none' ){
+        }else if($('.hint:first-child').css('display') == 'none' ){
             $('.hint:first-child').hide();
             $('.hint:last-child').show();
         }else{
