@@ -144,7 +144,7 @@ get_header();
 					    <?php echo $post_data->post_title;  ?>
                     </p>
                 </div>
-                <img src="<?php echo get_the_post_thumbnail_url(get_field('next_product')); ?>" height="335" width="299" alt=""
+                <img src="<?php echo get_the_post_thumbnail_url($v); ?>" height="335" width="299" alt=""
                      class="product-img">
             </a>
         </div>
