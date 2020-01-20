@@ -133,8 +133,27 @@ get_header();
 
         </div>
     </div>
-	<?php }
+    <?php
+
+    $post_data = get_post( get_field('next_product') );
+        ?>
+        <div class="hint product-item text-center">
+            <a href="<?php echo $post_data->guid; ?>">
+                <div class="product-info">
+                    <p class="product-title">
+					    <?php echo $post_data->post_title;  ?>
+                    </p>
+                </div>
+                <img src="<?php echo get_the_post_thumbnail_url(get_field('next_product')); ?>" height="335" width="299" alt=""
+                     class="product-img">
+            </a>
+        </div>
+
+	    <?php
+    }
 	?>
+
+
 
 </main>
 <?php
