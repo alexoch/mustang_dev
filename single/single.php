@@ -158,6 +158,7 @@ get_header();
 </main>
 <script>
     function showHint(){
+        console.log("tick")
         if(!$('.hint').css('display') == 'none' ){
             $('.hint:first-child').show();
         }else if($('.hint:first-child').css('display') == 'none' ){
