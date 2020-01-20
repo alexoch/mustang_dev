@@ -158,7 +158,7 @@ get_header();
 </main>
 <script>
     function showHint(){
-        console.log($('.hint').css('display'));
+        console.log($('.hint').css('display')+' '+$('.hint:first-child').css('display')+' '+$('.hint:last-child').css('display'));
 
         if(!$('.hint').css('display') == 'none' ){
             $('.hint:first-child').show();
