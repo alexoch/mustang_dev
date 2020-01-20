@@ -981,6 +981,7 @@ Text Domain: mustang
 }
 
 .hint{
+    display: none;
     position: fixed;
     bottom: 15px;
     right: 15px;

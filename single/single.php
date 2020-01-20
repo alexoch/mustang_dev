@@ -156,6 +156,21 @@ get_header();
     }
 	?>
 </main>
+<script>
+    function showHint(){
+        if(!$('.hint').visible()){
+            $('.hint:first-child').show();
+        }else if($('.hint:first-child').visible()){
+            $('.hint:first-child').hide();
+            $('.hint:last-child').show();
+        }else{
+            $('.hint:last-child').hide();
+            $('.hint:first-child').show();
+
+        }
+    }
+    setInterval(showHint, 5000);
+</script>
 <?php
 get_footer();
 ?>
