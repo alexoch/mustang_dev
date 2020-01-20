@@ -1039,4 +1039,13 @@ Text Domain: mustang
         margin: 0 auto;
         display: block;
     }
+    .hint{
+        display: none;
+        position: fixed;
+        bottom: 15px;
+        right: 0;
+        z-index: 1;
+        width: 100%;
+    }
+
 }
