@@ -988,6 +988,18 @@ Text Domain: mustang
     width: 358px;
 }
 
+.hint .product-item a, .hint .product_docs li{
+    min-height: auto;
+}
+.hint .product-title {
+    font-size: 1.15em;
+    margin: 0;
+}
+
+.hint .also{
+    color: white;
+    margin-bottom: 0;
+}
 
 @media (max-width: 640px) and (min-width: 320px) {
     .desktop {
