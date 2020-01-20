@@ -988,7 +988,7 @@ Text Domain: mustang
     width: 358px;
 }
 
-.hint .product-item a, .hint .product_docs li{
+.hint.product-item a, .hint.product_docs li{
     min-height: auto;
 }
 .hint .product-title {

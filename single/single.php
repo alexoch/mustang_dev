@@ -140,7 +140,7 @@ get_header();
         <div class="hint product-item text-center">
             <a href="<?php echo $post_data->guid; ?>">
                 <div class="product-info">
-                    <p>
+                    <p class="also">
                         Также посмотрите:
                     </p>
                     <p class="product-title">
