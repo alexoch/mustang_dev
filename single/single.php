@@ -134,8 +134,8 @@ get_header();
         </div>
     </div>
     <?php
-
-    $post_data = get_post( get_field('next_product') );
+    foreach (get_field('next_product') as $k=>$v){
+    $post_data = get_post(  $v);
         ?>
         <div class="hint product-item text-center">
             <a href="<?php echo $post_data->guid; ?>">
@@ -148,13 +148,10 @@ get_header();
                      class="product-img">
             </a>
         </div>
-
-	    <?php
+	<?php
+    }
     }
 	?>
-
-
-
 </main>
 <?php
 get_footer();
