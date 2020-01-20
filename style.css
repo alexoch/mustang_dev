@@ -980,9 +980,6 @@ Text Domain: mustang
     top: -10px;
 }
 
-.hints{
-    display: none;
-}
 .hint{
     display: none;
     position: fixed;

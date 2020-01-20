@@ -133,7 +133,6 @@ get_header();
 
         </div>
     </div>
-    <span class="hints">
     <?php
     foreach (get_field('next_product') as $k=>$v){
     $post_data = get_post(  $v);
@@ -154,7 +153,7 @@ get_header();
         </div>
 	<?php
     }?>
-    </span>
+
 
         <?php
     }
@@ -164,10 +163,7 @@ get_header();
     function showHint(){
         console.log($('.hint').css('display')+' '+$('.hint:first-child').css('display')+' '+$('.hint:last-child').css('display'));
 
-        if($('.hints').css('display') == 'none' ){
-            $('.hints').show();
-            $('.hint:first-child').show();
-        }else if($('.hint:first-child').css('display') == 'none' ){
+        if($('.hint:first-child').css('display') == 'none' ){
 
             $('.hint:last-child').hide();
             $('.hint:first-child').show();
