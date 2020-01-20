@@ -165,13 +165,14 @@ get_header();
         console.log($('.hint').css('display')+' '+$('.hint:first-child').css('display')+' '+$('.hint:last-child').css('display'));
 
         if(!$('.hint').css('display') == 'none' ){
+            $('.hints').show();
             $('.hint:first-child').show();
         }else if($('.hints:first-child').css('display') == 'none' ){
-            $('.hints:first-child').hide();
-            $('.hints:last-child').show();
+            $('.hint:first-child').hide();
+            $('.hint:last-child').show();
         }else{
-            $('.hints:last-child').hide();
-            $('.hints:first-child').show();
+            $('.hint:last-child').hide();
+            $('.hint:first-child').show();
 
         }
     }
