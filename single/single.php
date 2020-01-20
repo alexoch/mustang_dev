@@ -164,16 +164,17 @@ get_header();
     function showHint(){
         console.log($('.hint').css('display')+' '+$('.hint:first-child').css('display')+' '+$('.hint:last-child').css('display'));
 
-        if(!$('.hints').css('display') == 'none' ){
+        if($('.hints').css('display') == 'none' ){
             $('.hints').show();
             $('.hint:first-child').show();
         }else if($('.hint:first-child').css('display') == 'none' ){
-            $('.hint:first-child').hide();
-            $('.hint:last-child').show();
-        }else{
+
             $('.hint:last-child').hide();
             $('.hint:first-child').show();
+        }else{
 
+            $('.hint:first-child').hide();
+            $('.hint:last-child').show();
         }
     }
     setInterval(showHint, 5000);
