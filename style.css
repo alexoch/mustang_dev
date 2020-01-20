@@ -980,6 +980,15 @@ Text Domain: mustang
     top: -10px;
 }
 
+.hint{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1;
+    width: 358px;
+}
+
+
 @media (max-width: 640px) and (min-width: 320px) {
     .desktop {
         display: none;
