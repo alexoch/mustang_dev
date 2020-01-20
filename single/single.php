@@ -158,9 +158,9 @@ get_header();
 </main>
 <script>
     function showHint(){
-        if(!$('.hint').visible()){
+        if(!$('.hint').css('display') == 'none' ){
             $('.hint:first-child').show();
-        }else if($('.hint:first-child').visible()){
+        }else if($('.hint:first-child').css('display') == 'none' ){
             $('.hint:first-child').hide();
             $('.hint:last-child').show();
         }else{
