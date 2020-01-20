@@ -172,7 +172,7 @@ get_header();
             $('.hint:last-child').css('display',"flex");
         }
     }
-    setInterval(showHint, 5000);
+    setInterval(showHint, 10000);
 </script>
 <?php
 get_footer();
