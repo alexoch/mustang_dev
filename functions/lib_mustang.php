@@ -5,7 +5,7 @@
  * Date: 27/11/2019
  * Time: 10:25
  */
-
+error_reporting(E_ERROR | E_PARSE);
 
 function mustang_scripts()
 {
