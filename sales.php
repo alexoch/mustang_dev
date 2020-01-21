@@ -39,7 +39,7 @@ get_header();
                         </p>
                     </div>
                     <div class="col-12 text-center">
-                        <img src="<?php the_post_thumbnail_url();?>" alt="" class="shares-img" style="width: 33%;"/>
+                        <img src="<?php the_post_thumbnail_url();?>" alt="" class="shares-img" />
                     </div>
                     <div class="col-12">
                         <p class="shares-text"><?php the_content();?></p>

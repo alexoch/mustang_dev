@@ -183,3 +183,36 @@ function get_breadcrumbs($q_obj ){
 
 	return $res;
 }
+
+
+add_filter( 'posts_join', 'cf_search_join' );
+add_filter( 'posts_where', 'cf_search_where' );
+add_filter( 'posts_distinct', 'cf_search_distinct' );
+
+# Объединяет таблицы записей и таблиц метаданных.
+function cf_search_join( $join ){
+	global $wpdb;
+
+	if( is_search() )
+		$join .= " LEFT JOIN $wpdb->postmeta ON ID = $wpdb->postmeta.post_id ";
+
+	return $join;
+}
+
+# Указывает по каким метаполям и какое значение искать в секции WHERE.
+function cf_search_where( $where ){
+	global $wpdb;
+
+	if ( is_search() ) {
+		$where = preg_replace(
+			"/\(\s*$wpdb->posts.post_title\s+LIKE\s*(\'[^\']+\')\s*\)/",
+			"($wpdb->posts.post_title LIKE $1) OR ($wpdb->postmeta.meta_value LIKE $1)", $where );
+	}
+
+	return $where;
+}
+
+# Предотвращает появление дубликатов в выборке.
+function cf_search_distinct( $where ){
+	return is_search() ? 'DISTINCT' : $where;
+}
