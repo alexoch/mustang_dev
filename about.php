@@ -52,7 +52,7 @@ while (have_posts()) {
                         <div class="containe <?php echo $order;?>">
                             <div class="content">
                                 <h2><?php the_title(); ?></h2>
-                                <p><?php the_content(); ?></p>
+                                <p><?php echo wp_strip_all_tags( get_the_content() );?></p>
                             </div>
                         </div>
 
@@ -60,7 +60,7 @@ while (have_posts()) {
 	                }?>
 
 
-                    <div class="containe right">
+                    <!--div class="containe right">
                         <div class="content">
                             <h2>1997 </h2>
                             <p>Основание ТМ Mustang. Запуск линейки продукции ТМ Mustang.</p>
@@ -107,14 +107,14 @@ while (have_posts()) {
                         </div>
                     </div>
 
-                    <div class="containe left">
+                    <div-- class="containe left">
                         <div class="content">
                             <h2>2019</h2>
                             <p>Полный ребрендинг и запуск новой упаковки продукции ТМ Mustang. Запуск полностью
                                 автоматической упаковочной линии для клейких лент.Расширение ассортимента продукции ТМ
                                 Mustang.</p>
                         </div>
-                    </div>
+                    </div-->
                 </div>
             </div>
         </div>
