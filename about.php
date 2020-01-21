@@ -24,75 +24,41 @@ while (have_posts()) {
                         background-repeat: no-repeat;
                         background-size: cover;
                         background-position-x: 13%;
-
                     }
                 </style>
                 <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10">
                     <div style="    background-color: #0068c3c2!important;
                         padding: 50px;
                         color: white;">
-                        <!--h3 class="about-title font-weight-bold mt-3 mb-4">
-                            Почему мы?
-
-                            <p class="text-justify">
-                            Торговая Марка MUSTANG берет свое начало с 1997 года и была создана с целью предоставления
-                            Потребителям продуктов, обеспечивающих впечатляющие результаты их применения. Торговая
-                            Марка MUSTANG на протяжении всего периода своего существования постоянно расширяет свой
-                            продуктовый портфель. На данный момент Вы имеете возможность оценить высочайшее качество
-                            продуктов линейки клейких лент, суперклеев и монтажной пены. Мы верим в
-                            высококачественные продукты и предпочитаем размещать логотип MUSTANG только на товарах,
-                            которые соответствуют строгим стандартам. MUSTANG – это бренд который имеет высокую
-                            репутацию в Украине, странах СНГ и ЕС!
-                            В дополнение к высококачественным товарам мы стремимся быть отличной компанией для
-                            наших Сотрудников и Потребителей! Именно поэтому данный сайт будет служить Вам
-                            путеводителем в мире применения наших качественных продуктов, где Вы сможете ознакомиться
-                            с действительно полезной информацией!
-
-                        </p>
-                        <p>
-                            <b>Миссия Компании:</b>
-                        <ul>
-                            <li>
-                                Создавать и повышать высочайшие стандарты качества продукции TM MUSTANG – вызывая у
-                                Покупателей новый уровень удовлетворенности и эмоций!
-                            </li>
-                            <li>
-                                Развивать продуктовую линейку продукции TM MUSTANG – давая возможность Покупателям
-                                использовать качественные продукты в новых сферах жизнеобеспечения.
-                            </li>
-                            <li>
-                                Формировать культуру потребления новых продуктов TM MUSTANG - облегчая решение многих
-                                бытовых и промышленных задач!
-                            </li>
-                            <li>
-                                Создавать условия для технологического роста Компании, давать возможность для развития и
-                                самореализации людям, которые стремятся вперед!
-                            </li>
-                        </ul>
-                        <b>Наш девиз: «Надежный бренд – надежный бизнес!»</b>
-
-                        </p>
-                        </h3-->
-	                    <?php the_field("main_text");?>
+                        <?php the_field("main_text");?>
                     </div>
                 </div>
-                <!--                <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-5 offset-xl-2 col-xl-4">-->
-                <!--                    <h3 class="about-title font-weight-bold mt-3 mb-4">-->
-                <!--                        Наши преимущества-->
-                <!--                    </h3>-->
-                <!--                    <ul>-->
-                <!--                        <li>Безупречное качество продукции ТМ MUSTANG</li>-->
-                <!--                        <li>Высококонкурентная ценовая политика</li>-->
-                <!--                        <li>Уникальная упаковка продукции</li>-->
-                <!--                        <li>Весь спектр клейких лент</li>-->
-                <!--                        <li>Оперативная логистика по всей территории Украины</li>-->
-                <!--                        <li>Маркетинговая и техническая поддержка клиентов</li>-->
-                <!--                    </ul>-->
-                <!--                </div>-->
             </div>
 
             <div class="row about-graph border-bt border-tp">
                 <div class="timeline">
+
+
+	                <?php
+                    $i=0;
+	                $posts = get_posts('category_name=history&order=ASC&posts_per_page=-1');
+	                foreach ($posts as $post) {
+		                setup_postdata($post);
+		                $order =($i%2) ? "right":"left";
+		                $i++;
+		                ?>
+
+
+                        <div class="containe <?php echo $order;?>">
+                            <div class="content">
+                                <h2><?php the_title(); ?></h2>
+                                <p><?php the_content(); ?></p>
+                            </div>
+                        </div>
+
+		                <?php
+	                }?>
+
 
                     <div class="containe right">
                         <div class="content">
@@ -100,7 +66,6 @@ while (have_posts()) {
                             <p>Основание ТМ Mustang. Запуск линейки продукции ТМ Mustang.</p>
                         </div>
                     </div>
-
                     <div class="containe left">
                         <div class="content">
                             <h2>1998-2005</h2>
@@ -108,14 +73,12 @@ while (have_posts()) {
                                 Украине</p>
                         </div>
                     </div>
-
                     <div class="containe right">
                         <div class="content">
                             <h2>2013</h2>
                             <p>Начало экспорта продукции ТМ Mustang в страны СНГ</p>
                         </div>
                     </div>
-
                     <div class="containe left">
                         <div class="content">
                             <h2>2015</h2>
@@ -153,8 +116,6 @@ while (have_posts()) {
                         </div>
                     </div>
                 </div>
-
-                <!--img src="<?php echo get_template_directory_uri(); ?>/img/about/histogram.jpg"-->
             </div>
         </div>
 
@@ -175,19 +136,6 @@ while (have_posts()) {
                         the_field("gallery");
                         }
                         ?>
-                        <!--div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/Interbuild.png" class="slide">
-
-                        </div>
-                        <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/Intertool.png" class="slide">
-
-                        </div>
-                        <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/about/IFFIP.PNG" class="slide">
-
-                        </div-->
-
                     </div>
                 </div>
             </div>
