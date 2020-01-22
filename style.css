@@ -990,7 +990,7 @@ Text Domain: mustang
     width: 358px;
 }
 
-.hint.product-img{
+.hint .product-img{
     max-width: 58%;
 }
 .hint.product-info{
