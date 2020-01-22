@@ -392,6 +392,7 @@ Text Domain: mustang
 
 .timeline .content p {
     margin-bottom: 0;
+    text-align: justify;
 }
 
 .distributors-item:hover {

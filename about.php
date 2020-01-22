@@ -57,7 +57,10 @@ while (have_posts()) {
                         </div>
 
 		                <?php
-	                }?>
+	                }
+
+	                wp_reset_postdata();
+	                ?>
 
 
                     <!--div class="containe right">
