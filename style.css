@@ -993,7 +993,7 @@ Text Domain: mustang
 .hint .product-img{
     max-width: 58%;
 }
-.hint.product-info{
+.hint .product-info{
     width: 40%;
 }
 .hint.product-item a, .hint.product_docs li {
