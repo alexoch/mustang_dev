@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
-    </list>
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +97,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="374" />
           <entry key="md" value="98" />
-          <entry key="php" value="6734" />
-          <entry key="txt" value="1962" />
+          <entry key="php" value="6768" />
+          <entry key="txt" value="1980" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -111,8 +107,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="374" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="6719" />
-          <entry key="PLAIN_TEXT" value="1962" />
+          <entry key="PHP" value="6753" />
+          <entry key="PLAIN_TEXT" value="1980" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -150,8 +146,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2137">
-              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="405">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -441,14 +437,7 @@
       <workItem from="1579164673053" duration="5286000" />
       <workItem from="1579503821726" duration="7376000" />
       <workItem from="1579517643639" duration="577000" />
-      <workItem from="1579606677084" duration="12215000" />
-    </task>
-    <task id="LOCAL-00437" summary="added latest2">
-      <created>1578924748414</created>
-      <option name="number" value="00437" />
-      <option name="presentableId" value="LOCAL-00437" />
-      <option name="project" value="LOCAL" />
-      <updated>1578924748415</updated>
+      <workItem from="1579606677084" duration="12464000" />
     </task>
     <task id="LOCAL-00438" summary="added latest3">
       <created>1578925390822</created>
@@ -786,11 +775,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579683388075</updated>
     </task>
-    <option name="localTasksCounter" value="486" />
+    <task id="LOCAL-00486" summary="new map">
+      <created>1579765765090</created>
+      <option name="number" value="00486" />
+      <option name="presentableId" value="LOCAL-00486" />
+      <option name="project" value="LOCAL" />
+      <updated>1579765765091</updated>
+    </task>
+    <option name="localTasksCounter" value="487" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="405791000" />
+    <option name="totallyTimeSpent" value="406040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -858,7 +854,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="added hint3" />
     <MESSAGE value="added hint4" />
     <MESSAGE value="added hint6" />
     <MESSAGE value="added hint7" />
@@ -883,7 +878,8 @@
     <MESSAGE value="updated history on about company4" />
     <MESSAGE value="updated history on about company5" />
     <MESSAGE value="updated history on about company6" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated history on about company6" />
+    <MESSAGE value="new map" />
+    <option name="LAST_COMMIT_MESSAGE" value="new map" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1046,8 +1042,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2137">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="405">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
         </state>
       </provider>
     </entry>
