@@ -24,7 +24,7 @@ get_header();
                          xsi:schemaLocation="http://amcharts.com/ammap
 http://amcharts.com/ammap ">
 						<?php
-						$posts = get_posts('category_name=region&posts_per_page=-1');
+						$posts = get_posts('category_name=regions&posts_per_page=-1');
 						foreach ($posts as $post) {
 							setup_postdata($post);
 
