@@ -43,7 +43,7 @@ get_header();
                             src="http://mustang.sportquest.com.ua/wp-content/uploads/2019/11/58f8bcf70ed2bdaf7c128307.png"
                             alt="" style="    width: 22px;
     position: relative;
-    left: -4px;">
+    left: -4px;" id="ansimg">
                 </h3>
                 <div class="col-12 text-justify ans" id="ans">
 					<?php the_content(); ?>
@@ -52,10 +52,10 @@ get_header();
                     function myFunction() {
                         if(document.getElementById("ans").style.display == "block"){
                             document.getElementById("ans").style.display = "none";
-                            document.getElementById("ans").style.transform="initial";
+                            document.getElementById("ansimg").style.transform="initial";
                         }else{
                             document.getElementById("ans").style.display = "block";
-                            document.getElementById("ans").style.transform= "rotate(180deg)";
+                            document.getElementById("ansimg").style.transform= "rotate(180deg)";
                         }
 
                     }
