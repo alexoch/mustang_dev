@@ -145,79 +145,86 @@ function my_gallery_output($output, $attr)
 			'</dt>';
 	}
 
-	$video_url=get_field("usage_example",get_post_ancestors($ids_arr[0])[0]);
-	if(!empty($video_url)){
-		$out.='<dt>'.$video_url.'</dt>';
+	$video_url = get_field("usage_example", get_post_ancestors($ids_arr[0])[0]);
+	if (!empty($video_url)) {
+		$out .= '<dt>' . $video_url . '</dt>';
 	}
 
-	$out .= '</dl>';
-	;
+	$out .= '</dl>';;
 
 	return $out;
 }
-function get_breadcrumbs($q_obj ){
-	$res=[
+
+function get_breadcrumbs($q_obj)
+{
+	$res = [
 		"Главная" => get_home_url()
 	];
 
-	if(is_page($q_obj )){
-		if(is_page_template('trading_equipment.php') || is_page_template('ad-products.php')|| is_page_template('sales.php')){
-			$res ["Дистрибуторам"]=get_home_url().'/distributors';
+	if (is_page($q_obj)) {
+		if (is_page_template('trading_equipment.php') || is_page_template('ad-products.php') || is_page_template('sales.php')) {
+			$res ["Дистрибуторам"] = get_home_url() . '/distributors';
 		}
 	}
 
-	if(is_single($q_obj)){
-		$res ["Продукция"]=get_home_url().'/products';
-		if(!empty(get_field("master"))){
-			$master=get_post(get_field("master")[0]);
-			$res [$master->post_title]=$master->guid;
+	if (is_single($q_obj)) {
+		if (has_category("sales")) {
+			$res ["Дистрибуторам"] = get_home_url() . '/distributors';
+			$res ["Акции"] = get_home_url() . '/sales';
+		} else {
+			$res ["Продукция"] = get_home_url() . '/products';
+			if (!empty(get_field("master"))) {
+				$master = get_post(get_field("master")[0]);
+				$res [$master->post_title] = $master->guid;
+			}
 		}
 	}
 
-	if(is_page_template('single-sales.php') ){
-		$res ["Акции/Новости"]=get_home_url().'/sales';
-	}
-	if(is_tag()){
-		$res ["Применение"]=get_home_url().'/application/';
-		$res [$q_obj->name]="";
-	}elseif( is_page_template('search.php')){
-		   $res ['Поисковые результаты для : '.get_query_var('s')]='';
-	 }else{
-		$res [$q_obj->post_title]="";
+
+	if (is_tag()) {
+		$res ["Применение"] = get_home_url() . '/application/';
+		$res [$q_obj->name] = "";
+	} else if (is_page_template('search.php')) {
+		$res ['Поисковые результаты для : ' . get_query_var('s')] = '';
+	} else {
+		$res [$q_obj->post_title] = "";
 	}
 
 	return $res;
 }
 
 
-add_filter( 'posts_join', 'cf_search_join' );
-add_filter( 'posts_where', 'cf_search_where' );
-add_filter( 'posts_distinct', 'cf_search_distinct' );
+add_filter('posts_join', 'cf_search_join');
+add_filter('posts_where', 'cf_search_where');
+add_filter('posts_distinct', 'cf_search_distinct');
 
 # Объединяет таблицы записей и таблиц метаданных.
-function cf_search_join( $join ){
+function cf_search_join($join)
+{
 	global $wpdb;
 
-	if( is_search() )
+	if (is_search())
 		$join .= " LEFT JOIN $wpdb->postmeta ON ID = $wpdb->postmeta.post_id ";
 
 	return $join;
 }
 
 # Указывает по каким метаполям и какое значение искать в секции WHERE.
-function cf_search_where( $where ){
+function cf_search_where($where)
+{
 	global $wpdb;
 
-	if ( is_search() ) {
+	if (is_search()) {
 		$where = preg_replace(
 			"/\(\s*$wpdb->posts.post_title\s+LIKE\s*(\'[^\']+\')\s*\)/",
-			"($wpdb->posts.post_title LIKE $1) OR ($wpdb->postmeta.meta_value LIKE $1)", $where );
+			"($wpdb->posts.post_title LIKE $1) OR ($wpdb->postmeta.meta_value LIKE $1)", $where);
 	}
 
 	return $where;
 }
 
 # Предотвращает появление дубликатов в выборке.
-function cf_search_distinct( $where ){
+function cf_search_distinct($where)
+{
 	return is_search() ? 'DISTINCT' : $where;
 }
