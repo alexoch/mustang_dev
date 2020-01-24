@@ -58,9 +58,6 @@
 		</div>
 	</nav>
 </header>
-<!--a href="<?php echo home_url(); ?>/latest" class="new_page">
-  Новинки
-</a-->
 <?php if (!is_home()){?>
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">

@@ -398,7 +398,7 @@ Text Domain: mustang
 .distributors-item:hover {
     background: #005097;
 }
-
+/*
 .distributors-item-1:hover {
     background-image: url(http://mustang.sportquest.com.ua/wp-content/uploads/2019/10/catalog.png);
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
@@ -422,7 +422,7 @@ Text Domain: mustang
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
     background-size: cover;
 }
-
+*/
 .distributors-item {
     border: 1px solid rgba(0, 0, 0, 0.94);
     padding: 10px;
@@ -996,10 +996,6 @@ Text Domain: mustang
     .distributors-item {
         border: 1px solid rgba(0, 0, 0, 0.2);
         min-height: 25vh;
-    }
-
-    .distributors-img {
-        margin-top: 15%;
     }
 
     .distributors-title {
