@@ -51,9 +51,11 @@ get_header();
                 <script>
                     function myFunction() {
                         if(document.getElementById("ans").style.display == "block"){
-                            document.getElementById("ans").style.display = "none"
+                            document.getElementById("ans").style.display = "none";
+                            document.getElementById("ans").style.transform="initial";
                         }else{
-                            document.getElementById("ans").style.display = "block"
+                            document.getElementById("ans").style.display = "block";
+                            document.getElementById("ans").style.transform= "rotate(180deg)";
                         }
 
                     }
