@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,8 +99,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="375" />
           <entry key="md" value="98" />
-          <entry key="php" value="6908" />
-          <entry key="txt" value="2001" />
+          <entry key="php" value="6956" />
+          <entry key="txt" value="2003" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -109,8 +109,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="375" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="6893" />
-          <entry key="PLAIN_TEXT" value="2001" />
+          <entry key="PHP" value="6941" />
+          <entry key="PLAIN_TEXT" value="2003" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -122,7 +122,7 @@
           <entry key="jpg" value="20" />
           <entry key="js" value="13" />
           <entry key="md" value="1" />
-          <entry key="php" value="201" />
+          <entry key="php" value="202" />
           <entry key="png" value="19" />
           <entry key="scss" value="1" />
           <entry key="txt" value="1" />
@@ -135,7 +135,7 @@
           <entry key="Image" value="43" />
           <entry key="JavaScript" value="13" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="201" />
+          <entry key="PHP" value="202" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="1" />
           <entry key="htaccess" value="1" />
@@ -155,15 +155,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single/single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="533">
@@ -173,6 +164,15 @@
                 <element signature="n#!!block;n#getCookie#0" expanded="true" />
                 <element signature="n#!!block;n#showModal#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/single/single-sales.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -189,8 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sales.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+            <state relative-caret-position="240">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -207,8 +207,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state>
+              <caret selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -308,6 +308,7 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/single/single.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/single/single-sales.php" />
       </list>
     </option>
   </component>
@@ -489,21 +490,7 @@
       <workItem from="1579164673053" duration="5286000" />
       <workItem from="1579503821726" duration="7376000" />
       <workItem from="1579517643639" duration="577000" />
-      <workItem from="1579606677084" duration="21989000" />
-    </task>
-    <task id="LOCAL-00446" summary="added latest10">
-      <created>1578926890167</created>
-      <option name="number" value="00446" />
-      <option name="presentableId" value="LOCAL-00446" />
-      <option name="project" value="LOCAL" />
-      <updated>1578926890167</updated>
-    </task>
-    <task id="LOCAL-00447" summary="added latest11">
-      <created>1578926961249</created>
-      <option name="number" value="00447" />
-      <option name="presentableId" value="LOCAL-00447" />
-      <option name="project" value="LOCAL" />
-      <updated>1578926961249</updated>
+      <workItem from="1579606677084" duration="22247000" />
     </task>
     <task id="LOCAL-00448" summary="added latest12">
       <created>1578929327586</created>
@@ -834,11 +821,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579848408093</updated>
     </task>
-    <option name="localTasksCounter" value="495" />
+    <task id="LOCAL-00495" summary="updates mobile4">
+      <created>1579848829841</created>
+      <option name="number" value="00495" />
+      <option name="presentableId" value="LOCAL-00495" />
+      <option name="project" value="LOCAL" />
+      <updated>1579848829841</updated>
+    </task>
+    <task id="LOCAL-00496" summary="updates mobile5">
+      <created>1579849069871</created>
+      <option name="number" value="00496" />
+      <option name="presentableId" value="LOCAL-00496" />
+      <option name="project" value="LOCAL" />
+      <updated>1579849069871</updated>
+    </task>
+    <option name="localTasksCounter" value="497" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415565000" />
+    <option name="totallyTimeSpent" value="415823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -906,8 +907,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="added hint13" />
-    <MESSAGE value="added hint14" />
     <MESSAGE value="added hint15" />
     <MESSAGE value="added hint16" />
     <MESSAGE value="added hint17" />
@@ -931,11 +930,12 @@
     <MESSAGE value="updates mobile" />
     <MESSAGE value="updates mobile2" />
     <MESSAGE value="updates mobile3" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates mobile3" />
+    <MESSAGE value="updates mobile4" />
+    <MESSAGE value="updates mobile5" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates mobile5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/description product/descript.png" />
     <entry file="file://$PROJECT_DIR$/img/description product/per2.png" />
     <entry file="file://$PROJECT_DIR$/img/description product/per3.png" />
     <entry file="file://$PROJECT_DIR$/img/prodducts/10.jpg" />
@@ -1054,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sales.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tag.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -1068,31 +1061,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="63" column="112" lean-forward="true" selection-start-line="63" selection-start-column="112" selection-end-line="63" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="1098" column="5" selection-start-line="1098" selection-start-column="5" selection-end-line="1098" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1105,6 +1077,44 @@
             <element signature="n#!!block;n#getCookie#0" expanded="true" />
             <element signature="n#!!block;n#showModal#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single/single-product_master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="41" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <element signature="e#1718#1821#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="1098" column="5" selection-start-line="1098" selection-start-column="5" selection-end-line="1098" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single/single-sales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
         </state>
       </provider>
     </entry>

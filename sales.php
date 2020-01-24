@@ -30,7 +30,7 @@ get_header();
                 <div class="row shares-item mt-4 mb-3 ml-auto mr-auto">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <h4 class="shares-title font-weight-bold">
-	                        <?php the_title();?>
+                            <a href="<?php the_permalink() ?>"><?php the_title();?></a>
                         </h4>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-right">
