@@ -50,7 +50,12 @@ get_header();
                 </div>
                 <script>
                     function myFunction() {
-                        document.getElementById("ans").style.display = "block";
+                        if(document.getElementById("ans").style.display == "block"){
+                            document.getElementById("ans").style.display = "none"
+                        }else{
+                            document.getElementById("ans").style.display = "block"
+                        }
+
                     }
                 </script>
             </div>

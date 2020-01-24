@@ -477,168 +477,7 @@ Text Domain: mustang
 }
 
 @media screen and (max-width: 600px) {
-    .navbar {
-        z-index: 99;
-    }
 
-    .navbar-light .navbar-brand {
-        max-width: 67%;
-
-    }
-
-    .navbar-light .navbar-toggler {
-        background: #fff;
-    }
-
-    .footer-link {
-        margin: 10px 0;
-    }
-
-    .icon-info p {
-        display: inline;
-    }
-
-    .icon-social {
-        margin: .75em 2em;
-    }
-
-    .slide-content .link {
-        margin: 0 auto;
-        display: block !important;
-        text-align: center;
-        padding: 0.25em 0.4em;
-        width: 80%;
-    }
-
-    .back {
-        height: 97.2%;
-    }
-
-    .navbar-light .navbar-nav .nav-link {
-        color: black;
-        display: block;
-        text-align: center;
-    }
-
-    .product-title {
-        font-size: 1em;
-    }
-
-    .product-img {
-        display: inline-block;
-        max-width: 100%;
-        /* min-height: 125px; */
-    }
-
-    .product-item a {
-        padding: 10px;
-        min-height: initial;
-    }
-
-    .ans {
-        text-align: justify;
-    }
-
-    .distributors-item {
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        min-height: 25vh;
-    }
-
-    .distributors-img {
-        margin-top: 15%;
-    }
-
-    .distributors-title {
-        margin-bottom: 15%;
-    }
-
-    .manager_border {
-        max-height: unset;
-        width: 100%;
-    }
-
-    .manager_pic {
-        max-width: 150px;
-        margin: 0 auto;
-        display: block;
-        top: 0;
-    }
-
-    .manager_info_text {
-        width: 90%;
-        position: relative;
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        top: 0;
-    }
-
-    .navbar-nav {
-        margin-top: 20px;
-    }
-
-    .slide-price {
-        display: none;
-    }
-
-    .trade_product {
-        text-align: center;
-        color: black;
-        border: 3px solid #0068c3;
-        border-radius: 30px;
-        margin: 10px 0;
-    }
-
-    .trade_product-img {
-        height: initial;
-    }
-
-    .trade_product-img img {
-        display: block;
-        margin: 0 auto;
-        width: 77%;
-        position: initial;
-        top: 0;
-        left: 0;
-        transform: none;
-    }
-
-    .nav-item {
-        margin: 2px 0;
-    }
-
-    .slide img {
-        max-width: 100%;
-    }
-
-    .slide-text {
-        font-size: 1.5em;
-        line-height: 1em;
-        padding: 1em 0;
-    }
-
-    .back {
-        display: block;
-        height: 85.2%;
-    }
-
-    .product-info {
-        display: inline-block;
-        width: 90%;
-
-    }
-
-    .product__used--text {
-        padding-left: 10px;
-    }
-
-    .product__used .product__title--article {
-        padding-left: 10px;
-    }
-
-    .use-description {
-        margin-top: 20px;
-    }
 }
 
 .contacts_slider .dot {
@@ -1009,6 +848,10 @@ Text Domain: mustang
     margin-bottom: 0;
 }
 
+.about-text li{
+    text-align: justify;
+}
+
 @media (max-width: 640px) and (min-width: 320px) {
     .desktop {
         display: none;
@@ -1055,4 +898,205 @@ Text Domain: mustang
         width: 100%;
     }
 
+    .product__used--img {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        position: initial;
+        top: 0;
+        transform: initial;
+    }
+
+    .table th {
+        font-size: 0.8em;
+    }
+    .table td, .table th {
+
+        padding: 0.55rem;}
+
+    .table__h-ico {
+        display: block;
+        width: 90px;
+    }
+
+    .product__sizes div{
+        padding:0;
+    }
+
+    .table__h-ico img {
+        max-height: 70px;
+    }
+
+    #map {
+        width: 100%;
+    }
+
+    .navbar {
+        z-index: 99;
+    }
+
+    .navbar-light .navbar-brand {
+        max-width: 67%;
+
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+
+    .footer-link {
+        margin: 10px 0;
+    }
+
+    .icon-info p {
+        display: inline;
+    }
+
+    .icon-social {
+        margin: .75em 2em;
+    }
+
+    .slide-content .link {
+        margin: 0 auto;
+        display: block !important;
+        text-align: center;
+        padding: 0.25em 0.4em;
+        width: 80%;
+    }
+
+    .back {
+        height: 97.2%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+        display: block;
+        text-align: center;
+    }
+
+    .product-title {
+        font-size: 1em;
+    }
+
+    .product-img {
+        display: inline-block;
+        max-width: 100%;
+        /* min-height: 125px; */
+    }
+
+    .product-item a {
+        padding: 10px;
+        min-height: initial;
+    }
+
+    .ans {
+        text-align: justify;
+    }
+
+    .distributors-item {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        min-height: 25vh;
+    }
+
+    .distributors-img {
+        margin-top: 15%;
+    }
+
+    .distributors-title {
+        margin-bottom: 15%;
+    }
+
+    .manager_border {
+        max-height: unset;
+        width: 100%;
+    }
+
+    .manager_pic {
+        max-width: 150px;
+        margin: 0 auto;
+        display: block;
+        top: 0;
+    }
+
+    .manager_info_text {
+        width: 90%;
+        position: relative;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        top: 0;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+    }
+
+    .slide-price {
+        display: none;
+    }
+
+    .trade_product {
+        text-align: center;
+        color: black;
+
+    }
+
+    .trade_product-img {
+        height: initial;
+    }
+
+    .trade_product-img img {
+        display: block;
+        margin: 0 auto;
+        position: initial;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .nav-item {
+        margin: 2px 0;
+    }
+
+    .slide img {
+        max-width: 100%;
+    }
+
+    .slide-text {
+        font-size: 1.5em;
+        line-height: 1em;
+        padding: 1em 0;
+    }
+
+    .back {
+        display: block;
+        height: 85.2%;
+    }
+
+    .product-info {
+        display: inline-block;
+        width: 90%;
+
+    }
+
+    .product__used--text {
+        padding-left: 10px;
+    }
+
+    .product__used .product__title--article {
+        padding-left: 10px;
+    }
+
+    .use-description {
+        margin-top: 20px;
+    }
+    .tag_menu{
+        display: none;
+    }
+    .no-padd-mobile{
+        padding: 0;
+    }
+    .use-video iframe {
+        height: 280px;
+    }
 }

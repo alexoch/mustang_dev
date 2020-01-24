@@ -61,7 +61,7 @@ while (have_posts()) {
 						$tag_items = wp_get_nav_menu_items($menu_name);
 						$tag_list = '';
 						foreach ((array)$tag_items as $key => $tag_item) {
-							$tag_list  .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center ">';
+							$tag_list  .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center no-padd-mobile">';
 							$tag_list  .= '<a  href="' . $tag_item->url . '" class="use-list-item">';
 							//echo $tag_item->title."<br>";
 							$term = get_term_by('name',$tag_item->title , 'post_tag');
