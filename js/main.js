@@ -35,7 +35,7 @@ function showModal() {
 $(".modal_inf").click(function () {
     $(".modal").hide();
     $(".back1").hide();
-    document.cookie = "lang=ru;path=/;";
+    document.cookie = "lang=ru;path=/;max-age=31536000;";
 });
 
 showModal();
