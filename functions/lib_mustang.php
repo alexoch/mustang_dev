@@ -165,12 +165,17 @@ function get_breadcrumbs($q_obj ){
 			$res ["Дистрибуторам"]=get_home_url().'/distributors';
 		}
 	}
+
 	if(is_single($q_obj)){
 		$res ["Продукция"]=get_home_url().'/products';
 		if(!empty(get_field("master"))){
 			$master=get_post(get_field("master")[0]);
 			$res [$master->post_title]=$master->guid;
 		}
+	}
+
+	if(is_page_template('single-sales.php') ){
+		$res ["Акции/Новости"]=get_home_url().'/sales';
 	}
 	if(is_tag()){
 		$res ["Применение"]=get_home_url().'/application/';
