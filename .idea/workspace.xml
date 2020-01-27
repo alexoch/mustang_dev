@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/distributors.php" beforeDir="false" afterPath="$PROJECT_DIR$/distributors.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +102,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="375" />
           <entry key="md" value="98" />
-          <entry key="php" value="7300" />
-          <entry key="txt" value="2048" />
+          <entry key="php" value="7328" />
+          <entry key="txt" value="2062" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -111,8 +112,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="375" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="7285" />
-          <entry key="PLAIN_TEXT" value="2048" />
+          <entry key="PHP" value="7313" />
+          <entry key="PLAIN_TEXT" value="2062" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -184,8 +185,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/distributors.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="31" column="92" lean-forward="true" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
+            <state relative-caret-position="224">
+              <caret line="30" column="200" selection-start-line="30" selection-start-column="200" selection-end-line="30" selection-end-column="200" />
             </state>
           </provider>
         </entry>
@@ -524,28 +525,7 @@
       <workItem from="1579517643639" duration="577000" />
       <workItem from="1579606677084" duration="23984000" />
       <workItem from="1579864417265" duration="796000" />
-      <workItem from="1580116884590" duration="7060000" />
-    </task>
-    <task id="LOCAL-00455" summary="added latest19">
-      <created>1579175806878</created>
-      <option name="number" value="00455" />
-      <option name="presentableId" value="LOCAL-00455" />
-      <option name="project" value="LOCAL" />
-      <updated>1579175806880</updated>
-    </task>
-    <task id="LOCAL-00456" summary="added latest20">
-      <created>1579175914305</created>
-      <option name="number" value="00456" />
-      <option name="presentableId" value="LOCAL-00456" />
-      <option name="project" value="LOCAL" />
-      <updated>1579175914306</updated>
-    </task>
-    <task id="LOCAL-00457" summary="added latest21">
-      <created>1579176012630</created>
-      <option name="number" value="00457" />
-      <option name="presentableId" value="LOCAL-00457" />
-      <option name="project" value="LOCAL" />
-      <updated>1579176012630</updated>
+      <workItem from="1580116884590" duration="8480000" />
     </task>
     <task id="LOCAL-00458" summary="added latest22">
       <created>1579176204529</created>
@@ -869,11 +849,32 @@
       <option name="project" value="LOCAL" />
       <updated>1580119542229</updated>
     </task>
-    <option name="localTasksCounter" value="504" />
+    <task id="LOCAL-00504" summary="updating distributors">
+      <created>1580127524282</created>
+      <option name="number" value="00504" />
+      <option name="presentableId" value="LOCAL-00504" />
+      <option name="project" value="LOCAL" />
+      <updated>1580127524283</updated>
+    </task>
+    <task id="LOCAL-00505" summary="updating distributors2">
+      <created>1580127730467</created>
+      <option name="number" value="00505" />
+      <option name="presentableId" value="LOCAL-00505" />
+      <option name="project" value="LOCAL" />
+      <updated>1580127730467</updated>
+    </task>
+    <task id="LOCAL-00506" summary="updating distributors3">
+      <created>1580128085191</created>
+      <option name="number" value="00506" />
+      <option name="presentableId" value="LOCAL-00506" />
+      <option name="project" value="LOCAL" />
+      <updated>1580128085192</updated>
+    </task>
+    <option name="localTasksCounter" value="507" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425416000" />
+    <option name="totallyTimeSpent" value="426836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -941,9 +942,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="updated search" />
-    <MESSAGE value="updated history on about company" />
-    <MESSAGE value="updated history on about company2" />
     <MESSAGE value="updated history on about company3" />
     <MESSAGE value="updated history on about company4" />
     <MESSAGE value="updated history on about company5" />
@@ -966,7 +964,10 @@
     <MESSAGE value="update home page" />
     <MESSAGE value="update home page2" />
     <MESSAGE value="updating products video" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating products video" />
+    <MESSAGE value="updating distributors" />
+    <MESSAGE value="updating distributors2" />
+    <MESSAGE value="updating distributors3" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating distributors3" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1159,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/distributors.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="31" column="92" lean-forward="true" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
+        <state relative-caret-position="224">
+          <caret line="30" column="200" selection-start-line="30" selection-start-column="200" selection-end-line="30" selection-end-column="200" />
         </state>
       </provider>
     </entry>
