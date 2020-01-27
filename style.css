@@ -747,6 +747,9 @@ Text Domain: mustang
     top: 0;
     z-index: 9;
 }
+.back img{
+    width: 100%;
+}
 .desktop{
     display:block;
 }
