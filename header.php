@@ -58,7 +58,9 @@
 		</div>
 	</nav>
 </header>
-<?php if (!is_home()){?>
+<?php if (!is_home()){
+        if(!is_front_page()){
+    ?>
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <?php
@@ -76,4 +78,4 @@
     </ol>
 </nav>
 
-<?php } ?>
+<?php }} ?>
