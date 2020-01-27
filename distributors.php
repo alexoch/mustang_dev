@@ -21,19 +21,19 @@ get_header();
             $args = [
 	            'category_name'  => 'distributors',
 	            'posts_per_page' => -1,
-	            'order'          => "ASC"
+	            'order'          => "DSC"
             ];
             query_posts($args);
             if (have_posts()) :
             while (have_posts()) {
             the_post(); ?>
 
-            <a class="col-12 col-sm-12 col-md-12 col-lg-12 col- xl-3 distributors-item d-flex justify-content-around align-items-center flex-column text-center" href="<?php the_field("address")?>">
+            <a class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 distributors-item d-flex justify-content-around align-items-center flex-column text-center" href="<?php the_field("address")?>">
 				<img src="<?php the_post_thumbnail_url(); ?>" alt="" class="distributors-img">
 				<img src="<?php the_post_thumbnail_url(); ?>" class="distributors-img-hover" />
-				<h6 class="distributors-title">
+				<!--h6 class="distributors-title">
 					Каталог <br> скачать pdf
-				</h6>
+				</h6-->
 			</a>
 
             <?php }; endif;?>
