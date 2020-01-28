@@ -57,7 +57,7 @@ get_header();
 
 
                         .<?php the_field("class");?> path, .<?php the_field("class");?>.land.active path{
-                            fill: <?php the_field("color");?>;
+                            fill: <?php the_field("region_color");?>;
                         }
                         /*.hover_map_west path, .hover_map_west.land.active path{
                             fill: #cec804;
