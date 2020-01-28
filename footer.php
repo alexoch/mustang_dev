@@ -62,15 +62,22 @@
 				</button>
 			</form>
 			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-3 align-items-center text-center text-xl-right d-flex">
-				<a href="#" class="icon icon-social">
-					<i data-feather="facebook"></i>
+				<?php
+				$args = [
+					'category_name'  => 'product,product_master',
+					'posts_per_page' => -1,
+					'order'          => "ASC"
+				];
+				query_posts($args);
+				if (have_posts()) :
+				while (have_posts()) {
+				the_post(); ?>
+
+                <a href="<?php the_field("link");?>" class="icon icon-social">
+					<i data-feather="<?php the_field("title");?>"></i>
 				</a>
-				<a href="#" class="icon icon-social">
-					<i data-feather="instagram"></i>
-				</a>
-				<a href="#" class="icon icon-social">
-					<i data-feather="twitter"></i>
-				</a>
+
+                <?php }endif;?>
 			</div>
 		</div>
 	</div>
