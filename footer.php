@@ -46,7 +46,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 align-items-center d-flex">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 align-items-center d-flex">
 				<a class="footer-link" href="https://goo.gl/maps/iXZhC3BkFNHNhLAA8">
 					<i data-feather="map-pin"></i>
 					<div class="icon icon-info">
@@ -61,7 +61,7 @@
 					<i data-feather="search"></i>
 				</button>
 			</form>
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-3 align-items-center text-center text-xl-right d-flex">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-2 align-items-center text-center text-xl-right d-flex">
 				<?php
 				$args = [
 					'category_name'  => 'social',
