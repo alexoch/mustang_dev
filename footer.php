@@ -64,7 +64,7 @@
 			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-3 align-items-center text-center text-xl-right d-flex">
 				<?php
 				$args = [
-					'category_name'  => 'socials',
+					'category_name'  => 'social',
 					'posts_per_page' => -1,
 					'order'          => "ASC"
 				];
