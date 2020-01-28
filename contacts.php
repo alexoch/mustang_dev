@@ -72,7 +72,7 @@ get_header();
                     </style>
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info <?php echo $offset . ' ';
-					the_field("class"); ?>">
+					the_field("class"); the_field() ?>">
                         <div class="manager_border ">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
                             <div class="manager_info_text">
