@@ -705,11 +705,11 @@ Text Domain: mustang
     color:black;
 }
 
-.active-map.right{
+.active-map.right-map{
     position: absolute;
     right: 0;
 }
-.active-map.left{
+.active-map.left-map{
     position: absolute;
     left: 0;
 }
