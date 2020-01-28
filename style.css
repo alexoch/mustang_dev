@@ -701,41 +701,23 @@ Text Domain: mustang
 }
 
 
-
-.hover_map_central.active{
-    position: absolute;
-    left: 0;
-    margin-left: 0;
-}
-
-.hover_map_east.active{
-    position: absolute;
-    left: 0;
-}
-.hover_map_south.active{
-    position: absolute;
-    left: 0;
-}
-.hover_map_west.active{
-    position: absolute;
-    right: 0;
-}
-
 .manager_title,.manager_dsc{
     color:black;
 }
-.hover_map_east path, .hover_map_east.land.active path{
-    fill: #f8b34e;
+
+.active-map.right{
+    position: absolute;
+    right: 0;
 }
-.hover_map_west path, .hover_map_west.land.active path{
-    fill: #cec804;
+.active-map.left{
+    position: absolute;
+    left: 0;
 }
-.hover_map_south path,.hover_map_south.land.active path {
-    fill: #59c1ff;
+
+.active-map.first-map{
+    margin-left: 0;
 }
-.hover_map_central path,.hover_map_central.land.active path {
-    fill: #FFEB3B;
-}
+
 
 .back1 {
     display: none;

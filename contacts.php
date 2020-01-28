@@ -21,12 +21,13 @@ get_header();
                          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="-10 -5 640 420"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xsi:schemaLocation="http://amcharts.com/ammap
-http://amcharts.com/ammap ">
+                                                http://amcharts.com/ammap ">
 						<?php
 						$posts = get_posts('category_name=regions&posts_per_page=-1');
 						foreach ($posts as $post) {
 							setup_postdata($post);
 							?>
+
                             <g id="<?php the_title();?>" class="land <?php the_field("class",get_field("master"));?>">
                                 <?php the_field("region");?>
                             </g>
@@ -46,12 +47,30 @@ http://amcharts.com/ammap ">
 				foreach ($posts as $post) {
 					setup_postdata($post);
 					if ($i == 0) {
-						$offset = "offset-xl-2";
+						$offset = "offset-xl-2 first-map";
 					} else {
 						$offset = '';
 					}
 					$i++;
 					?>
+                    <style>
+
+
+                        <?php the_field("class");?> path, <?php the_field("class");?>.land.active path{
+                            fill: <?php the_field("color");?>#f8b34e;
+                        }
+                        /*.hover_map_west path, .hover_map_west.land.active path{
+                            fill: #cec804;
+                        }
+                        .hover_map_south path,.hover_map_south.land.active path {
+                            fill: #59c1ff;
+                        }
+                        .hover_map_central path,.hover_map_central.land.active path {
+                            fill: #FFEB3B;
+                        }*/
+
+                    </style>
+
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info <?php echo $offset . ' ';
 					the_field("class"); ?>">
                         <div class="manager_border ">

@@ -183,15 +183,16 @@ if ($('.gallery_photos').is("dl")){
 }
 
 
-var id;
+
 
 $(function() {
+    let id;
     $('.land').hover(function(event) {
         id = "."+event.currentTarget.classList[1];
         $('.description').find(id).addClass('border');
-        $(id).addClass('active');
+        $(id).addClass('active-map');
     }, function(e) {
-        $(id).removeClass('active');
+        $(id).removeClass('active-map');
         $('.description').find(id).removeClass('border');
     });
 });
