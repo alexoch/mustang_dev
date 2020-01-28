@@ -6,7 +6,7 @@
  * Time: 10:25
  */
 error_reporting(E_ERROR | E_PARSE);
-
+pll_register_string('social1', 'social2');
 function mustang_scripts()
 {
 	wp_enqueue_style('style-name1', get_template_directory_uri() . '/scss/fonts.css');
