@@ -6,7 +6,17 @@
  * Time: 10:25
  */
 error_reporting(E_ERROR | E_PARSE);
-pll_register_string('social1', 'social2');
+pll_register_string('phone');
+pll_register_string('phone_subt');
+pll_register_string('city');
+pll_register_string('address');
+pll_register_string('pros');
+pll_register_string('also_watch');
+pll_register_string('details');
+pll_register_string('usage');
+pll_register_string('nomenklatura');
+pll_register_string('download_docs');
+pll_register_string('usage_search');
 function mustang_scripts()
 {
 	wp_enqueue_style('style-name1', get_template_directory_uri() . '/scss/fonts.css');
