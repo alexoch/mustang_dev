@@ -6,17 +6,17 @@
  * Time: 10:25
  */
 error_reporting(E_ERROR | E_PARSE);
-pll_register_string('phone');
-pll_register_string('phone_subt');
-pll_register_string('city');
-pll_register_string('address');
-pll_register_string('pros');
-pll_register_string('also_watch');
-pll_register_string('details');
-pll_register_string('usage');
-pll_register_string('nomenklatura');
-pll_register_string('download_docs');
-pll_register_string('usage_search');
+pll_register_string('phone', '044 585 21 08');
+pll_register_string('phone_subt', 'многоканальный');
+pll_register_string('city', 'г. Киев');
+pll_register_string('address', 'ул. Днепровская набережная, 26ж');
+pll_register_string('pros', 'Преимущества');
+pll_register_string('also_watch', 'Также посмотрите');
+pll_register_string('details', 'Детальное описание');
+pll_register_string('usage', 'Применение');
+pll_register_string('nomenklatura', 'Номенклатура');
+pll_register_string('download_docs', 'Скачать документы');
+pll_register_string('usage_search', 'Поиск по применению');
 function mustang_scripts()
 {
 	wp_enqueue_style('style-name1', get_template_directory_uri() . '/scss/fonts.css');
