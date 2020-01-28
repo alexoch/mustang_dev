@@ -74,7 +74,7 @@
 				the_post(); ?>
 
                 <a href="<?php the_field("link");?>" class="icon icon-social">
-					<i data-feather="<?php the_field("title");?>"></i>
+					<i data-feather="<?php the_title();?>"></i>
 				</a>
 
                 <?php }endif;?>
