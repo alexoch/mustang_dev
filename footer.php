@@ -41,8 +41,8 @@
 				<a class="footer-link" href="tel:+380445852108">
 					<i data-feather="smartphone"></i>
 					<div class="icon icon-info">
-						<p>044 585 21 08</p>
-						<p class="small-text">многоканальный</p>
+						<p><?php pll_e('044 585 21 08');?></p>
+						<p class="small-text"><?php pll_e('многоканальный');?></p>
 					</div>
 				</a>
 			</div>
@@ -50,8 +50,8 @@
 				<a class="footer-link" href="https://goo.gl/maps/iXZhC3BkFNHNhLAA8">
 					<i data-feather="map-pin"></i>
 					<div class="icon icon-info">
-						<p>г. Киев</p>
-						<p>ул. Днепровская набережная, 26ж</p>
+						<p><?php pll_e('г. Киев');?></p>
+						<p><?php pll_e('ул. Днепровская набережная, 26ж');?></p>
 					</div>
 				</a>
 			</div>
