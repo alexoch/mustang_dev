@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +102,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="394" />
           <entry key="md" value="98" />
-          <entry key="php" value="7582" />
-          <entry key="txt" value="2108" />
+          <entry key="php" value="7589" />
+          <entry key="txt" value="2111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -111,8 +112,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="394" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="7567" />
-          <entry key="PLAIN_TEXT" value="2108" />
+          <entry key="PHP" value="7574" />
+          <entry key="PLAIN_TEXT" value="2111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -147,11 +148,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+            <state relative-caret-position="-112">
+              <caret line="58" column="99" lean-forward="true" selection-start-line="58" selection-start-column="99" selection-end-line="58" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -159,7 +160,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="284">
               <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
               <folding>
                 <element signature="e#863#972#0" expanded="true" />
@@ -169,11 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="707" column="17" selection-start-line="707" selection-start-column="17" selection-end-line="707" selection-end-column="17" />
+            <state relative-caret-position="206">
+              <caret line="707" column="13" selection-start-line="707" selection-start-column="13" selection-end-line="707" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -189,11 +190,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>distributors-title</find>
-      <find>.distributors-img</find>
-      <find>tr</find>
-      <find>td</find>
-      <find>th{</find>
       <find>th</find>
       <find>shad</find>
       <find>.product-item a</find>
@@ -217,8 +213,13 @@
       <find>.back</find>
       <find>deskt</find>
       <find>get_breadcrumbs</find>
-      <find>active</find>
       <find>hover_map_central</find>
+      <find>text</find>
+      <find>text</find>
+      <find>svg-text</find>
+      <find>hover</find>
+      <find>active-map</find>
+      <find>active</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -462,28 +463,7 @@
       <workItem from="1579606677084" duration="23984000" />
       <workItem from="1579864417265" duration="796000" />
       <workItem from="1580116884590" duration="10142000" />
-      <workItem from="1580214261165" duration="6189000" />
-    </task>
-    <task id="LOCAL-00469" summary="added hint12">
-      <created>1579514025191</created>
-      <option name="number" value="00469" />
-      <option name="presentableId" value="LOCAL-00469" />
-      <option name="project" value="LOCAL" />
-      <updated>1579514025191</updated>
-    </task>
-    <task id="LOCAL-00470" summary="added hint13">
-      <created>1579514353137</created>
-      <option name="number" value="00470" />
-      <option name="presentableId" value="LOCAL-00470" />
-      <option name="project" value="LOCAL" />
-      <updated>1579514353138</updated>
-    </task>
-    <task id="LOCAL-00471" summary="added hint14">
-      <created>1579514890502</created>
-      <option name="number" value="00471" />
-      <option name="presentableId" value="LOCAL-00471" />
-      <option name="project" value="LOCAL" />
-      <updated>1579514890502</updated>
+      <workItem from="1580214261165" duration="7324000" />
     </task>
     <task id="LOCAL-00472" summary="added hint15">
       <created>1579514934805</created>
@@ -807,23 +787,44 @@
       <option name="project" value="LOCAL" />
       <updated>1580230590599</updated>
     </task>
-    <option name="localTasksCounter" value="518" />
+    <task id="LOCAL-00518" summary="updating map regions5">
+      <created>1580230740248</created>
+      <option name="number" value="00518" />
+      <option name="presentableId" value="LOCAL-00518" />
+      <option name="project" value="LOCAL" />
+      <updated>1580230740248</updated>
+    </task>
+    <task id="LOCAL-00519" summary="updating map regions6">
+      <created>1580230811667</created>
+      <option name="number" value="00519" />
+      <option name="presentableId" value="LOCAL-00519" />
+      <option name="project" value="LOCAL" />
+      <updated>1580230811667</updated>
+    </task>
+    <task id="LOCAL-00520" summary="updating map regions7">
+      <created>1580231410125</created>
+      <option name="number" value="00520" />
+      <option name="presentableId" value="LOCAL-00520" />
+      <option name="project" value="LOCAL" />
+      <updated>1580231410125</updated>
+    </task>
+    <option name="localTasksCounter" value="521" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="434687000" />
+    <option name="totallyTimeSpent" value="435822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23146747" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23146747" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32718894" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3275862" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.29885057" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.29885057" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32718894" />
@@ -879,9 +880,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="updates mobile2" />
-    <MESSAGE value="updates mobile3" />
-    <MESSAGE value="updates mobile4" />
     <MESSAGE value="updates mobile5" />
     <MESSAGE value="updates mobile6" />
     <MESSAGE value="updates mobile7" />
@@ -904,7 +902,10 @@
     <MESSAGE value="updating map regions2" />
     <MESSAGE value="updating map regions3" />
     <MESSAGE value="updating map regions4" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating map regions4" />
+    <MESSAGE value="updating map regions5" />
+    <MESSAGE value="updating map regions6" />
+    <MESSAGE value="updating map regions7" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating map regions7" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1083,9 +1084,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="58" column="99" lean-forward="true" selection-start-line="58" selection-start-column="99" selection-end-line="58" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="284">
           <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
           <folding>
             <element signature="e#863#972#0" expanded="true" />
@@ -1096,15 +1104,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="707" column="17" selection-start-line="707" selection-start-column="17" selection-end-line="707" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        <state relative-caret-position="206">
+          <caret line="707" column="13" selection-start-line="707" selection-start-column="13" selection-end-line="707" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -59,6 +59,7 @@ get_header();
                         .<?php the_field("class");?> path, .<?php the_field("class");?>.land.active path{
                             fill: <?php the_field("region_color");?> !important;
                         }
+
                         /*.hover_map_west path, .hover_map_west.land.active path{
                             fill: #cec804;
                         }
@@ -72,7 +73,7 @@ get_header();
                     </style>
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4  col-xl-4  manager_info <?php echo $offset . ' ';
-					the_field("class"); the_field("position"); ?>">
+					the_field("class"); echo " ";the_field("position"); ?>">
                         <div class="manager_border ">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="manager_pic">
                             <div class="manager_info_text">
