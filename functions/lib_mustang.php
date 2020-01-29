@@ -17,6 +17,15 @@ pll_register_string('usage', 'Применение');
 pll_register_string('nomenklatura', 'Номенклатура');
 pll_register_string('download_docs', 'Скачать документы');
 pll_register_string('usage_search', 'Поиск по применению');
+pll_register_string('pass_prod', 'Паспорт продукта');
+pll_register_string('pass_secur', 'Паспорт безопасности');
+pll_register_string('download', 'Скачать');
+pll_register_string('crimea', 'Крым');
+pll_register_string('search_results', 'Поисковые результаты для :');
+pll_register_string('no_found', 'Ничего не найдено по вашему запросу');
+pll_register_string('go_home', 'Перейти на главную');
+pll_register_string('no_page', 'К сожалению данная страница отсутствует на сайте');
+
 function mustang_scripts()
 {
 	wp_enqueue_style('style-name1', get_template_directory_uri() . '/scss/fonts.css');

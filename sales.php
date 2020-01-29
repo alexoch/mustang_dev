@@ -16,7 +16,7 @@ get_header();
         <div class="row">
             <div class="container col-12 mt-4 mb-4">
                 <h5 class="font-weight-bold mb-0 text-uppercase">
-                    Акции
+                    <?php the_title();?>
                 </h5>
             </div>
         </div>

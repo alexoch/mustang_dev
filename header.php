@@ -49,8 +49,8 @@
 	            echo $menu_list;
 	            ?>
                 <li class="nav-item active">
-                    <a  href="<?php echo home_url(); ?>/latest" >
-                        <img src="<?php echo get_template_directory_uri();?>/img/main/new-01.png" alt="" class="new_page_menu">
+                    <a  href="<?php echo get_page_link(1129); ?>" >
+                        <img src="<?php echo get_the_post_thumbnail_url( 1129);?>" alt="" class="new_page_menu">
                     </a>
                 </li>
 			</ul>

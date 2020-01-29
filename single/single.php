@@ -29,7 +29,7 @@ get_header();
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xl-offset-1  text-center">
                 <h3 class="product__title product__title--article">
-                    Преимущества
+	                <?php pll_e('Преимущества');?>
                 </h3>
                 <div class=" product__used--text">
 					<?php the_field("pros"); ?>
@@ -39,7 +39,7 @@ get_header();
         <div class="row product__section product__description border-bt" style="">
             <div class="col-12 text-center">
                 <h3 class="product__title anc" style="" onclick="myFunction()">
-                    Детальное описание <img
+	                <?php pll_e('Детальное описание');?> <img
                             src="<?php echo home_url();?>/wp-content/uploads/2019/11/58f8bcf70ed2bdaf7c128307.png"
                             alt="" style="    width: 22px;
     position: relative;
@@ -70,7 +70,7 @@ get_header();
             </div>
             <div class="col-12 col-sm-1s col-md-12 col-lg-6 col-xl-6" style="flex-direction: column;">
                 <h3 class="product__title product__title--article">
-                    Применение
+	                <?php pll_e('Применение');?>
                 </h3>
                 <div class="product__used--text ">
 					<?php the_field("application"); ?>
@@ -81,7 +81,7 @@ get_header();
         <div class="row product__section product__sizes border-bt ">
             <div class="col-12 text-center">
                 <h3 class="product__title product__title--article">
-                    Номенклатура
+	                <?php pll_e('Номенклатура');?>
                 </h3>
             </div>
             <div class="col-12 text-center overflow-auto">
@@ -93,7 +93,7 @@ get_header();
                 ">
             <div class="col-12 text-center">
                 <h3 class="product__title product__title--articles">
-                    Скачать документы
+	                <?php pll_e('Скачать документы');?>
                 </h3>
             </div>
 			<?php
@@ -117,10 +117,10 @@ get_header();
                     <div class=" col-12 col-sm-12  col-xl-11 product-item ">
 
                         <a href="<?php echo $url1; ?>" style="color: white;">
-                            <div>ПАСПОРТ ПРОДУКТА</div>
+                            <div><?php pll_e('Паспорт продукта');?> </div>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
                                  alt="" style="width: 50px;margin: 10px 0;">
-                            <div>скачать</div>
+                            <div><?php pll_e('скачать');?></div>
                         </a>
                     </div>
                 </div>
@@ -129,10 +129,10 @@ get_header();
                 <div class="row">
                     <div class=" col-12 col-sm-12 offset-xl-1 col-xl-11 product-item ">
                         <a href="<?php echo $url2; ?>" style="color: white;">
-                            <div>ПАСПОРТ БЕЗОПАСНОСТИ</div>
+                            <div><?php pll_e('Паспорт безопасности');?></div>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
                                  alt="" style="width: 50px;margin: 10px 0;">
-                            <div>скачать</div>
+                            <div><?php pll_e('скачать');?></div>
                         </a>
                     </div>
                 </div>

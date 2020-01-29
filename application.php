@@ -41,7 +41,7 @@ while (have_posts()) {
                             <button id="subsearch">
                                 <i data-feather="search"></i>
                             </button>
-                            <input type="text" id="subsearch" name="s" placeholder="поиск по применению"/>
+                            <input type="text" id="subsearch" name="s" placeholder="<?php pll_e("поиск по применению");?>"/>
                         </form>
                     </div>
                 </div>

@@ -25,7 +25,7 @@ if ( $the_query->have_posts() ) {?>
         <div class="row">
             <div class="container col-12 mt-4 mb-4">
                 <h5 class="font-weight-bold mb-0 text-uppercase">
-                    Поисковые результаты для : <?php echo get_query_var('s');?>
+                    <?php pll_e("Поисковые результаты для :");  echo " ".get_query_var('s');?>
                 </h5>
             </div>
         </div>
@@ -60,7 +60,7 @@ if ( $the_query->have_posts() ) {?>
         <div class="row">
             <div class="container col-12 mt-4 mb-4">
                 <h5 class="font-weight-bold mb-0 text-uppercase">
-                    Ничего не найдено по вашему запросу
+                    <?php pll_e("Ничего не найдено по вашему запросу");?>
                 </h5>
             </div>
         </div>

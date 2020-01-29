@@ -9,15 +9,6 @@
 get_header();
 ?>
 <main>
-    <!--div class="container-fluid border-tp">
-        <div class="row">
-            <div class="container col-12 mt-4 mb-4">
-                <h5 class="font-weight-bold mb-0 text-uppercase">
-                    Торговое оборудование
-                </h5>
-            </div>
-        </div>
-    </div-->
     <div class="container-fluid product-range">
         <div class="row">
 	        <?php
@@ -33,11 +24,6 @@ get_header();
                             <img src="<?php the_post_thumbnail_url();?>"
                                   alt="" >
                         </div>
-                        <!--div class="trade_product-info">
-							<p class="trade_product-title">
-								Арт. MS01
-							</p>
-						</div-->
                     </div>
                 </a>
 		        <?php
@@ -45,7 +31,6 @@ get_header();
             endif;
             wp_reset_query();
             ?>
-
 </main>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
 <?php
