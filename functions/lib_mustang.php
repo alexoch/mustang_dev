@@ -25,6 +25,10 @@ pll_register_string('search_results', 'Поисковые результаты �
 pll_register_string('no_found', 'Ничего не найдено по вашему запросу');
 pll_register_string('go_home', 'Перейти на главную');
 pll_register_string('no_page', 'К сожалению данная страница отсутствует на сайте');
+pll_register_string('main', 'Главная');
+pll_register_string('distribs', 'Дистрибуторам');
+pll_register_string('products', 'Продукция');
+pll_register_string('sales', 'Акции/Новости');
 
 function mustang_scripts()
 {
@@ -180,22 +184,23 @@ function my_gallery_output($output, $attr)
 
 function get_breadcrumbs($q_obj)
 {
+
 	$res = [
-		"Главная" => get_home_url()
+		pll__("Главная") => get_home_url()
 	];
 
 	if (is_page($q_obj)) {
 		if (is_page_template('trading_equipment.php') || is_page_template('ad-products.php') || is_page_template('sales.php')) {
-			$res ["Дистрибуторам"] = get_home_url() . '/distributors';
+			$res [pll__("Дистрибуторам")] = get_home_url() . '/distributors';
 		}
 	}
 
 	if (is_single($q_obj)) {
 		if (has_category("sales")) {
-			$res ["Дистрибуторам"] = get_home_url() . '/distributors';
-			$res ["Акции"] = get_home_url() . '/sales';
+			$res [pll__("Дистрибуторам")] = get_home_url() . '/distributors';
+			$res [pll__("Акции/Новости")] = get_home_url() . '/sales';
 		} else {
-			$res ["Продукция"] = get_home_url() . '/products';
+			$res [pll__("Продукция")] = get_home_url() . '/products';
 			if (!empty(get_field("master"))) {
 				$master = get_post(get_field("master")[0]);
 				$res [$master->post_title] = $master->guid;
@@ -205,10 +210,10 @@ function get_breadcrumbs($q_obj)
 
 
 	if (is_tag()) {
-		$res ["Применение"] = get_home_url() . '/application/';
+		$res [pll__("Применение")] = get_home_url() . '/application/';
 		$res [$q_obj->name] = "";
 	} else if (is_page_template('search.php')) {
-		$res ['Поисковые результаты для : ' . get_query_var('s')] = '';
+		$res [pll__('Поисковые результаты для : ') . get_query_var('s')] = '';
 	} else {
 		$res [$q_obj->post_title] = "";
 	}
