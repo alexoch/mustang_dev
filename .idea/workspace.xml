@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="creating translations3">
+    <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-products.php" beforeDir="false" afterPath="$PROJECT_DIR$/ad-products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.php" beforeDir="false" afterPath="$PROJECT_DIR$/application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributors.php" beforeDir="false" afterPath="$PROJECT_DIR$/distributors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/lib_mustang.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib_mustang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales.php" beforeDir="false" afterPath="$PROJECT_DIR$/sales.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading_equipment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading_equipment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,8 +102,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="394" />
           <entry key="md" value="98" />
-          <entry key="php" value="8158" />
-          <entry key="txt" value="2137" />
+          <entry key="php" value="8234" />
+          <entry key="txt" value="2139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -124,8 +112,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="394" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="8143" />
-          <entry key="PLAIN_TEXT" value="2137" />
+          <entry key="PHP" value="8219" />
+          <entry key="PLAIN_TEXT" value="2139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -137,7 +125,7 @@
           <entry key="jpg" value="20" />
           <entry key="js" value="14" />
           <entry key="md" value="1" />
-          <entry key="php" value="251" />
+          <entry key="php" value="253" />
           <entry key="png" value="19" />
           <entry key="scss" value="1" />
           <entry key="txt" value="1" />
@@ -150,7 +138,7 @@
           <entry key="Image" value="43" />
           <entry key="JavaScript" value="14" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="251" />
+          <entry key="PHP" value="253" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="1" />
           <entry key="htaccess" value="1" />
@@ -163,8 +151,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="912">
+              <caret line="200" column="38" selection-start-line="200" selection-start-column="38" selection-end-line="200" selection-end-column="38" />
+              <folding>
+                <element signature="n#mustang_scripts#0;n#!!top" />
+                <element signature="n#change_menu_item_css_classes#0;n#!!top" />
+                <element signature="n#add_menuclass#0;n#!!top" />
+                <element signature="n#Primary_Walker_Nav_Menu#0;n#!!top" />
+                <element signature="n#my_single_template#0;n#!!top" />
+                <element signature="e#3844#4210#0#PHP" />
+                <element signature="n#my_gallery_output#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,7 +199,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -216,6 +213,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="101">
               <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -294,7 +312,6 @@
         <option value="$PROJECT_DIR$/single/single-product1.php" />
         <option value="$PROJECT_DIR$/single/single-product_sub1.php" />
         <option value="$PROJECT_DIR$/use.html" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/advert_production.php" />
         <option value="$PROJECT_DIR$/application-industry.php" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -319,8 +336,9 @@
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/tag.php" />
         <option value="$PROJECT_DIR$/trading_equipment.php" />
-        <option value="$PROJECT_DIR$/functions/lib_mustang.php" />
         <option value="$PROJECT_DIR$/404.php" />
+        <option value="$PROJECT_DIR$/functions/lib_mustang.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
   </component>
@@ -505,21 +523,7 @@
       <workItem from="1579606677084" duration="23984000" />
       <workItem from="1579864417265" duration="796000" />
       <workItem from="1580116884590" duration="10142000" />
-      <workItem from="1580214261165" duration="13398000" />
-    </task>
-    <task id="LOCAL-00478" summary="added hint21">
-      <created>1579518158314</created>
-      <option name="number" value="00478" />
-      <option name="presentableId" value="LOCAL-00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1579518158314</updated>
-    </task>
-    <task id="LOCAL-00479" summary="updated search">
-      <created>1579611541172</created>
-      <option name="number" value="00479" />
-      <option name="presentableId" value="LOCAL-00479" />
-      <option name="project" value="LOCAL" />
-      <updated>1579611541172</updated>
+      <workItem from="1580214261165" duration="17599000" />
     </task>
     <task id="LOCAL-00480" summary="updated history on about company">
       <created>1579614706477</created>
@@ -850,11 +854,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580242817266</updated>
     </task>
-    <option name="localTasksCounter" value="527" />
+    <task id="LOCAL-00527" summary="creating translations4">
+      <created>1580292896436</created>
+      <option name="number" value="00527" />
+      <option name="presentableId" value="LOCAL-00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1580292896436</updated>
+    </task>
+    <task id="LOCAL-00528" summary="creating translations5">
+      <created>1580295351348</created>
+      <option name="number" value="00528" />
+      <option name="presentableId" value="LOCAL-00528" />
+      <option name="project" value="LOCAL" />
+      <updated>1580295351349</updated>
+    </task>
+    <option name="localTasksCounter" value="529" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441896000" />
+    <option name="totallyTimeSpent" value="446097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -922,8 +940,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="update home page" />
-    <MESSAGE value="update home page2" />
     <MESSAGE value="updating products video" />
     <MESSAGE value="updating distributors" />
     <MESSAGE value="updating distributors2" />
@@ -947,7 +963,9 @@
     <MESSAGE value="creating translations" />
     <MESSAGE value="creating translations2" />
     <MESSAGE value="creating translations3" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating translations3" />
+    <MESSAGE value="creating translations4" />
+    <MESSAGE value="creating translations5" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating translations5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1089,23 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1168,17 +1169,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="200" column="38" selection-start-line="200" selection-start-column="38" selection-end-line="200" selection-end-column="38" />
+          <folding>
+            <element signature="n#mustang_scripts#0;n#!!top" />
+            <element signature="n#change_menu_item_css_classes#0;n#!!top" />
+            <element signature="n#add_menuclass#0;n#!!top" />
+            <element signature="n#Primary_Walker_Nav_Menu#0;n#!!top" />
+            <element signature="n#my_single_template#0;n#!!top" />
+            <element signature="e#3844#4210#0#PHP" />
+            <element signature="n#my_gallery_output#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
