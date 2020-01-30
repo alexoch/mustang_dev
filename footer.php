@@ -17,13 +17,13 @@
             margin: 0;
         }
     </style>
-    <div class="translations row">
+    <div class="translations row justify-content-center">
 		<?php
 		$translations = pll_the_languages(['raw' => 1]);
 		foreach ($translations as $tr) {
 			$img_url = get_template_directory_uri() . "/img/main/" . $tr["slug"] . ".png";
 			?>
-            <div class="modal_lang col-12 col-xl-4 offset-xl-4  ">
+            <div class="modal_lang col-12 col-xl-4 ">
                 <div class="modal_inf <?php echo $tr["slug"]; ?>">
                     <img src="<?php echo $img_url; ?>" alt="">
                     <span><?php echo $tr["name"] ?></span>
