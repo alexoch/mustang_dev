@@ -32,9 +32,10 @@
             <ul class="navbar-nav ml-auto">
 	            <?php
 	            $menu_name = "header-menu";
-	            //$locations = get_nav_menu_locations();
+	            $locations = get_nav_menu_locations();
+	            var_dump($locations);
+
 	            if ( ( $locations = get_nav_menu_locations() ) && isset( $locations[ $menu_name ] ) ) {
-		            var_dump($locations);
 
 		            $menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
 		            var_dump($menu);
