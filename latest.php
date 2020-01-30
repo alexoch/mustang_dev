@@ -19,7 +19,6 @@ if (have_posts()) :
         </style>
 		<main>
 			<div class="container-fluid product-range">
-				<div class="row"><img src="<?php the_post_thumbnail_url(); ?>" alt="" class="product-range-img"></div>
 				<div class="row">
 					<?php
 					$args = [

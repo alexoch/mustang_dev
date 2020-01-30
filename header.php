@@ -53,8 +53,8 @@
 	            echo $menu_list;
 	            ?>
                 <li class="nav-item active">
-                    <a  href="<?php echo get_page_link(1129); ?>" >
-                        <img src="<?php echo get_the_post_thumbnail_url( 1129);?>" alt="" class="new_page_menu">
+                    <a  href="<?php echo get_page_link(pll_get_post(1129)); ?>" >
+                        <img src="<?php echo get_the_post_thumbnail_url( pll_get_post(1129));?>" alt="" class="new_page_menu">
                     </a>
                 </li>
 			</ul>
