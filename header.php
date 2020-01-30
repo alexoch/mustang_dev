@@ -31,9 +31,9 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
 	            <?php
-	            $menu_name = "Header-menu";
-	            $locations = get_nav_menu_locations();
-	            var_dump($locations);
+	            $menu_name = "header-menu";
+	            //$locations = get_nav_menu_locations();
+	            //var_dump($locations);
 	            if ( ( $locations = get_nav_menu_locations() ) && isset( $locations[ $menu_name ] ) ) {
 		            $menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
 		            $menu_items = wp_get_nav_menu_items($menu->term_id );
