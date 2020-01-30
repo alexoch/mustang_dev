@@ -31,7 +31,7 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
 	            <?php
-	            $menu_name = "header-menu";
+	            $menu_name = "header_menu";
 	            $locations = get_nav_menu_locations();
 	            var_dump($locations);
 
