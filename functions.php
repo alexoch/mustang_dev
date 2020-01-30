@@ -8,7 +8,9 @@ add_filter('nav_menu_css_class', 'change_menu_item_css_classes', 10, 4);
 add_filter('wp_nav_menu', 'add_menuclass');
 add_action( 'after_setup_theme', function(){
 	register_nav_menus( [
-		'header_menu' => 'Меню в шапке'
+		'header_menu' => 'Меню в шапке',
+		'application' => 'Меню в применении'
+
 
 	] );
 } );
