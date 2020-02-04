@@ -191,16 +191,16 @@ function get_breadcrumbs($q_obj)
 
 	if (is_page($q_obj)) {
 		if (is_page_template('trading_equipment.php') || is_page_template('ad-products.php') || is_page_template('sales.php')) {
-			$res [pll__("Дистрибуторам")] = $homeurl. '/distributors';
+			$res [pll__("Дистрибуторам")] = get_post_permalink(pll_get_post(27));
 		}
 	}
 
 	if (is_single($q_obj)) {
 		if (has_category("sales")) {
-			$res [pll__("Дистрибуторам")] = $homeurl. '/distributors';
-			$res [pll__("Акции/Новости")] = $homeurl. '/sales';
+			$res [pll__("Дистрибуторам")] = get_post_permalink(pll_get_post(27));
+			$res [pll__("Акции/Новости")] = get_post_permalink(pll_get_post(54));
 		} else {
-			$res [pll__("Продукция")] = $homeurl. '/products';
+			$res [pll__("Продукция")] = get_post_permalink(pll_get_post(10));
 			if (!empty(get_field("master"))) {
 				$master = get_post(get_field("master")[0]);
 				$res [$master->post_title] = $master->guid;
@@ -210,7 +210,7 @@ function get_breadcrumbs($q_obj)
 
 
 	if (is_tag()) {
-		$res [pll__("Применение")] = $homeurl. '/application/';
+		$res [pll__("Применение")] = get_post_permalink(pll_get_post(28));
 		$res [$q_obj->name] = "";
 	} else if (is_page_template('search.php')) {
 		$res [pll__('Поисковые результаты для : ') . get_query_var('s')] = '';
