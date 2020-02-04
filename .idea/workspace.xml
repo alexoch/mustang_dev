@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/lib_mustang.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib_mustang.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +101,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="394" />
           <entry key="md" value="98" />
-          <entry key="php" value="8450" />
-          <entry key="txt" value="2232" />
+          <entry key="php" value="8452" />
+          <entry key="txt" value="2233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -112,8 +111,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="394" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="8435" />
-          <entry key="PLAIN_TEXT" value="2232" />
+          <entry key="PHP" value="8437" />
+          <entry key="PLAIN_TEXT" value="2233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -125,7 +124,7 @@
           <entry key="jpg" value="20" />
           <entry key="js" value="15" />
           <entry key="md" value="1" />
-          <entry key="php" value="266" />
+          <entry key="php" value="267" />
           <entry key="png" value="19" />
           <entry key="scss" value="1" />
           <entry key="txt" value="1" />
@@ -138,7 +137,7 @@
           <entry key="Image" value="43" />
           <entry key="JavaScript" value="15" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="266" />
+          <entry key="PHP" value="267" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="1" />
           <entry key="htaccess" value="1" />
@@ -151,8 +150,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
+            <state relative-caret-position="608">
               <caret line="43" column="116" selection-start-line="43" selection-start-column="116" selection-end-line="43" selection-end-column="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+              <folding>
+                <element signature="n#mustang_scripts#0;n#!!top" />
+                <element signature="n#change_menu_item_css_classes#0;n#!!top" />
+                <element signature="n#add_menuclass#0;n#!!top" />
+                <element signature="n#Primary_Walker_Nav_Menu#0;n#!!top" />
+                <element signature="n#my_single_template#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,13 +175,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
+            <state relative-caret-position="544">
               <caret line="48" column="116" selection-start-line="48" selection-start-column="116" selection-end-line="48" selection-end-column="116" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single/single.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
@@ -270,7 +285,6 @@
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/trading_equipment.php" />
         <option value="$PROJECT_DIR$/404.php" />
-        <option value="$PROJECT_DIR$/functions/lib_mustang.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/latest.php" />
         <option value="$PROJECT_DIR$/header.php" />
@@ -279,6 +293,7 @@
         <option value="$PROJECT_DIR$/tag.php" />
         <option value="$PROJECT_DIR$/application.php" />
         <option value="$PROJECT_DIR$/single/single.php" />
+        <option value="$PROJECT_DIR$/functions/lib_mustang.php" />
       </list>
     </option>
   </component>
@@ -464,14 +479,7 @@
       <workItem from="1579864417265" duration="796000" />
       <workItem from="1580116884590" duration="10142000" />
       <workItem from="1580214261165" duration="25268000" />
-      <workItem from="1580836349084" duration="2222000" />
-    </task>
-    <task id="LOCAL-00498" summary="updates mobile7">
-      <created>1579849601761</created>
-      <option name="number" value="00498" />
-      <option name="presentableId" value="LOCAL-00498" />
-      <option name="project" value="LOCAL" />
-      <updated>1579849601761</updated>
+      <workItem from="1580836349084" duration="3035000" />
     </task>
     <task id="LOCAL-00499" summary="updates mobile8">
       <created>1579849782400</created>
@@ -809,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580838522318</updated>
     </task>
-    <option name="localTasksCounter" value="547" />
+    <task id="LOCAL-00547" summary="updating translation2">
+      <created>1580838584214</created>
+      <option name="number" value="00547" />
+      <option name="presentableId" value="LOCAL-00547" />
+      <option name="project" value="LOCAL" />
+      <updated>1580838584215</updated>
+    </task>
+    <option name="localTasksCounter" value="548" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455988000" />
+    <option name="totallyTimeSpent" value="456801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -881,7 +896,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="updating map regions8" />
     <MESSAGE value="updating map regions9" />
     <MESSAGE value="creating translations" />
     <MESSAGE value="creating translations2" />
@@ -906,7 +920,8 @@
     <MESSAGE value="updating single sales video" />
     <MESSAGE value="updating application tagging extraction" />
     <MESSAGE value="updating translations" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating translations" />
+    <MESSAGE value="updating translation2" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating translation2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1060,20 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="162" column="40" lean-forward="true" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
-          <folding>
-            <element signature="n#mustang_scripts#0;n#!!top" />
-            <element signature="n#change_menu_item_css_classes#0;n#!!top" />
-            <element signature="n#add_menuclass#0;n#!!top" />
-            <element signature="n#Primary_Walker_Nav_Menu#0;n#!!top" />
-            <element signature="n#my_single_template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sales.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
@@ -1119,26 +1120,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="43" column="116" selection-start-line="43" selection-start-column="116" selection-end-line="43" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="48" column="116" selection-start-line="48" selection-start-column="116" selection-end-line="48" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" column="116" selection-start-line="48" selection-start-column="116" selection-end-line="48" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="43" column="116" selection-start-line="43" selection-start-column="116" selection-end-line="43" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+          <folding>
+            <element signature="n#mustang_scripts#0;n#!!top" />
+            <element signature="n#change_menu_item_css_classes#0;n#!!top" />
+            <element signature="n#add_menuclass#0;n#!!top" />
+            <element signature="n#Primary_Walker_Nav_Menu#0;n#!!top" />
+            <element signature="n#my_single_template#0;n#!!top" />
           </folding>
         </state>
       </provider>
