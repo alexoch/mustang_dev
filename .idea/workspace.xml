@@ -101,8 +101,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="394" />
           <entry key="md" value="98" />
-          <entry key="php" value="8452" />
-          <entry key="txt" value="2233" />
+          <entry key="php" value="8484" />
+          <entry key="txt" value="2235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -111,8 +111,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="394" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="8437" />
-          <entry key="PLAIN_TEXT" value="2233" />
+          <entry key="PHP" value="8469" />
+          <entry key="PLAIN_TEXT" value="2235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -159,8 +159,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="40">
+              <caret line="186" column="28" selection-start-line="186" selection-start-column="28" selection-end-line="186" selection-end-column="28" />
               <folding>
                 <element signature="n#mustang_scripts#0;n#!!top" />
                 <element signature="n#change_menu_item_css_classes#0;n#!!top" />
@@ -479,21 +479,7 @@
       <workItem from="1579864417265" duration="796000" />
       <workItem from="1580116884590" duration="10142000" />
       <workItem from="1580214261165" duration="25268000" />
-      <workItem from="1580836349084" duration="3035000" />
-    </task>
-    <task id="LOCAL-00499" summary="updates mobile8">
-      <created>1579849782400</created>
-      <option name="number" value="00499" />
-      <option name="presentableId" value="LOCAL-00499" />
-      <option name="project" value="LOCAL" />
-      <updated>1579849782400</updated>
-    </task>
-    <task id="LOCAL-00500" summary="updates mobile9">
-      <created>1579850078408</created>
-      <option name="number" value="00500" />
-      <option name="presentableId" value="LOCAL-00500" />
-      <option name="project" value="LOCAL" />
-      <updated>1579850078408</updated>
+      <workItem from="1580836349084" duration="3641000" />
     </task>
     <task id="LOCAL-00501" summary="update home page">
       <created>1580117759722</created>
@@ -824,11 +810,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580838584215</updated>
     </task>
-    <option name="localTasksCounter" value="548" />
+    <task id="LOCAL-00548" summary="updating translation3">
+      <created>1580840119315</created>
+      <option name="number" value="00548" />
+      <option name="presentableId" value="LOCAL-00548" />
+      <option name="project" value="LOCAL" />
+      <updated>1580840119318</updated>
+    </task>
+    <task id="LOCAL-00549" summary="updating translation4">
+      <created>1580840296943</created>
+      <option name="number" value="00549" />
+      <option name="presentableId" value="LOCAL-00549" />
+      <option name="project" value="LOCAL" />
+      <updated>1580840296945</updated>
+    </task>
+    <option name="localTasksCounter" value="550" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456801000" />
+    <option name="totallyTimeSpent" value="457407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -896,8 +896,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="updating map regions9" />
-    <MESSAGE value="creating translations" />
     <MESSAGE value="creating translations2" />
     <MESSAGE value="creating translations3" />
     <MESSAGE value="creating translations4" />
@@ -921,7 +919,9 @@
     <MESSAGE value="updating application tagging extraction" />
     <MESSAGE value="updating translations" />
     <MESSAGE value="updating translation2" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating translation2" />
+    <MESSAGE value="updating translation3" />
+    <MESSAGE value="updating translation4" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating translation4" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1146,8 +1146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+        <state relative-caret-position="40">
+          <caret line="186" column="28" selection-start-line="186" selection-start-column="28" selection-end-line="186" selection-end-column="28" />
           <folding>
             <element signature="n#mustang_scripts#0;n#!!top" />
             <element signature="n#change_menu_item_css_classes#0;n#!!top" />

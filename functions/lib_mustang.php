@@ -184,7 +184,7 @@ function my_gallery_output($output, $attr)
 
 function get_breadcrumbs($q_obj)
 {
-	$homeurl= pll_current_language() == pll_default_language() ? pll_home_url():get_site_url().pll_current_language();
+	$homeurl= pll_current_language() == pll_default_language() ? pll_home_url():get_site_url()."/".pll_current_language();
 	$res = [
 		pll__("Главная") => $homeurl
 	];
