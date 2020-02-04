@@ -149,7 +149,7 @@ get_header();
             <a href="<?php echo $post_data->guid; ?>">
                 <div class="product-info">
                     <p class="also">
-                       <?php pll_e('Также посмотрите:');?>
+                       <?php pll_e('Также посмотрите');?>
                     </p>
                     <p class="product-title">
 					    <?php echo $post_data->post_title;  ?>
