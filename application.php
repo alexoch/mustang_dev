@@ -63,7 +63,12 @@ while (have_posts()) {
                     <div class="row" style="padding: .5em 0;">
 						<?php
 						$menu_name = "application";
-						$tag_items = wp_get_nav_menu_items($menu_name);
+						$locations = get_nav_menu_locations();
+						if ( ( $locations = get_nav_menu_locations() ) && isset( $locations[ $menu_name ] ) ) {
+							$menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
+							$tag_items = wp_get_nav_menu_items($menu->term_id );
+						}
+
 						$tag_list = '';
 						foreach ((array)$tag_items as $key => $tag_item) {
 							$tag_list  .= '<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 text-center no-padd-mobile">';
