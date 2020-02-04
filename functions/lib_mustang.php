@@ -184,23 +184,23 @@ function my_gallery_output($output, $attr)
 
 function get_breadcrumbs($q_obj)
 {
-
+	$homeurl= pll_current_language() == pll_default_language() ? pll_home_url():get_site_url().pll_current_language();
 	$res = [
-		pll__("Главная") => pll_home_url()
+		pll__("Главная") => $homeurl
 	];
 
 	if (is_page($q_obj)) {
 		if (is_page_template('trading_equipment.php') || is_page_template('ad-products.php') || is_page_template('sales.php')) {
-			$res [pll__("Дистрибуторам")] = pll_home_url(). '/distributors';
+			$res [pll__("Дистрибуторам")] = $homeurl. '/distributors';
 		}
 	}
 
 	if (is_single($q_obj)) {
 		if (has_category("sales")) {
-			$res [pll__("Дистрибуторам")] = pll_home_url(). '/distributors';
-			$res [pll__("Акции/Новости")] = pll_home_url() . '/sales';
+			$res [pll__("Дистрибуторам")] = $homeurl. '/distributors';
+			$res [pll__("Акции/Новости")] = $homeurl. '/sales';
 		} else {
-			$res [pll__("Продукция")] = pll_home_url(). '/products';
+			$res [pll__("Продукция")] = $homeurl. '/products';
 			if (!empty(get_field("master"))) {
 				$master = get_post(get_field("master")[0]);
 				$res [$master->post_title] = $master->guid;
@@ -210,7 +210,7 @@ function get_breadcrumbs($q_obj)
 
 
 	if (is_tag()) {
-		$res [pll__("Применение")] = pll_home_url(). '/application/';
+		$res [pll__("Применение")] = $homeurl. '/application/';
 		$res [$q_obj->name] = "";
 	} else if (is_page_template('search.php')) {
 		$res [pll__('Поисковые результаты для : ') . get_query_var('s')] = '';
