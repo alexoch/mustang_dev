@@ -13,7 +13,7 @@ get_header();
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 submenu">
                     <h5 class="submenu-title text-center">
-                        <?php pll_e("ПРИМЕНЕНИЕ");?>
+                        <?php pll_e("Применение");?>
                     </h5>
 
                     <div class="submenu-nav">
@@ -41,7 +41,7 @@ get_header();
                             <button id="subsearch">
                                 <i data-feather="search"></i>
                             </button>
-                            <input type="text" id="subsearch" name="s" placeholder="<?php pll_e("поиск по применению"); ?>"/>
+                            <input type="text" id="subsearch" name="s" placeholder="<?php pll_e("Поиск по применению"); ?>"/>
                         </form>
                     </div>
                 </div>
