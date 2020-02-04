@@ -31,7 +31,19 @@ if (have_posts()) :
                     <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="shares-img"/>
                 </div>
                 <div class="col-12">
+
                     <p class="shares-text"><?php the_content(); ?></p>
+	                <?php
+	                if(get_field("video")):
+		                $video_url=get_field("video");
+		                ?>
+
+                    <video width="530" height="330" controls="controls" >
+                        <source src="<?php echo $video_url; ?>" type=\'video/mp4; codecs="avc1.42E01E, mp4a.40.2"\'>
+                        Тег video не поддерживается вашим браузером.
+                        <a href="<?php echo $video_url; ?>">Скачайте видео</a>.
+                    </video>
+                    <?php endif;?>
                 </div>
             </div>
             <div class="row shares-br m-auto"></div>
