@@ -13,6 +13,59 @@ get_header();
 		while (have_posts()) {
 		the_post();
 		?>
+
+
+        <?php if(!empty(get_field("usage_example"))){
+            $v=true;}else{ $v=false; }?>
+
+        <script>if ($('.gallery_photos').is("dl")){
+                var slider = new Siema({
+                    selector: '.gallery_photos',
+                    duration: 500,
+                    easing: 'ease-out',
+                    perPage: 1,
+                    startIndex: 0,
+                    draggable: true,
+                    multipleDrag: true,
+                    threshold: 20,
+                    loop: <?php echo $v;?>,
+                    rtl: false,
+                    onChange: checkDots
+                });
+
+                Siema.prototype.addPagination = function() {
+                    var btn_wrapper = document.createElement('div');
+                    btn_wrapper.classList.add("dots");
+                    for (let i = 0; i < this.innerElements.length; i++) {
+                        var btn = document.createElement('button');
+                        if(!i) {
+                            btn.classList.add('dot-active');
+                        }
+                        btn.classList.add('dot');
+                        btn.addEventListener('click', () => clickDot(i, this));
+                        btn_wrapper.appendChild(btn);
+                    }
+                    this.selector.appendChild(btn_wrapper);
+                    console.log("pagination added");
+                };
+
+                slider.addPagination();
+                function clickDot(i, context) {
+                    context.goTo(i);
+                    let dotList = document.getElementsByClassName('dot');
+                    for( var j = 0; j < dotList.length; j++) {
+                        dotList[j].classList.remove('dot-active');
+                    }
+                    dotList[i].classList.add('dot-active');
+                }
+                function checkDots() {
+                    clickDot(this.currentSlide, this)
+                }
+                setInterval(() => slider.next(), 5000)
+            }
+        </script>
+
+
         <div class="row product__section border-bt">
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 text-center">
                 <h1 class="product__title">
@@ -155,7 +208,14 @@ get_header();
 					    <?php echo $post_data->post_title;  ?>
                     </p>
                 </div>
-                <img src="<?php echo get_the_post_thumbnail_url($v); ?>" height="335" width="299" alt=""
+                <?php
+                if (!empty(get_fied("link_img",$v))){
+                    $link_img=get_fied("link_img",$v);
+                }else{
+	                $link_img=get_the_post_thumbnail_url($v);
+                }
+                ?>
+                <img src="<?php echo $link_img; ?>" height="335" width="299" alt=""
                      class="product-img">
             </a>
         </div>

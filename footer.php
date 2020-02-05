@@ -19,18 +19,24 @@
     </style>
     <div class="translations row justify-content-center">
 		<?php
-		$translations = pll_the_languages(['raw' => 1]);
-		foreach ($translations as $tr) {
-			$img_url = get_template_directory_uri() . "/img/main/" . $tr["slug"] . ".png";
+		$args = [
+			'category_name'  => 'languages',
+			'posts_per_page' => -1,
+			'order'          => "ASC"
+		];
+		query_posts($args);
+		if (have_posts()) :
+		while (have_posts()) {
+			the_post();
 			?>
             <div class="modal_lang col-12 col-xl-4 ">
-                <div class="modal_inf <?php echo $tr["slug"]; ?>">
-                    <img src="<?php echo $img_url; ?>" alt="">
-                    <span><?php echo $tr["name"] ?></span>
+                <div class="modal_inf ">
+                    <img src="<?php the_field("link"); ?>" alt="">
+                    <span><?php the_title();?></span>
                 </div>
             </div>
 			<?php
-		}
+		}endif;
 		?>
     </div>
 </div>
@@ -46,7 +52,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 align-items-center d-flex">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 align-items-center d-flex">
 				<a class="footer-link" href="https://goo.gl/maps/iXZhC3BkFNHNhLAA8">
 					<i data-feather="map-pin"></i>
 					<div class="icon icon-info">
@@ -55,6 +61,25 @@
 					</div>
 				</a>
 			</div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 align-items-center d-flex">
+	            <?php
+	            $args = [
+		            'category_name'  => 'languages',
+		            'posts_per_page' => -1,
+		            'order'          => "ASC"
+	            ];
+	            query_posts($args);
+	            if (have_posts()) :
+		            while (have_posts()) {
+			            the_post(); ?>
+
+                        <a href="<?php the_field("link");?>" class="icon icon-social">
+                            <img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
+                        </a>
+
+		            <?php }endif;?>
+
+            </div>
 			<form method="GET" action="<?php echo home_url(); ?>/search" class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-3 form-inline my-2 my-lg-0" >
 				<input type="text" name="s" class="search_i">
 				<button class="btn btn-primary my-2 my-sm-0 btn-search" type="submit">
