@@ -138,6 +138,7 @@ if ($('.contacts_slider').is("div")){
 
 if ($('.gallery_photos').is("dl")){
     let lo=$('.video_hidden').text();
+    console.log(lo);
     var slider = new Siema({
         selector: '.gallery_photos',
         duration: 500,
