@@ -15,7 +15,7 @@ get_header();
 		?>
 <span class="video_hidden" style="display: none;">
         <?php if(!empty(get_field("usage_example"))){
-	        $v="true";}else{ $v="false"; }?></span>
+	        echo "true";}else{ echo "false"; }?></span>
 
 
 
