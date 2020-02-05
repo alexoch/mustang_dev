@@ -74,7 +74,7 @@
 		            while (have_posts()) {
 			            the_post(); ?>
 
-                        <a href="<?php the_field("address");?>" class="icon icon-social">
+                        <a href="<?php the_field("address");?>" class="">
                             <img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
                         </a>
 
@@ -99,7 +99,7 @@
 				while (have_posts()) {
 				the_post(); ?>
 
-                <a href="<?php the_field("link");?>" class="">
+                <a href="<?php the_field("link");?>" class="icon icon-social">
 					<i data-feather="<?php the_title();?>"></i>
 				</a>
 

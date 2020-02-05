@@ -13,57 +13,11 @@ get_header();
 		while (have_posts()) {
 		the_post();
 		?>
-
-
+<span class="video_hidden" style="display: none;">
         <?php if(!empty(get_field("usage_example"))){
-            $v="true";}else{ $v="false"; }?>
+	        $v="true";}else{ $v="false"; }?></span>
 
-        <script>if ($('.gallery_photos').is("dl")){
-                var slider = new Siema({
-                    selector: '.gallery_photos',
-                    duration: 500,
-                    easing: 'ease-out',
-                    perPage: 1,
-                    startIndex: 0,
-                    draggable: true,
-                    multipleDrag: true,
-                    threshold: 20,
-                    loop: <?php echo $v;?>,
-                    rtl: false,
-                    onChange: checkDots
-                });
 
-                Siema.prototype.addPagination = function() {
-                    var btn_wrapper = document.createElement('div');
-                    btn_wrapper.classList.add("dots");
-                    for (let i = 0; i < this.innerElements.length; i++) {
-                        var btn = document.createElement('button');
-                        if(!i) {
-                            btn.classList.add('dot-active');
-                        }
-                        btn.classList.add('dot');
-                        btn.addEventListener('click', () => clickDot(i, this));
-                        btn_wrapper.appendChild(btn);
-                    }
-                    this.selector.appendChild(btn_wrapper);
-                    console.log("pagination added");
-                };
-
-                slider.addPagination();
-                function clickDot(i, context) {
-                    context.goTo(i);
-                    let dotList = document.getElementsByClassName('dot');
-                    for( var j = 0; j < dotList.length; j++) {
-                        dotList[j].classList.remove('dot-active');
-                    }
-                    dotList[i].classList.add('dot-active');
-                }
-                function checkDots() {
-                    clickDot(this.currentSlide, this)
-                }
-                setInterval(() => slider.next(), 5000)
-            }
-        </script>
 
 
         <div class="row product__section border-bt">
