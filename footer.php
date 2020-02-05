@@ -31,8 +31,9 @@
 			?>
             <div class="modal_lang col-12 col-xl-4 ">
                 <div class="modal_inf ">
-                    <img src="<?php the_field("link"); ?>" alt="">
-                    <span><?php the_title();?></span>
+                    <a href="<?php the_field("address"); ?>">
+                    <img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
+                    <span><?php the_title();?></span></a>
                 </div>
             </div>
 			<?php
@@ -61,7 +62,7 @@
 					</div>
 				</a>
 			</div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 align-items-center d-flex">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-1 align-items-center d-flex">
 	            <?php
 	            $args = [
 		            'category_name'  => 'languages',
@@ -73,7 +74,7 @@
 		            while (have_posts()) {
 			            the_post(); ?>
 
-                        <a href="<?php the_field("link");?>" class="icon icon-social">
+                        <a href="<?php the_field("address");?>" class="icon icon-social">
                             <img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
                         </a>
 
@@ -98,7 +99,7 @@
 				while (have_posts()) {
 				the_post(); ?>
 
-                <a href="<?php the_field("link");?>" class="icon icon-social">
+                <a href="<?php the_field("link");?>" class="">
 					<i data-feather="<?php the_title();?>"></i>
 				</a>
 

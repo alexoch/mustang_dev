@@ -16,7 +16,7 @@ get_header();
 
 
         <?php if(!empty(get_field("usage_example"))){
-            $v=true;}else{ $v=false; }?>
+            $v="true";}else{ $v="false"; }?>
 
         <script>if ($('.gallery_photos').is("dl")){
                 var slider = new Siema({
