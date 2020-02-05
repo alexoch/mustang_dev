@@ -163,8 +163,8 @@ get_header();
                     </p>
                 </div>
                 <?php
-                if (!empty(get_fied("link_img",$v))){
-                    $link_img=get_fied("link_img",$v);
+                if (!empty(get_field("link_img",$v))){
+                    $link_img=get_field("link_img",$v);
                 }else{
 	                $link_img=get_the_post_thumbnail_url($v);
                 }
