@@ -88,7 +88,10 @@
 				</button>
 			</form>
 			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-2 align-items-center text-center text-xl-right d-flex">
-				<?php
+
+                <select name="" id="">
+
+                <?php
 				$args = [
 					'category_name'  => 'social',
 					'posts_per_page' => -1,
@@ -98,12 +101,15 @@
 				if (have_posts()) :
 				while (have_posts()) {
 				the_post(); ?>
+                    <option value="<?php the_field("link");?>">
+                        <a href="<?php the_field("link");?>" class="icon icon-social">
+                            <i data-feather="<?php the_title();?>"></i>
+                        </a>
 
-                <a href="<?php the_field("link");?>" class="icon icon-social">
-					<i data-feather="<?php the_title();?>"></i>
-				</a>
+                    </option>
 
                 <?php }endif;?>
+                </select>
 			</div>
 		</div>
 	</div>
