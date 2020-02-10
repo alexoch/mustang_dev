@@ -64,16 +64,12 @@
 			</div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-1 align-items-center d-flex">
 
-                <div class="dropdown">
-                    <button class="dropbtn">Dropdown
-                        <i class="fa fa-caret-down"></i>
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Large button
                     </button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
+                    <div class="dropdown-menu">
+
                 <?php
 	            $args = [
 		            'category_name'  => 'languages',
@@ -86,12 +82,13 @@
 		            while (have_posts()) {
 			            the_post(); ?>
 
-                        <a href="<?php the_field("address");?>" class="">
+                        <a href="<?php the_field("address");?>" class="dropdown-item">
                             <img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
                         </a>
 
 		            <?php }endif;?>
-
+                    </div>
+                </div>
             </div>
 			<form method="GET" action="<?php echo home_url(); ?>/search" class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-3 form-inline my-2 my-lg-0" >
 				<input type="text" name="s" class="search_i">
