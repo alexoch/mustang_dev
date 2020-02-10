@@ -63,13 +63,25 @@
 				</a>
 			</div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-1 align-items-center d-flex">
-	            <?php
+
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <?php
 	            $args = [
 		            'category_name'  => 'languages',
 		            'posts_per_page' => -1,
 		            'order'          => "ASC"
 	            ];
 	            query_posts($args);
+
 	            if (have_posts()) :
 		            while (have_posts()) {
 			            the_post(); ?>
@@ -89,7 +101,6 @@
 			</form>
 			<div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-2 align-items-center text-center text-xl-right d-flex">
 
-                <select name="" id="">
 
                 <?php
 				$args = [
@@ -101,15 +112,12 @@
 				if (have_posts()) :
 				while (have_posts()) {
 				the_post(); ?>
-                    <option value="<?php the_field("link");?>">
-                        <a href="<?php the_field("link");?>" class="icon icon-social">
-                            <i data-feather="<?php the_title();?>"></i>
-                        </a>
 
-                    </option>
+                <a href="<?php the_field("link");?>" class="icon icon-social">
+					<i data-feather="<?php the_title();?>"></i>
+				</a>
 
                 <?php }endif;?>
-                </select>
 			</div>
 		</div>
 	</div>
