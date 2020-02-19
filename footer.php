@@ -70,7 +70,7 @@
 
                 <div class="btn-group">
                     <button class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="<?php echo $pic;?>" alt="">
+                        <img src="<?php echo $pic;?>" alt="" style="width:26px ;">
                     </button>
                     <div class="dropdown-menu">
 
@@ -87,7 +87,7 @@
 			            the_post(); ?>
 
                         <a href="<?php the_field("address");?>" class="dropdown-item">
-                            <img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
+                            <img src="<?php echo get_the_post_thumbnail_url();?>" style="width: 45px;" alt="">
                         </a>
 
 		            <?php }endif;?>

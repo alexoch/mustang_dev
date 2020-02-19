@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,8 +101,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="464" />
           <entry key="md" value="98" />
-          <entry key="php" value="8970" />
-          <entry key="txt" value="2254" />
+          <entry key="php" value="9068" />
+          <entry key="txt" value="2256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -111,8 +111,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="464" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="8955" />
-          <entry key="PLAIN_TEXT" value="2254" />
+          <entry key="PHP" value="9053" />
+          <entry key="PLAIN_TEXT" value="2256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -187,11 +187,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -489,21 +486,7 @@
       <workItem from="1581406248433" duration="17000" />
       <workItem from="1581429036073" duration="2694000" />
       <workItem from="1581942877230" duration="98000" />
-      <workItem from="1582102765096" duration="273000" />
-    </task>
-    <task id="LOCAL-00517" summary="updating map regions4">
-      <created>1580230590599</created>
-      <option name="number" value="00517" />
-      <option name="presentableId" value="LOCAL-00517" />
-      <option name="project" value="LOCAL" />
-      <updated>1580230590599</updated>
-    </task>
-    <task id="LOCAL-00518" summary="updating map regions5">
-      <created>1580230740248</created>
-      <option name="number" value="00518" />
-      <option name="presentableId" value="LOCAL-00518" />
-      <option name="project" value="LOCAL" />
-      <updated>1580230740248</updated>
+      <workItem from="1582102765096" duration="523000" />
     </task>
     <task id="LOCAL-00519" summary="updating map regions6">
       <created>1580230811667</created>
@@ -834,11 +817,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582102971549</updated>
     </task>
-    <option name="localTasksCounter" value="566" />
+    <task id="LOCAL-00566" summary="updating translation21">
+      <created>1582103044439</created>
+      <option name="number" value="00566" />
+      <option name="presentableId" value="LOCAL-00566" />
+      <option name="project" value="LOCAL" />
+      <updated>1582103044439</updated>
+    </task>
+    <task id="LOCAL-00567" summary="updating translation22">
+      <created>1582103275750</created>
+      <option name="number" value="00567" />
+      <option name="presentableId" value="LOCAL-00567" />
+      <option name="project" value="LOCAL" />
+      <updated>1582103275750</updated>
+    </task>
+    <option name="localTasksCounter" value="568" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469718000" />
+    <option name="totallyTimeSpent" value="469968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -906,8 +903,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="updating menu13" />
-    <MESSAGE value="updating menu14" />
     <MESSAGE value="updating menu15" />
     <MESSAGE value="updating single sales video" />
     <MESSAGE value="updating application tagging extraction" />
@@ -931,8 +926,9 @@
     <MESSAGE value="updating translation18" />
     <MESSAGE value="updating translation19" />
     <MESSAGE value="updating translation20" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating translation20" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="updating translation21" />
+    <MESSAGE value="updating translation22" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating translation22" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/sales/1.jpg" />
@@ -1163,11 +1159,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
         </state>
       </provider>
     </entry>
