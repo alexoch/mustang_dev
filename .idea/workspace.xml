@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +79,7 @@
           <entry key="project.open.time.17" value="7" />
           <entry key="project.open.time.18" value="6" />
           <entry key="project.open.time.19" value="4" />
-          <entry key="project.open.time.2" value="9" />
+          <entry key="project.open.time.2" value="10" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="4" />
           <entry key="project.open.time.24" value="1" />
@@ -93,7 +92,7 @@
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="86" />
+          <entry key="project.opened" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -102,8 +101,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="464" />
           <entry key="md" value="98" />
-          <entry key="php" value="8935" />
-          <entry key="txt" value="2252" />
+          <entry key="php" value="8970" />
+          <entry key="txt" value="2254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -112,8 +111,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="464" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="8920" />
-          <entry key="PLAIN_TEXT" value="2252" />
+          <entry key="PHP" value="8955" />
+          <entry key="PLAIN_TEXT" value="2254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -188,8 +187,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -321,6 +323,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,7 +350,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,13 +489,7 @@
       <workItem from="1581406248433" duration="17000" />
       <workItem from="1581429036073" duration="2694000" />
       <workItem from="1581942877230" duration="98000" />
-    </task>
-    <task id="LOCAL-00516" summary="updating map regions3">
-      <created>1580230450846</created>
-      <option name="number" value="00516" />
-      <option name="presentableId" value="LOCAL-00516" />
-      <option name="project" value="LOCAL" />
-      <updated>1580230450847</updated>
+      <workItem from="1582102765096" duration="273000" />
     </task>
     <task id="LOCAL-00517" summary="updating map regions4">
       <created>1580230590599</created>
@@ -831,17 +827,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581335942758</updated>
     </task>
-    <option name="localTasksCounter" value="565" />
+    <task id="LOCAL-00565" summary="updating translation20">
+      <created>1582102971548</created>
+      <option name="number" value="00565" />
+      <option name="presentableId" value="LOCAL-00565" />
+      <option name="project" value="LOCAL" />
+      <updated>1582102971549</updated>
+    </task>
+    <option name="localTasksCounter" value="566" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469445000" />
+    <option name="totallyTimeSpent" value="469718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32718894" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -902,7 +906,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="updating menu12" />
     <MESSAGE value="updating menu13" />
     <MESSAGE value="updating menu14" />
     <MESSAGE value="updating menu15" />
@@ -927,7 +930,8 @@
     <MESSAGE value="updating translation17" />
     <MESSAGE value="updating translation18" />
     <MESSAGE value="updating translation19" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating translation19" />
+    <MESSAGE value="updating translation20" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating translation20" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1159,8 +1163,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
