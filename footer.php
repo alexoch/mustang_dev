@@ -64,9 +64,12 @@
 			</div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-1 align-items-center d-flex">
 
+                <span style="display:none;">
+                    <?php echo pll_the_languages(array('raw'=>1)); ?>
+                </span>
                 <div class="btn-group">
-                    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Large button
+                    <button class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                    lang
                     </button>
                     <div class="dropdown-menu">
 
