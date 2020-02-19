@@ -79,13 +79,14 @@
                     <div class="dropdown-menu">
 
                 <?php
-	            $args = [
+                $post_id=get_the_ID();
+                $args = [
 		            'category_name'  => 'languages',
 		            'posts_per_page' => -1,
 		            'order'          => "ASC"
 	            ];
 	            query_posts($args);
-                $post_id=get_the_ID();
+
 	            if (have_posts()) :
 		            while (have_posts()) {
 			            the_post(); ?>
