@@ -172,7 +172,7 @@ function my_gallery_output($output, $attr)
 	if (!empty($video_url)) {
 		$out .= '<dt><video
     id="my-video"
-    class="video-js"
+    class="video-js vjs-fluid vjs-big-play-centered AdvancedExample__Video-sc-1x7qqz9-7 dVCxLk vjs-paused preview-player-dimensions vjs-controls-enabled vjs-touch-enabled vjs-workinghover vjs-v7 vjs-user-active vjs-mux"
     controls
     preload="auto"
     width="530"
