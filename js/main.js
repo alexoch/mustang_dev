@@ -187,6 +187,7 @@ if ($('.gallery_photos').is("dl")){
     $('.gallery_photos').slick({
         dots: true,
         speed: 300,
+        infinite:lo,
         slidesToShow: 1,
         autoplay: true,
         autoplaySpeed: 10000
