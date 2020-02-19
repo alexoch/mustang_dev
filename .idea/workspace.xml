@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12f4bb7f-8a07-4f0f-ac51-5b8309aac506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/lib_mustang.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib_mustang.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +101,8 @@
           <entry key="html" value="61" />
           <entry key="js" value="464" />
           <entry key="md" value="98" />
-          <entry key="php" value="9141" />
-          <entry key="txt" value="2262" />
+          <entry key="php" value="9142" />
+          <entry key="txt" value="2267" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -112,8 +111,8 @@
           <entry key="HTML" value="76" />
           <entry key="JavaScript" value="464" />
           <entry key="Markdown" value="98" />
-          <entry key="PHP" value="9126" />
-          <entry key="PLAIN_TEXT" value="2262" />
+          <entry key="PHP" value="9127" />
+          <entry key="PLAIN_TEXT" value="2267" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -148,11 +147,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2048">
-              <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+            <state relative-caret-position="376">
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
               </folding>
@@ -160,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+            <state relative-caret-position="168">
+              <caret line="157" column="36" lean-forward="true" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
               <folding>
                 <element signature="n#mustang_scripts#0;n#!!top" />
                 <element signature="n#change_menu_item_css_classes#0;n#!!top" />
@@ -273,11 +272,11 @@
         <option value="$PROJECT_DIR$/application.php" />
         <option value="$PROJECT_DIR$/documents.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/single/single.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/functions/lib_mustang.php" />
+        <option value="$PROJECT_DIR$/single/single.php" />
       </list>
     </option>
   </component>
@@ -469,28 +468,7 @@
       <workItem from="1581406248433" duration="17000" />
       <workItem from="1581429036073" duration="2694000" />
       <workItem from="1581942877230" duration="98000" />
-      <workItem from="1582102765096" duration="3322000" />
-    </task>
-    <task id="LOCAL-00526" summary="creating translations3">
-      <created>1580242817266</created>
-      <option name="number" value="00526" />
-      <option name="presentableId" value="LOCAL-00526" />
-      <option name="project" value="LOCAL" />
-      <updated>1580242817266</updated>
-    </task>
-    <task id="LOCAL-00527" summary="creating translations4">
-      <created>1580292896436</created>
-      <option name="number" value="00527" />
-      <option name="presentableId" value="LOCAL-00527" />
-      <option name="project" value="LOCAL" />
-      <updated>1580292896436</updated>
-    </task>
-    <task id="LOCAL-00528" summary="creating translations5">
-      <created>1580295351348</created>
-      <option name="number" value="00528" />
-      <option name="presentableId" value="LOCAL-00528" />
-      <option name="project" value="LOCAL" />
-      <updated>1580295351349</updated>
+      <workItem from="1582102765096" duration="7783000" />
     </task>
     <task id="LOCAL-00529" summary="updating menu">
       <created>1580368385481</created>
@@ -814,11 +792,32 @@
       <option name="project" value="LOCAL" />
       <updated>1582105470911</updated>
     </task>
-    <option name="localTasksCounter" value="575" />
+    <task id="LOCAL-00575" summary="updating translation29">
+      <created>1582107378194</created>
+      <option name="number" value="00575" />
+      <option name="presentableId" value="LOCAL-00575" />
+      <option name="project" value="LOCAL" />
+      <updated>1582107378195</updated>
+    </task>
+    <task id="LOCAL-00576" summary="updating translation30">
+      <created>1582107404666</created>
+      <option name="number" value="00576" />
+      <option name="presentableId" value="LOCAL-00576" />
+      <option name="project" value="LOCAL" />
+      <updated>1582107404666</updated>
+    </task>
+    <task id="LOCAL-00577" summary="updating translation31">
+      <created>1582115713677</created>
+      <option name="number" value="00577" />
+      <option name="presentableId" value="LOCAL-00577" />
+      <option name="project" value="LOCAL" />
+      <updated>1582115713678</updated>
+    </task>
+    <option name="localTasksCounter" value="578" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="472767000" />
+    <option name="totallyTimeSpent" value="477228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -886,9 +885,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$/Mustang" />
     </ignored-roots>
-    <MESSAGE value="updating translation4" />
-    <MESSAGE value="updating translation5" />
-    <MESSAGE value="updating translation6" />
     <MESSAGE value="updating translation7" />
     <MESSAGE value="updating translation8" />
     <MESSAGE value="updating translation9" />
@@ -911,7 +907,10 @@
     <MESSAGE value="updating translation26" />
     <MESSAGE value="updating translation27" />
     <MESSAGE value="updating translation28" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating translation28" />
+    <MESSAGE value="updating translation29" />
+    <MESSAGE value="updating translation30" />
+    <MESSAGE value="updating translation31" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating translation31" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/sales/1.jpg" />
@@ -1127,26 +1126,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2048">
-          <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/lib_mustang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+        <state relative-caret-position="168">
+          <caret line="157" column="36" lean-forward="true" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
           <folding>
             <element signature="n#mustang_scripts#0;n#!!top" />
             <element signature="n#change_menu_item_css_classes#0;n#!!top" />
             <element signature="n#add_menuclass#0;n#!!top" />
             <element signature="n#Primary_Walker_Nav_Menu#0;n#!!top" />
             <element signature="n#my_single_template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

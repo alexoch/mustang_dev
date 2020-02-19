@@ -171,10 +171,6 @@ function my_gallery_output($output, $attr)
 	$video_url = get_field("usage_example", get_post_ancestors($ids_arr[0])[0]);
 	if (!empty($video_url)) {
 		$out .= '<dt><video
-    id="my-video"
-    class="video-js vjs-fluid vjs-big-play-centered vjs-paused preview-player-dimensions vjs-controls-enabled vjs-touch-enabled vjs-workinghover vjs-v7 vjs-user-active vjs-mux"
-    controls
-    preload="auto"
     width="530"
     height="330"
    >

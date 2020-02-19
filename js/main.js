@@ -140,49 +140,57 @@ if ($('.gallery_photos').is("dl")){
     let lo=$.trim($('.video_hidden').text());
     console.log(lo);
     if(lo=="false"){lo=false;}else {lo=true;}
-    var slider = new Siema({
-        selector: '.gallery_photos',
-        duration: 500,
-        easing: 'ease-out',
-        perPage: 1,
-        startIndex: 0,
-        draggable: true,
-        multipleDrag: true,
-        threshold: 20,
-        loop: lo,
-        rtl: false,
-        onChange: checkDots
+    // var slider = new Siema({
+    //     selector: '.gallery_photos',
+    //     duration: 500,
+    //     easing: 'ease-out',
+    //     perPage: 1,
+    //     startIndex: 0,
+    //     draggable: true,
+    //     multipleDrag: true,
+    //     threshold: 20,
+    //     loop: lo,
+    //     rtl: false,
+    //     onChange: checkDots
+    // });
+    //
+    // Siema.prototype.addPagination = function() {
+    //     var btn_wrapper = document.createElement('div');
+    //     btn_wrapper.classList.add("dots");
+    //     for (let i = 0; i < this.innerElements.length; i++) {
+    //         var btn = document.createElement('button');
+    //         if(!i) {
+    //             btn.classList.add('dot-active');
+    //         }
+    //         btn.classList.add('dot');
+    //         btn.addEventListener('click', () => clickDot(i, this));
+    //         btn_wrapper.appendChild(btn);
+    //     }
+    //     this.selector.appendChild(btn_wrapper);
+    //     console.log("pagination added");
+    // };
+    //
+    // slider.addPagination();
+    // function clickDot(i, context) {
+    //     context.goTo(i);
+    //     let dotList = document.getElementsByClassName('dot');
+    //     for( var j = 0; j < dotList.length; j++) {
+    //         dotList[j].classList.remove('dot-active');
+    //     }
+    //     dotList[i].classList.add('dot-active');
+    // }
+    // function checkDots() {
+    //     clickDot(this.currentSlide, this)
+    // }
+    // setInterval(() => slider.next(), 5000)
+
+    $('.gallery_photos').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
     });
-
-    Siema.prototype.addPagination = function() {
-        var btn_wrapper = document.createElement('div');
-        btn_wrapper.classList.add("dots");
-        for (let i = 0; i < this.innerElements.length; i++) {
-            var btn = document.createElement('button');
-            if(!i) {
-                btn.classList.add('dot-active');
-            }
-            btn.classList.add('dot');
-            btn.addEventListener('click', () => clickDot(i, this));
-            btn_wrapper.appendChild(btn);
-        }
-        this.selector.appendChild(btn_wrapper);
-        console.log("pagination added");
-    };
-
-    slider.addPagination();
-    function clickDot(i, context) {
-        context.goTo(i);
-        let dotList = document.getElementsByClassName('dot');
-        for( var j = 0; j < dotList.length; j++) {
-            dotList[j].classList.remove('dot-active');
-        }
-        dotList[i].classList.add('dot-active');
-    }
-    function checkDots() {
-        clickDot(this.currentSlide, this)
-    }
-    setInterval(() => slider.next(), 5000)
 }
 
 
