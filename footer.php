@@ -63,7 +63,11 @@
 				</a>
 			</div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-1 align-items-center d-flex">
-
+                <style>
+                    .dropdown-menu{
+                        min-width: 6rem;
+                    }
+                </style>
                     <?php foreach (pll_the_languages(array('raw'=>1)) as $k =>$v){ if($v["current_lang"]){
                         $pic=$v["flag"];
                     }}; ?>
