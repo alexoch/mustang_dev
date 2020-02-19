@@ -96,7 +96,7 @@
 			            echo $post_id;
 			            ?>
 
-                        <a href="<?php the_permalink(pll_get_post($post_id, get_field("lang_short")));?>" class="dropdown-item <?php echo get_field("lang_short") ;?>">
+                        <a href="<?php the_permalink(pll_get_post(POSTID, get_field("lang_short")));?>" class="dropdown-item <?php echo get_field("lang_short") ;?>">
                             <img src="<?php echo get_the_post_thumbnail_url();?>" style="width: 45px;" alt="">
                         </a>
 
