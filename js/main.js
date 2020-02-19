@@ -190,7 +190,8 @@ if ($('.gallery_photos').is("dl")){
         infinite:lo,
         slidesToShow: 1,
         autoplay: true,
-        autoplaySpeed: 10000
+        autoplaySpeed: 10000,
+        arrows:false
     });
 }
 
