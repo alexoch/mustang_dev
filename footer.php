@@ -80,7 +80,7 @@
                     <div class="dropdown-menu">
 
                 <?php
-                $post_id=get_the_ID();
+
                 echo $post_id;
                 $args = [
 		            'category_name'  => 'languages',
