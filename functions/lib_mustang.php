@@ -172,7 +172,7 @@ function my_gallery_output($output, $attr)
 	if (!empty($video_url)) {
 		$out .= '<dt><video
     width="530"
-    height="330"
+    height="330" controls="1"
    >
    <source src="'.$video_url .'" type=\'video/mp4; codecs="avc1.42E01E, mp4a.40.2"\'>
    Тег video не поддерживается вашим браузером. 
