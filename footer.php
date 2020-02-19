@@ -85,12 +85,12 @@
 		            'order'          => "ASC"
 	            ];
 	            query_posts($args);
-
+                $post_id=get_the_ID();
 	            if (have_posts()) :
 		            while (have_posts()) {
 			            the_post(); ?>
 
-                        <a href="<?php the_field("address");?>" class="dropdown-item">
+                        <a href="<?php the_permalink(pll_get_post($post_id, get_field("lang_short")));?>" class="dropdown-item">
                             <img src="<?php echo get_the_post_thumbnail_url();?>" style="width: 45px;" alt="">
                         </a>
 
