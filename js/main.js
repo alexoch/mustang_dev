@@ -189,7 +189,7 @@ if ($('.gallery_photos').is("dl")){
         infinite: true,
         speed: 300,
         slidesToShow: 1,
-        adaptiveHeight: true
+
     });
 }
 
