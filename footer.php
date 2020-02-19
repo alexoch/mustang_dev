@@ -136,5 +136,6 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/siema.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
 
+<script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
 </body>
 </html>

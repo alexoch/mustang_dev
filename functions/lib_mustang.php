@@ -170,7 +170,14 @@ function my_gallery_output($output, $attr)
 
 	$video_url = get_field("usage_example", get_post_ancestors($ids_arr[0])[0]);
 	if (!empty($video_url)) {
-		$out .= '<dt><video width="530" height="330" controls="controls" >
+		$out .= '<dt><video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="530"
+    height="330"
+   >
    <source src="'.$video_url .'" type=\'video/mp4; codecs="avc1.42E01E, mp4a.40.2"\'>
    Тег video не поддерживается вашим браузером. 
    <a href="'.$video_url .'">Скачайте видео</a>.

@@ -17,6 +17,10 @@
 	<?php wp_head();?>
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/style.css">
+    <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 </head>
 <body>
 <header class="shadow_header">
