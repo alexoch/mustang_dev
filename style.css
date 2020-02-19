@@ -555,6 +555,13 @@ Text Domain: mustang
     display: inline-block;
 }
 
+.product__colors--color.double{
+    width: .75em;
+    height: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .product__colors--color.multi {
     margin: 0 auto;
     position: relative;
