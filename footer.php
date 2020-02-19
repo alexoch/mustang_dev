@@ -91,7 +91,7 @@
 			            the_post(); ?>
 
                         <a href="<?php the_field("address");?>" class="dropdown-item">
-                            <img src="<?php echo get_the_post_thumbnail_url();?>" style="width: 45px;" alt="">
+                            <img src="<?php echo get_the_post_thumbnail_url();?>" style="width: 45px; border:1px solid black;" alt="">
                         </a>
 
 		            <?php }endif;?>
