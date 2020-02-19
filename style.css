@@ -556,9 +556,11 @@ Text Domain: mustang
 }
 
 .product__colors--color.double{
-
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+    top: -7px;
 }
 
 .product__colors--color.double > *{
